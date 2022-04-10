@@ -16,5 +16,7 @@ from AthenaCSSstitcher import CssStitcher
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
 Stitcher = CssStitcher(
-
+    CssLibraryPath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets\CSS\CssLib",
+    ResultFilePath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets\publish.css",
+    OverrideResult="A"
 )
