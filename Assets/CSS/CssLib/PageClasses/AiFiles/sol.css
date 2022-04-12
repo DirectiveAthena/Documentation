@@ -1,0 +1,20 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        --color_minerva: None;
+
+        /* Application colors */
+        /* Website colors */
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.minerva h1 {border-color:var(--color_minerva) ;}
+.markdown-preview-view.minerva h2 {border-color:rgb(91, 51, 125) ;}
+.markdown-preview-view.minerva h3 {border-color:rgb(84, 47, 115) ;}
+.markdown-preview-view.minerva h4 {border-color:rgb(63, 35, 86) ;}
+.markdown-preview-view.minerva h5 {border-color:rgb(49, 28, 67) ;}
+.markdown-preview-view.minerva h6 {border-color:rgb(35, 20, 48) ;}
