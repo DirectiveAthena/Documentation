@@ -38,7 +38,16 @@
             rgba(251,7,217,1) 90%, 
             rgba(255,0,0,1) 100%
     ) 1;
-    border-radius: .2em;
+}
+.markdown-preview-view.AthenaColor h1::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(red, blue);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+
 }
 
 /* --- All headers derive from this --- */
