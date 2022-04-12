@@ -131,28 +131,28 @@
 }
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.twitch h1, h1.publish-article-heading {border-color:var(--color_twitch);}
-.markdown-rendered.twitch h2, h2.publish-article-heading {border-color:rgb(146, 97, 221) ;}
-.markdown-rendered.twitch h3, h3.publish-article-heading {border-color:rgb(135, 90, 204) ;}
-.markdown-rendered.twitch h4, h4.publish-article-heading {border-color:rgb(101, 67, 153) ;}
-.markdown-rendered.twitch h5, h5.publish-article-heading {border-color:rgb(79, 52, 119) ;}
-.markdown-rendered.twitch h6, h6.publish-article-heading {border-color:rgb(56, 37, 85) ;}
+.markdown-rendered.twitch h1, .markdown-rendered.twitch h1.publish-article-heading {border-color:var(--color_twitch);}
+.markdown-rendered.twitch h2, .markdown-rendered.twitch h2.publish-article-heading {border-color:rgb(146, 97, 221) ;}
+.markdown-rendered.twitch h3, .markdown-rendered.twitch h3.publish-article-heading {border-color:rgb(135, 90, 204) ;}
+.markdown-rendered.twitch h4, .markdown-rendered.twitch h4.publish-article-heading {border-color:rgb(101, 67, 153) ;}
+.markdown-rendered.twitch h5, .markdown-rendered.twitch h5.publish-article-heading {border-color:rgb(79, 52, 119) ;}
+.markdown-rendered.twitch h6, .markdown-rendered.twitch h6.publish-article-heading {border-color:rgb(56, 37, 85) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.twitter h1, h1.publish-article-heading {border-color:var(--color_twitter);}
-.markdown-rendered.twitter h2, h2.publish-article-heading {border-color:rgb(22, 121, 187) ;}
-.markdown-rendered.twitter h3, h3.publish-article-heading {border-color:rgb(21, 112, 173) ;}
-.markdown-rendered.twitter h4, h4.publish-article-heading {border-color:rgb(16, 84, 130) ;}
-.markdown-rendered.twitter h5, h5.publish-article-heading {border-color:rgb(12, 65, 101) ;}
-.markdown-rendered.twitter h6, h6.publish-article-heading {border-color:rgb(9, 47, 72) ;}
+.markdown-rendered.twitter h1, .markdown-rendered.twitter h1.publish-article-heading {border-color:var(--color_twitter);}
+.markdown-rendered.twitter h2, .markdown-rendered.twitter h2.publish-article-heading {border-color:rgb(22, 121, 187) ;}
+.markdown-rendered.twitter h3, .markdown-rendered.twitter h3.publish-article-heading {border-color:rgb(21, 112, 173) ;}
+.markdown-rendered.twitter h4, .markdown-rendered.twitter h4.publish-article-heading {border-color:rgb(16, 84, 130) ;}
+.markdown-rendered.twitter h5, .markdown-rendered.twitter h5.publish-article-heading {border-color:rgb(12, 65, 101) ;}
+.markdown-rendered.twitter h6, .markdown-rendered.twitter h6.publish-article-heading {border-color:rgb(9, 47, 72) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.youtube h1, h1.publish-article-heading {border-color:var(--color_youtube);}
-.markdown-rendered.youtube h2, h2.publish-article-heading {border-color:rgb(221, 0, 0) ;}
-.markdown-rendered.youtube h3, h3.publish-article-heading {border-color:rgb(255, 0, 0) ;}
-.markdown-rendered.youtube h4, h4.publish-article-heading {border-color:rgb(153, 0, 0) ;}
-.markdown-rendered.youtube h5, h5.publish-article-heading {border-color:rgb(119, 0, 0) ;}
-.markdown-rendered.youtube h6, h6.publish-article-heading {border-color:rgb(85, 0, 0) ;}
+.markdown-rendered.youtube h1, .markdown-rendered.youtube h1.publish-article-heading {border-color:var(--color_youtube);}
+.markdown-rendered.youtube h2, .markdown-rendered.youtube h2.publish-article-heading {border-color:rgb(221, 0, 0) ;}
+.markdown-rendered.youtube h3, .markdown-rendered.youtube h3.publish-article-heading {border-color:rgb(255, 0, 0) ;}
+.markdown-rendered.youtube h4, .markdown-rendered.youtube h4.publish-article-heading {border-color:rgb(153, 0, 0) ;}
+.markdown-rendered.youtube h5, .markdown-rendered.youtube h5.publish-article-heading {border-color:rgb(119, 0, 0) ;}
+.markdown-rendered.youtube h6, .markdown-rendered.youtube h6.publish-article-heading {border-color:rgb(85, 0, 0) ;}
 span.rem {
     color:rgba(0, 0, 0, 0.315) 0;
 }
