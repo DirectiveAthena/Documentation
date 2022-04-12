@@ -11,9 +11,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.twitch h1 {border-color:var(--color_twitch);}
-.markdown-rendered.twitch h2 {border-color:rgb(146, 97, 221) ;}
-.markdown-rendered.twitch h3 {border-color:rgb(135, 90, 204) ;}
-.markdown-rendered.twitch h4 {border-color:rgb(101, 67, 153) ;}
-.markdown-rendered.twitch h5 {border-color:rgb(79, 52, 119) ;}
-.markdown-rendered.twitch h6 {border-color:rgb(56, 37, 85) ;}
+.markdown-rendered.twitch h1, h1.publish-article-heading {border-color:var(--color_twitch);}
+.markdown-rendered.twitch h2, h2.publish-article-heading {border-color:rgb(146, 97, 221) ;}
+.markdown-rendered.twitch h3, h3.publish-article-heading {border-color:rgb(135, 90, 204) ;}
+.markdown-rendered.twitch h4, h4.publish-article-heading {border-color:rgb(101, 67, 153) ;}
+.markdown-rendered.twitch h5, h5.publish-article-heading {border-color:rgb(79, 52, 119) ;}
+.markdown-rendered.twitch h6, h6.publish-article-heading {border-color:rgb(56, 37, 85) ;}
