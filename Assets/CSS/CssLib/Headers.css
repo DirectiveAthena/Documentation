@@ -1,9 +1,11 @@
 /* $$ Root Variables */
 :root{
-    --color_adam: None ;
+    --header_background: rgb(54, 49, 53) ;
 }
 /* $$ END */
 
-h1{
-    color: var(--color_adam);
+header{
+    color:white;
+    background: fixed;
+    background-color: var(--header_background);
 }
