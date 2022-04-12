@@ -16,9 +16,11 @@ from AthenaCSSstitcher import CssStitcher
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
 def main():
+    root = r"D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets"
     CssStitcher(
-        CssLibraryPath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets\CSS\CssLib",
-        ResultFilePath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets\publish.css",
+        CssLibraryPath=rf"{root}\CSS\CssLib",
+        ResultFilePath=rf"{root}\publish.css",
+        ResultJsonPath=rf"{root}\CSS\CssLib.json",
         Overwrite=True
     ).run()
 
