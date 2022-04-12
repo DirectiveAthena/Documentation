@@ -23,13 +23,14 @@ h1 {
     --color: #fff;
     color:var(--color) !important;
     border-color:var(--color);
-
+    padding: 6px;
 }
 
 h2 {
     --color: #DDD;
     color:var(--color) !important;
     border-color:var(--color);
+    padding: 5px;
 
 }
 
@@ -37,6 +38,7 @@ h3 {
     --color: #CCC;
     color:var(--color) !important;
     border-color:var(--color);
+    padding: 4px;
 
 }
 
@@ -44,6 +46,7 @@ h4 {
     --color: #999;
     color:var(--color) !important;
     border-color:var(--color);
+    padding: 3px;
 
 }
 
@@ -51,6 +54,7 @@ h5 {
     --color: #777;
     color:var(--color) !important;
     border-color:var(--color);
+    padding: 2px;
 
 }
 
@@ -58,5 +62,6 @@ h6 {
     --color: #555;
     color:var(--color) !important;
     border-color:var(--color);
+    padding: 1px;
 
 }
