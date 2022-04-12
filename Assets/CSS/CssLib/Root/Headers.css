@@ -11,7 +11,7 @@
 
 /* --- All headers derive from this --- */
 .markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
-h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-heading, h4.publish-article-heading, h5.publish-article-heading, h6.publish-article-heading
+.markdown-rendered h1.publish-article-heading, .markdown-rendered h2.publish-article-heading, .markdown-rendered h3.publish-article-heading, .markdown-rendered h4.publish-article-heading, .markdown-rendered h5.publish-article-heading, .markdown-rendered h6.publish-article-heading
 {
     background: rgb(25,25,25);
     background: linear-gradient(90deg, var(--background-secondary) 75%, var(--background-primary) 100%);
@@ -20,7 +20,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     border-bottom-width: 5px;
 }
 
-.markdown-rendered h1 , h1.publish-article-heading {
+.markdown-rendered h1 , .markdown-rendered h1.publish-article-heading {
     --color: #fff;
     color:var(--color);
     padding: 12px;  
@@ -28,7 +28,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     font-size: 2em;
 }
 
-.markdown-rendered h2 , h2.publish-article-heading{
+.markdown-rendered h2 , .markdown-rendered h2.publish-article-heading{
     --color: #DDD;
     color:var(--color);
     padding: 10px;  
@@ -36,7 +36,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     font-size: 1.6em;
 }
 
-.markdown-rendered h3, h3.publish-article-heading {
+.markdown-rendered h3, .markdown-rendered h3.publish-article-heading {
     --color: #CCC;
     color:var(--color);
     padding: 8px;  
@@ -44,7 +44,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     font-size: 1.37em;
 }
 
-.markdown-rendered h4, h4.publish-article-heading {
+.markdown-rendered h4, .markdown-rendered h4.publish-article-heading {
     --color: #999;
     color:var(--color);
     padding: 6px;  
@@ -52,7 +52,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     font-size: 1.25em;
 }
 
-.markdown-rendered h5, h5.publish-article-heading {
+.markdown-rendered h5, .markdown-rendered h5.publish-article-heading {
     --color: #777;
     color:var(--color);
     padding: 4px;  
@@ -60,7 +60,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     font-size: 1.12em;
 }
 
-.markdown-rendered h6, h6.publish-article-heading {
+.markdown-rendered h6, .markdown-rendered h6.publish-article-heading {
     --color: #555;
     color:var(--color);
     padding: 2px;  
