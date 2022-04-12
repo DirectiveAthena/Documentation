@@ -153,8 +153,8 @@
 .markdown-preview-view.youtube h4 {border-color:rgb(153, 0, 0) ;}
 .markdown-preview-view.youtube h5 {border-color:rgb(119, 0, 0) ;}
 .markdown-preview-view.youtube h6 {border-color:rgb(85, 0, 0) ;}
-rem {
-    color:rgba(0,0,0,.1);
+span.rem {
+    color:rgba(0, 0, 0, 0.315) !important;
 }
 
 /* --- All headers derive from this --- */
