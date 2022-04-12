@@ -1,8 +1,6 @@
 /* $$ Root Variables */
 :root{
-    --header_background: rgb(25, 25, 25) ;
-    --header_border: rgb(45, 45, 45) ;
-    --color: #ffffff;
+    --color: #000;
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
     --color_eva: rgb(234, 39 , 79 );
@@ -25,10 +23,8 @@
 h1,h2,h3,h4,h5,h6{
     
     background: fixed;
-    background-color: var(--header_background);
-
+    background-color: rgb(25, 25, 25);
     border-radius: .2em;
-    border-color: var(--header_border); 
     border-bottom-style: solid;
     border-bottom-width: .2em;
 
@@ -36,8 +32,43 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-h1{
-    --color: #ffffff;
+h1 {
+    --color: #fff;
+    color:var(--color);
+    border-color:var(--color);
+
+}
+
+h2 {
+    --color: #ccc;
+    color:var(--color);
+    border-color:var(--color);
+
+}
+
+h3 {
+    --color: #999;
+    color:var(--color);
+    border-color:var(--color);
+
+}
+
+h4 {
+    --color: #666;
+    color:var(--color);
+    border-color:var(--color);
+
+}
+
+h5 {
+    --color: #333;
+    color:var(--color);
+    border-color:var(--color);
+
+}
+
+h6 {
+    --color: #000;
     color:var(--color);
     border-color:var(--color);
 
