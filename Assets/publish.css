@@ -1,6 +1,7 @@
 /* $$ Root Variables */
 :root{
-    --header_background: rgb(54, 49, 53) ;
+    --header_background: rgb(25, 25, 25) ;
+    --header_border: rgb(45, 45, 45) ;
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
     --color_eva: rgb(234, 39 , 79 );
@@ -18,10 +19,16 @@
 /* $$ END */
 
 
-header{
+h1,h2,h3,h4,h5,h6{
     color:white;
+    
     background: fixed;
     background-color: var(--header_background);
+
+    border-radius: .5em;
+    border-color: var(--header_border);
+    border-width: 2px;
+    border-style: solid;
 }
 
 
