@@ -2,7 +2,7 @@
 :root{
     /* =+= Derived from root =+= */
         /* Primary AI Colors */
-        --color_vulcanus: None;
+        --color_pluto: None;
 
         /* Application colors */
 
@@ -11,9 +11,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.vulcanus h1 {border-color:var(--color_vulcanus) ;}
-.markdown-preview-view.vulcanus h2 {border-color:rgb(205, 115, 29) ;}
-.markdown-preview-view.vulcanus h3 {border-color:rgb(189, 106, 26) ;}
-.markdown-preview-view.vulcanus h4 {border-color:rgb(142, 80, 20) ;}
-.markdown-preview-view.vulcanus h5 {border-color:rgb(110, 62, 15) ;}
-.markdown-preview-view.vulcanus h6 {border-color:rgb(110, 62, 15) ;}
+.markdown-preview-view.pluto h1 {border-color:var(--color_pluto) ;}
+.markdown-preview-view.pluto h2 {border-color:rgb(73, 74, 75) ;}
+.markdown-preview-view.pluto h3 {border-color:rgb(67, 68, 70) ;}
+.markdown-preview-view.pluto h4 {border-color:rgb(50, 51, 52) ;}
+.markdown-preview-view.pluto h5 {border-color:rgb(39, 40, 41) ;}
+.markdown-preview-view.pluto h6 {border-color:rgb(28, 28, 29) ;}
