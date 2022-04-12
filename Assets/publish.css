@@ -86,6 +86,14 @@ h6 {
 .markdown-preview-view.adam h6 {border-color:rgb(8, 59, 74);}
 
 /* --- Various headers for specific css classes --- */
+.markdown-preview-view.sol h1 {border-color:var(--color_sol) ;}
+.markdown-preview-view.sol h2 {border-color:rgb(213, 200, 116) ;}
+.markdown-preview-view.sol h3 {border-color:rgb(197, 185, 107) ;}
+.markdown-preview-view.sol h4 {border-color:rgb(148, 139, 80) ;}
+.markdown-preview-view.sol h5 {border-color:rgb(115, 108, 63) ;}
+.markdown-preview-view.sol h6 {border-color:rgb(82, 77, 45) ;}
+
+/* --- Various headers for specific css classes --- */
 .markdown-preview-view.athena h1 {border-color:var(--color_athena);}
 .markdown-preview-view.athena h2 {border-color:rgb(170, 35, 69);}
 .markdown-preview-view.athena h3 {border-color:rgb(99, 21, 40);}
@@ -121,6 +129,22 @@ h6 {
 .markdown-preview-view.vulcanus h4 {border-color:rgb(129, 33, 88) ;}
 .markdown-preview-view.vulcanus h5 {border-color:rgb(100, 26, 68) ;}
 .markdown-preview-view.vulcanus h6 {border-color:rgb(72, 18, 49) ;}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.vulcanus h1 {border-color:var(--color_vulcanus) ;}
+.markdown-preview-view.vulcanus h2 {border-color:rgb(186, 48, 127) ;}
+.markdown-preview-view.vulcanus h3 {border-color:rgb(172, 44, 117) ;}
+.markdown-preview-view.vulcanus h4 {border-color:rgb(129, 33, 88) ;}
+.markdown-preview-view.vulcanus h5 {border-color:rgb(100, 26, 68) ;}
+.markdown-preview-view.vulcanus h6 {border-color:rgb(72, 18, 49) ;}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.sol h1 {border-color:var(--color_sol) ;}
+.markdown-preview-view.sol h2 {border-color:rgb(213, 200, 116) ;}
+.markdown-preview-view.sol h3 {border-color:rgb(197, 185, 107) ;}
+.markdown-preview-view.sol h4 {border-color:rgb(148, 139, 80) ;}
+.markdown-preview-view.sol h5 {border-color:rgb(115, 108, 63) ;}
+.markdown-preview-view.sol h6 {border-color:rgb(82, 77, 45) ;}
 
 /* --- Various headers for specific css classes --- */
 .markdown-preview-view.veritas h1 {border-color:var(--color_veritas) ;}
