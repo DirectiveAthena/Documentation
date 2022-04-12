@@ -2,7 +2,7 @@
 :root{
     /* =+= Derived from root =+= */
         /* Primary AI Colors */
-        --color_sol: None;
+        --color_aero: None;
 
         /* Application colors */
 
@@ -11,9 +11,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.sol h1 {border-color:var(--color_sol) ;}
-.markdown-preview-view.sol h2 {border-color:rgb(213, 200, 116) ;}
-.markdown-preview-view.sol h3 {border-color:rgb(197, 185, 107) ;}
-.markdown-preview-view.sol h4 {border-color:rgb(148, 139, 80) ;}
-.markdown-preview-view.sol h5 {border-color:rgb(115, 108, 63) ;}
-.markdown-preview-view.sol h6 {border-color:rgb(82, 77, 45) ;}
+.markdown-preview-view.aero h1 {border-color:var(--color_aero) ;}
+.markdown-preview-view.aero h2 {border-color:rgb(218, 218, 218) ;}
+.markdown-preview-view.aero h3 {border-color:rgb(218, 218, 218) ;}
+.markdown-preview-view.aero h4 {border-color:rgb(151, 151, 151) ;}
+.markdown-preview-view.aero h5 {border-color:rgb(117, 117, 117) ;}
+.markdown-preview-view.aero h6 {border-color:rgb(84, 84, 84) ;}
