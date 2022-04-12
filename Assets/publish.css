@@ -115,10 +115,26 @@ h6 {
 .markdown-preview-view.jupiter h6 {border-color:rgb(78, 78, 22) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.jupiter h1 {border-color:var(--color_jupiter) ;}
-.markdown-preview-view.jupiter h2 {border-color:rgb(204, 202, 58) ;}
-.markdown-preview-view.jupiter h3 {border-color:rgb(188, 186, 54) ;}
-.markdown-preview-view.jupiter h4 {border-color:rgb(141, 140, 40) ;}
-.markdown-preview-view.jupiter h5 {border-color:rgb(110, 109, 31) ;}
-.markdown-preview-view.jupiter h6 {border-color:rgb(78, 78, 22) ;}
+.markdown-preview-view.vulcanus h1 {border-color:var(--color_vulcanus) ;}
+.markdown-preview-view.vulcanus h2 {border-color:rgb(186, 48, 127) ;}
+.markdown-preview-view.vulcanus h3 {border-color:rgb(172, 44, 117) ;}
+.markdown-preview-view.vulcanus h4 {border-color:rgb(129, 33, 88) ;}
+.markdown-preview-view.vulcanus h5 {border-color:rgb(100, 26, 68) ;}
+.markdown-preview-view.vulcanus h6 {border-color:rgb(72, 18, 49) ;}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.veritas h1 {border-color:var(--color_veritas) ;}
+.markdown-preview-view.veritas h2 {border-color:rgb(186, 48, 127) ;}
+.markdown-preview-view.veritas h3 {border-color:rgb(172, 44, 117) ;}
+.markdown-preview-view.veritas h4 {border-color:rgb(129, 33, 88) ;}
+.markdown-preview-view.veritas h5 {border-color:rgb(100, 26, 68) ;}
+.markdown-preview-view.veritas h6 {border-color:rgb(57, 55, 114) ;}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.vulcanus h1 {border-color:var(--color_vulcanus) ;}
+.markdown-preview-view.vulcanus h2 {border-color:rgb(186, 48, 127) ;}
+.markdown-preview-view.vulcanus h3 {border-color:rgb(172, 44, 117) ;}
+.markdown-preview-view.vulcanus h4 {border-color:rgb(129, 33, 88) ;}
+.markdown-preview-view.vulcanus h5 {border-color:rgb(100, 26, 68) ;}
+.markdown-preview-view.vulcanus h6 {border-color:rgb(72, 18, 49) ;}
 
