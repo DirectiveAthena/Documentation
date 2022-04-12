@@ -1,0 +1,9 @@
+/* $$ Root Variables */
+:root{
+    --color_adam: None ;
+}
+/* $$ END */
+
+h1{
+    color: var(--color_adam);
+}

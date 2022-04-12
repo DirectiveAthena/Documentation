@@ -17,6 +17,11 @@
 /* $$ END */
 
 
+h1{
+    color: var(--color_adam);
+}
+
+
 .alfa{
     color: aliceblue;
 }
