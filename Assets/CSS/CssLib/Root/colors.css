@@ -1,0 +1,11 @@
+/* Don't change any "$$" comments, only the text within*/
+/* $$ Root Variables */
+:root{
+    --color_adam:       rgb(24, 177, 222);
+    --color_athena:     rgb(196, 41, 80);
+    --color_eva:        rgb(234, 39, 79);
+    --color_jupiter:    rgb(235, 233, 67);
+    --color_minerva:    rgb(213, 55, 146);
+    --color_vulcanus:   rgb(236, 133, 33);
+}
+/* $$ END */
