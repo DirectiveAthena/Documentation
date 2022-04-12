@@ -1,6 +1,6 @@
 /* $$ Root Variables */
 :root{
-    --color: #000;
+    --color: #555;
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
     --color_eva: rgb(234, 39 , 79 );
@@ -34,42 +34,42 @@ h1,h2,h3,h4,h5,h6{
 
 h1 {
     --color: #fff;
-    color:var(--color);
+    color:var(--color) !important;
     border-color:var(--color);
 
 }
 
 h2 {
-    --color: #ccc;
-    color:var(--color);
+    --color: #DDD;
+    color:var(--color) !important;
     border-color:var(--color);
 
 }
 
 h3 {
-    --color: #999;
-    color:var(--color);
+    --color: #CCC;
+    color:var(--color) !important;
     border-color:var(--color);
 
 }
 
 h4 {
-    --color: #666;
-    color:var(--color);
+    --color: #999;
+    color:var(--color) !important;
     border-color:var(--color);
 
 }
 
 h5 {
-    --color: #333;
-    color:var(--color);
+    --color: #777;
+    color:var(--color) !important;
     border-color:var(--color);
 
 }
 
 h6 {
-    --color: #000;
-    color:var(--color);
+    --color: #555;
+    color:var(--color) !important;
     border-color:var(--color);
 
 }
@@ -77,6 +77,7 @@ h6 {
 .alfa{
     color: aliceblue;
 }
+
 
 /* --- Various headers for specific css classes --- */
 .markdown-preview-view.AthenaColor h1 { 
