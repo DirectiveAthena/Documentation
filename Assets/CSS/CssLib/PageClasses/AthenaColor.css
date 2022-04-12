@@ -1,0 +1,29 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        --color_adam: None;
+        --color_athena: None;
+        --color_eva: None;
+        --color_jupiter: None;
+        --color_veritas: None;
+        --color_vulcanus: None;
+        --color_neptune: None;
+        --color_minerva: None;
+        --color_sol: None;
+        --color_aero: None;
+        --color_venus: None;
+        --color_pluto: None;
+        --color_ceres: None;
+        
+        /* Application colors */
+        --gradient_athenacolor:None;
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.AthenaColor h1 { 
+    border-image: var(--gradient_athenacolor);
+}

@@ -2,6 +2,7 @@
 :root{
     --header_background: rgb(25, 25, 25) ;
     --header_border: rgb(45, 45, 45) ;
+    --color: #ffffff;
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
     --color_eva: rgb(234, 39 , 79 );
@@ -20,38 +21,8 @@
 /* $$ END */
 
 
-/* --- Various headers for specific css classes --- */
-.markdown-preview-view.AthenaColor h1 { 
-    border-image: linear-gradient(
-            45deg, 
-            rgba(255,0,0,1) 0%, 
-            rgba(255,154,0,1) 10%,
-            rgba(255,154,0,1) 10%, 
-            rgba(208,222,33,1) 20%, 
-            rgba(79,220,74,1) 30%, 
-            rgba(63,218,216,1) 40%, 
-            rgba(47,201,226,1) 50%, 
-            rgba(28,127,238,1) 60%, 
-            rgba(95,21,242,1) 70%, 
-            rgba(186,12,248,1) 80%, 
-            rgba(251,7,217,1) 90%, 
-            rgba(255,0,0,1) 100%
-    ) 1;
-}
-.markdown-preview-view.AthenaColor h1::after {
-    position: absolute;
-    top: -4px; bottom: -4px;
-    left: -4px; right: -4px;
-    background: linear-gradient(red, blue);
-    content: '';
-    z-index: -1;
-    border-radius: 16px;
-
-}
-
 /* --- All headers derive from this --- */
 h1,h2,h3,h4,h5,h6{
-    color:white;
     
     background: fixed;
     background-color: var(--header_background);
@@ -65,7 +36,19 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
+h1{
+    --color: #ffffff;
+    color:var(--color);
+    border-color:var(--color);
+
+}
+
 .alfa{
     color: aliceblue;
+}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.AthenaColor h1 { 
+    border-image: var(--gradient_athenacolor);
 }
 
