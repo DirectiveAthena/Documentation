@@ -19,14 +19,15 @@ from AthenaCSSstitcher import CssStitcher
 # ----------------------------------------------------------------------------------------------------------------------
 def main():
     root = r"D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets"
-    CssStitcher(
+    stitcher = CssStitcher(
         CssLibraryPath=rf"{root}\CSS\CssLib",
         ResultFilePath=rf"{root}\publish.css",
         ResultJsonPath=rf"{root}\CSS\CssLib.json",
         Overwrite=True
-    ).run()
+    )
+    while True:
+        stitcher.run()
+        sleep(1)
 
 if __name__ == '__main__':
-    while True:
-        main()
-        sleep(1)
+    main()
