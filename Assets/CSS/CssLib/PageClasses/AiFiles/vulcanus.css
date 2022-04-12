@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.vulcanus h1, h1.publish-article-heading {border-color:var(--color_vulcanus) ;}
-.markdown-rendered.vulcanus h2, h2.publish-article-heading {border-color:rgb(205, 115, 29) ;}
-.markdown-rendered.vulcanus h3, h3.publish-article-heading {border-color:rgb(189, 106, 26) ;}
-.markdown-rendered.vulcanus h4, h4.publish-article-heading {border-color:rgb(142, 80, 20) ;}
-.markdown-rendered.vulcanus h5, h5.publish-article-heading {border-color:rgb(110, 62, 15) ;}
-.markdown-rendered.vulcanus h6, h6.publish-article-heading {border-color:rgb(110, 62, 15) ;}
+.markdown-rendered.vulcanus h1, .markdown-rendered.vulcanus h1.publish-article-heading {border-color:var(--color_vulcanus) ;}
+.markdown-rendered.vulcanus h2, .markdown-rendered.vulcanus h2.publish-article-heading {border-color:rgb(205, 115, 29) ;}
+.markdown-rendered.vulcanus h3, .markdown-rendered.vulcanus h3.publish-article-heading {border-color:rgb(189, 106, 26) ;}
+.markdown-rendered.vulcanus h4, .markdown-rendered.vulcanus h4.publish-article-heading {border-color:rgb(142, 80, 20) ;}
+.markdown-rendered.vulcanus h5, .markdown-rendered.vulcanus h5.publish-article-heading {border-color:rgb(110, 62, 15) ;}
+.markdown-rendered.vulcanus h6, .markdown-rendered.vulcanus h6.publish-article-heading {border-color:rgb(110, 62, 15) ;}

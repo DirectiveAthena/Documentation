@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.veritas h1, h1.publish-article-heading {border-color:var(--color_veritas) ;}
-.markdown-rendered.veritas h2, h2.publish-article-heading {border-color:rgb(186, 48, 127) ;}
-.markdown-rendered.veritas h3, h3.publish-article-heading {border-color:rgb(172, 44, 117) ;}
-.markdown-rendered.veritas h4, h4.publish-article-heading {border-color:rgb(129, 33, 88) ;}
-.markdown-rendered.veritas h5, h5.publish-article-heading {border-color:rgb(100, 26, 68) ;}
-.markdown-rendered.veritas h6, h6.publish-article-heading {border-color:rgb(72, 18, 49) ;}
+.markdown-rendered.veritas h1, .markdown-rendered.veritas h1.publish-article-heading {border-color:var(--color_veritas) ;}
+.markdown-rendered.veritas h2, .markdown-rendered.veritas h2.publish-article-heading {border-color:rgb(186, 48, 127) ;}
+.markdown-rendered.veritas h3, .markdown-rendered.veritas h3.publish-article-heading {border-color:rgb(172, 44, 117) ;}
+.markdown-rendered.veritas h4, .markdown-rendered.veritas h4.publish-article-heading {border-color:rgb(129, 33, 88) ;}
+.markdown-rendered.veritas h5, .markdown-rendered.veritas h5.publish-article-heading {border-color:rgb(100, 26, 68) ;}
+.markdown-rendered.veritas h6, .markdown-rendered.veritas h6.publish-article-heading {border-color:rgb(72, 18, 49) ;}

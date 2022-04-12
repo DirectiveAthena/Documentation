@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.minerva h1, h1.publish-article-heading {border-color:var(--color_minerva) ;}
-.markdown-rendered.minerva h2, h2.publish-article-heading {border-color:rgb(91, 51, 125) ;}
-.markdown-rendered.minerva h3, h3.publish-article-heading {border-color:rgb(84, 47, 115) ;}
-.markdown-rendered.minerva h4, h4.publish-article-heading {border-color:rgb(63, 35, 86) ;}
-.markdown-rendered.minerva h5, h5.publish-article-heading {border-color:rgb(49, 28, 67) ;}
-.markdown-rendered.minerva h6, h6.publish-article-heading {border-color:rgb(35, 20, 48) ;}
+.markdown-rendered.minerva h1, .markdown-rendered.minerva h1.publish-article-heading {border-color:var(--color_minerva) ;}
+.markdown-rendered.minerva h2, .markdown-rendered.minerva h2.publish-article-heading {border-color:rgb(91, 51, 125) ;}
+.markdown-rendered.minerva h3, .markdown-rendered.minerva h3.publish-article-heading {border-color:rgb(84, 47, 115) ;}
+.markdown-rendered.minerva h4, .markdown-rendered.minerva h4.publish-article-heading {border-color:rgb(63, 35, 86) ;}
+.markdown-rendered.minerva h5, .markdown-rendered.minerva h5.publish-article-heading {border-color:rgb(49, 28, 67) ;}
+.markdown-rendered.minerva h6, .markdown-rendered.minerva h6.publish-article-heading {border-color:rgb(35, 20, 48) ;}
