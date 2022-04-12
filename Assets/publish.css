@@ -15,6 +15,8 @@
     --color_pluto: rgb(84 , 85 , 87 );
     --color_ceres: rgb(213, 224, 68 );
     --color_youtube: rgb(255,0,0);
+    --color_twitch: rgb(169, 112, 255);
+    --color_twitter: rgb(26, 140, 216);
 }
 /* $$ END */
 
@@ -23,7 +25,7 @@
 h1,h2,h3,h4,h5,h6{
     
     background: fixed;
-    background-color: rgb(25, 25, 25);
+    background-image: linear-gradient(45deg,rgb(25, 25, 25), rgb(32, 32, 32)) 1 ;
     border-radius: .2em;
     border-bottom-style: solid;
     border-bottom-width: .2em;
@@ -184,12 +186,20 @@ h6 {
 }
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.youtube h1 {border-color:var(--color_youtube);}
-.markdown-preview-view.youtube h2 {border-color:rgb(221, 0, 0) ;}
-.markdown-preview-view.youtube h3 {border-color:rgb(255, 0, 0) ;}
-.markdown-preview-view.youtube h4 {border-color:rgb(153, 0, 0) ;}
-.markdown-preview-view.youtube h5 {border-color:rgb(119, 0, 0) ;}
-.markdown-preview-view.youtube h6 {border-color:rgb(85, 0, 0) ;}
+.markdown-preview-view.twitch h1 {border-color:var(--color_twitch);}
+.markdown-preview-view.twitch h2 {border-color:rgb(146, 97, 221) ;}
+.markdown-preview-view.twitch h3 {border-color:rgb(135, 90, 204) ;}
+.markdown-preview-view.twitch h4 {border-color:rgb(101, 67, 153) ;}
+.markdown-preview-view.twitch h5 {border-color:rgb(79, 52, 119) ;}
+.markdown-preview-view.twitch h6 {border-color:rgb(56, 37, 85) ;}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.twitter h1 {border-color:var(--color_twitter);}
+.markdown-preview-view.twitter h2 {border-color:rgb(22, 121, 187) ;}
+.markdown-preview-view.twitter h3 {border-color:rgb(21, 112, 173) ;}
+.markdown-preview-view.twitter h4 {border-color:rgb(16, 84, 130) ;}
+.markdown-preview-view.twitter h5 {border-color:rgb(12, 65, 101) ;}
+.markdown-preview-view.twitter h6 {border-color:rgb(9, 47, 72) ;}
 
 /* --- Various headers for specific css classes --- */
 .markdown-preview-view.youtube h1 {border-color:var(--color_youtube);}

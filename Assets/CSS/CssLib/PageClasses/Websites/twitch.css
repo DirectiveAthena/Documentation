@@ -4,16 +4,16 @@
         /* Primary AI Colors */
         /* Athena Application colors */
         /* Website colors */
-        --color_youtube: None;
+        --color_twitch: None;
 
     /* =+= Custom for this file =+= */
 }
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.youtube h1 {border-color:var(--color_youtube);}
-.markdown-preview-view.youtube h2 {border-color:rgb(221, 0, 0) ;}
-.markdown-preview-view.youtube h3 {border-color:rgb(255, 0, 0) ;}
-.markdown-preview-view.youtube h4 {border-color:rgb(153, 0, 0) ;}
-.markdown-preview-view.youtube h5 {border-color:rgb(119, 0, 0) ;}
-.markdown-preview-view.youtube h6 {border-color:rgb(85, 0, 0) ;}
+.markdown-preview-view.twitch h1 {border-color:var(--color_twitch);}
+.markdown-preview-view.twitch h2 {border-color:rgb(146, 97, 221) ;}
+.markdown-preview-view.twitch h3 {border-color:rgb(135, 90, 204) ;}
+.markdown-preview-view.twitch h4 {border-color:rgb(101, 67, 153) ;}
+.markdown-preview-view.twitch h5 {border-color:rgb(79, 52, 119) ;}
+.markdown-preview-view.twitch h6 {border-color:rgb(56, 37, 85) ;}
