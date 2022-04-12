@@ -1,0 +1,19 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        --color_venus: None;
+
+        /* Application colors */
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.venus h1 {border-color:var(--color_venus) ;}
+.markdown-preview-view.venus h2 {border-color:rgb(100, 169, 108) ;}
+.markdown-preview-view.venus h3 {border-color:rgb(92, 156, 100) ;}
+.markdown-preview-view.venus h4 {border-color:rgb(69, 117, 75) ;}
+.markdown-preview-view.venus h5 {border-color:rgb(54, 91, 58) ;}
+.markdown-preview-view.venus h6 {border-color:rgb(38, 65, 42) ;}

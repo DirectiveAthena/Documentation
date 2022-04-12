@@ -139,12 +139,28 @@ h6 {
 .markdown-preview-view.neptune h6 {border-color:rgb(14, 24, 39) ;}
 
 /* --- Various headers for specific css classes --- */
+.markdown-preview-view.vulcanus h1 {border-color:var(--color_vulcanus) ;}
+.markdown-preview-view.vulcanus h2 {border-color:rgb(205, 115, 29) ;}
+.markdown-preview-view.vulcanus h3 {border-color:rgb(189, 106, 26) ;}
+.markdown-preview-view.vulcanus h4 {border-color:rgb(142, 80, 20) ;}
+.markdown-preview-view.vulcanus h5 {border-color:rgb(110, 62, 15) ;}
+.markdown-preview-view.vulcanus h6 {border-color:rgb(110, 62, 15) ;}
+
+/* --- Various headers for specific css classes --- */
 .markdown-preview-view.sol h1 {border-color:var(--color_sol) ;}
 .markdown-preview-view.sol h2 {border-color:rgb(213, 200, 116) ;}
 .markdown-preview-view.sol h3 {border-color:rgb(197, 185, 107) ;}
 .markdown-preview-view.sol h4 {border-color:rgb(148, 139, 80) ;}
 .markdown-preview-view.sol h5 {border-color:rgb(115, 108, 63) ;}
 .markdown-preview-view.sol h6 {border-color:rgb(82, 77, 45) ;}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.venus h1 {border-color:var(--color_venus) ;}
+.markdown-preview-view.venus h2 {border-color:rgb(100, 169, 108) ;}
+.markdown-preview-view.venus h3 {border-color:rgb(92, 156, 100) ;}
+.markdown-preview-view.venus h4 {border-color:rgb(69, 117, 75) ;}
+.markdown-preview-view.venus h5 {border-color:rgb(54, 91, 58) ;}
+.markdown-preview-view.venus h6 {border-color:rgb(38, 65, 42) ;}
 
 /* --- Various headers for specific css classes --- */
 .markdown-preview-view.veritas h1 {border-color:var(--color_veritas) ;}
