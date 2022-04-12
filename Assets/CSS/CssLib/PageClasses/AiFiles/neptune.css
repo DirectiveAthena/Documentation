@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.neptune h1 {border-color:var(--color_neptune) ;}
-.markdown-preview-view.neptune h2 {border-color:rgb(57, 100, 160) ;}
-.markdown-preview-view.neptune h3 {border-color:rgb(53, 92, 148) ;}
-.markdown-preview-view.neptune h4 {border-color:rgb(40, 69, 111) ;}
-.markdown-preview-view.neptune h5 {border-color:rgb(31, 54, 86) ;}
-.markdown-preview-view.neptune h6 {border-color:rgb(14, 24, 39) ;}
+.markdown-rendered.neptune h1 {border-color:var(--color_neptune) ;}
+.markdown-rendered.neptune h2 {border-color:rgb(57, 100, 160) ;}
+.markdown-rendered.neptune h3 {border-color:rgb(53, 92, 148) ;}
+.markdown-rendered.neptune h4 {border-color:rgb(40, 69, 111) ;}
+.markdown-rendered.neptune h5 {border-color:rgb(31, 54, 86) ;}
+.markdown-rendered.neptune h6 {border-color:rgb(14, 24, 39) ;}

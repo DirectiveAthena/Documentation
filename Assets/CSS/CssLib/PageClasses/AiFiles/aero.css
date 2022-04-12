@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.aero h1 {border-color:var(--color_aero) ;}
-.markdown-preview-view.aero h2 {border-color:rgb(218, 218, 218) ;}
-.markdown-preview-view.aero h3 {border-color:rgb(218, 218, 218) ;}
-.markdown-preview-view.aero h4 {border-color:rgb(151, 151, 151) ;}
-.markdown-preview-view.aero h5 {border-color:rgb(117, 117, 117) ;}
-.markdown-preview-view.aero h6 {border-color:rgb(84, 84, 84) ;}
+.markdown-rendered.aero h1 {border-color:var(--color_aero) ;}
+.markdown-rendered.aero h2 {border-color:rgb(218, 218, 218) ;}
+.markdown-rendered.aero h3 {border-color:rgb(218, 218, 218) ;}
+.markdown-rendered.aero h4 {border-color:rgb(151, 151, 151) ;}
+.markdown-rendered.aero h5 {border-color:rgb(117, 117, 117) ;}
+.markdown-rendered.aero h6 {border-color:rgb(84, 84, 84) ;}

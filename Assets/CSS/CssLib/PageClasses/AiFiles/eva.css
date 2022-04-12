@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.eva h1 {border-color:var(--color_eva);}
-.markdown-preview-view.eva h2 {border-color:rgb(203, 34, 68);}
-.markdown-preview-view.eva h3 {border-color:rgb(187, 31, 63);}
-.markdown-preview-view.eva h4 {border-color:rgb(140, 23, 47);}
-.markdown-preview-view.eva h5 {border-color:rgb(109, 18, 37);}
-.markdown-preview-view.eva h6 {border-color:rgb(78, 13, 26);}
+.markdown-rendered.eva h1 {border-color:var(--color_eva);}
+.markdown-rendered.eva h2 {border-color:rgb(203, 34, 68);}
+.markdown-rendered.eva h3 {border-color:rgb(187, 31, 63);}
+.markdown-rendered.eva h4 {border-color:rgb(140, 23, 47);}
+.markdown-rendered.eva h5 {border-color:rgb(109, 18, 37);}
+.markdown-rendered.eva h6 {border-color:rgb(78, 13, 26);}

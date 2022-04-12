@@ -12,6 +12,6 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.athenacolor h1 { 
+.markdown-rendered.athenacolor h1 { 
     border-image: var(--gradient_athenacolor);
 }

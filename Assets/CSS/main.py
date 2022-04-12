@@ -25,9 +25,7 @@ def main():
         ResultJsonPath=rf"{root}\CSS\CssLib.json",
         Overwrite=True
     )
-    while True:
-        stitcher.run()
-        sleep(1)
+    stitcher.run()
 
 if __name__ == '__main__':
     main()

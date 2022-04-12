@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.athena h1 {border-color:var(--color_athena);}
-.markdown-preview-view.athena h2 {border-color:rgb(170, 35, 69);}
-.markdown-preview-view.athena h3 {border-color:rgb(157, 33, 64);}
-.markdown-preview-view.athena h4 {border-color:rgb(118, 25, 48) ;}
-.markdown-preview-view.athena h5 {border-color:rgb(91, 19, 37) ;}
-.markdown-preview-view.athena h6 {border-color:rgb(65, 14, 27) ;}
+.markdown-rendered.athena h1 {border-color:var(--color_athena);}
+.markdown-rendered.athena h2 {border-color:rgb(170, 35, 69);}
+.markdown-rendered.athena h3 {border-color:rgb(157, 33, 64);}
+.markdown-rendered.athena h4 {border-color:rgb(118, 25, 48) ;}
+.markdown-rendered.athena h5 {border-color:rgb(91, 19, 37) ;}
+.markdown-rendered.athena h6 {border-color:rgb(65, 14, 27) ;}

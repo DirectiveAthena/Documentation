@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.jupiter h1 {border-color:var(--color_jupiter) ;}
-.markdown-preview-view.jupiter h2 {border-color:rgb(204, 202, 58) ;}
-.markdown-preview-view.jupiter h3 {border-color:rgb(188, 186, 54) ;}
-.markdown-preview-view.jupiter h4 {border-color:rgb(141, 140, 40) ;}
-.markdown-preview-view.jupiter h5 {border-color:rgb(110, 109, 31) ;}
-.markdown-preview-view.jupiter h6 {border-color:rgb(78, 78, 22) ;}
+.markdown-rendered.jupiter h1 {border-color:var(--color_jupiter) ;}
+.markdown-rendered.jupiter h2 {border-color:rgb(204, 202, 58) ;}
+.markdown-rendered.jupiter h3 {border-color:rgb(188, 186, 54) ;}
+.markdown-rendered.jupiter h4 {border-color:rgb(141, 140, 40) ;}
+.markdown-rendered.jupiter h5 {border-color:rgb(110, 109, 31) ;}
+.markdown-rendered.jupiter h6 {border-color:rgb(78, 78, 22) ;}

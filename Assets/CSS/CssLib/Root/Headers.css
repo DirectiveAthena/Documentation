@@ -10,7 +10,7 @@
 /* $$ END */
 
 /* --- All headers derive from this --- */
-.markdown-preview-view h1,h2,h3,h4,h5,h6{
+.markdown-rendered h1,h2,h3,h4,h5,h6{
     background: rgb(25,25,25);
     background: linear-gradient(90deg, var(--background-secondary) 75%, var(--background-primary) 100%);
     border-radius: .2em;

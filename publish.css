@@ -22,143 +22,143 @@
 
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.adam h1 {border-color:var(--color_adam);}
-.markdown-preview-view.adam h2 {border-color:rgb(21, 153, 192);}
-.markdown-preview-view.adam h3 {border-color:rgb(19, 142, 178);}
-.markdown-preview-view.adam h4 {border-color:rgb(14, 106, 133);}
-.markdown-preview-view.adam h5 {border-color:rgb(7, 52, 65);}
-.markdown-preview-view.adam h6 {border-color:rgb(8, 59, 74);}
+.markdown-rendered.adam h1 {border-color:var(--color_adam);}
+.markdown-rendered.adam h2 {border-color:rgb(21, 153, 192);}
+.markdown-rendered.adam h3 {border-color:rgb(19, 142, 178);}
+.markdown-rendered.adam h4 {border-color:rgb(14, 106, 133);}
+.markdown-rendered.adam h5 {border-color:rgb(7, 52, 65);}
+.markdown-rendered.adam h6 {border-color:rgb(8, 59, 74);}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.aero h1 {border-color:var(--color_aero) ;}
-.markdown-preview-view.aero h2 {border-color:rgb(218, 218, 218) ;}
-.markdown-preview-view.aero h3 {border-color:rgb(218, 218, 218) ;}
-.markdown-preview-view.aero h4 {border-color:rgb(151, 151, 151) ;}
-.markdown-preview-view.aero h5 {border-color:rgb(117, 117, 117) ;}
-.markdown-preview-view.aero h6 {border-color:rgb(84, 84, 84) ;}
+.markdown-rendered.aero h1 {border-color:var(--color_aero) ;}
+.markdown-rendered.aero h2 {border-color:rgb(218, 218, 218) ;}
+.markdown-rendered.aero h3 {border-color:rgb(218, 218, 218) ;}
+.markdown-rendered.aero h4 {border-color:rgb(151, 151, 151) ;}
+.markdown-rendered.aero h5 {border-color:rgb(117, 117, 117) ;}
+.markdown-rendered.aero h6 {border-color:rgb(84, 84, 84) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.athena h1 {border-color:var(--color_athena);}
-.markdown-preview-view.athena h2 {border-color:rgb(170, 35, 69);}
-.markdown-preview-view.athena h3 {border-color:rgb(157, 33, 64);}
-.markdown-preview-view.athena h4 {border-color:rgb(118, 25, 48) ;}
-.markdown-preview-view.athena h5 {border-color:rgb(91, 19, 37) ;}
-.markdown-preview-view.athena h6 {border-color:rgb(65, 14, 27) ;}
+.markdown-rendered.athena h1 {border-color:var(--color_athena);}
+.markdown-rendered.athena h2 {border-color:rgb(170, 35, 69);}
+.markdown-rendered.athena h3 {border-color:rgb(157, 33, 64);}
+.markdown-rendered.athena h4 {border-color:rgb(118, 25, 48) ;}
+.markdown-rendered.athena h5 {border-color:rgb(91, 19, 37) ;}
+.markdown-rendered.athena h6 {border-color:rgb(65, 14, 27) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.ceres h1 {border-color:var(--color_ceres) ;}
-.markdown-preview-view.ceres h2 {border-color:rgb(185, 194, 59) ;}
-.markdown-preview-view.ceres h3 {border-color:rgb(170, 179, 54) ;}
-.markdown-preview-view.ceres h4 {border-color:rgb(128, 134, 41) ;}
-.markdown-preview-view.ceres h5 {border-color:rgb(99, 105, 32) ;}
-.markdown-preview-view.ceres h6 {border-color:rgb(71, 75, 23) ;}
+.markdown-rendered.ceres h1 {border-color:var(--color_ceres) ;}
+.markdown-rendered.ceres h2 {border-color:rgb(185, 194, 59) ;}
+.markdown-rendered.ceres h3 {border-color:rgb(170, 179, 54) ;}
+.markdown-rendered.ceres h4 {border-color:rgb(128, 134, 41) ;}
+.markdown-rendered.ceres h5 {border-color:rgb(99, 105, 32) ;}
+.markdown-rendered.ceres h6 {border-color:rgb(71, 75, 23) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.eva h1 {border-color:var(--color_eva);}
-.markdown-preview-view.eva h2 {border-color:rgb(203, 34, 68);}
-.markdown-preview-view.eva h3 {border-color:rgb(187, 31, 63);}
-.markdown-preview-view.eva h4 {border-color:rgb(140, 23, 47);}
-.markdown-preview-view.eva h5 {border-color:rgb(109, 18, 37);}
-.markdown-preview-view.eva h6 {border-color:rgb(78, 13, 26);}
+.markdown-rendered.eva h1 {border-color:var(--color_eva);}
+.markdown-rendered.eva h2 {border-color:rgb(203, 34, 68);}
+.markdown-rendered.eva h3 {border-color:rgb(187, 31, 63);}
+.markdown-rendered.eva h4 {border-color:rgb(140, 23, 47);}
+.markdown-rendered.eva h5 {border-color:rgb(109, 18, 37);}
+.markdown-rendered.eva h6 {border-color:rgb(78, 13, 26);}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.jupiter h1 {border-color:var(--color_jupiter) ;}
-.markdown-preview-view.jupiter h2 {border-color:rgb(204, 202, 58) ;}
-.markdown-preview-view.jupiter h3 {border-color:rgb(188, 186, 54) ;}
-.markdown-preview-view.jupiter h4 {border-color:rgb(141, 140, 40) ;}
-.markdown-preview-view.jupiter h5 {border-color:rgb(110, 109, 31) ;}
-.markdown-preview-view.jupiter h6 {border-color:rgb(78, 78, 22) ;}
+.markdown-rendered.jupiter h1 {border-color:var(--color_jupiter) ;}
+.markdown-rendered.jupiter h2 {border-color:rgb(204, 202, 58) ;}
+.markdown-rendered.jupiter h3 {border-color:rgb(188, 186, 54) ;}
+.markdown-rendered.jupiter h4 {border-color:rgb(141, 140, 40) ;}
+.markdown-rendered.jupiter h5 {border-color:rgb(110, 109, 31) ;}
+.markdown-rendered.jupiter h6 {border-color:rgb(78, 78, 22) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.minerva h1 {border-color:var(--color_minerva) ;}
-.markdown-preview-view.minerva h2 {border-color:rgb(91, 51, 125) ;}
-.markdown-preview-view.minerva h3 {border-color:rgb(84, 47, 115) ;}
-.markdown-preview-view.minerva h4 {border-color:rgb(63, 35, 86) ;}
-.markdown-preview-view.minerva h5 {border-color:rgb(49, 28, 67) ;}
-.markdown-preview-view.minerva h6 {border-color:rgb(35, 20, 48) ;}
+.markdown-rendered.minerva h1 {border-color:var(--color_minerva) ;}
+.markdown-rendered.minerva h2 {border-color:rgb(91, 51, 125) ;}
+.markdown-rendered.minerva h3 {border-color:rgb(84, 47, 115) ;}
+.markdown-rendered.minerva h4 {border-color:rgb(63, 35, 86) ;}
+.markdown-rendered.minerva h5 {border-color:rgb(49, 28, 67) ;}
+.markdown-rendered.minerva h6 {border-color:rgb(35, 20, 48) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.neptune h1 {border-color:var(--color_neptune) ;}
-.markdown-preview-view.neptune h2 {border-color:rgb(57, 100, 160) ;}
-.markdown-preview-view.neptune h3 {border-color:rgb(53, 92, 148) ;}
-.markdown-preview-view.neptune h4 {border-color:rgb(40, 69, 111) ;}
-.markdown-preview-view.neptune h5 {border-color:rgb(31, 54, 86) ;}
-.markdown-preview-view.neptune h6 {border-color:rgb(14, 24, 39) ;}
+.markdown-rendered.neptune h1 {border-color:var(--color_neptune) ;}
+.markdown-rendered.neptune h2 {border-color:rgb(57, 100, 160) ;}
+.markdown-rendered.neptune h3 {border-color:rgb(53, 92, 148) ;}
+.markdown-rendered.neptune h4 {border-color:rgb(40, 69, 111) ;}
+.markdown-rendered.neptune h5 {border-color:rgb(31, 54, 86) ;}
+.markdown-rendered.neptune h6 {border-color:rgb(14, 24, 39) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.pluto h1 {border-color:var(--color_pluto) ;}
-.markdown-preview-view.pluto h2 {border-color:rgb(73, 74, 75) ;}
-.markdown-preview-view.pluto h3 {border-color:rgb(67, 68, 70) ;}
-.markdown-preview-view.pluto h4 {border-color:rgb(50, 51, 52) ;}
-.markdown-preview-view.pluto h5 {border-color:rgb(39, 40, 41) ;}
-.markdown-preview-view.pluto h6 {border-color:rgb(28, 28, 29) ;}
+.markdown-rendered.pluto h1 {border-color:var(--color_pluto) ;}
+.markdown-rendered.pluto h2 {border-color:rgb(73, 74, 75) ;}
+.markdown-rendered.pluto h3 {border-color:rgb(67, 68, 70) ;}
+.markdown-rendered.pluto h4 {border-color:rgb(50, 51, 52) ;}
+.markdown-rendered.pluto h5 {border-color:rgb(39, 40, 41) ;}
+.markdown-rendered.pluto h6 {border-color:rgb(28, 28, 29) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.minerva h1 {border-color:var(--color_minerva) ;}
-.markdown-preview-view.minerva h2 {border-color:rgb(91, 51, 125) ;}
-.markdown-preview-view.minerva h3 {border-color:rgb(84, 47, 115) ;}
-.markdown-preview-view.minerva h4 {border-color:rgb(63, 35, 86) ;}
-.markdown-preview-view.minerva h5 {border-color:rgb(49, 28, 67) ;}
-.markdown-preview-view.minerva h6 {border-color:rgb(35, 20, 48) ;}
+.markdown-rendered.minerva h1 {border-color:var(--color_minerva) ;}
+.markdown-rendered.minerva h2 {border-color:rgb(91, 51, 125) ;}
+.markdown-rendered.minerva h3 {border-color:rgb(84, 47, 115) ;}
+.markdown-rendered.minerva h4 {border-color:rgb(63, 35, 86) ;}
+.markdown-rendered.minerva h5 {border-color:rgb(49, 28, 67) ;}
+.markdown-rendered.minerva h6 {border-color:rgb(35, 20, 48) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.venus h1 {border-color:var(--color_venus) ;}
-.markdown-preview-view.venus h2 {border-color:rgb(100, 169, 108) ;}
-.markdown-preview-view.venus h3 {border-color:rgb(92, 156, 100) ;}
-.markdown-preview-view.venus h4 {border-color:rgb(69, 117, 75) ;}
-.markdown-preview-view.venus h5 {border-color:rgb(54, 91, 58) ;}
-.markdown-preview-view.venus h6 {border-color:rgb(38, 65, 42) ;}
+.markdown-rendered.venus h1 {border-color:var(--color_venus) ;}
+.markdown-rendered.venus h2 {border-color:rgb(100, 169, 108) ;}
+.markdown-rendered.venus h3 {border-color:rgb(92, 156, 100) ;}
+.markdown-rendered.venus h4 {border-color:rgb(69, 117, 75) ;}
+.markdown-rendered.venus h5 {border-color:rgb(54, 91, 58) ;}
+.markdown-rendered.venus h6 {border-color:rgb(38, 65, 42) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.veritas h1 {border-color:var(--color_veritas) ;}
-.markdown-preview-view.veritas h2 {border-color:rgb(186, 48, 127) ;}
-.markdown-preview-view.veritas h3 {border-color:rgb(172, 44, 117) ;}
-.markdown-preview-view.veritas h4 {border-color:rgb(129, 33, 88) ;}
-.markdown-preview-view.veritas h5 {border-color:rgb(100, 26, 68) ;}
-.markdown-preview-view.veritas h6 {border-color:rgb(72, 18, 49) ;}
+.markdown-rendered.veritas h1 {border-color:var(--color_veritas) ;}
+.markdown-rendered.veritas h2 {border-color:rgb(186, 48, 127) ;}
+.markdown-rendered.veritas h3 {border-color:rgb(172, 44, 117) ;}
+.markdown-rendered.veritas h4 {border-color:rgb(129, 33, 88) ;}
+.markdown-rendered.veritas h5 {border-color:rgb(100, 26, 68) ;}
+.markdown-rendered.veritas h6 {border-color:rgb(72, 18, 49) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.vulcanus h1 {border-color:var(--color_vulcanus) ;}
-.markdown-preview-view.vulcanus h2 {border-color:rgb(205, 115, 29) ;}
-.markdown-preview-view.vulcanus h3 {border-color:rgb(189, 106, 26) ;}
-.markdown-preview-view.vulcanus h4 {border-color:rgb(142, 80, 20) ;}
-.markdown-preview-view.vulcanus h5 {border-color:rgb(110, 62, 15) ;}
-.markdown-preview-view.vulcanus h6 {border-color:rgb(110, 62, 15) ;}
+.markdown-rendered.vulcanus h1 {border-color:var(--color_vulcanus) ;}
+.markdown-rendered.vulcanus h2 {border-color:rgb(205, 115, 29) ;}
+.markdown-rendered.vulcanus h3 {border-color:rgb(189, 106, 26) ;}
+.markdown-rendered.vulcanus h4 {border-color:rgb(142, 80, 20) ;}
+.markdown-rendered.vulcanus h5 {border-color:rgb(110, 62, 15) ;}
+.markdown-rendered.vulcanus h6 {border-color:rgb(110, 62, 15) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.athenacolor h1 { 
+.markdown-rendered.athenacolor h1 { 
     border-image: var(--gradient_athenacolor);
 }
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.twitch h1 {border-color:var(--color_twitch);}
-.markdown-preview-view.twitch h2 {border-color:rgb(146, 97, 221) ;}
-.markdown-preview-view.twitch h3 {border-color:rgb(135, 90, 204) ;}
-.markdown-preview-view.twitch h4 {border-color:rgb(101, 67, 153) ;}
-.markdown-preview-view.twitch h5 {border-color:rgb(79, 52, 119) ;}
-.markdown-preview-view.twitch h6 {border-color:rgb(56, 37, 85) ;}
+.markdown-rendered.twitch h1 {border-color:var(--color_twitch);}
+.markdown-rendered.twitch h2 {border-color:rgb(146, 97, 221) ;}
+.markdown-rendered.twitch h3 {border-color:rgb(135, 90, 204) ;}
+.markdown-rendered.twitch h4 {border-color:rgb(101, 67, 153) ;}
+.markdown-rendered.twitch h5 {border-color:rgb(79, 52, 119) ;}
+.markdown-rendered.twitch h6 {border-color:rgb(56, 37, 85) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.twitter h1 {border-color:var(--color_twitter);}
-.markdown-preview-view.twitter h2 {border-color:rgb(22, 121, 187) ;}
-.markdown-preview-view.twitter h3 {border-color:rgb(21, 112, 173) ;}
-.markdown-preview-view.twitter h4 {border-color:rgb(16, 84, 130) ;}
-.markdown-preview-view.twitter h5 {border-color:rgb(12, 65, 101) ;}
-.markdown-preview-view.twitter h6 {border-color:rgb(9, 47, 72) ;}
+.markdown-rendered.twitter h1 {border-color:var(--color_twitter);}
+.markdown-rendered.twitter h2 {border-color:rgb(22, 121, 187) ;}
+.markdown-rendered.twitter h3 {border-color:rgb(21, 112, 173) ;}
+.markdown-rendered.twitter h4 {border-color:rgb(16, 84, 130) ;}
+.markdown-rendered.twitter h5 {border-color:rgb(12, 65, 101) ;}
+.markdown-rendered.twitter h6 {border-color:rgb(9, 47, 72) ;}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.youtube h1 {border-color:var(--color_youtube);}
-.markdown-preview-view.youtube h2 {border-color:rgb(221, 0, 0) ;}
-.markdown-preview-view.youtube h3 {border-color:rgb(255, 0, 0) ;}
-.markdown-preview-view.youtube h4 {border-color:rgb(153, 0, 0) ;}
-.markdown-preview-view.youtube h5 {border-color:rgb(119, 0, 0) ;}
-.markdown-preview-view.youtube h6 {border-color:rgb(85, 0, 0) ;}
+.markdown-rendered.youtube h1 {border-color:var(--color_youtube);}
+.markdown-rendered.youtube h2 {border-color:rgb(221, 0, 0) ;}
+.markdown-rendered.youtube h3 {border-color:rgb(255, 0, 0) ;}
+.markdown-rendered.youtube h4 {border-color:rgb(153, 0, 0) ;}
+.markdown-rendered.youtube h5 {border-color:rgb(119, 0, 0) ;}
+.markdown-rendered.youtube h6 {border-color:rgb(85, 0, 0) ;}
 span.rem {
-    color:rgba(0, 0, 0, 0.315) !important;
+    color:rgba(0, 0, 0, 0.315) 0;
 }
 
 /* --- All headers derive from this --- */
-.markdown-preview-view h1,h2,h3,h4,h5,h6{
+.markdown-rendered h1,h2,h3,h4,h5,h6{
     background: rgb(25,25,25);
     background: linear-gradient(90deg, var(--background-secondary) 75%, var(--background-primary) 100%);
     border-radius: .2em;

@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.adam h1 {border-color:var(--color_adam);}
-.markdown-preview-view.adam h2 {border-color:rgb(21, 153, 192);}
-.markdown-preview-view.adam h3 {border-color:rgb(19, 142, 178);}
-.markdown-preview-view.adam h4 {border-color:rgb(14, 106, 133);}
-.markdown-preview-view.adam h5 {border-color:rgb(7, 52, 65);}
-.markdown-preview-view.adam h6 {border-color:rgb(8, 59, 74);}
+.markdown-rendered.adam h1 {border-color:var(--color_adam);}
+.markdown-rendered.adam h2 {border-color:rgb(21, 153, 192);}
+.markdown-rendered.adam h3 {border-color:rgb(19, 142, 178);}
+.markdown-rendered.adam h4 {border-color:rgb(14, 106, 133);}
+.markdown-rendered.adam h5 {border-color:rgb(7, 52, 65);}
+.markdown-rendered.adam h6 {border-color:rgb(8, 59, 74);}
