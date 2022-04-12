@@ -21,66 +21,6 @@
 /* $$ END */
 
 
-/* --- All headers derive from this --- */
-h1,h2,h3,h4,h5,h6{
-    background: rgb(25,25,25);
-    background: linear-gradient(90deg, var(--background-secondary) 75%, var(--background-primary) 100%);
-    border-radius: .2em;
-    border-bottom-style: solid;
-    border-bottom-width: .2em;
-}
-
-h1 {
-    --color: #fff;
-    color:var(--color) !important;
-    border-color:var(--color);
-    padding: 6px;
-    padding-left: 12px;
-}
-
-h2 {
-    --color: #DDD;
-    color:var(--color) !important;
-    border-color:var(--color);
-    padding: 5px;
-    padding-left: 12px;
-
-}
-
-h3 {
-    --color: #CCC;
-    color:var(--color) !important;
-    border-color:var(--color);
-    padding: 4px;
-    padding-left: 12px;
-
-}
-
-h4 {
-    --color: #999;
-    color:var(--color) !important;
-    border-color:var(--color);
-    padding: 3px;
-    padding-left: 12px;
-
-}
-
-h5 {
-    --color: #777;
-    color:var(--color) !important;
-    border-color:var(--color);
-    padding: 2px;
-    padding-left: 12px;
-}
-
-h6 {
-    --color: #555;
-    color:var(--color) !important;
-    border-color:var(--color);
-    padding: 1px;
-    padding-left: 12px;
-}
-
 /* --- Various headers for specific css classes --- */
 .markdown-preview-view.adam h1 {border-color:var(--color_adam);}
 .markdown-preview-view.adam h2 {border-color:rgb(21, 153, 192);}
@@ -213,4 +153,64 @@ h6 {
 .markdown-preview-view.youtube h4 {border-color:rgb(153, 0, 0) ;}
 .markdown-preview-view.youtube h5 {border-color:rgb(119, 0, 0) ;}
 .markdown-preview-view.youtube h6 {border-color:rgb(85, 0, 0) ;}
+
+/* --- All headers derive from this --- */
+h1,h2,h3,h4,h5,h6{
+    background: rgb(25,25,25);
+    background: linear-gradient(90deg, var(--background-secondary) 75%, var(--background-primary) 100%);
+    border-radius: .2em;
+    border-bottom-style: solid;
+    border-bottom-width: .2em;
+}
+
+h1 {
+    --color: #fff;
+    color:var(--color) !important;
+    border-color:var(--color);
+    padding: 6px;
+    padding-left: 12px;
+}
+
+h2 {
+    --color: #DDD;
+    color:var(--color) !important;
+    border-color:var(--color);
+    padding: 5px;
+    padding-left: 12px;
+
+}
+
+h3 {
+    --color: #CCC;
+    color:var(--color) !important;
+    border-color:var(--color);
+    padding: 4px;
+    padding-left: 12px;
+
+}
+
+h4 {
+    --color: #999;
+    color:var(--color) !important;
+    border-color:var(--color);
+    padding: 3px;
+    padding-left: 12px;
+
+}
+
+h5 {
+    --color: #777;
+    color:var(--color) !important;
+    border-color:var(--color);
+    padding: 2px;
+    padding-left: 12px;
+}
+
+h6 {
+    --color: #555;
+    color:var(--color) !important;
+    border-color:var(--color);
+    padding: 1px;
+    padding-left: 12px;
+}
 
