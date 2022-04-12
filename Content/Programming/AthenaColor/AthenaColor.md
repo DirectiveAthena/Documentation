@@ -2,7 +2,7 @@
 cssclass: athenacolor
 ---
 # AthenaColor
-A Python package which allows the user to use the commonly used 
+A Python package which allows the user to use the commonly used HTML color names 
 ## a
 ### b
 #### c
