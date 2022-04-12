@@ -1,5 +1,5 @@
 ---
-cssclass:AthenaColor
+cssclass: AthenaColor
 ---
 # AthenaColor
 ## a

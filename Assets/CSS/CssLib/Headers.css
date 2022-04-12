@@ -36,3 +36,9 @@ h1,h2,h3,h4,h5,h6{
     padding-left: .25em;
 
 }
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.AthenaColor h1 { 
+    background-color:  red; 
+}
+

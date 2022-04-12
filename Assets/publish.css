@@ -35,6 +35,12 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.AthenaColor h1 { 
+    background-color:  red; 
+}
+
+
 
 .alfa{
     color: aliceblue;
