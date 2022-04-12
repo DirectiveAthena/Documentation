@@ -3,7 +3,7 @@
     --gradient_athenacolor: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%,rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 1;
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
-    --color_eva: rgb(234, 39 , 79 );
+    --color_eva: rgb(234, 39, 79);
     --color_jupiter: rgb(235, 233, 67 );
     --color_veritas: rgb(213, 55 , 146);
     --color_vulcanus: rgb(236, 133, 33 );
@@ -78,31 +78,47 @@ h6 {
 }
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.Adam h1 {border-color:var(--color_adam);}
-.markdown-preview-view.Adam h2 {border-color:rgb(21, 153, 192);}
-.markdown-preview-view.Adam h3 {border-color:rgb(19, 142, 178);}
-.markdown-preview-view.Adam h4 {border-color:rgb(14, 106, 133);}
-.markdown-preview-view.Adam h5 {border-color:rgb(7, 52, 65);}
-.markdown-preview-view.Adam h6 {border-color:rgb(8, 59, 74);}
+.markdown-preview-view.adam h1 {border-color:var(--color_adam);}
+.markdown-preview-view.adam h2 {border-color:rgb(21, 153, 192);}
+.markdown-preview-view.adam h3 {border-color:rgb(19, 142, 178);}
+.markdown-preview-view.adam h4 {border-color:rgb(14, 106, 133);}
+.markdown-preview-view.adam h5 {border-color:rgb(7, 52, 65);}
+.markdown-preview-view.adam h6 {border-color:rgb(8, 59, 74);}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.Adam h1 {border-color:var(--color_eva);}
-.markdown-preview-view.Adam h2 {border-color:rgb(203, 34, 68);}
-.markdown-preview-view.Adam h3 {border-color:rgb(187, 31, 63);}
-.markdown-preview-view.Adam h4 {border-color:rgb(140, 23, 47);}
-.markdown-preview-view.Adam h5 {border-color:rgb(109, 18, 37);}
-.markdown-preview-view.Adam h6 {border-color:rgb(78, 13, 26);}
+.markdown-preview-view.athena h1 {border-color:var(--color_athena);}
+.markdown-preview-view.athena h2 {border-color:rgb(170, 35, 69);}
+.markdown-preview-view.athena h3 {border-color:rgb(99, 21, 40);}
+.markdown-preview-view.athena h4 {border-color:rgb(118, 25, 48);}
+.markdown-preview-view.athena h5 {border-color:rgb(91, 19, 37);}
+.markdown-preview-view.athena h6 {border-color:rgb(65, 14, 27);}
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.AthenaColor h1 { 
+.markdown-preview-view.athenacolor h1 { 
     border-image: var(--gradient_athenacolor);
 }
 
 /* --- Various headers for specific css classes --- */
-.markdown-preview-view.Adam h1 {border-color:var(--color_eva);}
-.markdown-preview-view.Adam h2 {border-color:rgb(203, 34, 68);}
-.markdown-preview-view.Adam h3 {border-color:rgb(187, 31, 63);}
-.markdown-preview-view.Adam h4 {border-color:rgb(140, 23, 47);}
-.markdown-preview-view.Adam h5 {border-color:rgb(109, 18, 37);}
-.markdown-preview-view.Adam h6 {border-color:rgb(78, 13, 26);}
+.markdown-preview-view.eva h1 {border-color:var(--color_eva);}
+.markdown-preview-view.eva h2 {border-color:rgb(203, 34, 68);}
+.markdown-preview-view.eva h3 {border-color:rgb(187, 31, 63);}
+.markdown-preview-view.eva h4 {border-color:rgb(140, 23, 47);}
+.markdown-preview-view.eva h5 {border-color:rgb(109, 18, 37);}
+.markdown-preview-view.eva h6 {border-color:rgb(78, 13, 26);}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.jupiter h1 {border-color:var(--color_jupiter) ;}
+.markdown-preview-view.jupiter h2 {border-color:rgb(204, 202, 58) ;}
+.markdown-preview-view.jupiter h3 {border-color:rgb(188, 186, 54) ;}
+.markdown-preview-view.jupiter h4 {border-color:rgb(141, 140, 40) ;}
+.markdown-preview-view.jupiter h5 {border-color:rgb(110, 109, 31) ;}
+.markdown-preview-view.jupiter h6 {border-color:rgb(78, 78, 22) ;}
+
+/* --- Various headers for specific css classes --- */
+.markdown-preview-view.jupiter h1 {border-color:var(--color_jupiter) ;}
+.markdown-preview-view.jupiter h2 {border-color:rgb(204, 202, 58) ;}
+.markdown-preview-view.jupiter h3 {border-color:rgb(188, 186, 54) ;}
+.markdown-preview-view.jupiter h4 {border-color:rgb(141, 140, 40) ;}
+.markdown-preview-view.jupiter h5 {border-color:rgb(110, 109, 31) ;}
+.markdown-preview-view.jupiter h6 {border-color:rgb(78, 78, 22) ;}
 
