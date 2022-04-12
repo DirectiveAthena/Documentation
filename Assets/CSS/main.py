@@ -4,7 +4,9 @@
 # General Packages
 
 # Custom Library
+from time import sleep
 from AthenaCSSstitcher import CssStitcher
+
 
 # Custom Packages
 
@@ -25,4 +27,6 @@ def main():
     ).run()
 
 if __name__ == '__main__':
-    main()
+    while True:
+        main()
+        sleep(1)
