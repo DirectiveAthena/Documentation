@@ -173,6 +173,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     color:var(--color);
     padding: 12px;  
     padding-left: 35px;
+    font-size: 2em;
 }
 
 .markdown-rendered h2 , h2.publish-article-heading{
@@ -180,6 +181,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     color:var(--color);
     padding: 10px;  
     padding-left: 35px;
+    font-size: 1.6em;
 }
 
 .markdown-rendered h3, h3.publish-article-heading {
@@ -187,6 +189,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     color:var(--color);
     padding: 8px;  
     padding-left: 35px;
+    font-size: 1.37em;
 }
 
 .markdown-rendered h4, h4.publish-article-heading {
@@ -194,6 +197,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     color:var(--color);
     padding: 6px;  
     padding-left: 35px;
+    font-size: 1.25em;
 }
 
 .markdown-rendered h5, h5.publish-article-heading {
@@ -201,6 +205,7 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     color:var(--color);
     padding: 4px;  
     padding-left: 35px;
+    font-size: 1.12em;
 }
 
 .markdown-rendered h6, h6.publish-article-heading {
@@ -208,5 +213,6 @@ h1.publish-article-heading, h2.publish-article-heading, h3.publish-article-headi
     color:var(--color);
     padding: 2px;  
     padding-left: 35px;
+    font-size: 1.12em;
 }
 
