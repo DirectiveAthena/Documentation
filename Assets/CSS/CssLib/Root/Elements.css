@@ -1,3 +1,7 @@
 span.rem {
     color:rgba(0, 0, 0, 0.315) 0;
 }
+
+div.inset{
+    margin-left: 25px;
+}

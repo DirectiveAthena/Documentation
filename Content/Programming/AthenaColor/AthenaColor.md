@@ -9,7 +9,9 @@ Made by Andreas Sas 2022, during his [[Directive Athena]] project. Andreas start
 ~ Andreas Sas
 
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
-**Source Code:** 
+**Source Code:** [GitHub Repository]()
+
+how to install:
 
 ---
 ## Index
