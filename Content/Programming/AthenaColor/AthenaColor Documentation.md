@@ -16,7 +16,7 @@ azeaze
 
  ## Color Objects
  Each color object has full support for math and comparison dunders.
- 
+aze
  ### Color systems
  *class* AthenaColor.**RGB** ^rgb
  <div class="inset">
