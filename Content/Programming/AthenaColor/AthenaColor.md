@@ -20,7 +20,13 @@ Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 ## Index
 - [[AthenaColor Documentation]]
 	- [[AthenaColor Documentation#Color Objects|Color Objects]]
-		- [[AthenaColor Documentation#Color Objects]]
+		- [[AthenaColor Documentation#^rgb|RGB]]
+		- [[AthenaColor Documentation#^hex|HEX]]
+		- [[AthenaColor Documentation#^hsl|HSL]]
+		- [[AthenaColor Documentation#^hsv|HSV]]
+		- [[AthenaColor Documentation#^cmyk|CMYK]]
+		- [[AthenaColor Documentation#^rgba|RGBA]]
+		- [[AthenaColor Documentation#^hexa|HEXA]]
 - [[AthenaColor#Contributors|Contributors]]
 ## Contributors 
 - ClasherKasten : Unit testing and various fixes

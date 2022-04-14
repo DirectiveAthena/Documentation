@@ -13,8 +13,16 @@ Other, older, versions are not currently supported. These older versions will pr
  ## Color Objects
  *class* AthenaColor.**RGB** ^rgb
  <div class="inset">
-An RGB object 
+An RGB object can hold three values (r,g,b )
 </div>
+
+```python
+from AthenaColor import RGB
+
+color = RGB(255,255,255)
+
+```
+
 
  *class* AthenaColor.**HEX** ^hex
 <div class="inset">
@@ -31,17 +39,17 @@ An RGB object
 
 </div>
 
-*class* AthenaColor.**CMYK**
+*class* AthenaColor.**CMYK** ^cmyk
 <div class="inset">
 
 </div>
 
-*class* AthenaColor.**RGBA**
+*class* AthenaColor.**RGBA** ^rgba
 <div class="inset">
 
 </div>
 
-*class* AthenaColor.**HEXA**
+*class* AthenaColor.**HEXA** ^hexa
 <div class="inset">
 
 </div>
