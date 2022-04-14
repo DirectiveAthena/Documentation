@@ -19,13 +19,9 @@ from AthenaColor import RGB
 color = RGB(255,255,255)
 ```
 
-<div class="inset">
-	RGB.<b>r</b>
-	<div class="inset">
-		The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
-	</div>
-	<br>
-</div>
+<span class="inset"/>RGB. **r**
+<span class="inset"/>
+		The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 
 <div class="inset">
 	RGB.<b>g</b>
