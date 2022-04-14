@@ -20,8 +20,7 @@ color = RGB(255,255,255)
 ```
 
 <span class="inset"/>RGB. **r**
-<span class="inset"/>
-		The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
+<p class="inset"/>The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 
 <div class="inset">
 	RGB.<b>g</b>
