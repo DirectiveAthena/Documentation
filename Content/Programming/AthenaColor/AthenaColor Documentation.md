@@ -14,7 +14,7 @@ Other, older, versions are not currently supported. These older versions will pr
  Each color object has full support for math and comparison dunders.
  
  ### Color systems
- *class* AthenaColor.**RGB(** *r : int, g : int, b : int* **)**^rgb
+ *class* AthenaColor.**RGB(** *r :int, g:int, b:int* **)**^rgb
  <div class="inset">
 	An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 </div>
