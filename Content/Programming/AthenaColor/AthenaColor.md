@@ -28,18 +28,19 @@ Other, older, versions are not currently supported. These older versions will pr
 > / %%Need to  look up how to do this%%
 
 ## Index
-- [[AthenaColor Documentation]]
-	- [[AthenaColor Documentation#Color Objects|Color Objects]]
-		- [[AthenaColor Documentation#^rgb|RGB]]
-		- [[AthenaColor Documentation#^hex|HEX]]
-		- [[AthenaColor Documentation#^hsl|HSL]]
-		- [[AthenaColor Documentation#^hsv|HSV]]
-		- [[AthenaColor Documentation#^cmyk|CMYK]]
-		- [[AthenaColor Documentation#^rgba|RGBA]]
-		- [[AthenaColor Documentation#^hexa|HEXA]]
+- [[Documentation]]
+	- [[Documentation#Color Objects|Color Objects]]
+		- [[Documentation#^rgb|RGB]]
+		- [[Documentation#^hex|HEX]]
+		- [[Documentation#^hsl|HSL]]
+		- [[Documentation#^hsv|HSV]]
+		- [[Documentation#^cmyk|CMYK]]
+		- [[Documentation#^rgba|RGBA]]
+		- [[Documentation#^hexa|HEXA]]
 - [[AthenaColor#Contributors|Contributors]]
 
+---
 
-## Contributors 
-- ClasherKasten : Unit testing and various fixes
-- Twidi : Various help and support during streams and discord chats.
+%%Contributors moved to separate file, to allow for easy editing%%
+
+![[Contributors]]
