@@ -7,7 +7,7 @@ cssclass: athenacolor
  Each color object has full support for math and comparison dunders.
  
  ### Color system: RGB ^rgb
- *class* AthenaColor.**RGB(** *r :int, g:int, b:int* **)**
+ *class* AthenaColor.**RGB(** *r :int=0, g:int=0, b:int=0* **)**
  <div class="inset">
 	An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 </div>
@@ -82,10 +82,9 @@ color = RGB(255,255,255)
 ```
 
  ### Color system: HEX ^hex
-*class* AthenaColor.**HEX(** *hex_value:str* **)**
-<span class="inset"> An HEX object directly inherits from the [[#^rgb|RGB]] class. can hold three integer values (r,g,b) each ranging between 0 to 255.</span>
+*class* AthenaColor.**HEX(** *hex_value:str="#000000"* **)**
  <div class="inset">
-	An HEX object directly inherits from the <a href="#^rgb"  class="internal-link" >RGB</a> can hold three integer values (r,g,b) each ranging between 0 to 255.
+	An HEX object directly inherits from the <a href="#^rgb"  class="internal-link" >RGB</a> class. On initialization  can hold three integer values (r,g,b) each ranging between 0 to 255. On initialization of an HEX object, the 
 </div>
 
 ```python
@@ -95,7 +94,7 @@ color = RGB(255,255,255)
 ```
 
 <div class="inset">
-	RGB.<b>r</b>
+	HEX.<b>r</b>
 	<div class="inset">
 		The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 	</div>
