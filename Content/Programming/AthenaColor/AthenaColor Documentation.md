@@ -52,8 +52,7 @@ color = RGB(255,255,255)
 <div class="inset">
 	RGB.<b>export()</b>
 	<div class="inset">
-		Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of 
-		r,g,b.
+		Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
 	</div>
 </div>
 
