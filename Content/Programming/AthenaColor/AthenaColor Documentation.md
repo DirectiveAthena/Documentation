@@ -21,13 +21,22 @@ azeaze
  *class* AthenaColor.**RGB** ^rgb
  <div class="inset">
 An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255. Any inserted
-	<pre class="language-python" tabindex="0"><code class="language-python"><span class="token builtin">help</span>
-azeaze
-</code><button class="copy-code-button">Copy</button></pre>
-	<code class="language-python">
-		
-	</code>
+
+```python
+from AthenaColor import RGB
+
+color = RGB(255,255,255)
+```
 </div>
+
+<div class="inset">
+	RGB.<b>export()</b>
+	<div class="inset">
+		Exports the 
+	</div>
+</div>
+
+
 
 
 
