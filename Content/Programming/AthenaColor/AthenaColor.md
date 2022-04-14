@@ -30,13 +30,13 @@ Other older versions of Python are not currently supported. These older versions
 ## Index
 - [[AthenaColor Documentation]]
 	- [[AthenaColor Documentation#Color Objects|Color Objects]]
-		- [[AthenaColor Documentation#^rgb|RGB]]
-		- [[AthenaColor Documentation#^hex|HEX]]
-		- [[AthenaColor Documentation#^hsl|HSL]]
-		- [[AthenaColor Documentation#^hsv|HSV]]
-		- [[AthenaColor Documentation#^cmyk|CMYK]]
-		- [[AthenaColor Documentation#^rgba|RGBA]]
-		- [[AthenaColor Documentation#^hexa|HEXA]]
+		- [[AthenaColor ColorSystems#^rgb|RGB]]
+		- [[AthenaColor ColorSystems#^hex|HEX]]
+		- [[AthenaColor ColorSystems#^hsl|HSL]]
+		- [[AthenaColor ColorSystems#^hsv|HSV]]
+		- [[AthenaColor ColorSystems#^cmyk|CMYK]]
+		- [[AthenaColor ColorSystems#^rgba|RGBA]]
+		- [[AthenaColor ColorSystems#^hexa|HEXA]]
 - [[AthenaColor Contributors|AthenaColor Contributors]]
 
 ---
