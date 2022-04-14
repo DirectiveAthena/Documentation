@@ -37,16 +37,24 @@ color = RGB(255,255,255)
 	</div>
 </div>
 
-		
 ```python
 >>> from AthenaColor import RGB
->>> color = RGB(255,255,255)
+>>> color = RGB(64,128,255)
+>>> color.export()
+(64, 128, 255)
 ```
-		
 
-
-
-
+<div class="inset">
+	RGB.<b>__str__()</b>
+	<div class="inset">
+		Returns a string object with all the color elements separated by a <code>;</code>
+	</div>
+</div>
+```python
+>>> from AthenaColor import RGB
+>>> color = RGB(64,128,255)
+>>> str(color)
+```
 
 ---
  *class* AthenaColor.**HEX** ^hex
