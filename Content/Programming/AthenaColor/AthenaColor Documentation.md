@@ -34,6 +34,7 @@ color = RGB(255,255,255)
 	<div class="inset">
 		The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 	</div>
+	<br>
 </div>
 
 <div class="inset">
@@ -41,6 +42,7 @@ color = RGB(255,255,255)
 	<div class="inset">
 		The property <code>g</code> holds the <b>GREEN</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 	</div>
+	<br>
 </div>
 
 <div class="inset">
@@ -48,6 +50,7 @@ color = RGB(255,255,255)
 	<div class="inset">
 		The property <code>b</code> holds the <b>BLUE</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 	</div>
+	<br>
 </div>
 
 <div class="inset">
@@ -56,6 +59,7 @@ color = RGB(255,255,255)
 		Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of 
 		r,g,b.
 	</div>
+	<br>
 </div>
 
 ```python
@@ -69,6 +73,7 @@ color = RGB(255,255,255)
 	<div class="inset">
 		Returns a string object with all the color elements separated by a <code>;</code>
 	</div>
+	<br>
 </div>
 
 ```python
