@@ -11,15 +11,19 @@ Other, older, versions are not currently supported. These older versions will pr
 **Source Code:** [GitHub Repository]()
 
  ## Color Objects
+ Each color object has full support for math and comparison dunders.
+ 
+ ### Color systems
  *class* AthenaColor.**RGB** ^rgb
  <div class="inset">
-An RGB object can hold three values (r,g,b )
+An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255. Any inserted 
 </div>
 
 ```python
 from AthenaColor import RGB
 
 color = RGB(255,255,255)
+color.r = 127 # RGB(12) 
 
 ```
 
