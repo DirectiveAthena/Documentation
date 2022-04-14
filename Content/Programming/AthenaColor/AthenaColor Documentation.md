@@ -59,7 +59,6 @@ color = RGB(255,255,255)
 		Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of 
 		r,g,b.
 	</div>
-	<br>
 </div>
 
 ```python
@@ -73,7 +72,6 @@ color = RGB(255,255,255)
 	<div class="inset">
 		Returns a string object with all the color elements separated by a <code>;</code>
 	</div>
-	<br>
 </div>
 
 ```python
