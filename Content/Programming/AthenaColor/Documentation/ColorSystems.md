@@ -84,13 +84,13 @@ color = RGB(255,255,255)
  ### Color system: HEX ^hex
 *class* AthenaColor.**HEX(** *hex_value:str="#000000"* **)**
  <div class="inset">
-	An HEX object directly inherits from the <a href="#^rgb"  class="internal-link" >RGB</a> class. On initialization  can hold three integer values (r,g,b) each ranging between 0 to 255. On initialization of an HEX object, the 
+	An HEX object directly inherits from the <a href="#^rgb"  class="internal-link" >RGB</a> class. On initialization, a true HEX string can be used to defined the r,g,b values. These three integer values (r,g,b) each range between 0 to 255.
 </div>
 
 ```python
 from AthenaColor import RGB
 
-color = RGB(255,255,255)
+color = HEX("#123456")
 ```
 
 <div class="inset">
@@ -102,7 +102,7 @@ color = RGB(255,255,255)
 </div>
 
 <div class="inset">
-	RGB.<b>g</b>
+	HEX.<b>g</b>
 	<div class="inset">
 		The property <code>g</code> holds the <b>GREEN</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 	</div>
@@ -110,7 +110,7 @@ color = RGB(255,255,255)
 </div>
 
 <div class="inset">
-	RGB.<b>b</b>
+	HEX.<b>b</b>
 	<div class="inset">
 		The property <code>b</code> holds the <b>BLUE</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 	</div>
@@ -118,16 +118,16 @@ color = RGB(255,255,255)
 </div>
 
 <div class="inset">
-	RGB.<b>export()</b>
+	HEX.<b>export()</b>
 	<div class="inset">
-		Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
+		Exports the various color elements which make up the color system to a tuple. In the case of the HEX object, this is a tuple in the order of r,g,b.
 	</div>
 </div>
 
 ```python
->>> from AthenaColor import RGB
->>> RGB(64,128,255).export()
-(64, 128, 255)
+>>> from AthenaColor import HEX
+>>> HEX("#123456").export()
+(18, 52, 86)
 ```
 
 <div class="inset">
@@ -138,9 +138,9 @@ color = RGB(255,255,255)
 </div>
 
 ```python
->>> from AthenaColor import RGB
->>> str(RGB(64,128,255))
-'64;128;255'
+>>> from AthenaColor import HEX
+>>> str(HEX("#123456"))
+'#123456'
 ```
 
 <div class="inset">
