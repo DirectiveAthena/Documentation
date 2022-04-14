@@ -9,7 +9,9 @@ cssclass: athenacolor
     azeaez
 </div>
 
- ### Color system: RGB ^rgb
+ ### Color system: RGB 
+ ^rgb
+ 
  *class* AthenaColor.**RGB(** *r :int=0, g:int=0, b:int=0* **)**
  <div class="inset">
 	An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
@@ -84,7 +86,9 @@ color = RGB(255,255,255)
 'RGB(r=64,g=128,b=255)'
 ```
 
- ### Color system: HEX ^hex
+ ### Color system: HEX 
+ ^hex
+ 
 *class* AthenaColor.**HEX(** *hex_value:str="#000000"* **)**
  <div class="inset">
 	An HEX object directly inherits from the <a href="#^rgb"  class="internal-link" >RGB</a> class. On initialization, a true HEX string can be used to defined the r,g,b values. These three integer values (r,g,b) each range between 0 to 255.
@@ -160,31 +164,41 @@ color = HEX("#123456")
 ```
 
 
- ### Color system: HSL ^hsl
+ ### Color system: HSL 
+ ^hsl
+ 
 *class* AthenaColor.**HSL**
 <div class="inset">
 
 </div>
 
- ### Color system: HSV ^hsv
+ ### Color system: HSV 
+ ^hsv
+ 
 *class* AthenaColor.**HSV**
 <div class="inset">
 
 </div>
 
- ### Color system: CMYK ^cmyk
+ ### Color system: CMYK 
+ ^cmyk
+ 
 *class* AthenaColor.**CMYK**
 <div class="inset">
 
 </div>
 
- ### Color system: RGBA ^rgba
+ ### Color system: RGBA 
+ ^rgba
+ 
 *class* AthenaColor.**RGBA**
 <div class="inset">
 
 </div>
 
- ### Color system: HEXA ^hexa
+ ### Color system: HEXA 
+ ^hexa
+ 
 *class* AthenaColor.**HEXA** 
 <div class="inset">
 
