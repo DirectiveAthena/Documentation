@@ -7,10 +7,6 @@ This file supports the full documentation of the [[AthenaColor]] package.
 
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 Other, older, versions are not currently supported. These older versions will probably not be supported by Andreas Sas himself, but if you want to contribute to the project and make this package compatible with older versions of Python, Pull requests are always welcome.
-```python
-help
-azeaze
-```
 
 **Source Code:** [GitHub Repository]()
 
@@ -78,6 +74,19 @@ color = RGB(255,255,255)
 >>> from AthenaColor import RGB
 >>> str(RGB(64,128,255))
 '64;128;255'
+```
+
+<div class="inset">
+	RGB.<b>__repr__()</b>
+	<div class="inset">
+		Returns a string object with all the color elements separated by a <code>;</code>
+	</div>
+</div>
+
+```python
+>>> from AthenaColor import RGB
+>>> repr(RGB(64,128,255))
+'RGB(r=64,g=128,b=255)'
 ```
 
 ---
