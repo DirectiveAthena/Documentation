@@ -32,9 +32,17 @@ color = RGB(255,255,255)
 <div class="inset">
 	RGB.<b>export()</b>
 	<div class="inset">
-		Exports the 
+		Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of 
+		r,g,b.
 	</div>
 </div>
+
+		
+```python
+>>> from AthenaColor import RGB
+>>> color = RGB(255,255,255)
+```
+		
 
 
 
