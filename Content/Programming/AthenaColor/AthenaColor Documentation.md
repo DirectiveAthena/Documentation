@@ -13,8 +13,8 @@ Other, older, versions are not currently supported. These older versions will pr
  ## Color Objects
  Each color object has full support for math and comparison dunders.
  
- ### Color systems
- *class* AthenaColor.**RGB(** *r :int, g:int, b:int* **)**^rgb
+ ### Color system: RGB ^rgb
+ *class* AthenaColor.**RGB(** *r :int, g:int, b:int* **)**
  <div class="inset">
 	An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 </div>
@@ -89,38 +89,38 @@ color = RGB(255,255,255)
 'RGB(r=64,g=128,b=255)'
 ```
 
----
- *class* AthenaColor.**HEX** ^hex
+ ### Color system: HEX ^hex
+ *class* AthenaColor.**HEX**
 <div class="inset">
 
 </div>
 
----
-*class* AthenaColor.**HSL** ^hsl
+ ### Color system: HSL ^hsl
+*class* AthenaColor.**HSL**
 <div class="inset">
 
 </div>
 
----
-*class* AthenaColor.**HSV** ^hsv
+ ### Color system: HSV ^hsv
+*class* AthenaColor.**HSV**
 <div class="inset">
 
 </div>
 
----
-*class* AthenaColor.**CMYK** ^cmyk
+ ### Color system: CMYK ^cmyk
+*class* AthenaColor.**CMYK**
 <div class="inset">
 
 </div>
 
----
-*class* AthenaColor.**RGBA** ^rgba
+ ### Color system: RGBA ^rgba
+*class* AthenaColor.**RGBA**
 <div class="inset">
 
 </div>
 
----
-*class* AthenaColor.**HEXA** ^hexa
+ ### Color system: HEXA ^hexa
+*class* AthenaColor.**HEXA** 
 <div class="inset">
 
 </div>
