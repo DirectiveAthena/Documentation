@@ -5,7 +5,10 @@ cssclass: athenacolor
 # AthenaColor ColorSystems
  ## Color Objects
  Each color object has full support for math and comparison dunders.
- 
+ <div class="inset">
+    azeaez
+</div>
+
  ### Color system: RGB ^rgb
  *class* AthenaColor.**RGB(** *r :int=0, g:int=0, b:int=0* **)**
  <div class="inset">

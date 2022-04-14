@@ -159,6 +159,7 @@
 
 .inset{
     margin-left: 25px;
+    padding-left: 25px;
 }
 
 /* --- All headers derive from this --- */
