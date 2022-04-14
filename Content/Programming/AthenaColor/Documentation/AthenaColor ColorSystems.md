@@ -35,12 +35,8 @@ color = RGB(255,255,255)
 (64, 128, 255)
 ```
 
-<div class="inset">
-	RGB.<b>__str__()</b>
-	<div class="inset">
-		<p class="inset2"/>Returns a string object with all the color elements separated by a <code>;</code>
-	</div>
-</div>
+<span class="inset"/>RGB.**__str__()**
+<p class="inset2"/>Returns a string object with all the color elements separated by a  `;`
 
 ```python
 >>> from AthenaColor import RGB
@@ -48,12 +44,8 @@ color = RGB(255,255,255)
 '64;128;255'
 ```
 
-<div class="inset">
-	RGB.<b>__repr__()</b>
-	<div class="inset">
-		Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
-	</div>
-</div>
+<span class="inset"/>RGB.**____repr____()**
+<p class="inset2"/>Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 
 ```python
 >>> from AthenaColor import RGB
