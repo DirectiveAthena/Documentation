@@ -2,7 +2,7 @@
 alias: AthenaColor Documentation ColorSystems
 cssclass: athenacolor
 ---
-# AthenaColor Color Systems
+# AthenaColor ColorSystems
  ## Color Objects
  Each color object has full support for math and comparison dunders.
  
@@ -82,9 +82,10 @@ color = RGB(255,255,255)
 ```
 
  ### Color system: HEX ^hex
-*class* AthenaColor.**HEX(** *r :int, g:int, b:int* **)**
+*class* AthenaColor.**HEX(** *hex_value:str* **)**
+
  <div class="inset">
-	An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
+	An HEX object directly inherits from the [[#^rgb]] can hold three integer values (r,g,b) each ranging between 0 to 255.
 </div>
 
 ```python
