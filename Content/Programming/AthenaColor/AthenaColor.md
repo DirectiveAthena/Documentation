@@ -9,7 +9,7 @@ Made by [[Andreas Sas]] 2022, during his [[Directive Athena]] project. Andreas s
 ~ Andreas Sas 2022 - While on vacation in Yorkshire
 
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
-**Source Code:** [GitHub Repository]()
+**Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaColor)
 
 Other older versions of Python are not currently supported. These older versions will probably not be supported by Andreas Sas himself, but if you want to contribute to the project and make this package compatible with older versions of Python, Pull requests are always welcome.
 
