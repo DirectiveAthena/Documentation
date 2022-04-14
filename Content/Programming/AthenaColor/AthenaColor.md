@@ -11,12 +11,11 @@ Made by Andreas Sas 2022, during his [[Directive Athena]] project. Andreas start
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 **Source Code:** [GitHub Repository]()
 
-> [!code]+ Windows
+> [!code]- Windows
 > ```bash
 > pip install AthenaColor --upgrade
 > ```
 
----
 ## Index
 - [[AthenaColor Documentation]]
 	- [[AthenaColor Documentation#Color Objects|Color Objects]]
@@ -28,6 +27,8 @@ Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 		- [[AthenaColor Documentation#^rgba|RGBA]]
 		- [[AthenaColor Documentation#^hexa|HEXA]]
 - [[AthenaColor#Contributors|Contributors]]
+
+
 ## Contributors 
 - ClasherKasten : Unit testing and various fixes
 - Twidi : Various help and support during streams and discord chats.
