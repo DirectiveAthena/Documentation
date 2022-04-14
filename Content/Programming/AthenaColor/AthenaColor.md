@@ -37,10 +37,10 @@ Other, older, versions are not currently supported. These older versions will pr
 		- [[Documentation#^cmyk|CMYK]]
 		- [[Documentation#^rgba|RGBA]]
 		- [[Documentation#^hexa|HEXA]]
-- [[AthenaColor#Contributors|Contributors]]
+- [[Content/Programming/AthenaColor/Contributors|AthenaColor Contributors]]
 
 ---
 
 %%Contributors moved to separate file, to allow for easy editing%%
 
-![[Contributors]]
+![[Content/Programming/AthenaColor/Contributors]]
