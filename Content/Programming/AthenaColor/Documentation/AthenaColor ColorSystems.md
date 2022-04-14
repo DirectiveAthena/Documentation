@@ -18,7 +18,7 @@ color = RGB(255,255,255)
 ```
 
 <span class="inset"/>RGB.**r**
-<p class="inset2"/>The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
+<span class="inset2"/>The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 
 <span class="inset"/>RGB.**g**
 <p class="inset2"/>The property <code>g</code> holds the <b>GREEN</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
@@ -36,7 +36,7 @@ color = RGB(255,255,255)
 ```
 
 <span class="inset"/>RGB.**__str__()**
-<p class="inset2"/>Returns a string object with all the color elements separated by a  `;`
+< class="inset2"/>Returns a string object with all the color elements separated by a  `;`
 
 ```python
 >>> from AthenaColor import RGB
