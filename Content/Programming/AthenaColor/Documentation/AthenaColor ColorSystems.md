@@ -9,9 +9,7 @@ cssclass: athenacolor
  ^rgb
  
  *class* AthenaColor.**RGB(**<var>r:int=0</var>, <var>g:int=0</var>, <var>b:int=0</var>**)**
- <div class="inset">
-	An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
-</div>
+ <p class="inset"/>An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 
 ```python
 from AthenaColor import RGB
@@ -19,31 +17,17 @@ from AthenaColor import RGB
 color = RGB(255,255,255)
 ```
 
-<span class="inset"/>RGB. **r**
-<p class="inset"/>The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
+<span class="inset"/>RGB.**r**
+<p class="inset2"/>The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 
-<div class="inset">
-	RGB.<b>g</b>
-	<div class="inset">
-		The property <code>g</code> holds the <b>GREEN</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
-	</div>
-	<br>
-</div>
+<span class="inset"/>RGB.**g**
+<p class="inset2"/>The property <code>g</code> holds the <b>GREEN</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 
-<div class="inset">
-	RGB.<b>b</b>
-	<div class="inset">
-		The property <code>b</code> holds the <b>BLUE</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
-	</div>
-	<br>
-</div>
+<span class="inset"/>RGB.**b**
+<p class="inset2"/>The property <code>b</code> holds the <b>BLUE</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 
-<div class="inset">
-	RGB.<b>export()</b>
-	<div class="inset">
-		Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
-	</div>
-</div>
+<span class="inset"/>RGB.**export()**
+<p class="inset2"/>Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
 
 ```python
 >>> from AthenaColor import RGB
@@ -54,7 +38,7 @@ color = RGB(255,255,255)
 <div class="inset">
 	RGB.<b>__str__()</b>
 	<div class="inset">
-		Returns a string object with all the color elements separated by a <code>;</code>
+		<p class="inset2"/>Returns a string object with all the color elements separated by a <code>;</code>
 	</div>
 </div>
 
