@@ -5,16 +5,10 @@ cssclass: athenacolor
 # AthenaColor ColorSystems
  ## Color Objects
  Each color object has full support for math and comparison dunders.
- <div class="inset">
-    azeaez
-</div>
-
-<var> azeazea
-
  ### Color system: RGB 
  ^rgb
  
- *class* AthenaColor.**RGB(**<var>r:int=0</var>, <var>g:int=0</var>, b:int=0</var>**)**
+ *class* AthenaColor.**RGB(**<var>r:int=0</var>, <var>g:int=0</var>, <var>b:int=0</var>**)**
  <div class="inset">
 	An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 </div>
