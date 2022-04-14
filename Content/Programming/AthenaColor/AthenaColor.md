@@ -11,10 +11,21 @@ Made by Andreas Sas 2022, during his [[Directive Athena]] project. Andreas start
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 **Source Code:** [GitHub Repository]()
 
+Other, older, versions are not currently supported. These older versions will probably not be supported by Andreas Sas himself, but if you want to contribute to the project and make this package compatible with older versions of Python, Pull requests are always welcome.
+
+## Installation
+
 > [!code]- Windows
+> Use Pip to install the package:
 > ```bash
 > pip install AthenaColor --upgrade
 > ```
+
+> [!code]- Linux
+> / %%Need to  look up how to do this%%
+
+> [!code]- Mac
+> / %%Need to  look up how to do this%%
 
 ## Index
 - [[AthenaColor Documentation]]
