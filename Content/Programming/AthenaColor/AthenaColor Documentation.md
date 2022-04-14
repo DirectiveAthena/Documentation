@@ -11,37 +11,37 @@ Other, older, versions are not currently supported. These older versions will pr
 **Source Code:** [GitHub Repository]()
 
  ## Color Objects
- *class* athenacolor.RGB
+ *class* AthenaColor.**RGB** ^rgb
  <div class="inset">
-
+An RGB object 
 </div>
 
- *class* athenacolor.HEX
+ *class* AthenaColor.**HEX** ^hex
 <div class="inset">
 
 </div>
 
-*class* athenacolor.HSL
+*class* AthenaColor.**HSL** ^hsl
 <div class="inset">
 
 </div>
 
-*class* athenacolor.HSV
+*class* AthenaColor.**HSV** ^hsv
 <div class="inset">
 
 </div>
 
-*class* athenacolor.CMYK
+*class* AthenaColor.**CMYK**
 <div class="inset">
 
 </div>
 
-*class* athenacolor.RGBA
+*class* AthenaColor.**RGBA**
 <div class="inset">
 
 </div>
 
-*class* athenacolor.HEXA
+*class* AthenaColor.**HEXA**
 <div class="inset">
 
 </div>

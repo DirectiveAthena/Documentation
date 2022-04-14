@@ -11,12 +11,16 @@ Made by Andreas Sas 2022, during his [[Directive Athena]] project. Andreas start
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 **Source Code:** [GitHub Repository]()
 
-how to install:
+> [!code]+ Windows
+> ```bash
+> pip install AthenaColor --upgrade
+> ```
 
 ---
 ## Index
 - [[AthenaColor Documentation]]
-	- 
+	- [[AthenaColor Documentation#Color Objects|Color Objects]]
+		- [[AthenaColor Documentation#Color Objects]]
 - [[AthenaColor#Contributors|Contributors]]
 ## Contributors 
 - ClasherKasten : Unit testing and various fixes
