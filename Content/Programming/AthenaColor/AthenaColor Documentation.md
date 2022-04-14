@@ -7,6 +7,10 @@ This file supports the full documentation of the [[AthenaColor]] package.
 
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 Other, older, versions are not currently supported. These older versions will probably not be supported by Andreas Sas himself, but if you want to contribute to the project and make this package compatible with older versions of Python, Pull requests are always welcome.
+```python
+help
+azeaze
+```
 
 **Source Code:** [GitHub Repository]()
 
@@ -16,43 +20,48 @@ Other, older, versions are not currently supported. These older versions will pr
  ### Color systems
  *class* AthenaColor.**RGB** ^rgb
  <div class="inset">
-An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255. Any inserted 
+An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255. Any inserted
+	<pre class="language-python" tabindex="0"><code class="language-python"><span class="token builtin">help</span>
+azeaze
+</code><button class="copy-code-button">Copy</button></pre>
+	<code class="language-python">
+		
+	</code>
 </div>
 
-```python
-from AthenaColor import RGB
-
-color = RGB(255,255,255)
-color.r = 127 # RGB(12) 
-
-```
 
 
+---
  *class* AthenaColor.**HEX** ^hex
 <div class="inset">
 
 </div>
 
+---
 *class* AthenaColor.**HSL** ^hsl
 <div class="inset">
 
 </div>
 
+---
 *class* AthenaColor.**HSV** ^hsv
 <div class="inset">
 
 </div>
 
+---
 *class* AthenaColor.**CMYK** ^cmyk
 <div class="inset">
 
 </div>
 
+---
 *class* AthenaColor.**RGBA** ^rgba
 <div class="inset">
 
 </div>
 
+---
 *class* AthenaColor.**HEXA** ^hexa
 <div class="inset">
 
