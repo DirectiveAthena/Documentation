@@ -16,17 +16,24 @@ azeaze
 
  ## Color Objects
  Each color object has full support for math and comparison dunders.
-aze
+ 
  ### Color systems
- *class* AthenaColor.**RGB** ^rgb
+ *class* AthenaColor.**RGB(** *r : int, g : int, b : int* **)**^rgb
  <div class="inset">
 An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255. Any inserted
+</div>
 
 ```python
 from AthenaColor import RGB
 
 color = RGB(255,255,255)
 ```
+
+<div class="inset">
+	RGB.<b>r</b>
+	<div class="inset">
+		The property 
+	</div>
 </div>
 
 <div class="inset">
@@ -39,8 +46,7 @@ color = RGB(255,255,255)
 
 ```python
 >>> from AthenaColor import RGB
->>> color = RGB(64,128,255)
->>> color.export()
+>>> RGB(64,128,255).export()
 (64, 128, 255)
 ```
 
@@ -50,10 +56,11 @@ color = RGB(255,255,255)
 		Returns a string object with all the color elements separated by a <code>;</code>
 	</div>
 </div>
+
 ```python
 >>> from AthenaColor import RGB
->>> color = RGB(64,128,255)
->>> str(color)
+>>> str(RGB(64,128,255))
+'64;128;255'
 ```
 
 ---
