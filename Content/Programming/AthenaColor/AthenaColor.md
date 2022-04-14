@@ -8,8 +8,13 @@ Made by Andreas Sas 2022, during his [[Directive Athena]] project. Andreas start
 > "To be fair, making my own color printer, might not have been the best use of my time"
 ~ Andreas Sas
 
+Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
+**Source Code:** 
+
 ---
 ## Index
+- [[AthenaColor Documentation]]
+	- 
 - [[AthenaColor#Contributors|Contributors]]
 ## Contributors 
 - ClasherKasten : Unit testing and various fixes
