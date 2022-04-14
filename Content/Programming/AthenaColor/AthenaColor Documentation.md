@@ -79,7 +79,7 @@ color = RGB(255,255,255)
 <div class="inset">
 	RGB.<b>__repr__()</b>
 	<div class="inset">
-		Returns a string object with all the color elements separated by a <code>;</code>
+		Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 	</div>
 </div>
 
