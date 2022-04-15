@@ -6,11 +6,12 @@
     margin-left: 25px;
 }
 
-span.inset2::before{
+.inset2{
+    margin-left: 50px;
+}
+
+span.inset2>br{
     /* margin-left: 50px; */
     margin-left: 50px;
-    padding-top: 50px;
-    height: 100px;
-    width: 100px;
     background-color: blue;
 }
