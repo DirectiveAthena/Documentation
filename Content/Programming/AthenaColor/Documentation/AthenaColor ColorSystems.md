@@ -2,13 +2,23 @@
 cssclass: athenacolor
 ---
 # AthenaColor ColorSystems
- ## Color Objects
- Each color object has full support for math and comparison dunders.
- ### Color system: RGB 
- ^rgb
+## Color Objects
+Each color object has full support for math and comparison dunders.
  
- *class* AthenaColor.**RGB(**`r:int=0`, `g:int=0`, `b:int=0`**)**
- - An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
+ In
+ - [[#^rgb|RGB]]
+ - [[#^rgba|RGBA]]
+ - [[#^hex|HEX]]
+ - [[#^hexa|HEXA]]
+ - [[#^hsl|HSL]]
+ - [[#^hsv|HSV]]
+ - [[#^cmyk|CMYK]]
+ 
+### Color system: RGB 
+^rgb
+ 
+*class* AthenaColor.**RGB(**`r:int=0`, `g:int=0`, `b:int=0`**)**
+- An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 
 ```python
 from AthenaColor import RGB
@@ -59,7 +69,7 @@ color = RGB(255,255,255)
 'RGB(r=64,g=128,b=255)'
 ```
 
- ### Color system: HEX 
+### Color system: HEX 
  ^hex
  
 *class* AthenaColor.**HEX(**`hex_value:str="#000000"`**)**
@@ -113,7 +123,7 @@ color = HEX("#123456")
 'HEX(r=18,g=52,b=86)'
 ```
 
- ### Color system: HSL 
+### Color system: HSL 
  ^hsl
  
 *class* AthenaColor.**HSL(**`h:int|float=0`,`s:int|float=0`,`l:int|float=0`**)**
