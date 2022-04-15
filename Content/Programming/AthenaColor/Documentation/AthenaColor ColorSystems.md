@@ -5,7 +5,7 @@ cssclass: athenacolor
 ## Color Objects
 Each color object has full support for math and comparison dunders.
  
- In
+ Currently implemented color systems are:
  - [[#^rgb|RGB]]
  - [[#^rgba|RGBA]]
  - [[#^hex|HEX]]
@@ -240,9 +240,111 @@ color = HSV(180,0.5,0.5)
 ### Color system: RGBA 
 ^rgba
 
-*class* AthenaColor.**RGBA**
+*class* AthenaColor.**RGBA(**`r:int=0`, `g:int=0`, `b:int=0`, `a:int=0`**)**
+- An RGBA object can hold four integer values (r,g,b,a) each ranging between 0 to 255.
+
+```python
+from AthenaColor import RGBA
+
+color = RGBA(255,255,255,255)
+```
+
+---
+*property* RGBA.**r**
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*property* RGBA.**g**
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*property* RGBA.**b**
+- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property..
+
+---
+*property* RGBA.**a**
+- The property `a` holds the **TRANSPARENCY** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*method* RGBA.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the RGBA object, this is a tuple in the order of r,g,b,a.
+
+```python
+>>> from AthenaColor import RGB
+>>> RGB(32,64,128,255).export()
+(32, 64, 128, 255)
+```
+
+---
+*dunder* RGBA.**____str____()**
+- Returns a string object with all the color elements separated by a `;`
+
+```python
+>>> from AthenaColor import RGBA
+>>> str(RGBA(32,64,128,255))
+'32;64;128;255'
+```
+
+---
+*dunder* RGBA.**____repr____()**
+- Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
+
+```python
+>>> from AthenaColor import RGBA
+>>> repr(RGB(32,64,128,255))
+'RGBA(r=32,g=64,b=128,a=255)'
+```
 
 ### Color system: HEXA 
 ^hexa
  
-*class* AthenaColor.**HEXA** 
+*class* AthenaColor.**HEX(**`hex_value:str="#000000"`**)**
+- An HEX object directly inherits from the [[#Color system RGB|RGB]] class. On initialization, a true HEX string can be used to defined the r,g,b values. These three integer values (r,g,b) each range between 0 to 255.
+
+```python
+from AthenaColor import HEX
+
+color = HEX("#123456")
+```
+
+---
+*property* HEX.**r**
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*property* HEX.**g**
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*property* HEX.**b**
+- The property `r` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*method* HEX.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the HEX object, this is a tuple in the order of r,g,b.
+
+```python
+>>> from AthenaColor import HEX
+>>> HEX(64,128,255).export()
+(64, 128, 255)
+```
+
+---
+*dunder* HEX.**____str____()**
+- Returns a string object with the r,g,b format changed to a hexadecimal format.
+
+```python
+>>> from AthenaColor import HEX
+>>> str(HEX("#123456"))
+'#123456'
+```
+
+---
+*dunder* HEX.**____repr____()**
+- Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
+
+```python
+>>> from AthenaColor import HEX
+>>> repr(HEX("#123456"))
+'HEX(r=18,g=52,b=86)'
+```
