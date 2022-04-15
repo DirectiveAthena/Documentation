@@ -66,7 +66,7 @@ color = RGB(255,255,255)
 - An HEX object directly inherits from the [[#Color system RGB|RGB]] class. On initialization, a true HEX string can be used to defined the r,g,b values. These three integer values (r,g,b) each range between 0 to 255.
 
 ```python
-from AthenaColor import RGB
+from AthenaColor import HEX
 
 color = HEX("#123456")
 ```
@@ -117,36 +117,33 @@ color = HEX("#123456")
  ^hsl
  
 *class* AthenaColor.**HSL(**`h:int|float=0`,`s:int|float=0`,`l:int|float=0`**)**
-- 
+- An HSL object consists out of three values. Hue, which ranges between 0 and 360 degrees, Saturation and Luminosity which both range between 0 and 1.
 
- ### Color system: HSV 
- ^hsv
+```python
+from AthenaColor import HSL
+
+color = HSL(180,0.5,0.5)
+```
+
+---
+*property* HSL.**h**
+- The property `h` holds the **HUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+### Color system: HSV 
+^hsv
  
 *class* AthenaColor.**HSV**
-<div class="inset">
 
-</div>
-
- ### Color system: CMYK 
- ^cmyk
+### Color system: CMYK 
+^cmyk
  
 *class* AthenaColor.**CMYK**
-<div class="inset">
 
-</div>
+### Color system: RGBA 
+^rgba
 
- ### Color system: RGBA 
- ^rgba
- 
 *class* AthenaColor.**RGBA**
-<div class="inset">
 
-</div>
-
- ### Color system: HEXA 
- ^hexa
+### Color system: HEXA 
+^hexa
  
 *class* AthenaColor.**HEXA** 
-<div class="inset">
-
-</div>
