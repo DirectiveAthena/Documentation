@@ -80,27 +80,27 @@ color = HEX("#123456")
 - The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
 
 ---
-HEX.**b**
+*property* HEX.**b**
 - The property `r` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
 
 ---
-*method* RGB.**export()**
-- Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
+*method* HEX.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the HEX object, this is a tuple in the order of r,g,b.
 
 ```python
->>> from AthenaColor import RGB
->>> RGB(64,128,255).export()
+>>> from AthenaColor import HEX
+>>> HEX(64,128,255).export()
 (64, 128, 255)
 ```
 
 ---
-*dunder* RGB.**____str____()**
-- Returns a string object with all the color elements separated by a `;`
+*dunder* HEX.**____str____()**
+- Returns a string object with the r,g,b format changed to a hexadecimal format.
 
 ```python
->>> from AthenaColor import RGB
->>> str(RGB(64,128,255))
-'64;128;255'
+>>> from AthenaColor import HEX
+>>> str(HEX("#123456"))
+'#123456'
 ```
 
 ---
@@ -108,18 +108,16 @@ HEX.**b**
 - Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 
 ```python
->>> from AthenaColor import RGB
->>> repr(RGB(64,128,255))
-'RGB(r=64,g=128,b=255)'
+>>> from AthenaColor import HEX
+>>> repr(HEX("#123456"))
+'HEX(r=18,g=52,b=86)'
 ```
 
  ### Color system: HSL 
  ^hsl
  
-*class* AthenaColor.**HSL**
-<div class="inset">
-
-</div>
+*class* AthenaColor.**HSL(**`h:int|float=0`,`s:int|float=0`,`l:int|float=0`**)**
+- 
 
  ### Color system: HSV 
  ^hsv
