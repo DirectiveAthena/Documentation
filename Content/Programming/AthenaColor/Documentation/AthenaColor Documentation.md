@@ -1,5 +1,4 @@
 ---
-alias: AthenaColor Documentation
 cssclass: athenacolor
 ---
 
