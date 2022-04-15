@@ -165,7 +165,7 @@
     margin-left: 50px;
 }
 
-span.inset2>br{
+.inset2+#text{
     /* margin-left: 50px; */
     margin-left: 50px;
     background-color: blue;
