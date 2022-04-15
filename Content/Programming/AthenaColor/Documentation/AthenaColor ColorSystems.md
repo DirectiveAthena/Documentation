@@ -104,7 +104,7 @@ color = HEX("#123456")
 ```
 
 ---
-*dunder* RGB.**____repr____()**
+*dunder* HEX.**____repr____()**
 - Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 
 ```python
@@ -127,7 +127,48 @@ color = HSL(180,0.5,0.5)
 
 ---
 *property* HSL.**h**
-- The property `h` holds the **HUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `h` holds the **HUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*property* HSL.**s**
+- The property `s` holds the **SATURATION** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*property* HSL.**l**
+- The property `l` holds the **LUMINOSITY** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*method* HSL.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the HSL object, this is a tuple in the order of h,s,l.
+
+```python
+>>> from AthenaColor import HSL
+>>> HSL(180,0.5,0.5).export()
+(180,0.5,0.5)
+```
+
+---
+*dunder* HSL.**____str____()**
+- Returns a string object with all the color elements separated by a `;`
+
+```python
+>>> from AthenaColor import HSL
+>>> str(HSL(180,0.5,0.5))
+'180;0.5;0.5'
+```
+
+---
+*dunder* HSL.**____repr____()**
+- Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
+
+```python
+>>> from AthenaColor import HEX
+>>> repr(HEX("#123456"))
+'HEX(r=18,g=52,b=86)'
+```
+
+
+
 ### Color system: HSV 
 ^hsv
  
