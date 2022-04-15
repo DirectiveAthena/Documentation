@@ -235,7 +235,58 @@ color = HSV(180,0.5,0.5)
 ### Color system: CMYK 
 ^cmyk
  
-*class* AthenaColor.**CMYK**
+*class* AthenaColor.**CMYK(**`c:int|float=0`, `m:int|float=0`, `y:int|float=0`,`k:int|float=0`**)**
+- A CMYK object can hold four float values, ranging between 0 and 1.
+
+```python
+from AthenaColor import CMYK
+
+color = CMYK(.25,.5,.75,1)
+```
+
+---
+*property* CMYK.**c**
+
+- The property `c` holds the **CYAN** value. TThe property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*property* CMYK.**m**
+
+- The property `m` holds the **MAG** value. TThe property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*property* RGB.**b**
+- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*method* RGB.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
+
+```python
+>>> from AthenaColor import RGB
+>>> RGB(64,128,255).export()
+(64, 128, 255)
+```
+
+---
+*dunder* RGB.**____str____()**
+- Returns a string object with all the color elements separated by a `;`
+
+```python
+>>> from AthenaColor import RGB
+>>> str(RGB(64,128,255))
+'64;128;255'
+```
+
+---
+*dunder* RGB.**____repr____()**
+- Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
+
+```python
+>>> from AthenaColor import RGB
+>>> repr(RGB(64,128,255))
+'RGB(r=64,g=128,b=255)'
+```
 
 ### Color system: RGBA 
 ^rgba
