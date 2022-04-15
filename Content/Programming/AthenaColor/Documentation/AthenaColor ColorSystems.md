@@ -41,7 +41,7 @@ color = RGB(255,255,255)
 ```
 
 ---
-*dunder* RGB.**__str__()**
+*dunder* RGB.**____str____()**
 - Returns a string object with all the color elements separated by a `;`
 
 ```python
@@ -64,24 +64,17 @@ color = RGB(255,255,255)
  ^hex
  
 *class* AthenaColor.**HEX(** *hex_value:str="#000000"* **)**
- <div class="inset">
-	An HEX object directly inherits from the <a href="#^rgb"  class="internal-link" >RGB</a> class. On initialization, a true HEX string can be used to defined the r,g,b values. These three integer values (r,g,b) each range between 0 to 255.
-</div>
+- An HEX object directly inherits from the [[#Color system RGB|RGB]] class. On initialization, a true HEX string can be used to defined the r,g,b values. These three integer values (r,g,b) each range between 0 to 255.
 
 ```python
 from AthenaColor import RGB
 
 color = HEX("#123456")
 ```
+HEX.**r**
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 
-<div class="inset">
-	HEX.<b>r</b>
-	<div class="inset">
-		The property <code>r</code> holds the <b>RED</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
-	</div>
-	<br>
-</div>
-
+---
 <div class="inset">
 	HEX.<b>g</b>
 	<div class="inset">
