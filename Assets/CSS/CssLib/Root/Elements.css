@@ -6,7 +6,7 @@
     margin-left: 25px;
 }
 
-div::after .inset2{
+div>div.inset2 + div>p{
     /* margin-left: 50px; */
-    padding-left: 50px;
+    margin-left: 50px;
 }
