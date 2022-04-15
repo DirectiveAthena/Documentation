@@ -162,17 +162,65 @@ color = HSL(180,0.5,0.5)
 - Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 
 ```python
->>> from AthenaColor import HEX
->>> repr(HEX("#123456"))
-'HEX(r=18,g=52,b=86)'
+>>> from AthenaColor import HSL
+>>> repr(HSL(180,0.5,0.5))
+'HSL(h=180,s=0.5,l=0.5)'
 ```
-
-
 
 ### Color system: HSV 
 ^hsv
- 
-*class* AthenaColor.**HSV**
+
+*class* AthenaColor.**HSV(**`h:int|float=0`,`s:int|float=0`,`v:int|float=0`**)**
+- An HSL object consists out of three values. Hue, which ranges between 0 and 360 degrees, Saturation and Value which both range between 0 and 1.
+
+```python
+from AthenaColor import HSV
+
+color = HSV(180,0.5,0.5)
+```
+
+---
+*property* HSV.**h**
+- The property `h` holds the **HUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*property* HSV.**s**
+- The property `s` holds the **SATURATION** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*property* HSV.**v**
+- The property `v` holds the **VALUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*method* HVL.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the HSV object, this is a tuple in the order of h,s,v.
+
+```python
+>>> from AthenaColor import HSV
+>>> HSV(180,0.5,0.5).export()
+(180,0.5,0.5)
+```
+
+---
+*dunder* HSV.**____str____()**
+- Returns a string object with all the color elements separated by a `;`
+
+```python
+>>> from AthenaColor import HSV
+>>> str(HSV(180,0.5,0.5))
+'180;0.5;0.5'
+```
+
+---
+*dunder* HSV.**____repr____()**
+- Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
+
+```python
+>>> from AthenaColor import HSV
+>>> repr(HSV(180,0.5,0.5))
+'HSL(h=180,s=0.5,l=0.5)'
+```
+
 
 ### Color system: CMYK 
 ^cmyk
