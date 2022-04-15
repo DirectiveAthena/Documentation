@@ -246,46 +246,48 @@ color = CMYK(.25,.5,.75,1)
 
 ---
 *property* CMYK.**c**
-
-- The property `c` holds the **CYAN** value. TThe property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `c` holds the **CYAN** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* CMYK.**m**
-
-- The property `m` holds the **MAG** value. TThe property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
-
----
-*property* RGB.**b**
-- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `m` holds the **MAGENTA** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
-*method* RGB.**export()**
-- Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
+*property* CMYK.**y**
+- The property `y` holds the **YELLOW** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*property* CMYK.**k**
+- The property `k` holds the **BLACK** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+
+---
+*method* CMYK.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the CMYK object, this is a tuple in the order of c,m,y,k.
 
 ```python
->>> from AthenaColor import RGB
->>> RGB(64,128,255).export()
-(64, 128, 255)
+>>> from AthenaColor import CMYK
+>>> CMYK(.25,.5,.75,1).export()
+(0.25, 0.5, 0.75, 1)
 ```
 
 ---
-*dunder* RGB.**____str____()**
+*dunder* CMYK.**____str____()**
 - Returns a string object with all the color elements separated by a `;`
 
 ```python
->>> from AthenaColor import RGB
->>> str(RGB(64,128,255))
-'64;128;255'
+>>> from AthenaColor import CMYK
+>>> str(CMYK(.25,.5,.75,1))
+'0.25;0.5;0.75;1'
 ```
 
 ---
-*dunder* RGB.**____repr____()**
+*dunder* CMYK.**____repr____()**
 - Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 
 ```python
->>> from AthenaColor import RGB
->>> repr(RGB(64,128,255))
-'RGB(r=64,g=128,b=255)'
+>>> from AthenaColor import CMYK
+>>> repr(CMYK(.25,.5,.75,1))
+'CMYK(c=0.25,m=0.5,y=0.75,k=1)'
 ```
 
 ### Color system: RGBA 
