@@ -62,7 +62,7 @@ color = RGB(255,255,255)
  ### Color system: HEX 
  ^hex
  
-*class* AthenaColor.**HEX(** *hex_value:str="#000000"* **)**
+*class* AthenaColor.**HEX(**`hex_value:str="#000000"`**)**
 - An HEX object directly inherits from the [[#Color system RGB|RGB]] class. On initialization, a true HEX string can be used to defined the r,g,b values. These three integer values (r,g,b) each range between 0 to 255.
 
 ```python
@@ -70,65 +70,48 @@ from AthenaColor import RGB
 
 color = HEX("#123456")
 ```
-HEX.**r**
-- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
 
 ---
-<div class="inset">
-	HEX.<b>g</b>
-	<div class="inset">
-		The property <code>g</code> holds the <b>GREEN</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
-	</div>
-	<br>
-</div>
+*property* HEX.**r**
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
 
-<div class="inset">
-	HEX.<b>b</b>
-	<div class="inset">
-		The property <code>b</code> holds the <b>BLUE</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
-	</div>
-	<br>
-</div>
+---
+*property* HEX.**g**
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
 
-<div class="inset">
-	HEX.<b>export()</b>
-	<div class="inset">
-		Exports the various color elements which make up the color system to a tuple. In the case of the HEX object, this is a tuple in the order of r,g,b.
-	</div>
-</div>
+---
+HEX.**b**
+- The property `r` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+
+---
+*method* RGB.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
 
 ```python
->>> from AthenaColor import HEX
->>> HEX("#123456").export()
-(18, 52, 86)
+>>> from AthenaColor import RGB
+>>> RGB(64,128,255).export()
+(64, 128, 255)
 ```
 
-<div class="inset">
-	RGB.<b>__str__()</b>
-	<div class="inset">
-		Returns a string object with all the color elements separated by a <code>;</code>
-	</div>
-</div>
+---
+*dunder* RGB.**____str____()**
+- Returns a string object with all the color elements separated by a `;`
 
 ```python
->>> from AthenaColor import HEX
->>> str(HEX("#123456"))
-'#123456'
+>>> from AthenaColor import RGB
+>>> str(RGB(64,128,255))
+'64;128;255'
 ```
 
-<div class="inset">
-	RGB.<b>__repr__()</b>
-	<div class="inset">
-		Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
-	</div>
-</div>
+---
+*dunder* RGB.**____repr____()**
+- Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 
 ```python
 >>> from AthenaColor import RGB
 >>> repr(RGB(64,128,255))
 'RGB(r=64,g=128,b=255)'
 ```
-
 
  ### Color system: HSL 
  ^hsl
