@@ -161,10 +161,13 @@
     margin-left: 25px;
 }
 
-div.inset2{
+span.inset2{
     /* margin-left: 50px; */
     margin-left: 50px;
     padding-top: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
 }
 
 /* --- All headers derive from this --- */
