@@ -6,8 +6,8 @@
     margin-left: 25px;
 }
 
-span.inset2{
-    background-color: blue;
+div>div.inset2::after{
     /* margin-left: 50px; */
     margin-left: 50px;
+    margin-top: 50px;
 }
