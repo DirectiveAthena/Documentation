@@ -161,10 +161,10 @@
     margin-left: 25px;
 }
 
-div>div.inset2::after{
+div.inset2{
     /* margin-left: 50px; */
     margin-left: 50px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 /* --- All headers derive from this --- */
