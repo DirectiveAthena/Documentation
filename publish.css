@@ -161,7 +161,8 @@
     margin-left: 25px;
 }
 
-div>div.inset2 + div>p{
+.inset2 + div{
+    background-color: blue;
     /* margin-left: 50px; */
     margin-left: 50px;
 }
