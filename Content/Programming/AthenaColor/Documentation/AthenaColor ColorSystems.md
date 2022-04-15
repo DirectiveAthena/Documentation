@@ -8,8 +8,8 @@ cssclass: athenacolor
  ### Color system: RGB 
  ^rgb
  
- *class* AthenaColor.**RGB(**<var>r:int=0</var>, <var>g:int=0</var>, <var>b:int=0</var>**)**
- <p class="inset"/>An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
+ *class* AthenaColor.**RGB(**`r:int=0`, `g:int=0`, `b:int=0`**)**
+ >An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 
 ```python
 from AthenaColor import RGB
@@ -17,7 +17,8 @@ from AthenaColor import RGB
 color = RGB(255,255,255)
 ```
 
-<span class="inset"/>RGB.**r**
+---
+RGB.**r**
 
 The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 

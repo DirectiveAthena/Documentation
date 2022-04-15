@@ -10,7 +10,6 @@
     margin-left: 50px;
 }
 
-.inset2{
-    margin-left: 50px;
-    background-color: blue;
+div + div>p>span.inset  {
+    margin: 1px;
 }
