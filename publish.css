@@ -161,8 +161,9 @@
     margin-left: 25px;
 }
 
-.inset2{
-    margin-left: 50px;
+div > .inset2{
+    /* margin-left: 50px; */
+    padding-left: 50px;
 }
 
 /* --- All headers derive from this --- */
