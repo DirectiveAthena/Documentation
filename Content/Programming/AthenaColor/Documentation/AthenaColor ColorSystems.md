@@ -36,7 +36,7 @@ color = RGB(255,255,255)
 ```
 
 <span class="inset"/>RGB.**__str__()**
-< class="inset2"/>Returns a string object with all the color elements separated by a  `;`
+<p class="inset2"/>Returns a string object with all the color elements separated by a `;`
 
 ```python
 >>> from AthenaColor import RGB
