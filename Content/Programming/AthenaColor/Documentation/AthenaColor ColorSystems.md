@@ -9,7 +9,7 @@ cssclass: athenacolor
  ^rgb
  
  *class* AthenaColor.**RGB(**`r:int=0`, `g:int=0`, `b:int=0`**)**
- >An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
+ - An RGB object can hold three integer values (r,g,b) each ranging between 0 to 255.
 
 ```python
 from AthenaColor import RGB
@@ -18,18 +18,21 @@ color = RGB(255,255,255)
 ```
 
 ---
-RGB.**r**
+*property* RGB.**r**
 
-The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 
-<span class="inset"/>RGB.**g**
-<p class="inset2"/>The property <code>g</code> holds the <b>GREEN</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
+---
+*property* RGB.**g**
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 
-<span class="inset"/>RGB.**b**
-<p class="inset2"/>The property <code>b</code> holds the <b>BLUE</b> value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the AthenaColor.init.roundUp property.
+---
+*property* RGB.**b**
+- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor.init.roundUp]] property.
 
-<span class="inset"/>RGB.**export()**
-<p class="inset2"/>Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
+---
+*method* RGB.**export()**
+- Exports the various color elements which make up the color system to a tuple. In the case of the RGB object, this is a tuple in the order of r,g,b.
 
 ```python
 >>> from AthenaColor import RGB
@@ -37,8 +40,9 @@ The property `r` holds the **RED** value. The property accepts an integer or a f
 (64, 128, 255)
 ```
 
-<span class="inset"/>RGB.**__str__()**
-<p class="inset2"/>Returns a string object with all the color elements separated by a `;`
+---
+*dunder* RGB.**__str__()**
+- Returns a string object with all the color elements separated by a `;`
 
 ```python
 >>> from AthenaColor import RGB
@@ -46,8 +50,9 @@ The property `r` holds the **RED** value. The property accepts an integer or a f
 '64;128;255'
 ```
 
-<span class="inset"/>RGB.**____repr____()**
-<p class="inset2"/>Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
+---
+*dunder* RGB.**____repr____()**
+- Returns a string object, consisting of a literal presentation of the object with name, and color element properties.
 
 ```python
 >>> from AthenaColor import RGB

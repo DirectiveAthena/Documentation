@@ -1,15 +1,3 @@
 .rem {
     color:rgba(255, 255, 255, 0.1);
 }
-
-.inset{
-    margin-left: 25px;
-}
-
-.inset2{
-    margin-left: 50px;
-}
-
-div + div>p>span.inset  {
-    margin: 1px;
-}
