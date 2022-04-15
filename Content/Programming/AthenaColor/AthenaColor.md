@@ -28,16 +28,16 @@ Other older versions of Python are not currently supported. These older versions
 > / %%Need to  look up how to do this%%
 
 ## Index
-- [[AthenaColor Documentation]]
-	- [[AthenaColor Documentation#Color Objects|Color Objects]]
-		- [[AthenaColor ColorSystems#^rgb|RGB]]
-		- [[AthenaColor ColorSystems#^hex|HEX]]
-		- [[AthenaColor ColorSystems#^hsl|HSL]]
-		- [[AthenaColor ColorSystems#^hsv|HSV]]
-		- [[AthenaColor ColorSystems#^cmyk|CMYK]]
-		- [[AthenaColor ColorSystems#^rgba|RGBA]]
-		- [[AthenaColor ColorSystems#^hexa|HEXA]]
-- [[AthenaColor Contributors|AthenaColor Contributors]]
+- Documentation
+	- [[AthenaColor ColorSystems|Color Systems]]
+         - [[AthenaColor ColorSystems#^rgb|RGB]]
+         - [[AthenaColor ColorSystems#^rgba|RGBA]]
+         - [[AthenaColor ColorSystems#^hex|HEX]]
+         - [[AthenaColor ColorSystems#^hexa|HEXA]]
+         - [[AthenaColor ColorSystems#^hsl|HSL]]
+         - [[AthenaColor ColorSystems#^hsv|HSV]]
+         - [[AthenaColor ColorSystems#^cmyk|CMYK]]
+- [[AthenaColor Contributors|Contributors]]
 
 ---
 
