@@ -157,23 +157,6 @@
     color:rgba(255, 255, 255, 0.1);
 }
 
-.inset{
-    margin-left: 25px;
-}
-
-.inset2{
-    margin-left: 50px;
-}
-
-.inset2{
-    margin-left: 50px;
-    background-color: blue;
-}
-
-div + div>p>span.inset  {
-    margin: 1px;
-}
-
 /* --- All headers derive from this --- */
 .markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
 .markdown-rendered h1.publish-article-heading, .markdown-rendered h2.publish-article-heading, .markdown-rendered h3.publish-article-heading, .markdown-rendered h4.publish-article-heading, .markdown-rendered h5.publish-article-heading, .markdown-rendered h6.publish-article-heading
