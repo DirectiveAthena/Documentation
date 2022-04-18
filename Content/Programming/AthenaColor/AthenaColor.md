@@ -10,6 +10,7 @@ Made by [[Andreas Sas]] 2022, during his [[Directive Athena]] project. Andreas s
 
 Currently supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 **Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaColor)
+**PyPi link**: [PyPi AthenaColor](https://pypi.org/project/AthenaColor/)
 
 Other older versions of Python are not currently supported. These older versions will probably not be supported by Andreas Sas himself, but if you want to contribute to the project and make this package compatible with older versions of Python, Pull requests are always welcome.
 
@@ -22,21 +23,24 @@ Other older versions of Python are not currently supported. These older versions
 > ```
 
 > [!code]- Linux
-> / %%Need to  look up how to do this%%
+> Use Pip to install the package:
+> ```bash
+> sudo pip install AthenaColor --upgrade
+> ```
 
 > [!code]- Mac
 > / %%Need to  look up how to do this%%
 
 ## Index
 - Documentation
-	- [[AthenaColor ColorSystems|Color Systems]]
-         - [[AthenaColor ColorSystems#^rgb|RGB]]
-         - [[AthenaColor ColorSystems#^rgba|RGBA]]
-         - [[AthenaColor ColorSystems#^hex|HEX]]
-         - [[AthenaColor ColorSystems#^hexa|HEXA]]
-         - [[AthenaColor ColorSystems#^hsl|HSL]]
-         - [[AthenaColor ColorSystems#^hsv|HSV]]
-         - [[AthenaColor ColorSystems#^cmyk|CMYK]]
+    - [[AthenaColor ColorSystems|Color Systems]]
+        - [[AthenaColor ColorSystems#^rgb|RGB]]
+        - [[AthenaColor ColorSystems#^rgba|RGBA]]
+        - [[AthenaColor ColorSystems#^hex|HEX]]
+        - [[AthenaColor ColorSystems#^hexa|HEXA]]
+        - [[AthenaColor ColorSystems#^hsl|HSL]]
+        - [[AthenaColor ColorSystems#^hsv|HSV]]
+        - [[AthenaColor ColorSystems#^cmyk|CMYK]]
 - [[AthenaColor Contributors|Contributors]]
 
 ---
