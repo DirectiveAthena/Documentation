@@ -1,7 +1,7 @@
 # Social Platforms
 
 ---
-<h2 class="twitch"/><le>Twitch
+<h2 class="twitch"/>Twitch
 
 [Twitch channel link](https://www.twitch.tv/directiveathena) 
 
