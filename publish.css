@@ -64,7 +64,7 @@
 
 /* --- Various headers for specific css classes --- */
 .markdown-rendered.jupiter h1, .markdown-rendered.jupiter h1.publish-article-heading, h1.jupiter {border-color:var(--color_jupiter) ;}
-.markdown-rendered.jupiter h2, .markdown-rendered.jupiter h2.publish-article-heading, h2.jupiter {border-color:#ccca3a ;}
+.markdown-rendered.jupiter h2, .markdown-rendered.jupiter h2.publish-article-heading, h2.jupiter {border-color:rgb(204, 202, 58) ;}
 .markdown-rendered.jupiter h3, .markdown-rendered.jupiter h3.publish-article-heading, h3.jupiter {border-color:rgb(188, 186, 54) ;}
 .markdown-rendered.jupiter h4, .markdown-rendered.jupiter h4.publish-article-heading, h4.jupiter {border-color:rgb(141, 140, 40) ;}
 .markdown-rendered.jupiter h5, .markdown-rendered.jupiter h5.publish-article-heading, h5.jupiter {border-color:rgb(110, 109, 31) ;}
@@ -162,6 +162,14 @@
 .markdown-rendered.youtube h6, .markdown-rendered.youtube h6.publish-article-heading, h6.youtube {border-color:rgb(85, 0, 0) ;}
 .rem {
     color:rgba(255, 255, 255, 0.1);
+}
+
+div.status-bar{
+    background-color: var(--color_pluto);
+}
+
+span.sync-status-icon.mod-working{
+    color: rgb(47, 36, 97);
 }
 
 /* --- All headers derive from this --- */

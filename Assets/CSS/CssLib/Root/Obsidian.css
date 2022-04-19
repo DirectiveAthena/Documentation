@@ -1,0 +1,7 @@
+/* Obsid */
+div.status-bar{
+    background-color: var(--color_pluto);
+}
+span.sync-status-icon.mod-working{
+    color: rgb(47, 36, 97);
+}
