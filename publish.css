@@ -164,14 +164,6 @@
     color:rgba(255, 255, 255, 0.1);
 }
 
-div.status-bar{
-    background-color: var(--color_pluto);
-}
-
-span.sync-status-icon.mod-working{
-    color: rgb(47, 36, 97);
-}
-
 /* --- All headers derive from this --- */
 .markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
 .markdown-rendered h1.publish-article-heading, .markdown-rendered h2.publish-article-heading, .markdown-rendered h3.publish-article-heading, .markdown-rendered h4.publish-article-heading, .markdown-rendered h5.publish-article-heading, .markdown-rendered h6.publish-article-heading
@@ -229,5 +221,14 @@ span.sync-status-icon.mod-working{
     padding: 2px;  
     padding-left: 35px;
     font-size: 1.12em;
+}
+
+/* Bottom status bar */
+div.status-bar{
+    background-color: var(--color_pluto);
+    color:rgb(184, 184, 184);
+}
+span.sync-status-icon.mod-working{
+    color: rgb(47, 36, 97);
 }
 
