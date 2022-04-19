@@ -3,7 +3,7 @@
     --gradient_athenacolor: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%,rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 1;
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
-    --color_eva: rgb(234, 39, 79);
+    --color_eva: rgb(234, 39 , 79 );
     --color_jupiter: rgb(235, 233, 67 );
     --color_veritas: rgb(213, 55 , 146);
     --color_vulcanus: rgb(236, 133, 33 );
@@ -14,9 +14,10 @@
     --color_venus: rgb(115, 195, 125);
     --color_pluto: rgb(84 , 85 , 87 );
     --color_ceres: rgb(213, 224, 68 );
-    --color_youtube: rgb(255,0,0);
+    --color_youtube: rgb(255, 0 , 0 );
     --color_twitch: rgb(169, 112, 255);
-    --color_twitter: rgb(26, 140, 216);
+    --color_twitter: rgb(26 , 140, 216);
+    --color_discord: rgb(86 , 98 , 246);
 }
 /* $$ END */
 
@@ -127,6 +128,14 @@
 
 /* --- Various headers for specific css classes --- */
 .markdown-rendered.athenacolor h1, .markdown-rendered.athenacolor h1.publish-article-heading, h1.athenacolor { border-image: var(--gradient_athenacolor);}
+
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.discord h1, .markdown-rendered.discord h1.publish-article-heading, h1.discord {border-color:var(--color_discord);}
+.markdown-rendered.discord h2, .markdown-rendered.discord h2.publish-article-heading, h2.discord {border-color:rgb(75, 85, 213) ;}
+.markdown-rendered.discord h3, .markdown-rendered.discord h3.publish-article-heading, h3.discord {border-color:rgb(69, 78, 197) ;}
+.markdown-rendered.discord h4, .markdown-rendered.discord h4.publish-article-heading, h4.discord {border-color:rgb(52, 59, 148) ;}
+.markdown-rendered.discord h5, .markdown-rendered.discord h5.publish-article-heading, h5.discord {border-color:rgb(40, 46, 115) ;}
+.markdown-rendered.discord h6, .markdown-rendered.discord h6.publish-article-heading, h6.discord {border-color:rgb(29, 33, 82) ;}
 
 /* --- Various headers for specific css classes --- */
 .markdown-rendered.twitch h1, .markdown-rendered.twitch h1.publish-article-heading, h1.twitch {border-color:var(--color_twitch);}
