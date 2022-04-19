@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.pluto h1, .markdown-rendered.pluto h1.publish-article-heading {border-color:var(--color_pluto) ;}
-.markdown-rendered.pluto h2, .markdown-rendered.pluto h2.publish-article-heading {border-color:rgb(73, 74, 75) ;}
-.markdown-rendered.pluto h3, .markdown-rendered.pluto h3.publish-article-heading {border-color:rgb(67, 68, 70) ;}
-.markdown-rendered.pluto h4, .markdown-rendered.pluto h4.publish-article-heading {border-color:rgb(50, 51, 52) ;}
-.markdown-rendered.pluto h5, .markdown-rendered.pluto h5.publish-article-heading {border-color:rgb(39, 40, 41) ;}
-.markdown-rendered.pluto h6, .markdown-rendered.pluto h6.publish-article-heading {border-color:rgb(28, 28, 29) ;}
+.markdown-rendered.pluto h1, .markdown-rendered.pluto h1.publish-article-heading, h1.pluto {border-color:var(--color_pluto) ;}
+.markdown-rendered.pluto h2, .markdown-rendered.pluto h2.publish-article-heading, h2.pluto {border-color:rgb(73, 74, 75) ;}
+.markdown-rendered.pluto h3, .markdown-rendered.pluto h3.publish-article-heading, h3.pluto {border-color:rgb(67, 68, 70) ;}
+.markdown-rendered.pluto h4, .markdown-rendered.pluto h4.publish-article-heading, h4.pluto {border-color:rgb(50, 51, 52) ;}
+.markdown-rendered.pluto h5, .markdown-rendered.pluto h5.publish-article-heading, h5.pluto {border-color:rgb(39, 40, 41) ;}
+.markdown-rendered.pluto h6, .markdown-rendered.pluto h6.publish-article-heading, h6.pluto {border-color:rgb(28, 28, 29) ;}

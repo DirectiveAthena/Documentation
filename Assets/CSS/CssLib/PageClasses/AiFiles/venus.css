@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.venus h1, .markdown-rendered.venus h1.publish-article-heading {border-color:var(--color_venus) ;}
-.markdown-rendered.venus h2, .markdown-rendered.venus h2.publish-article-heading {border-color:rgb(100, 169, 108) ;}
-.markdown-rendered.venus h3, .markdown-rendered.venus h3.publish-article-heading {border-color:rgb(92, 156, 100) ;}
-.markdown-rendered.venus h4, .markdown-rendered.venus h4.publish-article-heading {border-color:rgb(69, 117, 75) ;}
-.markdown-rendered.venus h5, .markdown-rendered.venus h5.publish-article-heading {border-color:rgb(54, 91, 58) ;}
-.markdown-rendered.venus h6, .markdown-rendered.venus h6.publish-article-heading {border-color:rgb(38, 65, 42) ;}
+.markdown-rendered.venus h1, .markdown-rendered.venus h1.publish-article-heading, h1.venus {border-color:var(--color_venus) ;}
+.markdown-rendered.venus h2, .markdown-rendered.venus h2.publish-article-heading, h2.venus {border-color:rgb(100, 169, 108) ;}
+.markdown-rendered.venus h3, .markdown-rendered.venus h3.publish-article-heading, h3.venus {border-color:rgb(92, 156, 100) ;}
+.markdown-rendered.venus h4, .markdown-rendered.venus h4.publish-article-heading, h4.venus {border-color:rgb(69, 117, 75) ;}
+.markdown-rendered.venus h5, .markdown-rendered.venus h5.publish-article-heading, h5.venus {border-color:rgb(54, 91, 58) ;}
+.markdown-rendered.venus h6, .markdown-rendered.venus h6.publish-article-heading, h6.venus {border-color:rgb(38, 65, 42) ;}
