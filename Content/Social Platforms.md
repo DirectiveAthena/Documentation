@@ -1,3 +1,3 @@
 # Social Platforms
 
-<h2 class="youtube">
+<h2 class="youtube"/>a
