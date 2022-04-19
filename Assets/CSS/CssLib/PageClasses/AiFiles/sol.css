@@ -2,7 +2,7 @@
 :root{
     /* =+= Derived from root =+= */
         /* Primary AI Colors */
-        --color_minerva: None;
+        --color_sol: None;
 
         /* Application colors */
         /* Website colors */
@@ -12,9 +12,9 @@
 /* $$ END */
 
 /* --- Various headers for specific css classes --- */
-.markdown-rendered.minerva h1, .markdown-rendered.minerva h1.publish-article-heading, h1.minerva {border-color:var(--color_minerva) ;}
-.markdown-rendered.minerva h2, .markdown-rendered.minerva h2.publish-article-heading, h2.minerva {border-color:rgb(91, 51, 125) ;}
-.markdown-rendered.minerva h3, .markdown-rendered.minerva h3.publish-article-heading, h3.minerva {border-color:rgb(84, 47, 115) ;}
-.markdown-rendered.minerva h4, .markdown-rendered.minerva h4.publish-article-heading, h4.minerva {border-color:rgb(63, 35, 86) ;}
-.markdown-rendered.minerva h5, .markdown-rendered.minerva h5.publish-article-heading, h5.minerva {border-color:rgb(49, 28, 67) ;}
-.markdown-rendered.minerva h6, .markdown-rendered.minerva h6.publish-article-heading, h6.minerva {border-color:rgb(35, 20, 48) ;}
+.markdown-rendered.sol h1, .markdown-rendered.sol h1.publish-article-heading, h1.sol {border-color:var(--color_sol) ;}
+.markdown-rendered.sol h2, .markdown-rendered.sol h2.publish-article-heading, h2.sol {border-color:rgb(213, 200, 116) ;}
+.markdown-rendered.sol h3, .markdown-rendered.sol h3.publish-article-heading, h3.sol {border-color:rgb(197, 185, 107) ;}
+.markdown-rendered.sol h4, .markdown-rendered.sol h4.publish-article-heading, h4.sol {border-color:rgb(148, 139, 80) ;}
+.markdown-rendered.sol h5, .markdown-rendered.sol h5.publish-article-heading, h5.sol {border-color:rgb(115, 108, 63) ;}
+.markdown-rendered.sol h6, .markdown-rendered.sol h6.publish-article-heading, h6.sol {border-color:rgb(82, 77, 45) ;}
