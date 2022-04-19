@@ -4,7 +4,7 @@
     /* Primary AI Colors */
     --color_adam:       rgb(24 , 177, 222);
     --color_athena:     rgb(196, 41 , 80 );
-    --color_eva:        rgb(234, 39, 79);
+    --color_eva:        rgb(234, 39 , 79 );
     --color_jupiter:    rgb(235, 233, 67 );
     --color_veritas:    rgb(213, 55 , 146);
     --color_vulcanus:   rgb(236, 133, 33 );
@@ -16,13 +16,13 @@
     --color_pluto:      rgb(84 , 85 , 87 );
     --color_ceres:      rgb(213, 224, 68 );
 
-    /* Athena Application colors */
+    /* Athena Application Colors */
 
-    /* Website colors */
-    --color_youtube:    rgb(255,0,0);
+    /* Social Platform Colors */
+    --color_youtube:    rgb(255, 0  , 0  );
     --color_twitch:     rgb(169, 112, 255);
-    --color_twitter:    rgb(26, 140, 216);
-    --color_discord:    rgb()
+    --color_twitter:    rgb(26 , 140, 216);
+    --color_discord:    rgb(86 , 98 , 246);
 
 }
 /* $$ END */
