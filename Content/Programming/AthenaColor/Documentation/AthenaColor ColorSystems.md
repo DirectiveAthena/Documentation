@@ -1,7 +1,7 @@
 ---
 copyright: "Andreas Sas 2022"
 created: "2022-04-23 17:09"
-cssclass: athencolor
+cssclass: athenacolor
 ---
 # AthenaColor ColorSystems
 ## Color Objects

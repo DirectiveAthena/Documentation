@@ -1,7 +1,7 @@
 ---
 copyright: "Andreas Sas 2022"
 created: "2022-04-23 17:09"
-cssclass: athencolor
+cssclass: athenacolor
 ---
 # AthenaColor
 A Python package which allows for commonly used HTML color names to be printed to the console (permitting the console can take advantage of rgb ANSI codes).
