@@ -1,4 +1,5 @@
 ---
+copyright: "Andreas Sas 2022"
 cssclass: athenacolor
 ---
 # AthenaColor ColorSystems

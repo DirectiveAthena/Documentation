@@ -1,3 +1,6 @@
+---
+copyright: "Andreas Sas 2022"
+---
 # Social Platforms
 
 ---
