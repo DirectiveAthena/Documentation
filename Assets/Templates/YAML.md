@@ -1,5 +1,5 @@
 ---
 copyright: "Andreas Sas 2022"
-created: "{{date}} {{time}}"
+created: "2022-04-23 17:30"
 cssclass: 
 ---
