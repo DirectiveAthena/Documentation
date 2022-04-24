@@ -1,3 +1,11 @@
+---
+copyright: "Andreas Sas 2022"
+created: "2022-04-23 17:30"
+cssclass: athenacolor
+---
+# AthenaColor HTML Named Colors
+The table below names all defined HTML names used for colors in the AthenaColor 
+
 | Color Name                                                     | RGB values  |
 |:-------------------------------------------------------------- |:----------- |
 | <span style="color:Maroon"/>Maroon                             | 128,0,0     |
