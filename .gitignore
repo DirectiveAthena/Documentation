@@ -1,6 +1,4 @@
-Assets/.CSS/main.py
-Assets/.CSS/CssLib.json
-Assets/.CSS/.dcignore
+Assets/.CSS
 \.trash
 .temp
 \.obsidian
