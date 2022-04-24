@@ -2,9 +2,9 @@
 copyright: "Andreas Sas 2022"
 created: "2022-04-23 17:08"
 cssclass:
-output:
-  html_document:
-    preserve_yaml: false
+output: 
+    github_document: 
+        keep_html: true
 ---
 
 # Directive Athena - Full project documentation
