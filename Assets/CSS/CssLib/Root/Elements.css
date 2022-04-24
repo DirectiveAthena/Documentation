@@ -2,6 +2,10 @@
     color:rgba(255, 255, 255, 0.1);
 }
 
-.lower{
-    font-size: .5 rem;
+.small{
+    font-size: .75rem;
+}
+
+.big{
+    font-size: 1.25rem;
 }
