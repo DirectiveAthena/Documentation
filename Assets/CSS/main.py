@@ -4,7 +4,6 @@
 # General Packages
 
 # Custom Library
-from time import sleep
 from AthenaCSSstitcher import CssStitcher
 
 
@@ -18,11 +17,11 @@ from AthenaCSSstitcher import CssStitcher
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
 def main():
-    root = r"D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets"
+    root = r"D:\Directive Athena\Programs\Veritas\Storage\Documentation"
     stitcher = CssStitcher(
-        CssLibraryPath=rf"{root}\CSS\CssLib",
-        ResultFilePath=rf"D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css",
-        ResultJsonPath=rf"{root}\CSS\CssLib.json",
+        CssLibraryPath=rf"{root}\Assets\CSS\CssLib",
+        ResultFilePath=rf"{root}\publish.css",
+        ResultJsonPath=rf"{root}\Assets\CSS\CssLib.json",
         Overwrite=True
     )
     stitcher.run()

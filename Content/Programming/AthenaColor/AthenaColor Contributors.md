@@ -1,5 +1,6 @@
 ---
-alias: AthenaColor Contributors
+copyright: "Andreas Sas 2022"
+created: "2022-04-23 17:09"
 cssclass: athenacolor
 ---
 # AthenaColor Contributors
