@@ -23,6 +23,11 @@
 
 
 /* --- Various headers for specific css classes --- */
+.markdown-rendered.directiveathenamain {
+
+}
+
+/* --- Various headers for specific css classes --- */
 .markdown-rendered.adam h1, .markdown-rendered.adam h1.publish-article-heading, h1.adam {border-color:var(--color_adam);}
 .markdown-rendered.adam h2, .markdown-rendered.adam h2.publish-article-heading, h2.adam {border-color:rgb(21, 153, 192);}
 .markdown-rendered.adam h3, .markdown-rendered.adam h3.publish-article-heading, h3.adam {border-color:rgb(19, 142, 178);}
@@ -179,7 +184,8 @@
 
 /* --- All headers derive from this --- */
 .markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
-.markdown-rendered h1.publish-article-heading, .markdown-rendered h2.publish-article-heading, .markdown-rendered h3.publish-article-heading, .markdown-rendered h4.publish-article-heading, .markdown-rendered h5.publish-article-heading, .markdown-rendered h6.publish-article-heading
+.markdown-rendered h1.publish-article-heading, .markdown-rendered h2.publish-article-heading, .markdown-rendered h3.publish-article-heading,
+.markdown-rendered h4.publish-article-heading, .markdown-rendered h5.publish-article-heading, .markdown-rendered h6.publish-article-heading
 {
     text-align: left;
     background: rgb(25,25,25);
@@ -203,6 +209,7 @@
     padding: 10px;  
     padding-left: 35px;
     font-size: 1.6em;
+    margin-top: 2em;
 }
 
 .markdown-rendered h3, .markdown-rendered h3.publish-article-heading {
@@ -211,6 +218,7 @@
     padding: 8px;  
     padding-left: 35px;
     font-size: 1.37em;
+    margin-top: 1.75em;
 }
 
 .markdown-rendered h4, .markdown-rendered h4.publish-article-heading {
@@ -219,6 +227,7 @@
     padding: 6px;  
     padding-left: 35px;
     font-size: 1.25em;
+    margin-top: 1.5em;
 }
 
 .markdown-rendered h5, .markdown-rendered h5.publish-article-heading {
@@ -227,6 +236,7 @@
     padding: 4px;  
     padding-left: 35px;
     font-size: 1.12em;
+    margin-top: 1.25em;
 }
 
 .markdown-rendered h6, .markdown-rendered h6.publish-article-heading {
@@ -235,6 +245,7 @@
     padding: 2px;  
     padding-left: 35px;
     font-size: 1.12em;
+    margin-top: 1em;
 }
 
 /* Bottom status bar */
