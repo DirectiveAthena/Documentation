@@ -19,9 +19,9 @@ from AthenaCSSstitcher import CssStitcher
 def main():
     root = r"D:\Directive Athena\Programs\Veritas\Storage\Documentation"
     stitcher = CssStitcher(
-        CssLibraryPath=rf"{root}\Assets\CSS\CssLib",
+        CssLibraryPath=rf"{root}\Assets\.CSS\CssLib",
         ResultFilePath=rf"{root}\publish.css",
-        ResultJsonPath=rf"{root}\Assets\CSS\CssLib.json",
+        ResultJsonPath=rf"{root}\Assets\.CSS\CssLib.json",
         Overwrite=True
     )
     stitcher.run()
