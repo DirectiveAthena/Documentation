@@ -1,141 +1,141 @@
-| Color Name           | RGB values  |
-| -------------------- | ----------- |
-| <span style="color:Maroon"/>Maroon               | 128,0  ,0   |
-| DarkRed              | 139,0  ,0   |
-| Brown                | 165,42 ,42  |
-| Firebrick            | 178,34 ,34  |
-| Crimson              | 220,20 ,60  |
-| Red                  | 255,0  ,0   |
-| Tomato               | 255,99 ,71  |
-| Coral                | 255,127,80  |
-| IndianRed            | 205,92 ,92  |
-| LightCoral           | 240,128,128 |
-| DarkSalmon           | 233,150,122 |
-| Salmon               | 250,128,114 |
-| LightSalmon          | 255,160,122 |
-| OrangeRed            | 255,69 ,0   |
-| DarkOrange           | 255,140,0   |
-| Orange               | 255,165,0   |
-| Gold                 | 255,215,0   |
-| DarkGoldenRod        | 184,134,11  |
-| GoldenRod            | 218,165,32  |
-| PaleGoldenRod        | 238,232,170 |
-| DarkKhaki            | 189,183,107 |
-| Khaki                | 240,230,140 |
-| Olive                | 128,128,0   |
-| Yellow               | 255,255,0   |
-| YellowGreen          | 154,205,50  |
-| DarkOliveGreen       | 85 ,107,47  |
-| OliveDrab            | 107,142,35  |
-| LawnGreen            | 124,252,0   |
-| Chartreuse           | 127,255,0   |
-| GreenYellow          | 173,255,47  |
-| DarkGreen            | 0  ,100,0   |
-| Green                | 0  ,128,0   |
-| ForestGreen          | 34 ,139,34  |
-| Lime                 | 0  ,255,0   |
-| LimeGreen            | 50 ,205,50  |
-| LightGreen           | 144,238,144 |
-| PaleGreen            | 152,251,152 |
-| DarkSeaGreen         | 143,188,143 |
-| MediumSpringGreen    | 0  ,250,154 |
-| SpringGreen          | 0  ,255,127 |
-| SeaGreen             | 46 ,139,87  |
-| MediumAquaMarine     | 102,205,170 |
-| MediumSeaGreen       | 60 ,179,113 |
-| LightSeaGreen        | 32 ,178,170 |
-| DarkSlateGray        | 47 ,79 ,79  |
-| Teal                 | 0  ,128,128 |
-| DarkCyan             | 0  ,139,139 |
-| Aqua                 | 0  ,255,255 |
-| Cyan                 | 0  ,255,255 |
-| LightCyan            | 224,255,255 |
-| DarkTurquoise        | 0  ,206,209 |
-| Turquoise            | 64 ,224,208 |
-| MediumTurquoise      | 72 ,209,204 |
-| PaleTurquoise        | 175,238,238 |
-| AquaMarine           | 127,255,212 |
-| PowderBlue           | 176,224,230 |
-| CadetBlue            | 95 ,158,160 |
-| SteelBlue            | 70 ,130,180 |
-| CornFlowerBlue       | 100,149,237 |
-| DeepSkyBlue          | 0  ,191,255 |
-| DodgerBlue           | 30 ,144,255 |
-| LightBlue            | 173,216,230 |
-| SkyBlue              | 135,206,235 |
-| LightSkyBlue         | 135,206,250 |
-| MidnightBlue         | 25 ,25 ,112 |
-| Navy                 | 0  ,0  ,128 |
-| DarkBlue             | 0  ,0  ,139 |
-| MediumBlue           | 0  ,0  ,205 |
-| Blue                 | 0  ,0  ,255 |
-| RoyalBlue            | 65 ,105,225 |
-| BlueViolet           | 138,43 ,226 |
-| Indigo               | 75 ,0  ,130 |
-| DarkSlateBlue        | 72 ,61 ,139 |
-| SlateBlue            | 106,90 ,205 |
-| MediumSlateBlue      | 123,104,238 |
-| MediumPurple         | 147,112,219 |
-| DarkMagenta          | 139,0  ,139 |
-| DarkViolet           | 148,0  ,211 |
-| DarkOrchid           | 153,50 ,204 |
-| MediumOrchid         | 186,85 ,211 |
-| Purple               | 128,0  ,128 |
-| Thistle              | 216,191,216 |
-| Plum                 | 221,160,221 |
-| Violet               | 238,130,238 |
-| Magenta              | 255,0  ,255 |
-| Orchid               | 218,112,214 |
-| MediumVioletRed      | 199,21 ,133 |
-| PaleVioletRed        | 219,112,147 |
-| DeepPink             | 255,20 ,147 |
-| HotPink              | 255,105,180 |
-| LightPink            | 255,182,193 |
-| Pink                 | 255,192,203 |
-| AntiqueWhite         | 250,235,215 |
-| Beige                | 245,245,220 |
-| Bisque               | 255,228,196 |
-| BlanchedAlmond       | 255,235,205 |
-| Wheat                | 245,222,179 |
-| CornSilk             | 255,248,220 |
-| LemonChiffon         | 255,250,205 |
-| LightGoldenRodYellow | 250,250,210 |
-| LightYellow          | 255,255,224 |
-| SaddleBrown          | 139,69 ,19  |
-| Sienna               | 160,82 ,45  |
-| Chocolate            | 210,105,30  |
-| Peru                 | 205,133,63  |
-| SandyBrown           | 244,164,96  |
-| BurlyWood            | 222,184,135 |
-| Tan                  | 210,180,140 |
-| RosyBrown            | 188,143,143 |
-| Moccasin             | 255,228,181 |
-| NavajoWhite          | 255,222,173 |
-| PeachPuff            | 255,218,185 |
-| MistyRose            | 255,228,225 |
-| LavenderBlush        | 255,240,245 |
-| Linen                | 250,240,230 |
-| OldLace              | 253,245,230 |
-| PapayaWhip           | 255,239,213 |
-| WeaShell             | 255,245,238 |
-| MintCream            | 245,255,250 |
-| SlateGray            | 112,128,144 |
-| LightSlateGray       | 119,136,153 |
-| LightSteelBlue       | 176,196,222 |
-| Lavender             | 230,230,250 |
-| FloralWhite          | 255,250,240 |
-| AliceBlue            | 240,248,255 |
-| GhostWhite           | 248,248,255 |
-| Honeydew             | 240,255,240 |
-| Ivory                | 255,255,240 |
-| Azure                | 240,255,255 |
-| Snow                 | 255,250,250 |
-| Black                | 0  ,0  ,0   |
-| DimGray              | 105,105,105 |
-| Gray                 | 128,128,128 |
-| DarkGray             | 169,169,169 |
-| Silver               | 192,192,192 |
-| LightGray            | 211,211,211 |
-| Gainsboro            | 220,220,220 |
-| WhiteSmoke           | 245,245,245 |
-| White                | 255,255,255 |
+| Color Name                                                     | RGB values  |
+|:-------------------------------------------------------------- |:----------- |
+| <span style="color:Maroon"/>Maroon                             | 128,0,0     |
+| <span style="color:DarkRed"/>DarkRed                           | 139,0,0     |
+| <span style="color:Brown"/>Brown                               | 165,42,42   |
+| <span style="color:Firebrick"/>Firebrick                       | 178,34,34   |
+| <span style="color:Crimson"/>Crimson                           | 220,20,60   |
+| <span style="color:Red"/>Red                                   | 255,0,0     |
+| <span style="color:Tomato"/>Tomato                             | 255,99,71   |
+| <span style="color:Coral"/>Coral                               | 255,127,80  |
+| <span style="color:IndianRed"/>IndianRed                       | 205,92,92   |
+| <span style="color:LightCoral"/>LightCoral                     | 240,128,128 |
+| <span style="color:DarkSalmon"/>DarkSalmon                     | 233,150,122 |
+| <span style="color:Salmon"/>Salmon                             | 250,128,114 |
+| <span style="color:LightSalmon"/>LightSalmon                   | 255,160,122 |
+| <span style="color:OrangeRed"/>OrangeRed                       | 255,69,0    |
+| <span style="color:DarkOrange"/>DarkOrange                     | 255,140,0   |
+| <span style="color:Orange"/>Orange                             | 255,165,0   |
+| <span style="color:Gold"/>Gold                                 | 255,215,0   |
+| <span style="color:DarkGoldenRod"/>DarkGoldenRod               | 184,134,11  |
+| <span style="color:GoldenRod"/>GoldenRod                       | 218,165,32  |
+| <span style="color:PaleGoldenRod"/>PaleGoldenRod               | 238,232,170 |
+| <span style="color:DarkKhaki"/>DarkKhaki                       | 189,183,107 |
+| <span style="color:Khaki"/>Khaki                               | 240,230,140 |
+| <span style="color:Olive"/>Olive                               | 128,128,0   |
+| <span style="color:Yellow"/>Yellow                             | 255,255,0   |
+| <span style="color:YellowGreen"/>YellowGreen                   | 154,205,50  |
+| <span style="color:DarkOliveGreen"/>DarkOliveGreen             | 85,107,47   |
+| <span style="color:OliveDrab"/>OliveDrab                       | 107,142,35  |
+| <span style="color:LawnGreen"/>LawnGreen                       | 124,252,0   |
+| <span style="color:Chartreuse"/>Chartreuse                     | 127,255,0   |
+| <span style="color:GreenYellow"/>GreenYellow                   | 173,255,47  |
+| <span style="color:DarkGreen"/>DarkGreen                       | 0,100,0     |
+| <span style="color:Green"/>Green                               | 0,128,0     |
+| <span style="color:ForestGreen"/>ForestGreen                   | 34,139,34   |
+| <span style="color:Lime"/>Lime                                 | 0,255,0     |
+| <span style="color:LimeGreen"/>LimeGreen                       | 50,205,50   |
+| <span style="color:LightGreen"/>LightGreen                     | 144,238,144 |
+| <span style="color:PaleGreen"/>PaleGreen                       | 152,251,152 |
+| <span style="color:DarkSeaGreen"/>DarkSeaGreen                 | 143,188,143 |
+| <span style="color:MediumSpringGreen"/>MediumSpringGreen       | 0,250,154   |
+| <span style="color:SpringGreen"/>SpringGreen                   | 0,255,127   |
+| <span style="color:SeaGreen"/>SeaGreen                         | 46,139,87   |
+| <span style="color:MediumAquaMarine"/>MediumAquaMarine         | 102,205,170 |
+| <span style="color:MediumSeaGreen"/>MediumSeaGreen             | 60,179,113  |
+| <span style="color:LightSeaGreen"/>LightSeaGreen               | 32,178,170  |
+| <span style="color:DarkSlateGray"/>DarkSlateGray               | 47,79,79    |
+| <span style="color:Teal"/>Teal                                 | 0,128,128   |
+| <span style="color:DarkCyan"/>DarkCyan                         | 0,139,139   |
+| <span style="color:Aqua"/>Aqua                                 | 0,255,255   |
+| <span style="color:Cyan"/>Cyan                                 | 0,255,255   |
+| <span style="color:LightCyan"/>LightCyan                       | 224,255,255 |
+| <span style="color:DarkTurquoise"/>DarkTurquoise               | 0,206,209   |
+| <span style="color:Turquoise"/>Turquoise                       | 64,224,208  |
+| <span style="color:MediumTurquoise"/>MediumTurquoise           | 72,209,204  |
+| <span style="color:PaleTurquoise"/>PaleTurquoise               | 175,238,238 |
+| <span style="color:AquaMarine"/>AquaMarine                     | 127,255,212 |
+| <span style="color:PowderBlue"/>PowderBlue                     | 176,224,230 |
+| <span style="color:CadetBlue"/>CadetBlue                       | 95,158,160  |
+| <span style="color:SteelBlue"/>SteelBlue                       | 70,130,180  |
+| <span style="color:CornFlowerBlue"/>CornFlowerBlue             | 100,149,237 |
+| <span style="color:DeepSkyBlue"/>DeepSkyBlue                   | 0,191,255   |
+| <span style="color:DodgerBlue"/>DodgerBlue                     | 30,144,255  |
+| <span style="color:LightBlue"/>LightBlue                       | 173,216,230 |
+| <span style="color:SkyBlue"/>SkyBlue                           | 135,206,235 |
+| <span style="color:LightSkyBlue"/>LightSkyBlue                 | 135,206,250 |
+| <span style="color:MidnightBlue"/>MidnightBlue                 | 25,25,112   |
+| <span style="color:Navy"/>Navy                                 | 0,0,128     |
+| <span style="color:DarkBlue"/>DarkBlue                         | 0,0,139     |
+| <span style="color:MediumBlue"/>MediumBlue                     | 0,0,205     |
+| <span style="color:Blue"/>Blue                                 | 0,0,255     |
+| <span style="color:RoyalBlue"/>RoyalBlue                       | 65,105,225  |
+| <span style="color:BlueViolet"/>BlueViolet                     | 138,43,226  |
+| <span style="color:Indigo"/>Indigo                             | 75,0,130    |
+| <span style="color:DarkSlateBlue"/>DarkSlateBlue               | 72,61,139   |
+| <span style="color:SlateBlue"/>SlateBlue                       | 106,90,205  |
+| <span style="color:MediumSlateBlue"/>MediumSlateBlue           | 123,104,238 |
+| <span style="color:MediumPurple"/>MediumPurple                 | 147,112,219 |
+| <span style="color:DarkMagenta"/>DarkMagenta                   | 139,0,139   |
+| <span style="color:DarkViolet"/>DarkViolet                     | 148,0,211   |
+| <span style="color:DarkOrchid"/>DarkOrchid                     | 153,50,204  |
+| <span style="color:MediumOrchid"/>MediumOrchid                 | 186,85,211  |
+| <span style="color:Purple"/>Purple                             | 128,0,128   |
+| <span style="color:Thistle"/>Thistle                           | 216,191,216 |
+| <span style="color:Plum"/>Plum                                 | 221,160,221 |
+| <span style="color:Violet"/>Violet                             | 238,130,238 |
+| <span style="color:Magenta"/>Magenta                           | 255,0,255   |
+| <span style="color:Orchid"/>Orchid                             | 218,112,214 |
+| <span style="color:MediumVioletRed"/>MediumVioletRed           | 199,21,133  |
+| <span style="color:PaleVioletRed"/>PaleVioletRed               | 219,112,147 |
+| <span style="color:DeepPink"/>DeepPink                         | 255,20,147  |
+| <span style="color:HotPink"/>HotPink                           | 255,105,180 |
+| <span style="color:LightPink"/>LightPink                       | 255,182,193 |
+| <span style="color:Pink"/>Pink                                 | 255,192,203 |
+| <span style="color:AntiqueWhite"/>AntiqueWhite                 | 250,235,215 |
+| <span style="color:Beige"/>Beige                               | 245,245,220 |
+| <span style="color:Bisque"/>Bisque                             | 255,228,196 |
+| <span style="color:BlanchedAlmond"/>BlanchedAlmond             | 255,235,205 |
+| <span style="color:Wheat"/>Wheat                               | 245,222,179 |
+| <span style="color:CornSilk"/>CornSilk                         | 255,248,220 |
+| <span style="color:LemonChiffon"/>LemonChiffon                 | 255,250,205 |
+| <span style="color:LightGoldenRodYellow"/>LightGoldenRodYellow | 250,250,210 |
+| <span style="color:LightYellow"/>LightYellow                   | 255,255,224 |
+| <span style="color:SaddleBrown"/>SaddleBrown                   | 139,69,19   |
+| <span style="color:Sienna"/>Sienna                             | 160,82,45   |
+| <span style="color:Chocolate"/>Chocolate                       | 210,105,30  |
+| <span style="color:Peru"/>Peru                                 | 205,133,63  |
+| <span style="color:SandyBrown"/>SandyBrown                     | 244,164,96  |
+| <span style="color:BurlyWood"/>BurlyWood                       | 222,184,135 |
+| <span style="color:Tan"/>Tan                                   | 210,180,140 |
+| <span style="color:RosyBrown"/>RosyBrown                       | 188,143,143 |
+| <span style="color:Moccasin"/>Moccasin                         | 255,228,181 |
+| <span style="color:NavajoWhite"/>NavajoWhite                   | 255,222,173 |
+| <span style="color:PeachPuff"/>PeachPuff                       | 255,218,185 |
+| <span style="color:MistyRose"/>MistyRose                       | 255,228,225 |
+| <span style="color:LavenderBlush"/>LavenderBlush               | 255,240,245 |
+| <span style="color:Linen"/>Linen                               | 250,240,230 |
+| <span style="color:OldLace"/>OldLace                           | 253,245,230 |
+| <span style="color:PapayaWhip"/>PapayaWhip                     | 255,239,213 |
+| <span style="color:WeaShell"/>WeaShell                         | 255,245,238 |
+| <span style="color:MintCream"/>MintCream                       | 245,255,250 |
+| <span style="color:SlateGray"/>SlateGray                       | 112,128,144 |
+| <span style="color:LightSlateGray"/>LightSlateGray             | 119,136,153 |
+| <span style="color:LightSteelBlue"/>LightSteelBlue             | 176,196,222 |
+| <span style="color:Lavender"/>Lavender                         | 230,230,250 |
+| <span style="color:FloralWhite"/>FloralWhite                   | 255,250,240 |
+| <span style="color:AliceBlue"/>AliceBlue                       | 240,248,255 |
+| <span style="color:GhostWhite"/>GhostWhite                     | 248,248,255 |
+| <span style="color:Honeydew"/>Honeydew                         | 240,255,240 |
+| <span style="color:Ivory"/>Ivory                               | 255,255,240 |
+| <span style="color:Azure"/>Azure                               | 240,255,255 |
+| <span style="color:Snow"/>Snow                                 | 255,250,250 |
+| <span style="color:Black"/>Black                               | 0,0,0       |
+| <span style="color:DimGray"/>DimGray                           | 105,105,105 |
+| <span style="color:Gray"/>Gray                                 | 128,128,128 |
+| <span style="color:DarkGray"/>DarkGray                         | 169,169,169 |
+| <span style="color:Silver"/>Silver                             | 192,192,192 |
+| <span style="color:LightGray"/>LightGray                       | 211,211,211 |
+| <span style="color:Gainsboro"/>Gainsboro                       | 220,220,220 |
+| <span style="color:WhiteSmoke"/>WhiteSmoke                     | 245,245,245 |
+| <span style="color:White"/>White                               | 255,255,255 |
