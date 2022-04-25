@@ -3,10 +3,6 @@ copyright: "Andreas Sas 2022"
 created: "2022-04-23 17:08"
 cssclass: 
 ---
-
-# Social Platforms
-
----
 <h3 class="twitch"/>Twitch
 
 [Twitch channel link](https://www.twitch.tv/directiveathena) 

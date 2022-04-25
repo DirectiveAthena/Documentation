@@ -12,12 +12,13 @@ A collection of various functions and classes used by various tools and programs
 
 ## Installation
 **Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaLib)
-**PyPi link**: <span class="red"/>(Not yet uploaded to PyPi) <
+**PyPi link**: <span class="red"/>(Not yet uploaded to PyPi yet)
 
-> [!code]- PIP
+%%> [!code]- PIP
 > Use Pip to install the package:
 > ```bash
-> ```
+> pip install AthenaLib --upgrade
+> ```%%
 
 ## Index
 - Documentation
