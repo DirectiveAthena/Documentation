@@ -1,6 +1,7 @@
 /* $$ Root Variables */
 :root{
     --gradient_athenacolor: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%,rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 1;
+    --gradient_athenalib: linear-gradient(45deg, rgba(207,30,70,1) 0%, rgba(57,81,163,1) 100%);
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
     --color_eva: rgb(234, 39 , 79 );
@@ -133,6 +134,8 @@
 
 /* --- Various headers for specific css classes --- */
 .markdown-rendered.athenacolor h1, .markdown-rendered.athenacolor h1.publish-article-heading, h1.athenacolor { border-image: var(--gradient_athenacolor);}
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.athenalib h1, .markdown-rendered.athenalib h1.publish-article-heading, h1.athenalib { border-image: var(--gradient_athenalib);}
 
 /* --- Various headers for specific css classes --- */
 .markdown-rendered.discord h1, .markdown-rendered.discord h1.publish-article-heading, h1.discord {border-color:var(--color_discord);}
@@ -181,20 +184,30 @@
     text-align: justify;
     text-justify: inter-word;
 }
-div.markdown-embed {
+.markdown-rendered.cleanEmbed div.markdown-embed {
     border: none;
     padding: 0px;
     margin: 0px;
 }
 
-div.markdown-embed-title, div.markdown-embed-link {
+.markdown-rendered.cleanEmbed div.markdown-embed-title, 
+.markdown-rendered.cleanEmbeddiv.markdown-embed-link {
     display: none;
 }
 
 /* --- All headers derive from this --- */
-.markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
-.markdown-rendered h1.publish-article-heading, .markdown-rendered h2.publish-article-heading, .markdown-rendered h3.publish-article-heading,
-.markdown-rendered h4.publish-article-heading, .markdown-rendered h5.publish-article-heading, .markdown-rendered h6.publish-article-heading
+.markdown-rendered h1, 
+.markdown-rendered h2, 
+.markdown-rendered h3, 
+.markdown-rendered h4, 
+.markdown-rendered h5, 
+.markdown-rendered h6,
+.markdown-rendered h1.publish-article-heading, 
+.markdown-rendered h2.publish-article-heading, 
+.markdown-rendered h3.publish-article-heading,
+.markdown-rendered h4.publish-article-heading, 
+.markdown-rendered h5.publish-article-heading, 
+.markdown-rendered h6.publish-article-heading
 {
     text-align: left;
     background: rgb(25,25,25);
@@ -204,7 +217,8 @@ div.markdown-embed-title, div.markdown-embed-link {
     border-bottom-width: 5px;
 }
 
-.markdown-rendered h1 , .markdown-rendered h1.publish-article-heading {
+.markdown-rendered h1, 
+.markdown-rendered h1.publish-article-heading {
     --color: #fff;
     color:var(--color);
     padding: 12px;  
@@ -212,7 +226,8 @@ div.markdown-embed-title, div.markdown-embed-link {
     font-size: 2em;
 }
 
-.markdown-rendered h2 , .markdown-rendered h2.publish-article-heading{
+.markdown-rendered h2, 
+.markdown-rendered h2.publish-article-heading{
     --color: #DDD;
     color:var(--color);
     padding: 10px;  
@@ -221,7 +236,8 @@ div.markdown-embed-title, div.markdown-embed-link {
     margin-top: 2em;
 }
 
-.markdown-rendered h3, .markdown-rendered h3.publish-article-heading {
+.markdown-rendered h3, 
+.markdown-rendered h3.publish-article-heading {
     --color: #CCC;
     color:var(--color);
     padding: 8px;  
@@ -230,7 +246,8 @@ div.markdown-embed-title, div.markdown-embed-link {
     margin-top: 1.75em;
 }
 
-.markdown-rendered h4, .markdown-rendered h4.publish-article-heading {
+.markdown-rendered h4, 
+.markdown-rendered h4.publish-article-heading {
     --color: #999;
     color:var(--color);
     padding: 6px;  
@@ -239,7 +256,8 @@ div.markdown-embed-title, div.markdown-embed-link {
     margin-top: 1.5em;
 }
 
-.markdown-rendered h5, .markdown-rendered h5.publish-article-heading {
+.markdown-rendered h5, 
+.markdown-rendered h5.publish-article-heading {
     --color: #777;
     color:var(--color);
     padding: 4px;  
@@ -248,7 +266,8 @@ div.markdown-embed-title, div.markdown-embed-link {
     margin-top: 1.25em;
 }
 
-.markdown-rendered h6, .markdown-rendered h6.publish-article-heading {
+.markdown-rendered h6, 
+.markdown-rendered h6.publish-article-heading {
     --color: #555;
     color:var(--color);
     padding: 2px;  
