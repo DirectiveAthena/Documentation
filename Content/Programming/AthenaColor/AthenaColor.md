@@ -1,7 +1,7 @@
 ---
 copyright: "Andreas Sas 2022"
 created: "2022-04-23 17:09"
-cssclass: athenacolor
+cssclass: athenacolor cleanEmbed
 ---
 # AthenaColor
 A "True No-dependency"[^1] Python package which allows for commonly used HTML color names to be printed to the console (permitting the console can take advantage of RGB ANSI codes).
