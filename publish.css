@@ -1,7 +1,7 @@
 /* $$ Root Variables */
 :root{
-    --gradient_athenacolor: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%,rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 1;
-    --gradient_athenalib: linear-gradient(45deg, rgba(207,30,70,1) 0%, rgba(57,81,163,1) 100%);
+    --gradient_athenacolor: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%,rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 1;
+    --gradient_athenalib: linear-gradient(90deg, rgba(207,30,70,1) 0%, rgba(57,81,163,1) 100%) 1;
     --color_adam: rgb(24 , 177, 222);
     --color_athena: rgb(196, 41 , 80 );
     --color_eva: rgb(234, 39 , 79 );
@@ -168,6 +168,13 @@
 .markdown-rendered.youtube h4, .markdown-rendered.youtube h4.publish-article-heading, h4.youtube {border-color:rgb(153, 0, 0) ;}
 .markdown-rendered.youtube h5, .markdown-rendered.youtube h5.publish-article-heading, h5.youtube {border-color:rgb(119, 0, 0) ;}
 .markdown-rendered.youtube h6, .markdown-rendered.youtube h6.publish-article-heading, h6.youtube {border-color:rgb(85, 0, 0) ;}
+.red {
+    color: red;
+}
+
+.redBack {
+    background-color: red;
+}
 .rem {
     color:rgba(255, 255, 255, 0.1);
 }

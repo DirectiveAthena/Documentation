@@ -11,7 +11,13 @@ A collection of various functions and classes used by various tools and programs
 ~ Andreas Sas 2022 - A short while after he came back from his family vacation from Yorkshire with his family.
 
 ## Installation
-/
+**Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaLib)
+**PyPi link**: <span class="red"/>(Not yet uploaded to PyPi) <
+
+> [!code]- PIP
+> Use Pip to install the package:
+> ```bash
+> ```
 
 ## Index
 - Documentation
