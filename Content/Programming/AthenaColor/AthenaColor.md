@@ -28,11 +28,14 @@ Other older versions of Python are not currently supported. These older versions
 > [!code]- Linux
 > Use Pip to install the package:
 > ```bash
-> sudo pip install AthenaColor --upgrade
+> pip install AthenaColor --upgrade
 > ```
 
 > [!code]- Mac
-> / %%Need to  look up how to do this%%
+> Use Pip to install the package:
+> ```bash
+> pip install AthenaColor --upgrade
+> ```
 
 ## Index
 - Documentation
