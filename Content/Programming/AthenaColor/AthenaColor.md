@@ -4,7 +4,7 @@ created: "2022-04-23 17:09"
 cssclass: athenacolor
 ---
 # AthenaColor
-A Python package which allows for commonly used HTML color names to be printed to the console (permitting the console can take advantage of RGB ANSI codes).
+A "No-dependency"[^1] Python package which allows for commonly used HTML color names to be printed to the console (permitting the console can take advantage of RGB ANSI codes).
 
 Made by [[Andreas Sas]] 2022, during his [[Directive Athena]] project. Andreas started work on this smaller project out of sheer spite of using as little third party tools, libraries and other things, as possible. 
 > "To be fair, making my own color printer, might not have been the best use of my time"
@@ -54,3 +54,7 @@ Other older versions of Python are not currently supported. These older versions
 %%Contributors moved to separate file, to allow for easy editing%%
 
 ![[AthenaColor Contributors]]
+
+## Footnotes
+[^1]: In the spirit of "No Dependency" the [[AthenaLib]] package is omitted from the project. Any useful code that was once part of it, is now directly integrated into the AthenaColor package
+
