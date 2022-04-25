@@ -181,6 +181,9 @@
     text-align: justify;
     text-justify: inter-word;
 }
+div.markdown-embed-title, div.markdown-embed-link {
+    display: none;
+}
 
 /* --- All headers derive from this --- */
 .markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
