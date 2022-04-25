@@ -2,6 +2,7 @@
 publish: False
 ---
 
+---
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -9,6 +10,10 @@ publish: False
 ##### Heading 5
 ###### Heading 6
 
+---
+
 **BOLD**
 *ITALIC*
 ***BOLD and ITALIC***
+
+---
