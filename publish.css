@@ -181,6 +181,12 @@
     text-align: justify;
     text-justify: inter-word;
 }
+div.markdown-embed {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 div.markdown-embed-title, div.markdown-embed-link {
     display: none;
 }
