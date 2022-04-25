@@ -12,14 +12,11 @@ A collection of various functions and classes used by various tools and programs
 
 ## Installation
 /
+
 ## Index
 - Documentation
-    - [[AthenaColor ColorSystems|Color Systems]]
-        - [[AthenaColor ColorSystems#^rgb|RGB]]
-        - [[AthenaColor ColorSystems#^rgba|RGBA]]
-        - [[AthenaColor ColorSystems#^hex|HEX]]
-        - [[AthenaColor ColorSystems#^hexa|HEXA]]
-        - [[AthenaColor ColorSystems#^hsl|HSL]]
-        - [[AthenaColor ColorSystems#^hsv|HSV]]
-        - [[AthenaColor ColorSystems#^cmyk|CMYK]]
-- [[AthenaColor Contributors|Contributors]]
+- [[AthenaLib Contributors|Contributors]]
+
+%%Contributors moved to separate file, to allow for easy editing%%
+
+![[AthenaColor Contributors]]

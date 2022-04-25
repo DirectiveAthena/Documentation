@@ -6,5 +6,5 @@ cssclass: athenacolor
 # AthenaColor Contributors
 - Andreas Sas: Creator of the package.
 - Twidi : Various help and support during streams and discord chats.
-- ClasherKasten : Unit testing and various fixes.
+- [ClasherKasten](https://github.com/ClasherKasten) : Unit testing and various fixes.
 - The Girlfriend: Love, support, and endless patience with a stubborn and grumpy fool like [[Andreas Sas|Andreas]].
