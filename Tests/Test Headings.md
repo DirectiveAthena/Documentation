@@ -8,3 +8,7 @@ publish: False
 #### Heading 4
 ##### Heading 5
 ###### Heading 6
+
+**BOLD**
+*ITALIC*
+***BOLD and ITALIC***
