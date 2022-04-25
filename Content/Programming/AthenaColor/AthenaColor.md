@@ -55,6 +55,6 @@ Other older versions of Python are not currently supported. These older versions
 
 ![[AthenaColor Contributors]]
 
-## Footnotes
-[^1]: In the spirit of "No Dependency" the [[AthenaLib]] package is omitted from the project. Any useful code that was once part of it, is now directly integrated into the AthenaColor package
+%%FootNotes%%
 
+[^1]: In the spirit of "No Dependency" the [[AthenaLib]] package is omitted from this project. Any code that depended on this package is directly imported into the project. This can be changed in the future, but will require a vote of active contributors.
