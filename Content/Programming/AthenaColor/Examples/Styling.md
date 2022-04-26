@@ -7,7 +7,7 @@ aliases: [AthenaColor Styling]
 # AthenaColor Styling
 ## Inline Styling
 - General Example
-    >[!code]- Python Code
+    >[!tldr]- Python Code
     >```python
     >from AthenaColor import ForeNest, StyleNest
     >
@@ -20,7 +20,7 @@ aliases: [AthenaColor Styling]
     )
     >```
 
-    >[!Example]- Console Output
+    >[!example]- Console Output
     ><i><span style="color: SlateGray">AthenaColor Example:</span>
     ><span class="red">This is an <b>EXAMPLE</b> of nested Styling</span>
     ><span style="color: SlateGray">As you can see, the color needs to be manually returned here</span></i>
@@ -28,7 +28,7 @@ aliases: [AthenaColor Styling]
 ## Nested Styling
 
 - General Example
-    >[!code]- Python Code
+    >[!tldr]- Python Code
     >```python
     >from AthenaColor import ForeNest, StyleNest
     >
