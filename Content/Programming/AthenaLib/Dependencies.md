@@ -7,4 +7,4 @@ aliases: [AthenaLib Dependencies]
 # AthenaLib Dependencies
 
 ## Dependencies
-- [nest-asyncio](https://github.com/erdewit/nest_asyncio) (Fix for nested asyncio loops: [[AthenaLib Fixes Asyncio]])
+- [nest-asyncio](https://github.com/erdewit/nest_asyncio) (Fix for nested asyncio loops: [[AthenaLib Fixes Asyncio#^73634b|fix_nested_asyncio()]])
