@@ -28,4 +28,4 @@ Supported Python versions: **3.10**
 
 %%Contributors moved to separate file, to allow for easy editing%%
 
-![[AthenaColor Contributors]]
+![[AthenaLib Contributors]]
