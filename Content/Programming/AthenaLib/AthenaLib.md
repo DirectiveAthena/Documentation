@@ -22,8 +22,8 @@ Supported Python versions: **3.10**
 > pip install AthenaLib --upgrade
 > ```
 
-![[Content/Programming/AthenaLib/Examples#Examples]]
 ![[Content/Programming/AthenaLib/Index#Index]]
+![[Content/Programming/AthenaLib/Examples#Examples]]
 ![[Content/Programming/AthenaLib/FAQ#FAQ]]
 ![[Content/Programming/AthenaLib/Dependencies#Dependencies]]
 ![[Content/Programming/AthenaLib/Contributors#Contributors]]
