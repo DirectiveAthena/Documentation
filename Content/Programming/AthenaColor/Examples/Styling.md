@@ -23,7 +23,7 @@ aliases: [AthenaColor Styling]
     >[!Example]- Console Output
     ><span style="color: SlateGray">AthenaColor Example:</span>
     ><span class="red">This is an <b>EXAMPLE</b> of nested Styling</span>
-    ><span style="color: SlateGray">As you can see, the correct color returns here by itself</span>
+    ><span style="color: SlateGray">As you can see, the color needs to be manually returned here</span>
 
 ## Nested Styling
 
@@ -39,7 +39,8 @@ aliases: [AthenaColor Styling]
     >            "This is an",  
     >            StyleNest.Bold("EXAMPLE"),  
     >            "of nested styling"  
-    >        ),  
+    >        ),    
+    >        "As you can see, the correct color returns here by itself",
     >        sep="\n"  
     >    ))  
     >)
