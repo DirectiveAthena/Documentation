@@ -13,17 +13,17 @@ aliases: [AthenaColor Styling]
     >
     >    print(  
     >f"""  
-    >{Fore.SlateGray}AthenaColor Example:{Style.NoForeground}  
+    >{Style.Italic}{Fore.SlateGray}AthenaColor Example:{Style.NoForeground}
     >{Fore.Red}This is an of {Style.Bold}EXAMPLE{Style.NoBold} nested styling{Style.NoForeground}    
-    >{Fore.SlateGray}As you can see, the color needs to be manually returned here{Style.NoForeground}
+    >{Fore.SlateGray}As you can see, the color needs to be manually returned here{Style.NoForeground}{Style.NoItalic}
     >"""  
     )
     >```
 
     >[!Example]- Console Output
-    ><span style="color: SlateGray">AthenaColor Example:</span>
+    ><i><span style="color: SlateGray">AthenaColor Example:</span>
     ><span class="red">This is an <b>EXAMPLE</b> of nested Styling</span>
-    ><span style="color: SlateGray">As you can see, the color needs to be manually returned here</span>
+    ><span style="color: SlateGray">As you can see, the color needs to be manually returned here</span></i>
 
 ## Nested Styling
 
@@ -33,7 +33,7 @@ aliases: [AthenaColor Styling]
     >from AthenaColor import ForeNest, StyleNest
     >
     >print(  
-    >    ForeNest.SlateGray(StyleNest.Italic(  
+    >    StyleNest.Italic(ForeNest.SlateGray(  
     >        "AthenaColor Example:",  
     >        ForeNest.Red(  
     >            "This is an",  
@@ -47,7 +47,7 @@ aliases: [AthenaColor Styling]
     >```
 
     >[!Example]- Console Output
-    ><span style="color: SlateGray">AthenaColor Example:</span>
+    ><i><span style="color: SlateGray">AthenaColor Example:</span>
     ><span class="red">This is an <b>EXAMPLE</b> of nested Styling</span>
-    ><span style="color: SlateGray">As you can see, the correct color returns here by itself</span>
+    ><span style="color: SlateGray">As you can see, the correct color returns here by itself</span></i>
   
