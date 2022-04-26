@@ -9,4 +9,4 @@ A full list of all dependencies of the AthenaLib Package
 
 ## Dependencies
 - [The Python Standard Library](https://docs.python.org/3/library/)
-- [nest-asyncio](https://github.com/erdewit/nest_asyncio) (Fix for nested asyncio loops: [[AthenaLib Fixes Asyncio#^73634b|fix_nested_asyncio()]])
+- [nest-asyncio](https://github.com/erdewit/nest_asyncio) (Fix for nested asyncio loops: [[Asyncio#^73634b|fix_nested_asyncio()]])

@@ -31,15 +31,15 @@ color = RGB(255,255,255)
 ---
 *property* RGB.**r**
 
-- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* RGB.**g**
-- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* RGB.**b**
-- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *method* RGB.**export()**
@@ -85,15 +85,15 @@ color = HEX("#123456")
 
 ---
 *property* HEX.**r**
-- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* HEX.**g**
-- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* HEX.**b**
-- The property `r` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `r` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *method* HEX.**export()**
@@ -139,15 +139,15 @@ color = HSL(180,0.5,0.5)
 
 ---
 *property* HSL.**h**
-- The property `h` holds the **HUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `h` holds the **HUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* HSL.**s**
-- The property `s` holds the **SATURATION** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `s` holds the **SATURATION** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* HSL.**l**
-- The property `l` holds the **LUMINOSITY** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `l` holds the **LUMINOSITY** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *method* HSL.**export()**
@@ -193,15 +193,15 @@ color = HSV(180,0.5,0.5)
 
 ---
 *property* HSV.**h**
-- The property `h` holds the **HUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `h` holds the **HUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* HSV.**s**
-- The property `s` holds the **SATURATION** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `s` holds the **SATURATION** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* HSV.**v**
-- The property `v` holds the **VALUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `v` holds the **VALUE** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *method* HVL.**export()**
@@ -248,19 +248,19 @@ color = CMYK(.25,.5,.75,1)
 
 ---
 *property* CMYK.**c**
-- The property `c` holds the **CYAN** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `c` holds the **CYAN** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* CMYK.**m**
-- The property `m` holds the **MAGENTA** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `m` holds the **MAGENTA** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* CMYK.**y**
-- The property `y` holds the **YELLOW** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `y` holds the **YELLOW** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *property* CMYK.**k**
-- The property `k` holds the **BLACK** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[AthenaColor InitClass#^decimalPlaces|init.decimalPlaces]] property.
+- The property `k` holds the **BLACK** value. The property accepts an integer or a float value. The amount of rounded to decimals is stored in the  [[InitClass#^decimalPlaces|init.decimalPlaces]] property.
 
 ---
 *method* CMYK.**export()**
@@ -306,19 +306,19 @@ color = RGBA(255,255,255,255)
 
 ---
 *property* RGBA.**r**
-- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* RGBA.**g**
-- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* RGBA.**b**
-- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property..
+- The property `b` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property..
 
 ---
 *property* RGBA.**a**
-- The property `a` holds the **TRANSPARENCY** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `a` holds the **TRANSPARENCY** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *method* RGBA.**export()**
@@ -364,19 +364,19 @@ color = HEXA("#12345678")
 
 ---
 *property* HEXA.**r**
-- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `r` holds the **RED** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* HEXA.**g**
-- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `g` holds the **GREEN** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* HEXA.**b**
-- The property `r` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `r` holds the **BLUE** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *property* HEXA.**a**
-- The property `a` holds the **TRANSPARENCY** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[AthenaColor InitClass#^roundUp|init.roundUp]] property.
+- The property `a` holds the **TRANSPARENCY** value. The property accepts an integer or a float value, but float values will always be rounded back to an integer. The rounding function depends on the [[InitClass#^roundUp|init.roundUp]] property.
 
 ---
 *method* HEXA.**export()**
