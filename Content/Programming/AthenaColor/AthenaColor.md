@@ -3,7 +3,7 @@ copyright: "Andreas Sas 2022"
 created: "2022-04-23 17:09"
 cssclass: athenacolor cleanEmbed
 ---
-# AthenaColor
+#  ![[AthenaColor.png]] - AthenaColor
 A "True No-dependency"[^1] Python package which allows for commonly used HTML color names to be printed to the console (permitting the console can take advantage of RGB ANSI codes).
 
 Made by [[Andreas Sas]] 2022, during his [[Directive Athena]] project. Andreas started work on this smaller project out of sheer spite of using as little third party tools, libraries and other things, as possible. 
@@ -24,9 +24,7 @@ Other older versions of Python are not currently supported. These older versions
 > pip install AthenaColor --upgrade
 > ```
 
-```dynamic-embed
-[[Content/Programming/AthenaColor/Index#Index]]
-```
+![[Content/Programming/AthenaColor/Index#Index]]
 ![[Content/Programming/AthenaColor/Examples#Examples]]
 ![[Content/Programming/AthenaColor/FAQ#FAQ]]
 ![[Content/Programming/AthenaColor/Dependencies#Dependencies]]
