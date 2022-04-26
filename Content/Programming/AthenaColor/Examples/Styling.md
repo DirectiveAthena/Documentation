@@ -7,3 +7,13 @@ aliases: [AthenaColor Styling]
 # AthenaColor Styling
 ## Inline Styling
 ## Nested Styling
+```python
+from AthenaColor import ForeNest
+
+print(
+    ForeNest.Red(
+        "This is a test"
+    )
+)
+
+```
