@@ -24,8 +24,8 @@ Supported Python versions: **3.10**
 
 ## Index
 - Documentation
-- [[AthenaLib Contributors|Contributors]]
+- [[Content/Programming/AthenaLib/Contributors|Contributors]]
 
 %%Contributors moved to separate file, to allow for easy editing%%
 
-![[AthenaLib Contributors]]
+![[Content/Programming/AthenaLib/Contributors]]

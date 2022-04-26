@@ -2,8 +2,12 @@
 copyright: "Andreas Sas 2022"
 created: "2022-04-23 17:09"
 cssclass: athenacolor
+aliases: [AthenaColor Contributors]
 ---
 # AthenaColor Contributors
+A full list of all contributors to the AthenaColor package.
+
+## Contributors
 - Andreas Sas: Creator of the package.
 - [Twidi](https://github.com/twidi) : Various help and support during streams and discord chats.
 - [ClasherKasten](https://github.com/ClasherKasten) : Unit testing and various fixes.
