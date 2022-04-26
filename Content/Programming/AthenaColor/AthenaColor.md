@@ -25,7 +25,7 @@ Other older versions of Python are not currently supported. These older versions
 > ```
 
 ![[Content/Programming/AthenaColor/Index#Index]]
-![[Content/Programming/AthenaColor/Examples#Examples]]
+![[Content/Programming/AthenaColor/Examples/Examples#Examples]]
 ![[Content/Programming/AthenaColor/FAQ#FAQ]]
 ![[Content/Programming/AthenaColor/Dependencies#Dependencies]]
 ![[Content/Programming/AthenaColor/Contributors#Contributors]]
