@@ -1,6 +1,6 @@
 ---
 copyright: "Andreas Sas 2022"
-created: "2022-04-23 17:30"
+created: "2022-04-26 02:10"
 cssclass: athenalib cleanEmbed
 ---
 
@@ -16,16 +16,8 @@ Supported Python versions: **3.10**
 **Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaLib)
 **PyPi link**: [PyPi AthenaLib](https://pypi.org/project/AthenaLib/)
 
-%%> [!code]- PIP
+> [!code]- PIP
 > Use Pip to install the package:
 > ```bash
 > pip install AthenaLib --upgrade
-> ```%%
-
-## Index
-- Documentation
-- [[Content/Programming/AthenaLib/Contributors|Contributors]]
-
-%%Contributors moved to separate file, to allow for easy editing%%
-
-![[Content/Programming/AthenaLib/Contributors]]
+> ```

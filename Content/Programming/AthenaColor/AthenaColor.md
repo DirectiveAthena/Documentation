@@ -24,9 +24,9 @@ Other older versions of Python are not currently supported. These older versions
 > pip install AthenaColor --upgrade
 > ```
 
-![[AthenaColor FAQ#FAQ]]
+![[Content/Programming/AthenaColor/FAQ#FAQ]]
 
-![[AthenaColor Index#Index]]
+![[Content/Programming/AthenaColor/Index#Index]]
 
 ![[Content/Programming/AthenaColor/Contributors#Contributors|AthenaColor Contributors]]
 
