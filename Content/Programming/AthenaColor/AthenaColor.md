@@ -24,12 +24,13 @@ Other older versions of Python are not currently supported. These older versions
 > pip install AthenaColor --upgrade
 > ```
 
-![[Content/Programming/AthenaColor/Index#Index]]
+```dynamic-embed
+[[Content/Programming/AthenaColor/Index#Index]]
+```
 ![[Content/Programming/AthenaColor/Examples#Examples]]
 ![[Content/Programming/AthenaColor/FAQ#FAQ]]
 ![[Content/Programming/AthenaColor/Dependencies#Dependencies]]
 ![[Content/Programming/AthenaColor/Contributors#Contributors]]
-
 %%FootNotes%%
 
 [^1]: In the spirit of "True No Dependency" the [[AthenaLib]] package is omitted from this project. Any code that depended on this package is directly imported into the project. This can be changed in the future, but will require a vote of active contributors.
