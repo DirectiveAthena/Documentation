@@ -6,6 +6,7 @@ aliases: [AthenaColor Index]
 ---
 # AthenaColor Index
 ## Index
+
 - Documentation
     - [[AthenaColor ColorSystems|Color Systems]]
         - [[AthenaColor ColorSystems#^rgb|RGB]]
