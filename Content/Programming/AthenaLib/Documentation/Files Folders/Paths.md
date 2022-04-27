@@ -1,7 +1,7 @@
 ---
 copyright: "Andreas Sas 2022"
 created: "2022-04-27 18:24"
-cssclass: athenalib
+cssclass: metaDataHide athenalib
 aliases: [AthenaLib Paths]
 ---
 # AthenaLib Paths
