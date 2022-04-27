@@ -283,6 +283,9 @@
     font-size: 1.12em;
     margin-top: 1em;
 }
+.markdown-rendered.metaDataHide  div.frontmatter-container{
+    display: none;
+}
 
 /* Bottom status bar */
 div.status-bar{

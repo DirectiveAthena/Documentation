@@ -9,6 +9,10 @@ aliases: [AthenaLib Index]
 ## Index
 - Documentation
     - [[Strict Annotated]]
+    - FilesFolders
+        - [[Files]]
+        - [[Folders]]
+        - [[Paths]]
     - Fixes
         -  [[Asyncio]]
 - [[Content/Programming/AthenaLib/Contributors|Contributors]]
