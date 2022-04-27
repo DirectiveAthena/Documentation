@@ -8,4 +8,7 @@ aliases: [AthenaLib Index]
 
 ## Index
 - Documentation
+    - [[Strongly Typed]]
+    - Fixes
+        -  [[Asyncio]]
 - [[Content/Programming/AthenaLib/Contributors|Contributors]]
