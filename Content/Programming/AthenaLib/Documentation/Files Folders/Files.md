@@ -1,0 +1,8 @@
+---
+copyright: "Andreas Sas 2022"
+created: "2022-04-27 18:21"
+cssclass: athenalib
+aliases: [AthenaLib Files]
+---
+# AthenaLib Files
+*function* AthenaLib.FilesFolders.**FileExsists(`` **)**: 
