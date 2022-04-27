@@ -5,4 +5,7 @@ cssclass: athenalib
 aliases: [AthenaLib Files]
 ---
 # AthenaLib Files
-*function* AthenaLib.FilesFolders.**FileExsists(``) **)**: 
+*function* AthenaLib.FilesFolders.**FileExsists(**`file_path:PathTypes`,`fatal:bool=False`**)**: 
+- 
+> [!tip]- Spcial Notes
+> - This function is [[Strict Annotated#^882402|Strongly Annotated]] and will throw an [[Strict Annotated#^20fa43|StrictError]] on exceptions.
