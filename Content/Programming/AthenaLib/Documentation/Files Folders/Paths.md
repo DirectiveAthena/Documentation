@@ -7,5 +7,8 @@ aliases: [AthenaLib Paths]
 # AthenaLib Paths
 
 ---
-*Union* AthenaLib.FileFolders.**PathTypes**
+*union* AthenaLib.FileFolders.**PathTypes** ^917a39
 - A union type, used by various functions of the accompanied [[Files]] and [[Folders]] modules.
+
+*function* AthenaLib.FileFolders.**PathCombine(**`*PathSegements:PathTypes`,`Cwd:bool=False` **)**
+- Combines two or more 
