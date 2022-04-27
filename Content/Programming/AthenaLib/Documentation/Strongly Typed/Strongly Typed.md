@@ -6,7 +6,6 @@ aliases: [Strongly Typed]
 ---
 # AthenaLib Strongly Typed
 
-
 ---
 
 *decorator* AthenaLib.StronglyTyped.**StronglyTyped()**: ^882402
