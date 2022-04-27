@@ -1,7 +1,7 @@
 ---
 copyright: "Andreas Sas 2022"
 created: "2022-04-26 02:10"
-cssclass: athenalib cleanEmbed
+cssclass: cleanEmbed athenalib
 ---
 
 # ![[ATHENA.png]] - AthenaLib
