@@ -8,7 +8,7 @@ aliases: [AthenaLib Index]
 
 ## Index
 - Documentation
-    - [[Strict Input]]
+    - [[Strict Annotated]]
     - Fixes
         -  [[Asyncio]]
 - [[Content/Programming/AthenaLib/Contributors|Contributors]]
