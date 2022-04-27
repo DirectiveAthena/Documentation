@@ -7,6 +7,8 @@ aliases: [Strict Input]
 # AthenaLib Strict Annotated
 
 ---
+*exception* AthenaLib.StronglyTyped.**StrongError**: ^20fa43
+- The exception thrown by the decorators [[#^882402|StronglyTyped]] and [[#^caee6b|StronglyTypedMethod]]. 
 
 *decorator* AthenaLib.StrictInput.**StrictAnnotated()**: ^882402
 - Uses the function's variables' annotations to match the used variables to the corresponding type. Will throw a `AssertionError` on mismatch.
