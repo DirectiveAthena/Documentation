@@ -8,7 +8,6 @@ aliases: [AthenaLib Index]
 
 ## Index
 - Documentation
-    - [[Strict Annotated]]
     - FilesFolders
         - [[Files]]
         - [[Folders]]
