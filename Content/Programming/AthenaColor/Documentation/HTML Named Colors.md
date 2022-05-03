@@ -7,9 +7,9 @@ cssclass: athenacolor
 The table below names all defined HTML names used for colors in the AthenaColor package. The RGB values used for these colors are also displayed together with the corresponding statements to use them in printing.
 
 ---
-      
+     
   
-|                             Color Name                             | R   | G   | B   | Fore                        | Back                        | ForeNest                          | BackNest                          |
+|                             Color Name                             | R   | G   | B   | Fore [^1]                   | Back                        | ForeNest                          | BackNest                          |
 |:------------------------------------------------------------------:| --- | --- | --- | --------------------------- | --------------------------- | --------------------------------- | --------------------------------- |
 |               <b/><span style="color:Maroon"/>Maroon               | 128 | 0   | 0   | `Fore.Maroon`               | `Back.Maroon`               | `ForeNest.Maroon()`               | `BackNest.Maroon()`               |
 |              <b/><span style="color:DarkRed"/>DarkRed              | 139 | 0   | 0   | `Fore.DarkRed`              | `Back.DarkRed`              | `ForeNest.DarkRed()`              | `BackNest.DarkRed()`              |
@@ -119,7 +119,7 @@ The table below names all defined HTML names used for colors in the AthenaColor 
 |           <b/><span style="color:SandyBrown"/>SandyBrown           | 244 | 164 | 96  | `Fore.SandyBrown`           | `Back.SandyBrown`           | `ForeNest.SandyBrown()`           | `BackNest.SandyBrown()`           |
 |            <b/><span style="color:BurlyWood"/>BurlyWood            | 222 | 184 | 135 | `Fore.BurlyWood`            | `Back.BurlyWood`            | `ForeNest.BurlyWood()`            | `BackNest.BurlyWood()`            |
 |                  <b/><span style="color:Tan"/>Tan                  | 210 | 180 | 140 | `Fore.Tan`                  | `Back.Tan`                  | `ForeNest.Tan()`                  | `BackNest.Tan()`                  |
-|            <b/><span style="color:RosyBrown"/>RosyBrown            | 188 | 143 | 143 | `Fore.RosyBrown`            | `Back.RosyBrown`            | `ForeNest.RosyBrown()`            | `BackNest.RosyBrown()`            | 
+|            <b/><span style="color:RosyBrown"/>RosyBrown            | 188 | 143 | 143 | `Fore.RosyBrown`            | `Back.RosyBrown`            | `ForeNest.RosyBrown()`            | `BackNest.RosyBrown()`            |
 |             <b/><span style="color:Moccasin"/>Moccasin             | 255 | 228 | 181 | `Fore.Moccasin`             | `Back.Moccasin`             | `ForeNest.Moccasin()`             | `BackNest.Moccasin()`             |
 |          <b/><span style="color:NavajoWhite"/>NavajoWhite          | 255 | 222 | 173 | `Fore.NavajoWhite`          | `Back.NavajoWhite`          | `ForeNest.NavajoWhite()`          | `BackNest.NavajoWhite()`          |
 |            <b/><span style="color:PeachPuff"/>PeachPuff            | 255 | 218 | 185 | `Fore.PeachPuff`            | `Back.PeachPuff`            | `ForeNest.PeachPuff()`            | `BackNest.PeachPuff()`            |
