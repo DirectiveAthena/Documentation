@@ -83,4 +83,14 @@ All following functions do not create [[ColorSystems| Color System objects]] but
 *function* AthenaColor.ColorTupleConversion.**cmyk_to_rgb(**`c:int|float`, `m:int|float`, `y:int|float`, `k:int|float`**) ->** `tuple[int,int,int]` ^691e99
 - Function to convert an cmyk tuple to an rgb tuple.
 - Value input is checked by [[General Use Case Functions#^485f78|StrictType Function]]
+>[!code]- Conversion formula used
+>Only the actual conversion is shown below, not the type and length checking of the input values. The Inserted value are constrained to their outer limits of [[General Use Case Functions#^eb4997|ConstrainCMYK]].
+>
+>```python  
+>rgb_tuple = (  
+>    RoundHalfUp(255 * (1 - c) * (1 - k)),  
+>    RoundHalfUp(255 * (1 - m) * (1 - k)),  
+>    RoundHalfUp(255 * (1 - y) * (1 - k))  
+>)
+>```
 

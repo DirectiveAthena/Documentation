@@ -24,7 +24,7 @@ aliases: [General Use Case Functions]
 
 
 ---
-*function* AthenaColor.Functions.Constraints.**ConstrainCMYK(**`c`, `m`, `y`, `k`**) **
+*function* AthenaColor.Functions.Constraints.**ConstrainCMYK(**`c`, `m`, `y`, `k`**) ** ^eb4997
 - Constrains the `c`, `m`, `y` and `k` vales within 0 and 1 (both including)
 
 
