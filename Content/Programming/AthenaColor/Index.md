@@ -20,6 +20,7 @@ aliases: [AthenaColor Index]
     - Color Conversions
         - [[Object Conversion]]
         - [[Tuple Conversion]]
-            - [[Tuple Conversion^]]
+            - [[Tuple Conversion#^ad1b2e|hex_to_rgb]]
+            - [[Tuple Conversion#^691e99|hsv_to_rgb]]
     - [[General Use Case Functions]]
 - [[Content/Programming/AthenaColor/Contributors|Contributors]]
