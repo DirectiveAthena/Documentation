@@ -18,11 +18,10 @@ Other older versions of Python are not currently supported. These older versions
 **Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaColor)
 **PyPi link**: [PyPi AthenaColor](https://pypi.org/project/AthenaColor/)
 
-> [!code]- PIP
-> Use Pip to install the package:
-> ```bash
-> pip install AthenaColor --upgrade
-> ```
+Use Pip to install the package:
+```bash
+pip install AthenaColor --upgrade
+```
 
 ![[Content/Programming/AthenaColor/Index#Index]]
 ![[Content/Programming/AthenaColor/Examples/Examples#Examples]]
