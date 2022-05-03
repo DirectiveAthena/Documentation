@@ -6,5 +6,3 @@ aliases: [Object Conversion]
 ---
 
 # AthenaColor Color Object Conversion
-
-**
