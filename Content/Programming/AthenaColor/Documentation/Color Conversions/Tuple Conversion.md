@@ -15,6 +15,8 @@ All following functions do not create [[ColorSystems| Color System objects]] but
 - A `hexadecimal` can start with or without the leading `#`
 - If the length of the string cannot be parsed, it will throw a [ValueError](https://docs.python.org/3/library/exceptions.html#ValueError)
 - Value input is checked by [[General Use Case Functions#^485f78|StrictType Function]]
+
+
 >[!code]- Conversion formula used
 >Only the actual conversion is shown below, not the type and length checking of the input string. The `hexadecimal` value used below is supposed to not have a leading `#`.
 >```python
@@ -25,6 +27,8 @@ All following functions do not create [[ColorSystems| Color System objects]] but
 *function* AthenaColor.ColorTupleConversion.**hsv_to_rgb(**`h:int|float`, `s:int|float`, `v:int|float`**) ->** `tuple[int,int,int]` ^691e99
 - Function to convert a hsv tuple to an rgb tuple.
 - Value input is checked by [[General Use Case Functions#^485f78|StrictType Function]]
+
+
 >[!code]- Conversion formula used
 >Only the actual conversion is shown below, not the type and length checking of the input values. The Inserted value are constrained to their outer limits of [[General Use Case Functions#^77c3be|ConstrainHSV]].
 >
@@ -51,9 +55,11 @@ All following functions do not create [[ColorSystems| Color System objects]] but
 
 
 ---
-*function* AthenaColor.ColorTupleConversion.**hsl_to_rgb(**`h:int|float`, `s:int|float`, `l:int|float`**) ->** `tuple[int,int,int]` ^691e99
+*function* AthenaColor.ColorTupleConversion.**hsl_to_rgb(**`h:int|float`, `s:int|float`, `l:int|float`**) ->** `tuple[int,int,int]` ^691e71
 - Function to convert a hsl tuple to an rgb tuple.
 - Value input is checked by [[General Use Case Functions#^485f78|StrictType Function]]
+
+
 >[!code]- Conversion formula used
 >Only the actual conversion is shown below, not the type and length checking of the input values. The Inserted value are constrained to their outer limits of [[General Use Case Functions#^4c0c46|ConstrainHSL]].
 >
@@ -80,9 +86,11 @@ All following functions do not create [[ColorSystems| Color System objects]] but
 
 
 ---
-*function* AthenaColor.ColorTupleConversion.**cmyk_to_rgb(**`c:int|float`, `m:int|float`, `y:int|float`, `k:int|float`**) ->** `tuple[int,int,int]` ^691e99
+*function* AthenaColor.ColorTupleConversion.**cmyk_to_rgb(**`c:int|float`, `m:int|float`, `y:int|float`, `k:int|float`**) ->** `tuple[int,int,int]` ^691e14
 - Function to convert an cmyk tuple to an rgb tuple.
 - Value input is checked by [[General Use Case Functions#^485f78|StrictType Function]]
+
+
 >[!code]- Conversion formula used
 >Only the actual conversion is shown below, not the type and length checking of the input values. The Inserted value are constrained to their outer limits of [[General Use Case Functions#^eb4997|ConstrainCMYK]].
 >
