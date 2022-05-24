@@ -4,31 +4,22 @@ created: "2022-05-06 13:57"
 cssclass: metaDataHide athenacss
 aliases: [AthenaCSS]
 ---
-#  ![[AthenaColor.png]] - AthenaCSS
-A "True No-dependency"[^1] Python package which allows for commonly used HTML color names to be printed to the console (permitting the console can take advantage of RGB ANSI codes).
-
-Made by [[Andreas Sas]] 2022, during his [[Directive Athena]] project. Andreas started work on this smaller project out of sheer spite of using as little third party tools, libraries and other things, as possible. 
-> "To be fair, making my own color printer, might not have been the best use of my time"
-~ Andreas Sas 2022 - While on vacation in Yorkshire
-
-Supported Python versions: **3.7**, **3.8**, **3.9**, **3.10** <span class="small"/>(Only for AthenaColor version 4.0.0, which is currently it's [final stages of development](https://github.com/DirectiveAthena/VerSC-AthenaColor/pull/8))
-
-Other older versions of Python are not currently supported. These older versions will probably not be supported by Andreas Sas himself, but if you want to contribute to the project and make this package compatible with older versions of Python, Pull requests are always welcome.
+#  ![[AthenaColor.png]] - AthenaCSS 
 
 ## Installation
-**Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaColor)
-**PyPi link**: [PyPi AthenaColor](https://pypi.org/project/AthenaColor/)
+**Source Code:** [GitHub Repository](https://github.com/DirectiveAthena/VerSC-AthenaCSS)
+**PyPi link**: [PyPi AthenaColor](https://pypi.org/project/AthenaCSS/)
 
 Use Pip to install the package:
 ```bash
-pip install AthenaColor --upgrade
+pip install AthenaCSS --upgrade
 ```
 
-![[Content/Programming/AthenaColor/Index#Index]]
-![[Content/Programming/AthenaColor/Examples/Examples#Examples]]
-![[Content/Programming/AthenaColor/FAQ#FAQ]]
-![[Content/Programming/AthenaColor/Dependencies#Dependencies]]
-![[Content/Programming/AthenaColor/Contributors#Contributors]]
+![[Content/Programming/AthenaCSS/Index#Index]]
+![[Content/Programming/AthenaCSS/Examples/Examples#Examples]]
+![[Content/Programming/AthenaCSS/FAQ#FAQ]]
+![[Content/Programming/AthenaCSS/Dependencies#Dependencies]]
+![[Content/Programming/AthenaCSS/Contributors#Contributors]]
 %%FootNotes%%
 
 [^1]: In the spirit of "True No Dependency" the [[AthenaLib]] package is omitted from this project. Any code that depended on this package is directly imported into the project. This can be changed in the future, but will require a vote of active contributors.
