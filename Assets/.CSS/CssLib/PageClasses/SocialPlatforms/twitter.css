@@ -1,0 +1,19 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        /* Athena Application colors */
+        /* Website colors */
+        --color_twitter: None;
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.twitter h1, .markdown-rendered.twitter h1.publish-article-heading, h1.twitter {border-color:var(--color_twitter);}
+.markdown-rendered.twitter h2, .markdown-rendered.twitter h2.publish-article-heading, h2.twitter {border-color:rgb(22, 121, 187) ;}
+.markdown-rendered.twitter h3, .markdown-rendered.twitter h3.publish-article-heading, h3.twitter {border-color:rgb(21, 112, 173) ;}
+.markdown-rendered.twitter h4, .markdown-rendered.twitter h4.publish-article-heading, h4.twitter {border-color:rgb(16, 84, 130) ;}
+.markdown-rendered.twitter h5, .markdown-rendered.twitter h5.publish-article-heading, h5.twitter {border-color:rgb(12, 65, 101) ;}
+.markdown-rendered.twitter h6, .markdown-rendered.twitter h6.publish-article-heading, h6.twitter {border-color:rgb(9, 47, 72) ;}

@@ -1,0 +1,19 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        /* Athena Application colors */
+        /* Website colors */
+        --color_discord: None;
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.discord h1, .markdown-rendered.discord h1.publish-article-heading, h1.discord {border-color:var(--color_discord);}
+.markdown-rendered.discord h2, .markdown-rendered.discord h2.publish-article-heading, h2.discord {border-color:rgb(75, 85, 213) ;}
+.markdown-rendered.discord h3, .markdown-rendered.discord h3.publish-article-heading, h3.discord {border-color:rgb(69, 78, 197) ;}
+.markdown-rendered.discord h4, .markdown-rendered.discord h4.publish-article-heading, h4.discord {border-color:rgb(52, 59, 148) ;}
+.markdown-rendered.discord h5, .markdown-rendered.discord h5.publish-article-heading, h5.discord {border-color:rgb(40, 46, 115) ;}
+.markdown-rendered.discord h6, .markdown-rendered.discord h6.publish-article-heading, h6.discord {border-color:rgb(29, 33, 82) ;}

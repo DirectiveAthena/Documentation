@@ -1,0 +1,20 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        --color_adam: None;
+
+        /* Application colors */
+        /* Website colors */
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.adam h1, .markdown-rendered.adam h1.publish-article-heading, h1.adam {border-color:var(--color_adam);}
+.markdown-rendered.adam h2, .markdown-rendered.adam h2.publish-article-heading, h2.adam {border-color:rgb(21, 153, 192);}
+.markdown-rendered.adam h3, .markdown-rendered.adam h3.publish-article-heading, h3.adam {border-color:rgb(19, 142, 178);}
+.markdown-rendered.adam h4, .markdown-rendered.adam h4.publish-article-heading, h4.adam {border-color:rgb(14, 106, 133);}
+.markdown-rendered.adam h5, .markdown-rendered.adam h5.publish-article-heading, h5.adam {border-color:rgb(7, 52, 65);}
+.markdown-rendered.adam h6, .markdown-rendered.adam h6.publish-article-heading, h6.adam {border-color:rgb(8, 59, 74);}

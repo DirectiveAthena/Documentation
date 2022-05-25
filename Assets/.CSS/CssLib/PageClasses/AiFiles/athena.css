@@ -1,0 +1,24 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        --color_athena: None;
+
+        /* Application colors */
+        /* Website colors */
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.athena h1, .markdown-rendered.athena h1.publish-article-heading, h1.athena {border-color:var(--color_athena);}
+.markdown-rendered.athena h1, .markdown-rendered.athena h1.publish-article-heading, h1.athena {border-color:var(--color_athena);}
+
+
+
+.markdown-rendered.athena h2, .markdown-rendered.athena h2.publish-article-heading, h2.athena {border-color:rgb(170, 35, 69);}
+.markdown-rendered.athena h3, .markdown-rendered.athena h3.publish-article-heading, h3.athena {border-color:rgb(157, 33, 64);}
+.markdown-rendered.athena h4, .markdown-rendered.athena h4.publish-article-heading, h4.athena {border-color:rgb(118, 25, 48) ;}
+.markdown-rendered.athena h5, .markdown-rendered.athena h5.publish-article-heading, h5.athena {border-color:rgb(91, 19, 37) ;}
+.markdown-rendered.athena h6, .markdown-rendered.athena h6.publish-article-heading, h6.athena {border-color:rgb(65, 14, 27) ;}

@@ -1,0 +1,20 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        --color_aero: None;
+
+        /* Application colors */
+        /* Website colors */
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.aero h1, .markdown-rendered.aero h1.publish-article-heading, h1.aero {border-color:var(--color_aero) ;}
+.markdown-rendered.aero h2, .markdown-rendered.aero h2.publish-article-heading, h2.aero {border-color:rgb(218, 218, 218) ;}
+.markdown-rendered.aero h3, .markdown-rendered.aero h3.publish-article-heading, h3.aero {border-color:rgb(218, 218, 218) ;}
+.markdown-rendered.aero h4, .markdown-rendered.aero h4.publish-article-heading, h4.aero {border-color:rgb(151, 151, 151) ;}
+.markdown-rendered.aero h5, .markdown-rendered.aero h5.publish-article-heading, h5.aero {border-color:rgb(117, 117, 117) ;}
+.markdown-rendered.aero h6, .markdown-rendered.aero h6.publish-article-heading, h6.aero {border-color:rgb(84, 84, 84) ;}

@@ -1,0 +1,21 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        --color_pluto: None;
+
+        /* Athena Application colors */
+        /* Website colors */
+
+    /* =+= Custom for this file =+= */
+}
+/* $$ END */
+
+/* Bottom status bar */
+div.status-bar{
+    background-color: var(--color_pluto);
+    color:rgb(184, 184, 184);
+}
+span.sync-status-icon.mod-working{
+    color: rgb(47, 36, 97);
+}

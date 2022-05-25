@@ -1,0 +1,14 @@
+/* $$ Root Variables */
+:root{
+    /* =+= Derived from root =+= */
+        /* Primary AI Colors */
+        /* Application colors */
+        /* Website colors */
+
+    /* =+= Custom for this file =+= */
+    --gradient_athenalib:  none;
+
+}
+/* $$ END */
+/* --- Various headers for specific css classes --- */
+.markdown-rendered.athenalib h1, .markdown-rendered.athenalib h1.publish-article-heading, h1.athenalib { border-image: var(--gradient_athenalib);}

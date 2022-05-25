@@ -1,0 +1,16 @@
+.rem {
+    color:rgba(255, 255, 255, 0.1);
+}
+
+.small{
+    font-size: .75rem;
+}
+
+.big{
+    font-size: 1.25rem;
+}
+
+.markdown-rendered div {
+    text-align: justify;
+    text-justify: inter-word;
+}
