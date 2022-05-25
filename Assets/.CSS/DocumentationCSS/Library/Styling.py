@@ -14,8 +14,6 @@ from AthenaColor.Objects.Color.ColorObjectConversion import to_RGB
 from AthenaColor.Functions.BlendModes import blend_multiply
 
 # Custom Packages
-from DocumentationCSS.Library.DefinedColors import AI_COLORS
-from DocumentationCSS.Objects.General import FullStyleSelection
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
