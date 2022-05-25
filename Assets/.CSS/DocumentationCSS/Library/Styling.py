@@ -19,7 +19,8 @@ from AthenaColor.Functions.BlendModes import blend_multiply
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
 def page_header_styling(page_name, original_color:RGB) :
-    def selection_loop_function(header):
+    selections = []
+    for header in (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5,ElementLib.H6):
         selection = CSSSelection()
         with selection as s:
             s.add_descendants(
@@ -31,9 +32,8 @@ def page_header_styling(page_name, original_color:RGB) :
                 header(CSSClass("publish-article-heading"))
             ),
             s.add(header(CSSClass(page_name)))
-        return selection
+        selections.append(selection)
 
-    selections = tuple(selection_loop_function(h) for h in (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5,ElementLib.H6))
     styling = (
         (PropLib.BorderColor(original_color),),
         (PropLib.BorderColor(to_RGB(blend_multiply(original_color, RGB(221,221,221)))),),
