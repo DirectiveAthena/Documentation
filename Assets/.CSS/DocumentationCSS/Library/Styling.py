@@ -20,9 +20,8 @@ from AthenaColor.Color.BlendModes import blend_multiply
 # ----------------------------------------------------------------------------------------------------------------------
 def page_header_styling(page_name, original_color:RGB) :
     selections = []
-    for header in (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5,ElementLib.H6):
-        selection = CSSSelection()
-        with selection as s:
+    for header in (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5,ElementLib.H6):=
+        with (selection := CSSSelection()) as s:
             s.add_descendants(
                 CSSClass("markdown-rendered", page_name),
                 header

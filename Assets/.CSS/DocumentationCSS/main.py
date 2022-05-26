@@ -25,19 +25,67 @@ from DocumentationCSS.Library.DefinedColors import AI_COLORS
 def main():
     printer = CSSPrinter()
     with printer as p:
-        for selection, styling in page_header_styling("adam", AI_COLORS.adam):
-            p.add_style(
-                selection=selection,
-                styling=styling
-            )
-        for selection, styling in page_header_styling("eva", AI_COLORS.eva):
-            p.add_style(
-                selection=selection,
-                styling=styling
-            )
+        for ai_color in AI_COLORS:
+            for selection, styling in page_header_styling(ai_color, AI_COLORS.):
+                p.add_style(
+                    selection=selection,
+                    styling=styling
+                )
 
     printer.to_console()
 
 
 if __name__ == '__main__':
     main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def additon(a, b):
+    return a+b
+
+result = additon(1,2)
+
+...
+...
+
+if result == 3:
+    print(result)
+
+if (result := additon(1,2)) == 3:
+    print(result)

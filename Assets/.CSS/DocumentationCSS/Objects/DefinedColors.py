@@ -14,16 +14,16 @@ from AthenaColor import RGB
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
 class Ai_Colors(NamedTuple):
-    adam: RGB
-    athena: RGB
-    eva: RGB
-    jupiter: RGB
-    veritas: RGB
-    vulcanus: RGB
-    neptune: RGB
-    minerva: RGB
-    sol: RGB
-    aero: RGB
-    venus: RGB
-    pluto: RGB
-    ceres: RGB
+    adam: tuple[str,RGB]
+    athena: tuple[str,RGB]
+    eva: tuple[str,RGB]
+    jupiter: tuple[str,RGB]
+    veritas: tuple[str,RGB]
+    vulcanus: tuple[str,RGB]
+    neptune: tuple[str,RGB]
+    minerva: tuple[str,RGB]
+    sol: tuple[str,RGB]
+    aero: tuple[str,RGB]
+    venus: tuple[str,RGB]
+    pluto: tuple[str,RGB]
+    ceres: tuple[str,RGB]
