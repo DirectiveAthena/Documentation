@@ -6,4 +6,9 @@ aliases: [RgbControlled]
 ---
 
 # AthenaColor: RgbControlled
-*class* AthenaColor.Console.Styling.Inline.**Rgb
+*class* AthenaColor.Console.Styling.Inline.**RgbControlled(**`param_code:str`**)**
+- RgbControlled is a base class for the inline style formatting of some text.
+- It simply creates an object with all the [[HTML Named Colors]] as it's attributes correspon
+
+---
+*method* RgbControlled.**custom(**`color:RGB|HEX|CMYK|HSL|HSV|RGBA|HEXA`**)**
