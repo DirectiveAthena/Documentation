@@ -10,15 +10,15 @@ aliases: [AthenaColor StyleNest]
 *class* AthenaColor.**StyleNest()**
 - AthenaColor.*StyleNest* is a class which holds all methods pertaining to the 
 style transformation of given objects.
-- A method used by this class always has two arguments
+- A method of the class is always a static method and any method used by this class always has two arguments
     - `*obj` : Holds all the elements needed to be enclosed by the ANSI styling codes.
     - `sep` : A keyword only argument which allows you defined a specific separation string between the various objects in `*obj`. 
         By default this is a empty space.
 
-
 --
 
 *method* AthenaColor.StyleNest.**Reset(**`*obj,sep=sep_`**)**  
+- Returns a 
 *method* AthenaColor.StyleNest.**Bold(**`*obj,sep=sep_`**)**  
 *method* AthenaColor.StyleNest.**NoBold(**`*obj,sep=sep_`**)**  
 *method* AthenaColor.StyleNest.**Dim(**`*obj,sep=sep_`**)**  
