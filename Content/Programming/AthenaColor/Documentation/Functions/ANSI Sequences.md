@@ -7,4 +7,4 @@ aliases: [ANSI Sequences]
 
 # AthenaColor functions: ANSI sequences
 
-*function* AthenaColor.Functions.ColorSequence(`control_code:int|str`)
+*function* AthenaColor.Functions.ColorSequence(`control_code:int|str`) ^7dd891
