@@ -5,8 +5,9 @@ cssclass: athenacolor
 ---
 # AthenaColor InitClass
 An InitClass object is used by the package to use setting across the package.
+This is mostly used to set package wide defaults or
 
-*class* AthenaColor.**InitClass(**`r:int=0`, `g:int=0`, `b:int=0`**)**
+*class* AthenaColor.**InitClass()**
    - One instance of the class is used under `AthenaColor.init`. Use this object to edit properties mentioned down below
 
 ---

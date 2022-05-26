@@ -25,7 +25,6 @@ pip install AthenaColor --upgrade
 
 ![[Content/Programming/AthenaColor/Index#Index]]
 ![[Content/Programming/AthenaColor/Examples/Examples#Examples]]
-![[Content/Programming/AthenaColor/FAQ#FAQ]]
 ![[Content/Programming/AthenaColor/Dependencies#Dependencies]]
 ![[Content/Programming/AthenaColor/Contributors#Contributors]]
 %%FootNotes%%
