@@ -30,6 +30,11 @@ def main():
                 selection=selection,
                 styling=styling
             )
+        for selection, styling in page_header_styling("eva", AI_COLORS.eva):
+            p.add_style(
+                selection=selection,
+                styling=styling
+            )
 
     printer.to_console()
 
