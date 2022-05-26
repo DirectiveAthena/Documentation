@@ -8,6 +8,11 @@ aliases: [AthenaColor Index]
 ## Index
 
 - Documentation
+    - Console Text Styling
+        - Inline
+            - 
+        - Nested
+            - 
     - [[ColorSystems|Color Systems]]
         - [[ColorSystems#^rgb|RGB]]
         - [[ColorSystems#^rgba|RGBA]]
