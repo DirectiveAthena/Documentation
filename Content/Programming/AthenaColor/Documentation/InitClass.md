@@ -25,9 +25,5 @@ This is mostly used to set package wide defaults or
 ---
 *property* InitClass.**decimalPlaces**:
 ^decimalPlaces
-- Used for rounding functions, to set the to be stored decimal places. Default is 3 decimal places
-
----
-*property* InitClass.**stringSeperation**:
-^decimalPlaces
-- Used for string returns of colors, defines the separation character between values. Default is set to `;`
+- Used for rounding functions, to set the to be stored decimal places
+- Default is 3 decimal places
