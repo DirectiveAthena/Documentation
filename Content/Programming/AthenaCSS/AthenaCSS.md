@@ -15,11 +15,6 @@ Use Pip to install the package:
 pip install AthenaCSS --upgrade
 ```
 
-![[Content/Programming/AthenaCSS/Index#Index]]
-![[Content/Programming/AthenaCSS/Examples/Examples#Examples]]
-![[Content/Programming/AthenaCSS/FAQ#FAQ]]
-![[Content/Programming/AthenaCSS/Dependencies#Dependencies]]
-![[Content/Programming/AthenaCSS/Contributors#Contributors]]
 %%FootNotes%%
 
 [^1]: In the spirit of "True No Dependency" the [[AthenaLib]] package is omitted from this project. Any code that depended on this package is directly imported into the project. This can be changed in the future, but will require a vote of active contributors.
