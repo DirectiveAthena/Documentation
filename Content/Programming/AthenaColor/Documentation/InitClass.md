@@ -13,13 +13,14 @@ This is mostly used to set package wide defaults or
 ---
 *property* InitClass.**esc**:
 ^esc
-- the specific escape code to be used, default set to `\x1b`
+- The specific escape code character to be used in the console to use the following ANSI codes
+- Default set to `\x1b`
 
 ---
 *property* InitClass.**transparentDefault**:
 ^transparentDefault
 - Allows for an integer value between 0 and 255, or the equivalent hex value. Used for non transparent color to transparent color conversions which need to "create" a non existent transparent value
-- Default set to `255`
+- Default set to `("ff", 255)`
 
 ---
 *property* InitClass.**decimalPlaces**:
