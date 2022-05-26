@@ -5,8 +5,11 @@ cssclass: metaDataHide athenacolor
 aliases: [Bodies]
 ---
 # AthenaColor Bodies: Fore, Back, Underline
-##
-###
-####
-#####
-######
+## Fore
+An instance of [[RgbControlled]] with it's `param_code` being set to `38;2;`
+
+## Back
+An instance of [[RgbControlled]] with it's `param_code` being set to `48;2;`
+
+## Underline
+An instance of [[RgbControlled]] with it's `param_code` being set to `58;2;`
