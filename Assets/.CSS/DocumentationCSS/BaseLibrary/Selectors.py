@@ -47,3 +47,13 @@ class_athenacolor = CSSClass("athenacolor")
 class_athenalib = CSSClass("athenalib")
 
 PYTHON_PACKAGE_CLASSES = (class_athenacolor, class_athenalib)
+
+# ----------------------------------------------------------------------------------------------------------------------
+# - Website Name classes -
+# ----------------------------------------------------------------------------------------------------------------------
+class_discord= CSSClass("discord")
+class_twitch= CSSClass("twitch")
+class_twitter= CSSClass("twitter")
+class_youtube= CSSClass("youtube")
+
+WEBSITE_NAME_CLASSES = (class_discord,class_twitch,class_twitter,class_youtube,)

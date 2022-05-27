@@ -18,13 +18,13 @@ from AthenaColor.Color.BlendModes import blend_multiply
 # Custom Packages
 from DocumentationCSS.Library.Colors import (
     AI_COLORS,
-    HEADER_COLORS, PYTHON_PACKAGE_COLORS
+    HEADER_COLORS, PYTHON_PACKAGE_COLORS, WEBSITE_NAME_COLORS
 )
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 from DocumentationCSS.Library.Selectors import (
     class_markdown_rendered,class_publish_article_heading,
     HEADERS,
-    AI_CLASSES, PYTHON_PACKAGE_CLASSES
+    AI_CLASSES, PYTHON_PACKAGE_CLASSES, WEBSITE_NAME_CLASSES
 )
 from DocumentationCSS.Library.Content import line_seperation
 
@@ -71,6 +71,7 @@ class PageAI(RuleGenerator):
             # seperate every AI name with a line, for better visibilty in file
             yield line_seperation
 
+# ----------------------------------------------------------------------------------------------------------------------
 class PagePythonPackages(RuleGenerator):
     @classmethod
     def rule_comment(cls):
@@ -86,6 +87,27 @@ class PagePythonPackages(RuleGenerator):
                     color=color,
                     # done to only make the h1 a special color, all othersfollow the same color patern as regular headers
                     color_function= lambda h, color_, color_multiply: color_ if h == ElementLib.H1 else color_multiply
+                ):
+                yield header
+            # seperate every AI name with a line, for better visibilty in file
+            yield line_seperation
+
+# ----------------------------------------------------------------------------------------------------------------------
+class PageWebsites(RuleGenerator):
+    @classmethod
+    def rule_comment(cls):
+        yield line_seperation
+        yield CSSComment("- Page Class for Websites -")
+        yield line_seperation
+
+    @classmethod
+    def rule(cls):
+        for page_name, color in zip(WEBSITE_NAME_CLASSES,WEBSITE_NAME_COLORS):
+            for header in header_border(
+                    page_name=page_name,
+                    color=color,
+                    # done to make all headers have a special color, compared to the default header colors
+                    color_function= lambda _, color_, color_multiply: blend_multiply(color_, color_multiply)
                 ):
                 yield header
             # seperate every AI name with a line, for better visibilty in file

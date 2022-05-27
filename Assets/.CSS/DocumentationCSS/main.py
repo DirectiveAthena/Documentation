@@ -12,7 +12,7 @@ from AthenaCSS import CSSGenerator,CSSEmptyLine
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 
 from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
-from DocumentationCSS.Library.PageClasses import PageAI, PagePythonPackages
+from DocumentationCSS.Library.PageClasses import PageAI, PagePythonPackages, PageWebsites
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -26,7 +26,8 @@ RULE_ORDER = [
     HeaderSizing,
     CSSEmptyLine(),
     PageAI,
-    PagePythonPackages
+    PagePythonPackages,
+    PageWebsites
 ]
 
 def main():

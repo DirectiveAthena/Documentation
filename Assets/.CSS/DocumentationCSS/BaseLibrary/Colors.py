@@ -69,11 +69,12 @@ color_athenalib = SubPropertyLibrary.LinearGradient((
 ))
 
 PYTHON_PACKAGE_COLORS = (color_athenacolor, color_athenalib)
+# ----------------------------------------------------------------------------------------------------------------------
+# - Website Name colors -
+# ----------------------------------------------------------------------------------------------------------------------
+color_discord= RGB(255, 0  , 0  )
+color_twitch= RGB(169, 112, 255)
+color_twitter= RGB(26 , 140, 216)
+color_youtube= RGB(86 , 98 , 246)
 
-# ----------------------------------------------------------------------------------------------------------------------
-# - Website colors -
-# ----------------------------------------------------------------------------------------------------------------------
-color_youtube=    RGB(255, 0  , 0  )
-color_twitch=     RGB(169, 112, 255)
-color_twitter=    RGB(26 , 140, 216)
-color_discord=    RGB(86 , 98 , 246)
+WEBSITE_NAME_COLORS = (color_discord,color_twitch,color_twitter,color_youtube,)
