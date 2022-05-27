@@ -26,13 +26,14 @@ from AthenaLib.Types.Math import Degree, Percent
 # Custom Packages
 from DocumentationCSS.Library.Colors import (
     background_secondary, background_primary,
-    color_adam
+    AI_COLORS,
+    BLEND_HEADER_COLORS
 )
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 from DocumentationCSS.Library.Selectors import (
     class_markdown_rendered,class_publish_article_heading,
     HEADERS,
-    class_adam
+    AI_CLASSES
 )
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -49,15 +50,8 @@ class PageAI(RuleGenerator):
     @classmethod
     def rule(cls):
 
-        for ai, ai_color in zip(
-                (class_adam,),
-                (color_adam,)
-        ) :
-            for header, color_multiply in zip(
-                    HEADERS,
-                    # h1            h2                  h3                  h4                  h5                  h6
-                    (Color.White,   RGB(221,221,221),   RGB(204,204,204),   RGB(153,153,153),   RGB(119,119,199),   RGB(85,85,85))
-            ):
+        for ai, ai_color in zip(AI_CLASSES,AI_COLORS):
+            for header, color_multiply in zip(HEADERS,BLEND_HEADER_COLORS):
                 selector_class_ai = class_markdown_rendered(ai)
                 with (rule:=CSSRule(one_line_overwrite=True)) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
                     selectors.add_descendants(
@@ -71,7 +65,7 @@ class PageAI(RuleGenerator):
                     )
 
                     declarations.add(
-                        PropertyLibrary.BorderColor(blend_multiply(color_adam, color_multiply))
+                        PropertyLibrary.BorderColor(blend_multiply(ai_color, color_multiply))
                     )
 
                 yield rule
