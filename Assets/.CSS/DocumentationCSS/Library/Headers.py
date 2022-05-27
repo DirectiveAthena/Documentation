@@ -6,7 +6,7 @@ from __future__ import annotations
 
 # Custom Library
 from AthenaCSS import (
-    CSSRule, CSSProperty, CSSElement, CSSClass,
+    CSSRule, CSSProperty, CSSElement, CSSClass, CSSComment,
     SelectorElementLibrary as ElementLib,
     PropertyLibrary,
     SubPropertyLibrary
@@ -39,6 +39,9 @@ HEADERS = (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5
 # - Default for Header -
 # ----------------------------------------------------------------------------------------------------------------------
 class HeaderDefault(RuleGenerator):
+    @classmethod
+    def rule_comment(cls):
+        yield CSSComment("--- All headers derive from this ---")
     @classmethod
     def rule(cls):
         with (rule := CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations

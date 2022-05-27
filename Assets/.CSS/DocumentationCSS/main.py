@@ -25,10 +25,8 @@ def main():
 
     with (generator := CSSGenerator()) as structure:
         for ruleClass in css_content:
-            for segement in ruleClass.generate():
-                structure.add(
-                    segement
-                )
+            for generated in ruleClass.generate():
+                structure.add(generated)
 
     generator.to_console()
 

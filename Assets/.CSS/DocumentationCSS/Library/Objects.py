@@ -23,6 +23,8 @@ class RuleGenerator:
     @classmethod
     def generate(cls):
         for rule_comment in cls.rule_comment():
-            yield rule_comment
+            if rule_comment is not None:
+                yield rule_comment
         for rule in cls.rule():
-            yield rule
+            if rule is not None:
+                yield rule
