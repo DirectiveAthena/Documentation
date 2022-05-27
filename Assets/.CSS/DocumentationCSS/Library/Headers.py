@@ -34,13 +34,14 @@ HEADERS = (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5
 # - Default Header -
 # ----------------------------------------------------------------------------------------------------------------------
 def header_default() -> CSSRule:
+    print("here")
     with (rule := CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
         # SELECTORS of all headers:
         for header in HEADERS:
             selectors.add_descendants(
                 class_markdown_rendered,
                 header
-            ).add(
+            ).add_descendants(
                 class_markdown_rendered,
                 header(class_publish_article_heading)
             )
@@ -48,8 +49,14 @@ def header_default() -> CSSRule:
         # Properties
         declarations.add(
             PropertyLibrary.TextAlign("left"),
-            PropertyLibrary.Background(RGB(25,25,25)),
-            SubPropertyLibrary.LinearGradient((Degree(90),(background_secondary, Percent(75)), (background_primary, Percent(100)))),
+            PropertyLibrary.BackgroundColor(RGB(25,25,25)),
+            PropertyLibrary.BackgroundImage(
+                SubPropertyLibrary.LinearGradient((
+                    Degree(90),
+                    (background_secondary, Percent(75)),
+                    (background_primary, Percent(100))
+                ))
+            ),
             PropertyLibrary.BorderRadius(REM(.2)),
             PropertyLibrary.BorderBottomStyle("solid"),
             PropertyLibrary.BorderBottomWidth(Pixel(5))
