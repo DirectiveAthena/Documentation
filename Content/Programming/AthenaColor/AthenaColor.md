@@ -10,7 +10,7 @@ Made by [[Andreas Sas]] 2022, during his [[Directive Athena]] project. Andreas s
 > "To be fair, making my own color printer, might not have been the best use of my time"
 ~ Andreas Sas 2022 - While on vacation in Yorkshire
 
-Supported Python versions: **3.7**, **3.8**, **3.9**, **3.10** <span class="small"/>(Only for AthenaColor version 4.0.0, which is currently it's [final stages of development](https://github.com/DirectiveAthena/VerSC-AthenaColor/pull/8))
+Supported Python versions: **3.7**, **3.8**, **3.9**, **3.10**
 
 Other older versions of Python are not currently supported. These older versions will probably not be supported by Andreas Sas himself, but if you want to contribute to the project and make this package compatible with older versions of Python, Pull requests are always welcome.
 
