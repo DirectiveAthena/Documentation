@@ -63,8 +63,7 @@ class HeaderDefault(RuleGenerator):
                         Degree(90),
                         (background_secondary, Percent(75)),
                         (background_primary, Percent(100)),
-                    ),
-                    outset=1
+                    )
                 ),
                 PropertyLibrary.BorderRadius(REM(.2)),
                 PropertyLibrary.BorderBottomStyle("solid"),
