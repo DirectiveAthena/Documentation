@@ -14,6 +14,7 @@ from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
 from DocumentationCSS.Library.PageClasses import PageAI, PagePythonPackages, PageWebsites
 from DocumentationCSS.Library.Special import MetaDataHide
+from DocumentationCSS.Library.Obsidian import ObsidianStatusBar
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -29,10 +30,16 @@ RULE_ORDER = [
     PageAI,
     PagePythonPackages,
     PageWebsites,
+
     CSSEmptyLine(),
     CSSComment("SPECIAL ADDITIONS"),
     CSSEmptyLine(),
-    MetaDataHide
+    MetaDataHide,
+
+    CSSEmptyLine(),
+    CSSComment("OBSIDIAN PROGRAM"),
+    CSSEmptyLine(),
+    ObsidianStatusBar
 ]
 
 def main():

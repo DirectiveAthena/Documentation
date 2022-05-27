@@ -21,9 +21,7 @@ from DocumentationCSS.BaseLibrary.Colors import (
     HEADER_COLORS, PYTHON_PACKAGE_COLORS, WEBSITE_NAME_COLORS
 )
 from DocumentationCSS.BaseLibrary.Selectors import (
-    class_markdown_rendered,class_publish_article_heading,
-    HEADERS,
-    AI_CLASSES, PYTHON_PACKAGE_CLASSES, WEBSITE_NAME_CLASSES
+    class_markdown_rendered
 )
 from DocumentationCSS.BaseLibrary.Content import line_seperation
 
@@ -48,4 +46,20 @@ class MetaDataHide(RuleGenerator):
             declarations.add(
                 PropertyLibrary.Display(None)
             )
+        yield rule
+
+# ----------------------------------------------------------------------------------------------------------------------
+# - FileEmbedHide -
+# ----------------------------------------------------------------------------------------------------------------------
+class FileEmbedHide(RuleGenerator):
+    @classmethod
+    def rule_comment(cls):
+        yield line_seperation
+        yield CSSComment("- Special Rule to make the File Embedded title hide -")
+        yield line_seperation
+
+    @classmethod
+    def rule(cls):
+        with (rule:=CSSRule(one_line_overwrite=True)) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
+           # TODO
         yield rule
