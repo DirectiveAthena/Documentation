@@ -10,9 +10,13 @@ aliases: [AthenaColor Index]
 - Documentation
     - Console Text Styling
         - Inline
-            - 
+            - [[Bodies]]
+            - [[RgbControlled]]
+            - [[Style]]
         - Nested
-            - 
+            - [[BodiesNest]]
+            - [[RgbControlledNest]]
+            - [[StyleNest]]
     - [[ColorSystems|Color Systems]]
         - [[ColorSystems#^rgb|RGB]]
         - [[ColorSystems#^rgba|RGBA]]
