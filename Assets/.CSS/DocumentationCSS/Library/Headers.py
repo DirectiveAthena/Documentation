@@ -59,12 +59,12 @@ class HeaderDefault(RuleGenerator):
                 PropertyLibrary.TextAlign("left"),
                 PropertyLibrary.BackgroundColor(RGB(25,25,25)),
                 PropertyLibrary.BackgroundImage(
-                    SubPropertyLibrary.LinearGradient((
+                    SubPropertyLibrary.LinearGradient(
                         Degree(90),
                         (background_secondary, Percent(75)),
                         (background_primary, Percent(100)),
                         1 # important for some reason!
-                    ))
+                    )
                 ),
                 PropertyLibrary.BorderRadius(REM(.2)),
                 PropertyLibrary.BorderBottomStyle("solid"),
