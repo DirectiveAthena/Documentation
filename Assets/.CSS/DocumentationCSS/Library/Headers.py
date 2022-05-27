@@ -68,7 +68,7 @@ def header_default():
     yield rule
 
 def header_sizing():
-    padding_left = Pixel(35)
+    padding_left = PropertyLibrary.PaddingLeft(Pixel(35))
     for header, color, padding, font_size, margin_top in zip(
             HEADERS,
             # h1            h2                  h3              h4              h5          h6
@@ -87,6 +87,11 @@ def header_sizing():
             )
             declarations.add(
                 PropertyLibrary.Color(color),
-                PropertyLibrary.Padding()
+                PropertyLibrary.Padding(padding),
+                padding_left,
+                PropertyLibrary.FontSize(font_size)
             )
+            if margin_top is not None:
+                declarations.add(PropertyLibrary.MarginTop(margin_top))
+
         yield rule
