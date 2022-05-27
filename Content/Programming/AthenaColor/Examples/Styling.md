@@ -10,7 +10,7 @@ aliases: [AthenaColor Styling]
 - General Example
     >[!tldr]+ Python Code
     >```python
-    >from AthenaColor import ForeNest, StyleNest
+    >from AthenaColor import Fore, Style
     >
     >    print(  
     >f"""  
