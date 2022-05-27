@@ -5,7 +5,8 @@ cssclass: metaDataHide athenacolor
 aliases: [AthenaColor Styling]
 ---
 # AthenaColor Styling
-## Inline Styling
+## Easy Examples
+### Inline Styling
 - General Example
     >[!tldr]+ Python Code
     >```python
@@ -25,7 +26,7 @@ aliases: [AthenaColor Styling]
     ><span class="red">This is an <b>EXAMPLE</b> of nested Styling</span>
     ><span style="color: SlateGray">As you can see, the color needs to be manually returned here</span></i>
 
-## Nested Styling
+### Nested Styling
 
 - General Example
     >[!tldr]+ Python Code

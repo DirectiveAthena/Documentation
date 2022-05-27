@@ -22,11 +22,11 @@ Use Pip to install the package:
 ```bash
 pip install AthenaColor --upgrade
 ```
+![[Content/Programming/AthenaColor/Examples/Styling#Easy Examples]]
 
+---
 ![[Content/Programming/AthenaColor/Index#Index]]
-![[Content/Programming/AthenaColor/Examples/Examples#Examples]]
-![[Content/Programming/AthenaColor/Dependencies#Dependencies]]
-![[Content/Programming/AthenaColor/Contributors#Contributors]]
+
 %%FootNotes%%
 
 [^1]: In the spirit of "True No Dependency" the [[AthenaLib]] package is omitted from this project. Any code that depended on this package is directly imported into the project. This can be changed in the future, but will require a vote of active contributors.
