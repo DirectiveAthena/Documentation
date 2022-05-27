@@ -62,7 +62,7 @@ def header_border_image(page_name, color):
 
             if header == ElementLib.H1:
                 declarations.add(
-                    PropertyLibrary.BorderImage(color, outset=1)
+                    PropertyLibrary.BorderImage(color, slice_=1)
                 )
             else:
                 declarations.add(
