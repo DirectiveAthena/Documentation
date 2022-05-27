@@ -10,6 +10,7 @@ from AthenaCSS import CSSGenerator,CSSEmptyLine
 
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
+
 from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
 
 # ----------------------------------------------------------------------------------------------------------------------
