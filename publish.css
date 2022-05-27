@@ -167,14 +167,14 @@
 /*----------------------------------------------------------------*/
 /*- Page Class for Python Packages -*/
 /*----------------------------------------------------------------*/
-.markdown-rendered.athenacolor h1, .markdown-rendered.athenacolor h1.publish-article-heading, h1.athenacolor { border-image: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 0%, rgb(255, 154, 0) 10%, rgb(255, 154, 0) 10%, rgb(208, 222, 33) 20%, rgb(79, 220, 74) 30%, rgb(63, 218, 216) 40%, rgb(47, 201, 226) 50%, rgb(28, 127, 238) 60%, rgb(95, 21, 242) 70%, rgb(186, 12, 248) 80%, rgb(251, 7, 217) 90%, rgb(255, 0, 0) 100%) 1 medium 0 stretch; }
+.markdown-rendered.athenacolor h1, .markdown-rendered.athenacolor h1.publish-article-heading, h1.athenacolor { border-image-source: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 0%, rgb(255, 154, 0) 10%, rgb(255, 154, 0) 10%, rgb(208, 222, 33) 20%, rgb(79, 220, 74) 30%, rgb(63, 218, 216) 40%, rgb(47, 201, 226) 50%, rgb(28, 127, 238) 60%, rgb(95, 21, 242) 70%, rgb(186, 12, 248) 80%, rgb(251, 7, 217) 90%, rgb(255, 0, 0) 100%); border-image-slice: 1; }
 .markdown-rendered.athenacolor h2, .markdown-rendered.athenacolor h2.publish-article-heading, h2.athenacolor { border-color: rgb(220, 220, 220); }
 .markdown-rendered.athenacolor h3, .markdown-rendered.athenacolor h3.publish-article-heading, h3.athenacolor { border-color: rgb(192, 192, 192); }
 .markdown-rendered.athenacolor h4, .markdown-rendered.athenacolor h4.publish-article-heading, h4.athenacolor { border-color: rgb(169, 169, 169); }
 .markdown-rendered.athenacolor h5, .markdown-rendered.athenacolor h5.publish-article-heading, h5.athenacolor { border-color: rgb(128, 128, 128); }
 .markdown-rendered.athenacolor h6, .markdown-rendered.athenacolor h6.publish-article-heading, h6.athenacolor { border-color: rgb(105, 105, 105); }
 /*----------------------------------------------------------------*/
-.markdown-rendered.athenalib h1, .markdown-rendered.athenalib h1.publish-article-heading, h1.athenalib { border-image: linear-gradient(90deg, rgb(207, 30, 70) 0%, rgb(57, 81, 163) 100%) 1 medium 0 stretch; }
+.markdown-rendered.athenalib h1, .markdown-rendered.athenalib h1.publish-article-heading, h1.athenalib { border-image-source: linear-gradient(90deg, rgb(207, 30, 70) 0%, rgb(57, 81, 163) 100%); border-image-slice: 1; }
 .markdown-rendered.athenalib h2, .markdown-rendered.athenalib h2.publish-article-heading, h2.athenalib { border-color: rgb(220, 220, 220); }
 .markdown-rendered.athenalib h3, .markdown-rendered.athenalib h3.publish-article-heading, h3.athenalib { border-color: rgb(192, 192, 192); }
 .markdown-rendered.athenalib h4, .markdown-rendered.athenalib h4.publish-article-heading, h4.athenalib { border-color: rgb(169, 169, 169); }
