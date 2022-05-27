@@ -14,6 +14,7 @@ from AthenaCSS import (
 from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
 
 from AthenaColor import RGB
+from AthenaColor.Color.HtmlColors import HtmlColorObjects as Color
 
 from AthenaLib.Types.RelativeLength import RootElementFontSize as REM
 from AthenaLib.Types.AbsoluteLength import Pixel
@@ -31,10 +32,9 @@ class_publish_article_heading = CSSClass("publish-article-heading")
 HEADERS = (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5,ElementLib.H6)
 
 # ----------------------------------------------------------------------------------------------------------------------
-# - Default Header -
+# - Default for Header -
 # ----------------------------------------------------------------------------------------------------------------------
 def header_default() -> CSSRule:
-    print("here")
     with (rule := CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
         # SELECTORS of all headers:
         for header in HEADERS:
@@ -63,24 +63,10 @@ def header_default() -> CSSRule:
         )
 
     return rule
-# .markdown-rendered h1,
-# .markdown-rendered h2,
-# .markdown-rendered h3,
-# .markdown-rendered h4,
-# .markdown-rendered h5,
-# .markdown-rendered h6,
-# .markdown-rendered h1.publish-article-heading,
-# .markdown-rendered h2.publish-article-heading,
-# .markdown-rendered h3.publish-article-heading,
-# .markdown-rendered h4.publish-article-heading,
-# .markdown-rendered h5.publish-article-heading,
-# .markdown-rendered h6.publish-article-heading
-# {
-#     text-align: left;
-#     background: rgb(25,25,25);
-#     background: linear-gradient(90deg, var(--background-secondary) 75%, var(--background-primary) 100%);
-#     border-radius: .2em;
-#     border-bottom-style: solid;
-#     border-bottom-width: 5px;
-# }
-# #
+
+def header_sizing():
+    for header, color, padding, font_size, margin_top in zip(
+        HEADERS,
+        # h1    h2      h3      h4      h5      h6
+        (Color.White,)
+    )
