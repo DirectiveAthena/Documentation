@@ -8,7 +8,7 @@ from __future__ import annotations
 from AthenaCSS import CSSGenerator
 
 # Custom Packages
-from DocumentationCSS.Library.Headers import header_default, header_sizing
+from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -19,15 +19,15 @@ from DocumentationCSS.Library.Headers import header_default, header_sizing
 # ----------------------------------------------------------------------------------------------------------------------
 def main():
     css_content = [
-        header_default,
-        header_sizing
+        HeaderDefault,
+        HeaderSizing
     ]
 
     with (generator := CSSGenerator()) as structure:
-        for content in css_content:
-            for rule in content():
-                structure.add_rule(
-                    rule
+        for ruleClass in css_content:
+            for segement in ruleClass.generate():
+                structure.add(
+                    segement
                 )
 
     generator.to_console()
