@@ -60,13 +60,13 @@ class PageAI(RuleGenerator):
             ):
                 with (rule:=CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
                     selectors.add_descendants(
-                        CSSClass(class_markdown_rendered, ai),
+                        class_markdown_rendered(ai),
                         header
                     ).add_descendants(
                         CSSClass(class_markdown_rendered, ai),
                         header(class_publish_article_heading)
                     ).add(
-                        header(ai(ai))
+                        header(ai)
                     )
 
                     declarations.add(
