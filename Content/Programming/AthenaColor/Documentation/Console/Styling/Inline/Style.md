@@ -221,8 +221,6 @@ aliases: [Style]
 ---  
 #attribute Style.**NoScript**  
 - String output of the  [[ANSI Sequences#^7dd891|ColorSequence]] function with the ANSI code parameter `75`  
-  
----
 
 ## Basic
 
