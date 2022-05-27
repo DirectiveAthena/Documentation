@@ -49,9 +49,9 @@ class Page_AI(RuleGenerator):
         for ai in (class_adam,) :
             for header in zip(
                     HEADERS,
-                    # h1            h2                  h3              h4              h5          h6
-                    (Color.White,   RGB())
-            :
+                    # h1            h2                  h3                  h4                  h5                  h6
+                    (Color.White,   RGB(221,221,221),   RGB(204,204,204),   RGB(153,153,153),   RGB(119,119,199),   RGB())
+            ):
                 with (rule:=CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
                     selectors.add_descendants(
                         class_markdown_rendered(ai),
