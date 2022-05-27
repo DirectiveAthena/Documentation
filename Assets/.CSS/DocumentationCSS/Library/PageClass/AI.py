@@ -58,12 +58,13 @@ class PageAI(RuleGenerator):
                     # h1            h2                  h3                  h4                  h5                  h6
                     (Color.White,   RGB(221,221,221),   RGB(204,204,204),   RGB(153,153,153),   RGB(119,119,199),   RGB(85,85,85))
             ):
-                with (rule:=CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
+                selector_class_ai = class_markdown_rendered(ai)
+                with (rule:=CSSRule(one_line_overwrite=True)) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
                     selectors.add_descendants(
-                        class_markdown_rendered(ai),
+                        selector_class_ai,
                         header
                     ).add_descendants(
-                        class_markdown_rendered(ai),
+                        selector_class_ai,
                         header(class_publish_article_heading)
                     ).add(
                         header(ai)
