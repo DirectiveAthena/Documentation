@@ -7,7 +7,7 @@ aliases: [AthenaColor Styling]
 # AthenaColor Styling
 ## Inline Styling
 - General Example
-    >[!tldr]- Python Code
+    >[!tldr]+ Python Code
     >```python
     >from AthenaColor import ForeNest, StyleNest
     >
