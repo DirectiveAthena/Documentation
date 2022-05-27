@@ -6,10 +6,10 @@ from __future__ import annotations
 import inspect
 
 # Custom Library
-from AthenaCSS import CSSGenerator, CSSCommentSeparator,CSSEmptyLine
+from AthenaCSS import CSSGenerator,CSSEmptyLine
 
 # Custom Packages
-from DocumentationCSS.Library.Objects import RuleGenerator
+from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -19,19 +19,18 @@ from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
-def main():
-    css_content = [
-        HeaderDefault,
-        HeaderSizing,
-        CSSEmptyLine()
-    ]
+RULE_ORDER = [
+    HeaderDefault,
+    HeaderSizing,
+    CSSEmptyLine()
+]
 
+def main():
     with (generator := CSSGenerator()) as structure:
-        for content in css_content:
+        for content in RULE_ORDER:
             if inspect.isclass(content) and issubclass(content,RuleGenerator):
-                    # generate method is possible, as it is a classmethod of a RuleClass
-                    for generated in content.generate():
-                        structure.add(generated)
+                 for generated in content.generate():
+                    structure.add(generated)
             else:
                 structure.add(content)
 

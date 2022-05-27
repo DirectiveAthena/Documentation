@@ -25,7 +25,7 @@ from AthenaLib.Types.Math import Degree, Percent
 
 # Custom Packages
 from DocumentationCSS.Library.Colors import background_secondary, background_primary
-from DocumentationCSS.Library.Objects import RuleGenerator
+from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Support Code -
@@ -78,6 +78,10 @@ class HeaderDefault(RuleGenerator):
         yield rule
 
 class HeaderSizing(RuleGenerator):
+    @classmethod
+    def rule_comment(cls):
+        yield CSSComment("- Headers differ in size depending on the depth -")
+
     @classmethod
     def rule(cls):
         # premade these elements, as they stay consistent throughout the loop
