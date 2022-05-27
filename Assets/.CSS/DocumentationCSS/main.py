@@ -8,6 +8,7 @@ from __future__ import annotations
 from AthenaCSS import CSSGenerator
 
 # Custom Packages
+from DocumentationCSS.Library.Headers import header_default
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -18,8 +19,11 @@ from AthenaCSS import CSSGenerator
 # ----------------------------------------------------------------------------------------------------------------------
 def main():
     with (generator := CSSGenerator()) as structure:
+        structure.add_rule(
+            header_default()
+        )
 
-
+    generator.to_console()
 
 if __name__ == '__main__':
     main()
