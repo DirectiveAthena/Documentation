@@ -5,9 +5,11 @@
 from __future__ import annotations
 
 # Custom Library
+from AthenaCSS import CSSCommentSeparator
 
 # Custom Packages
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
+line_seperation = CSSCommentSeparator()

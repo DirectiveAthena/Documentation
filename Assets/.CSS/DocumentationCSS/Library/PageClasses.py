@@ -35,6 +35,7 @@ from DocumentationCSS.Library.Selectors import (
     HEADERS,
     AI_CLASSES
 )
+from DocumentationCSS.Library.Content import line_seperation
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
@@ -43,9 +44,9 @@ class PageAI(RuleGenerator):
 
     @classmethod
     def rule_comment(cls):
-        yield CSSCommentSeparator()
-        yield CSSComment("- Page Class for 'adam' -")
-        yield CSSCommentSeparator()
+        yield line_seperation
+        yield CSSComment("- Page Class for named Artificial Intelligences -")
+        yield line_seperation
 
     @classmethod
     def rule(cls):
@@ -69,3 +70,5 @@ class PageAI(RuleGenerator):
                     )
 
                 yield rule
+            # seperate every AI name with a line, for better visibilty in file
+            yield line_seperation

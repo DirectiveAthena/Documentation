@@ -29,6 +29,7 @@ from DocumentationCSS.Library.Selectors import (
     class_markdown_rendered,class_publish_article_heading,
     HEADERS
 )
+from DocumentationCSS.Library.Content import line_seperation
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Default for Header -
@@ -36,9 +37,9 @@ from DocumentationCSS.Library.Selectors import (
 class HeaderDefault(RuleGenerator):
     @classmethod
     def rule_comment(cls):
-        yield CSSCommentSeparator()
+        yield line_seperation
         yield CSSComment("- All headers derive from this -")
-        yield CSSCommentSeparator()
+        yield line_seperation
 
     @classmethod
     def rule(cls):
