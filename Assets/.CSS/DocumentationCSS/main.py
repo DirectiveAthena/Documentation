@@ -13,7 +13,7 @@ from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 
 from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
 from DocumentationCSS.Library.PageClasses import PageAI, PagePythonPackages, PageWebsites
-from DocumentationCSS.Library.Special import MetaDataHide
+from DocumentationCSS.Library.Special import MetaDataHide, FileEmbed
 from DocumentationCSS.Library.Obsidian import ObsidianStatusBar
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -35,6 +35,7 @@ RULE_ORDER = [
     CSSComment("SPECIAL ADDITIONS"),
     CSSEmptyLine(),
     MetaDataHide,
+    FileEmbed,
 
     CSSEmptyLine(),
     CSSComment("OBSIDIAN PROGRAM"),
@@ -52,6 +53,12 @@ def main():
                 structure.add(content)
 
     generator.to_console()
+    # Ouput to publish.css file
+    generator.to_file(
+        filepath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css"
+    )
+    #
+
 
 if __name__ == '__main__':
     main()

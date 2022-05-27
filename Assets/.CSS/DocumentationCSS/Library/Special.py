@@ -12,7 +12,7 @@ from AthenaCSS import (
 )
 from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
 
-from AthenaColor.Color.BlendModes import blend_multiply
+from AthenaLib.Types.AbsoluteLength import Pixel
 
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
@@ -21,7 +21,8 @@ from DocumentationCSS.BaseLibrary.Colors import (
     HEADER_COLORS, PYTHON_PACKAGE_COLORS, WEBSITE_NAME_COLORS
 )
 from DocumentationCSS.BaseLibrary.Selectors import (
-    class_markdown_rendered
+    class_markdown_rendered, class_markdown_embed, class_markdown_preview_view, class_markdown_embed_title,
+    class_markdown_embed_link
 )
 from DocumentationCSS.BaseLibrary.Content import line_seperation
 
@@ -30,6 +31,9 @@ from DocumentationCSS.BaseLibrary.Content import line_seperation
 # - MetaDataHide -
 # ----------------------------------------------------------------------------------------------------------------------
 class MetaDataHide(RuleGenerator):
+    # Special class used to define this set of rules
+    MetaDataHide = CSSClass("metaDataHide")
+
     @classmethod
     def rule_comment(cls):
         yield line_seperation
@@ -49,9 +53,12 @@ class MetaDataHide(RuleGenerator):
         yield rule
 
 # ----------------------------------------------------------------------------------------------------------------------
-# - FileEmbedHide -
+# - FileEmbed -
 # ----------------------------------------------------------------------------------------------------------------------
-class FileEmbedHide(RuleGenerator):
+class FileEmbed(RuleGenerator):
+    # Special class used to define this set of rules
+    FileEmbed = CSSClass("cleanEmbed")
+
     @classmethod
     def rule_comment(cls):
         yield line_seperation
@@ -60,6 +67,31 @@ class FileEmbedHide(RuleGenerator):
 
     @classmethod
     def rule(cls):
-        with (rule:=CSSRule(one_line_overwrite=True)) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
-           # TODO
-        yield rule
+        with (rule1:=CSSRule()) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
+            selectors.add_descendants(
+                class_markdown_rendered(cls.FileEmbed),
+                class_markdown_embed
+            ).add_descendants(
+                class_markdown_rendered(cls.FileEmbed),
+                class_markdown_embed,
+                class_markdown_preview_view
+            )
+            declarations.add(
+                PropertyLibrary.Border(),
+                PropertyLibrary.Padding(Pixel(0)),
+                PropertyLibrary.Margin(Pixel(0)),
+            )
+        yield rule1
+
+        with (rule2:=CSSRule()) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
+            selectors.add_descendants(
+                class_markdown_rendered(cls.FileEmbed),
+                class_markdown_embed_link
+            ).add_descendants(
+                class_markdown_rendered(cls.FileEmbed),
+                class_markdown_embed_link
+            )
+            declarations.add(
+                PropertyLibrary.Display(None)
+            )
+        yield rule2

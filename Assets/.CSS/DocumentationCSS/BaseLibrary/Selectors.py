@@ -17,6 +17,10 @@ from AthenaCSS import (
 # ----------------------------------------------------------------------------------------------------------------------
 class_markdown_rendered = CSSClass("markdown-rendered")
 class_publish_article_heading = CSSClass("publish-article-heading")
+class_markdown_embed = CSSClass("markdown-embed")
+class_markdown_embed_title = CSSClass("markdown-embed-title")
+class_markdown_embed_link = CSSClass("markdown-embed-link")
+class_markdown_preview_view = CSSClass("markdown-preview-view")
 
 HEADERS = (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5,ElementLib.H6)
 
