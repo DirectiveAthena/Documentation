@@ -3,11 +3,13 @@
 # ----------------------------------------------------------------------------------------------------------------------
 # General Packages
 from __future__ import annotations
+from typing import Callable
 
 # Custom Library
 from AthenaCSS import (
     CSSRule, CSSComment,
     PropertyLibrary,
+    SelectorElementLibrary as ElementLib,
 )
 from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
 
@@ -29,7 +31,7 @@ from DocumentationCSS.Library.Content import line_seperation
 # ----------------------------------------------------------------------------------------------------------------------
 # - Support Code Code -
 # ----------------------------------------------------------------------------------------------------------------------
-def header_border(page_name, color):
+def header_border(page_name, color, color_function:Callable):
     selector_class_page = class_markdown_rendered(page_name)
     for header, color_multiply in zip(HEADERS, BLEND_HEADER_COLORS):
         with (rule := CSSRule(one_line_overwrite=True)) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
@@ -42,7 +44,7 @@ def header_border(page_name, color):
             )
 
             declarations.add(
-                PropertyLibrary.BorderColor(blend_multiply(color, color_multiply))
+                PropertyLibrary.BorderColor(color_function(header, color, color_multiply))
             )
         yield rule
 
@@ -62,6 +64,7 @@ class PageAI(RuleGenerator):
             for header in header_border(
                     page_name=page_name,
                     color=color,
+                    color_function= lambda _, color_, color_multiply: blend_multiply(color_, color_multiply)
                 ):
                 yield header
             # seperate every AI name with a line, for better visibilty in file
@@ -80,6 +83,7 @@ class PagePythonPackages(RuleGenerator):
             for header in header_border(
                     page_name=page_name,
                     color=color,
+                    color_function= lambda h, color_, color_multiply: color_ if h == ElementLib.H1 else color_multiply
                 ):
                 yield header
             # seperate every AI name with a line, for better visibilty in file
