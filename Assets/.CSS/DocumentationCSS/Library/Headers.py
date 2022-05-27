@@ -67,6 +67,6 @@ def header_default() -> CSSRule:
 def header_sizing():
     for header, color, padding, font_size, margin_top in zip(
         HEADERS,
-        # h1    h2      h3      h4      h5      h6
-        (Color.White,)
+        # h1            h2                  h3              h4              h5          h6
+        (Color.White,   Color.Gainsboro,    Color.Silver,   Color.DarkGray, Color.Gray, Color.    )
     )
