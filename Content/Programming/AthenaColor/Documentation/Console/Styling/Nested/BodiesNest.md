@@ -4,7 +4,6 @@ created: "2022-05-26 13:53"
 cssclass: metaDataHide athenacolor
 aliases: [BodiesNest]
 ---
----
 # AthenaColor BodiesNest: ForeNest, BackNest, UnderlineNest
 AthenaColor.Console.Styling.Nested.BodiesNest.**ForeNest**
 - An instanced object of [[RgbControlledNest]] with its `inline_class` being set to the [[Bodies#^243f67|Fore]] and its `reset` being set to [[Style]]
