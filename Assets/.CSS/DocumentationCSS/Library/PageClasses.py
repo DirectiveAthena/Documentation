@@ -31,7 +31,7 @@ from DocumentationCSS.BaseLibrary.Content import line_seperation
 # ----------------------------------------------------------------------------------------------------------------------
 # - Support Code Code -
 # ----------------------------------------------------------------------------------------------------------------------
-def header_border(page_name, color, color_function:Callable):
+def header_border_solid(page_name, color):
     selector_class_page = class_markdown_rendered(page_name)
     for header, color_multiply in zip(HEADERS, HEADER_COLORS):
         with (rule := CSSRule(one_line_overwrite=True)) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
@@ -44,8 +44,30 @@ def header_border(page_name, color, color_function:Callable):
             )
 
             declarations.add(
-                PropertyLibrary.BorderColor(color_function(header, color, color_multiply))
+                PropertyLibrary.BorderColor(blend_multiply(color, color_multiply))
             )
+        yield rule
+
+def header_border_image(page_name, color):
+    selector_class_page = class_markdown_rendered(page_name)
+    for header, color_multiply in zip(HEADERS, HEADER_COLORS):
+        with (rule := CSSRule(one_line_overwrite=True)) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
+            selectors.add_descendants(
+                selector_class_page, header
+            ).add_descendants(
+                selector_class_page, header(class_publish_article_heading)
+            ).add(
+                header(page_name)
+            )
+
+            if header == ElementLib.H1:
+                declarations.add(
+                    PropertyLibrary.BorderImage(color, outset=1)
+                )
+            else:
+                declarations.add(
+                    PropertyLibrary.BorderColor(color_multiply)
+                )
         yield rule
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -61,11 +83,9 @@ class PageAI(RuleGenerator):
     @classmethod
     def rule(cls):
         for page_name, color in zip(AI_CLASSES,AI_COLORS):
-            for header in header_border(
+            for header in header_border_solid(
                     page_name=page_name,
-                    color=color,
-                    # done to make all headers have a special color, compared to the default header colors
-                    color_function= lambda _, color_, color_multiply: blend_multiply(color_, color_multiply)
+                    color=color
                 ):
                 yield header
             # seperate every AI name with a line, for better visibilty in file
@@ -82,11 +102,9 @@ class PagePythonPackages(RuleGenerator):
     @classmethod
     def rule(cls):
         for page_name, color in zip(PYTHON_PACKAGE_CLASSES,PYTHON_PACKAGE_COLORS):
-            for header in header_border(
+            for header in header_border_image(
                     page_name=page_name,
                     color=color,
-                    # done to only make the h1 a special color, all othersfollow the same color patern as regular headers
-                    color_function= lambda h, color_, color_multiply: color_ if h == ElementLib.H1 else color_multiply
                 ):
                 yield header
             # seperate every AI name with a line, for better visibilty in file
@@ -103,12 +121,10 @@ class PageWebsites(RuleGenerator):
     @classmethod
     def rule(cls):
         for page_name, color in zip(WEBSITE_NAME_CLASSES,WEBSITE_NAME_COLORS):
-            for header in header_border(
+            for header in header_border_solid(
                     page_name=page_name,
                     color=color,
-                    # done to make all headers have a special color, compared to the default header colors
-                    color_function= lambda _, color_, color_multiply: blend_multiply(color_, color_multiply)
-                ):
+            ):
                 yield header
             # seperate every AI name with a line, for better visibilty in file
             yield line_seperation
