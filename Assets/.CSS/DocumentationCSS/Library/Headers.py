@@ -6,7 +6,7 @@ from __future__ import annotations
 
 # Custom Library
 from AthenaCSS import (
-    CSSRule, CSSComment, CSSCommentSeparator,
+    CSSRule, CSSComment,
     PropertyLibrary,
     SubPropertyLibrary
 )
@@ -62,7 +62,8 @@ class HeaderDefault(RuleGenerator):
                     SubPropertyLibrary.LinearGradient((
                         Degree(90),
                         (background_secondary, Percent(75)),
-                        (background_primary, Percent(100))
+                        (background_primary, Percent(100)),
+                        1 # important for some reason!
                     ))
                 ),
                 PropertyLibrary.BorderRadius(REM(.2)),

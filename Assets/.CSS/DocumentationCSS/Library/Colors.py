@@ -8,6 +8,9 @@ from __future__ import annotations
 from AthenaColor import RGB
 from AthenaColor.Color.HtmlColors import HtmlColorObjects as Color
 
+from AthenaCSS import SubPropertyLibrary
+
+from AthenaLib.Types.Math import Degree, Percent
 
 # Custom Packages
 
@@ -38,7 +41,34 @@ color_ceres=      RGB(213, 224, 68 )
 
 AI_COLORS = (color_adam,color_aero,color_athena,color_ceres,color_eva,color_jupiter,color_minerva,color_neptune,color_pluto,color_sol,color_venus,color_veritas,color_vulcanus)
 
+# ----------------------------------------------------------------------------------------------------------------------
+# - Python Package classes -
+# ----------------------------------------------------------------------------------------------------------------------
+color_athenacolor = SubPropertyLibrary.LinearGradient((
+    Degree(90),
+    (RGB(255,0,0), Percent(0)),
+    (RGB(255,0,0), Percent(0)),
+    (RGB(255,154,0), Percent(10)),
+    (RGB(255,154,0), Percent(10)),
+    (RGB(208,222,33), Percent(20)),
+    (RGB(79,220,74), Percent(30)),
+    (RGB(63,218,216), Percent(40)),
+    (RGB(47,201,226), Percent(50)),
+    (RGB(28,127,238), Percent(60)),
+    (RGB(95,21,242), Percent(70)),
+    (RGB(186,12,248), Percent(80)),
+    (RGB(251,7,217), Percent(90)),
+    (RGB(255,0,0), Percent(100)),
+    1 # important for some reason
+))
+color_athenalib = SubPropertyLibrary.LinearGradient((
+    Degree(90),
+    (RGB(207,30,70), Percent(0)),
+    (RGB(57,81,163), Percent(100)),
+    1 # important for some reason
+))
 
+PYTHON_PACKAGE_COLORS = (color_athenacolor, color_athenalib)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Website colors -
