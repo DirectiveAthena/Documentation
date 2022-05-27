@@ -16,3 +16,9 @@ aliases: [RgbControlled]
 *method* RgbControlled.**custom(**`color:RGB|HEX|CMYK|HSL|HSV|RGBA|HEXA`**)**
 - Allows you to use a custom RGB object to define the output color.
 - Uses the correctly defined parameter code for the specific part of the styling it should output
+
+---
+*attribute* RgbControlled.**Maroon**, **DarkRed**,**Brown**, ...
+- Returns the [[ANSI Sequences#^7dd891|ColorSequence]] output of the corresponding [[HTML Named Colors|Color]]
+- All colors are generated on package import
+
