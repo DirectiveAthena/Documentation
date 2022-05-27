@@ -6,7 +6,7 @@ from __future__ import annotations
 
 # Custom Library
 from AthenaCSS import (
-    CSSRule, CSSComment, CSSCommentSeparator,
+    CSSRule, CSSComment, CSSCommentSeparator,CSSClass,
     PropertyLibrary,
     SubPropertyLibrary
 )
@@ -60,10 +60,10 @@ class PageAI(RuleGenerator):
             ):
                 with (rule:=CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
                     selectors.add_descendants(
-                        class_markdown_rendered(ai),
+                        CSSClass(class_markdown_rendered, ai),
                         header
                     ).add_descendants(
-                        class_markdown_rendered(ai),
+                        CSSClass(class_markdown_rendered, ai),
                         header(class_publish_article_heading)
                     ).add(
                         header(ai)
