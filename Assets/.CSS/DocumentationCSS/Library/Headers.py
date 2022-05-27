@@ -22,13 +22,14 @@ from AthenaLib.Types.AbsoluteLength import Pixel
 from AthenaLib.Types.Math import Degree, Percent
 
 # Custom Packages
-from DocumentationCSS.Library.Colors import background_secondary, background_primary, HEADER_COLORS
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
-from DocumentationCSS.Library.Selectors import (
+
+from DocumentationCSS.BaseLibrary.Colors import background_secondary, background_primary, HEADER_COLORS
+from DocumentationCSS.BaseLibrary.Selectors import (
     class_markdown_rendered,class_publish_article_heading,
     HEADERS
 )
-from DocumentationCSS.Library.Content import line_seperation
+from DocumentationCSS.BaseLibrary.Content import line_seperation
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Default for Header -

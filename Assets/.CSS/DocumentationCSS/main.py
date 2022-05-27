@@ -6,13 +6,14 @@ from __future__ import annotations
 import inspect
 
 # Custom Library
-from AthenaCSS import CSSGenerator,CSSEmptyLine
+from AthenaCSS import CSSGenerator,CSSEmptyLine, CSSComment
 
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 
 from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
 from DocumentationCSS.Library.PageClasses import PageAI, PagePythonPackages, PageWebsites
+from DocumentationCSS.Library.Special import MetaDataHide
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -27,7 +28,11 @@ RULE_ORDER = [
     CSSEmptyLine(),
     PageAI,
     PagePythonPackages,
-    PageWebsites
+    PageWebsites,
+    CSSEmptyLine(),
+    CSSComment("SPECIAL ADDITIONS"),
+    CSSEmptyLine(),
+    MetaDataHide
 ]
 
 def main():

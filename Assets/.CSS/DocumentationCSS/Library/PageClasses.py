@@ -16,17 +16,17 @@ from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarat
 from AthenaColor.Color.BlendModes import blend_multiply
 
 # Custom Packages
-from DocumentationCSS.Library.Colors import (
+from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
+from DocumentationCSS.BaseLibrary.Colors import (
     AI_COLORS,
     HEADER_COLORS, PYTHON_PACKAGE_COLORS, WEBSITE_NAME_COLORS
 )
-from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
-from DocumentationCSS.Library.Selectors import (
+from DocumentationCSS.BaseLibrary.Selectors import (
     class_markdown_rendered,class_publish_article_heading,
     HEADERS,
     AI_CLASSES, PYTHON_PACKAGE_CLASSES, WEBSITE_NAME_CLASSES
 )
-from DocumentationCSS.Library.Content import line_seperation
+from DocumentationCSS.BaseLibrary.Content import line_seperation
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Support Code Code -
