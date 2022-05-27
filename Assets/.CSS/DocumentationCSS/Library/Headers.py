@@ -42,6 +42,7 @@ class HeaderDefault(RuleGenerator):
     @classmethod
     def rule_comment(cls):
         yield CSSComment("--- All headers derive from this ---")
+
     @classmethod
     def rule(cls):
         with (rule := CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
