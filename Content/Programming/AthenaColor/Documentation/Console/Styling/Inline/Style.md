@@ -10,5 +10,5 @@ aliases: [Style]
 - Collection class with all class attributes being a [[ANSI Sequences#^7dd891|ColorSequence]] output of the correct ANSI Code, mapped to the name of the attribute
 
 ---
-#attribute Style.
+#attribute Style.**Reset**
 
