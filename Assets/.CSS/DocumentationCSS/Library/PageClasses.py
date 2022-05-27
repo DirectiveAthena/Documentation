@@ -18,7 +18,7 @@ from AthenaColor.Color.BlendModes import blend_multiply
 # Custom Packages
 from DocumentationCSS.Library.Colors import (
     AI_COLORS,
-    BLEND_HEADER_COLORS, PYTHON_PACKAGE_COLORS
+    HEADER_COLORS, PYTHON_PACKAGE_COLORS
 )
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 from DocumentationCSS.Library.Selectors import (
@@ -33,7 +33,7 @@ from DocumentationCSS.Library.Content import line_seperation
 # ----------------------------------------------------------------------------------------------------------------------
 def header_border(page_name, color, color_function:Callable):
     selector_class_page = class_markdown_rendered(page_name)
-    for header, color_multiply in zip(HEADERS, BLEND_HEADER_COLORS):
+    for header, color_multiply in zip(HEADERS, HEADER_COLORS):
         with (rule := CSSRule(one_line_overwrite=True)) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
             selectors.add_descendants(
                 selector_class_page, header
@@ -64,6 +64,7 @@ class PageAI(RuleGenerator):
             for header in header_border(
                     page_name=page_name,
                     color=color,
+                    # done to make all headers have a special color, compared to the default header colors
                     color_function= lambda _, color_, color_multiply: blend_multiply(color_, color_multiply)
                 ):
                 yield header
@@ -83,6 +84,7 @@ class PagePythonPackages(RuleGenerator):
             for header in header_border(
                     page_name=page_name,
                     color=color,
+                    # done to only make the h1 a special color, all othersfollow the same color patern as regular headers
                     color_function= lambda h, color_, color_multiply: color_ if h == ElementLib.H1 else color_multiply
                 ):
                 yield header

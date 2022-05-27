@@ -13,7 +13,6 @@ from AthenaCSS import (
 from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
 
 from AthenaColor import RGB
-from AthenaColor.Color.HtmlColors import HtmlColorObjects as Color
 
 from AthenaLib.Types.RelativeLength import (
     RootElementFontSize as REM,
@@ -23,7 +22,7 @@ from AthenaLib.Types.AbsoluteLength import Pixel
 from AthenaLib.Types.Math import Degree, Percent
 
 # Custom Packages
-from DocumentationCSS.Library.Colors import background_secondary, background_primary
+from DocumentationCSS.Library.Colors import background_secondary, background_primary, HEADER_COLORS
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 from DocumentationCSS.Library.Selectors import (
     class_markdown_rendered,class_publish_article_heading,
@@ -87,7 +86,7 @@ class HeaderSizing(RuleGenerator):
         for header, color, padding, font_size, margin_top in zip(
                 HEADERS,
                 # h1            h2                  h3              h4              h5          h6
-                (Color.White,   Color.Gainsboro,    Color.Silver,   Color.DarkGray, Color.Gray, Color.DimGray),
+                HEADER_COLORS,
                 (Pixel(12),     Pixel(10),          Pixel(8),       Pixel(6),       Pixel(4),   Pixel(2)),
                 (EM(2),         EM(1.8),            EM(1.6),        EM(1.4),        EM(1.2),    EM(1.1)),
                 (None,          EM(2),              EM(1.75),       EM(1.5),        EM(1.25),   EM(1))

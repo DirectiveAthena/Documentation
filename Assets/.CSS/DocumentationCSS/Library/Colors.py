@@ -20,7 +20,7 @@ from AthenaLib.Types.Math import Degree, Percent
 background_primary = RGB(32,32,32)
 background_secondary =RGB(22,22,22)
 
-BLEND_HEADER_COLORS = (Color.White, RGB(221, 221, 221), RGB(204, 204, 204), RGB(153, 153, 153), RGB(119, 119, 199), RGB(85, 85, 85))
+HEADER_COLORS = (Color.White,   Color.Gainsboro,    Color.Silver,   Color.DarkGray, Color.Gray, Color.DimGray)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - AI colors -
