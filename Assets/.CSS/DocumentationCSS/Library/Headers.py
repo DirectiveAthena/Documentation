@@ -16,7 +16,10 @@ from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarat
 from AthenaColor import RGB
 from AthenaColor.Color.HtmlColors import HtmlColorObjects as Color
 
-from AthenaLib.Types.RelativeLength import RootElementFontSize as REM
+from AthenaLib.Types.RelativeLength import (
+    RootElementFontSize as REM,
+    ElementFontSize as EM
+)
 from AthenaLib.Types.AbsoluteLength import Pixel
 from AthenaLib.Types.Math import Degree, Percent
 
@@ -34,7 +37,7 @@ HEADERS = (ElementLib.H1,ElementLib.H2,ElementLib.H3,ElementLib.H4,ElementLib.H5
 # ----------------------------------------------------------------------------------------------------------------------
 # - Default for Header -
 # ----------------------------------------------------------------------------------------------------------------------
-def header_default() -> CSSRule:
+def header_default():
     with (rule := CSSRule()) as (selectors, declarations): #type: ManagerSelectors, ManagerDeclarations
         # SELECTORS of all headers:
         for header in HEADERS:
@@ -62,11 +65,28 @@ def header_default() -> CSSRule:
             PropertyLibrary.BorderBottomWidth(Pixel(5))
         )
 
-    return rule
+    yield rule
 
 def header_sizing():
+    padding_left = Pixel(35)
     for header, color, padding, font_size, margin_top in zip(
-        HEADERS,
-        # h1            h2                  h3              h4              h5          h6
-        (Color.White,   Color.Gainsboro,    Color.Silver,   Color.DarkGray, Color.Gray, Color.    )
-    )
+            HEADERS,
+            # h1            h2                  h3              h4              h5          h6
+            (Color.White,   Color.Gainsboro,    Color.Silver,   Color.DarkGray, Color.Gray, Color.DimGray),
+            (Pixel(12),     Pixel(10),          Pixel(8),       Pixel(6),       Pixel(4),   Pixel(2)),
+            (EM(2),         EM(1.8),            EM(1.6),        EM(1.4),        EM(1.2),    EM(1.1)),
+            (None,          EM(2),              EM(1.75),       EM(1.5),        EM(1.25),   EM(1))
+    ):
+        with (rule := CSSRule()) as (selectors, declarations):
+            selectors.add_descendants(
+                class_markdown_rendered,
+                header
+            ).add_descendants(
+                class_markdown_rendered,
+                header(class_publish_article_heading)
+            )
+            declarations.add(
+                PropertyLibrary.Color(color),
+                PropertyLibrary.Padding()
+            )
+        yield rule
