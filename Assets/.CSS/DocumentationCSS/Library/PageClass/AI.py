@@ -63,7 +63,7 @@ class PageAI(RuleGenerator):
                         class_markdown_rendered(ai),
                         header
                     ).add_descendants(
-                        CSSClass(class_markdown_rendered, ai),
+                        class_markdown_rendered(ai),
                         header(class_publish_article_heading)
                     ).add(
                         header(ai)
