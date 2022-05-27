@@ -66,7 +66,7 @@ class PageAI(RuleGenerator):
                         CSSClass(class_markdown_rendered, ai),
                         header(class_publish_article_heading)
                     ).add(
-                        header(ai)
+                        header(ai(ai))
                     )
 
                     declarations.add(
