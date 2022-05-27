@@ -53,11 +53,14 @@ def main():
                 structure.add(content)
 
     generator.to_console()
-    # Ouput to publish.css file
+    # Ouput to publish.css file for ObsidianPublish
     generator.to_file(
         filepath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css"
     )
-    #
+    # Output to publish.css file for Obsidian Application
+    generator.to_file(
+        filepath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\.obsidian\snippets\publish.css"
+    )
 
 
 if __name__ == '__main__':

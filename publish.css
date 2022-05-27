@@ -1,309 +1,76 @@
-/* $$ Root Variables */
-:root{
-    --gradient_athenacolor: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%,rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 1;
-    --gradient_athenalib: linear-gradient(90deg, rgba(207,30,70,1) 0%, rgba(57,81,163,1) 100%) 1;
-    --color_adam: rgb(24 , 177, 222);
-    --color_athena: rgb(196, 41 , 80 );
-    --color_eva: rgb(234, 39 , 79 );
-    --color_jupiter: rgb(235, 233, 67 );
-    --color_veritas: rgb(213, 55 , 146);
-    --color_vulcanus: rgb(236, 133, 33 );
-    --color_neptune: rgb(66 , 115, 185);
-    --color_minerva: rgb(105, 59 , 144);
-    --color_sol: rgb(246, 231, 134);
-    --color_aero: rgb(251, 251, 251);
-    --color_venus: rgb(115, 195, 125);
-    --color_pluto: rgb(84 , 85 , 87 );
-    --color_ceres: rgb(213, 224, 68 );
-    --color_youtube: rgb(255, 0 , 0 );
-    --color_twitch: rgb(169, 112, 255);
-    --color_twitter: rgb(26 , 140, 216);
-    --color_discord: rgb(86 , 98 , 246);
+/*----------------------------------------------------------------*//*- All headers derive from this -*//*----------------------------------------------------------------*/.markdown-rendered h1,
+.markdown-rendered h1.publish-article-heading,
+.markdown-rendered h2,
+.markdown-rendered h2.publish-article-heading,
+.markdown-rendered h3,
+.markdown-rendered h3.publish-article-heading,
+.markdown-rendered h4,
+.markdown-rendered h4.publish-article-heading,
+.markdown-rendered h5,
+.markdown-rendered h5.publish-article-heading,
+.markdown-rendered h6,
+.markdown-rendered h6.publish-article-heading {
+    text-align: left;
+    background-color: rgb(25, 25, 25);
+    background-image: linear-gradient(90deg (RGB(r=22,g=22,b=22), Percent(value=75)) (RGB(r=32,g=32,b=32), Percent(value=100)) 1);
+    border-radius: 0.2rem;
+    border-bottom-style: solid;
+    border-bottom-with: 5px;
+}/*- Headers differ in size depending on the depth -*/.markdown-rendered h1,
+.markdown-rendered h1.publish-article-heading {
+    color: rgb(255, 255, 255);
+    padding: 12px 0px 0px 0px;
+    padding-left: 35px;
+    font-size: 2em;
+}.markdown-rendered h2,
+.markdown-rendered h2.publish-article-heading {
+    color: rgb(220, 220, 220);
+    padding: 10px 0px 0px 0px;
+    padding-left: 35px;
+    font-size: 1.8em;
+    margin-top: 2em;
+}.markdown-rendered h3,
+.markdown-rendered h3.publish-article-heading {
+    color: rgb(192, 192, 192);
+    padding: 8px 0px 0px 0px;
+    padding-left: 35px;
+    font-size: 1.6em;
+    margin-top: 1.75em;
+}.markdown-rendered h4,
+.markdown-rendered h4.publish-article-heading {
+    color: rgb(169, 169, 169);
+    padding: 6px 0px 0px 0px;
+    padding-left: 35px;
+    font-size: 1.4em;
+    margin-top: 1.5em;
+}.markdown-rendered h5,
+.markdown-rendered h5.publish-article-heading {
+    color: rgb(128, 128, 128);
+    padding: 4px 0px 0px 0px;
+    padding-left: 35px;
+    font-size: 1.2em;
+    margin-top: 1.25em;
+}.markdown-rendered h6,
+.markdown-rendered h6.publish-article-heading {
+    color: rgb(105, 105, 105);
+    padding: 2px 0px 0px 0px;
+    padding-left: 35px;
+    font-size: 1.1em;
+    margin-top: 1em;
 }
-/* $$ END */
-
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.directiveathenamain {
-
-}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.adam h1, .markdown-rendered.adam h1.publish-article-heading, h1.adam {border-color:var(--color_adam);}
-.markdown-rendered.adam h2, .markdown-rendered.adam h2.publish-article-heading, h2.adam {border-color:rgb(21, 153, 192);}
-.markdown-rendered.adam h3, .markdown-rendered.adam h3.publish-article-heading, h3.adam {border-color:rgb(19, 142, 178);}
-.markdown-rendered.adam h4, .markdown-rendered.adam h4.publish-article-heading, h4.adam {border-color:rgb(14, 106, 133);}
-.markdown-rendered.adam h5, .markdown-rendered.adam h5.publish-article-heading, h5.adam {border-color:rgb(7, 52, 65);}
-.markdown-rendered.adam h6, .markdown-rendered.adam h6.publish-article-heading, h6.adam {border-color:rgb(8, 59, 74);}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.aero h1, .markdown-rendered.aero h1.publish-article-heading, h1.aero {border-color:var(--color_aero) ;}
-.markdown-rendered.aero h2, .markdown-rendered.aero h2.publish-article-heading, h2.aero {border-color:rgb(218, 218, 218) ;}
-.markdown-rendered.aero h3, .markdown-rendered.aero h3.publish-article-heading, h3.aero {border-color:rgb(218, 218, 218) ;}
-.markdown-rendered.aero h4, .markdown-rendered.aero h4.publish-article-heading, h4.aero {border-color:rgb(151, 151, 151) ;}
-.markdown-rendered.aero h5, .markdown-rendered.aero h5.publish-article-heading, h5.aero {border-color:rgb(117, 117, 117) ;}
-.markdown-rendered.aero h6, .markdown-rendered.aero h6.publish-article-heading, h6.aero {border-color:rgb(84, 84, 84) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.athena h1, .markdown-rendered.athena h1.publish-article-heading, h1.athena {border-color:var(--color_athena);}
-.markdown-rendered.athena h1, .markdown-rendered.athena h1.publish-article-heading, h1.athena {border-color:var(--color_athena);}
-
-
-
-.markdown-rendered.athena h2, .markdown-rendered.athena h2.publish-article-heading, h2.athena {border-color:rgb(170, 35, 69);}
-.markdown-rendered.athena h3, .markdown-rendered.athena h3.publish-article-heading, h3.athena {border-color:rgb(157, 33, 64);}
-.markdown-rendered.athena h4, .markdown-rendered.athena h4.publish-article-heading, h4.athena {border-color:rgb(118, 25, 48) ;}
-.markdown-rendered.athena h5, .markdown-rendered.athena h5.publish-article-heading, h5.athena {border-color:rgb(91, 19, 37) ;}
-.markdown-rendered.athena h6, .markdown-rendered.athena h6.publish-article-heading, h6.athena {border-color:rgb(65, 14, 27) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.ceres h1, .markdown-rendered.ceres h1.publish-article-heading, h1.ceres {border-color:var(--color_ceres) ;}
-.markdown-rendered.ceres h2, .markdown-rendered.ceres h2.publish-article-heading, h2.ceres {border-color:rgb(185, 194, 59) ;}
-.markdown-rendered.ceres h3, .markdown-rendered.ceres h3.publish-article-heading, h3.ceres {border-color:rgb(170, 179, 54) ;}
-.markdown-rendered.ceres h4, .markdown-rendered.ceres h4.publish-article-heading, h4.ceres {border-color:rgb(128, 134, 41) ;}
-.markdown-rendered.ceres h5, .markdown-rendered.ceres h5.publish-article-heading, h5.ceres {border-color:rgb(99, 105, 32) ;}
-.markdown-rendered.ceres h6, .markdown-rendered.ceres h6.publish-article-heading, h6.ceres {border-color:rgb(71, 75, 23) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.eva h1, .markdown-rendered.eva h1.publish-article-heading, h1.eva {border-color:var(--color_eva);}
-.markdown-rendered.eva h2, .markdown-rendered.eva h2.publish-article-heading, h2.eva {border-color:rgb(203, 34, 68);}
-.markdown-rendered.eva h3, .markdown-rendered.eva h3.publish-article-heading, h3.eva {border-color:rgb(187, 31, 63);}
-.markdown-rendered.eva h4, .markdown-rendered.eva h4.publish-article-heading, h4.eva {border-color:rgb(140, 23, 47);}
-.markdown-rendered.eva h5, .markdown-rendered.eva h5.publish-article-heading, h5.eva {border-color:rgb(109, 18, 37);}
-.markdown-rendered.eva h6, .markdown-rendered.eva h6.publish-article-heading, h6.eva {border-color:rgb(78, 13, 26);}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.jupiter h1, .markdown-rendered.jupiter h1.publish-article-heading, h1.jupiter {border-color:var(--color_jupiter) ;}
-.markdown-rendered.jupiter h2, .markdown-rendered.jupiter h2.publish-article-heading, h2.jupiter {border-color:rgb(204, 202, 58) ;}
-.markdown-rendered.jupiter h3, .markdown-rendered.jupiter h3.publish-article-heading, h3.jupiter {border-color:rgb(188, 186, 54) ;}
-.markdown-rendered.jupiter h4, .markdown-rendered.jupiter h4.publish-article-heading, h4.jupiter {border-color:rgb(141, 140, 40) ;}
-.markdown-rendered.jupiter h5, .markdown-rendered.jupiter h5.publish-article-heading, h5.jupiter {border-color:rgb(110, 109, 31) ;}
-.markdown-rendered.jupiter h6, .markdown-rendered.jupiter h6.publish-article-heading, h6.jupiter {border-color:rgb(78, 78, 22) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.minerva h1, .markdown-rendered.minerva h1.publish-article-heading, h1.minerva {border-color:var(--color_minerva) ;}
-.markdown-rendered.minerva h2, .markdown-rendered.minerva h2.publish-article-heading, h2.minerva {border-color:rgb(91, 51, 125) ;}
-.markdown-rendered.minerva h3, .markdown-rendered.minerva h3.publish-article-heading, h3.minerva {border-color:rgb(84, 47, 115) ;}
-.markdown-rendered.minerva h4, .markdown-rendered.minerva h4.publish-article-heading, h4.minerva {border-color:rgb(63, 35, 86) ;}
-.markdown-rendered.minerva h5, .markdown-rendered.minerva h5.publish-article-heading, h5.minerva {border-color:rgb(49, 28, 67) ;}
-.markdown-rendered.minerva h6, .markdown-rendered.minerva h6.publish-article-heading, h6.minerva {border-color:rgb(35, 20, 48) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.neptune h1, .markdown-rendered.neptune h1.publish-article-heading, h1.neptune {border-color:var(--color_neptune) ;}
-.markdown-rendered.neptune h2, .markdown-rendered.neptune h2.publish-article-heading, h2.neptune {border-color:rgb(57, 100, 160) ;}
-.markdown-rendered.neptune h3, .markdown-rendered.neptune h3.publish-article-heading, h3.neptune {border-color:rgb(53, 92, 148) ;}
-.markdown-rendered.neptune h4, .markdown-rendered.neptune h4.publish-article-heading, h4.neptune {border-color:rgb(40, 69, 111) ;}
-.markdown-rendered.neptune h5, .markdown-rendered.neptune h5.publish-article-heading, h5.neptune {border-color:rgb(31, 54, 86) ;}
-.markdown-rendered.neptune h6, .markdown-rendered.neptune h6.publish-article-heading, h6.neptune {border-color:rgb(14, 24, 39) ;}
-
-/* --- Various headers for specific css classes --- */
-h1#test-id.test-class,
-elementX,
-.test,
-.test2 {
-    align-items: center;
-}
-
-.markdown-rendered.pluto h1, .markdown-rendered.pluto h1.publish-article-heading, h1.pluto {border-color:var(--color_pluto) ;}
-.markdown-rendered.pluto h2, .markdown-rendered.pluto h2.publish-article-heading, h2.pluto {border-color:rgb(73, 74, 75) ;}
-.markdown-rendered.pluto h3, .markdown-rendered.pluto h3.publish-article-heading, h3.pluto {border-color:rgb(67, 68, 70) ;}
-.markdown-rendered.pluto h4, .markdown-rendered.pluto h4.publish-article-heading, h4.pluto {border-color:rgb(50, 51, 52) ;}
-.markdown-rendered.pluto h5, .markdown-rendered.pluto h5.publish-article-heading, h5.pluto {border-color:rgb(39, 40, 41) ;}
-.markdown-rendered.pluto h6, .markdown-rendered.pluto h6.publish-article-heading, h6.pluto {border-color:rgb(28, 28, 29) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.sol h1, .markdown-rendered.sol h1.publish-article-heading, h1.sol {border-color:var(--color_sol) ;}
-.markdown-rendered.sol h2, .markdown-rendered.sol h2.publish-article-heading, h2.sol {border-color:rgb(213, 200, 116) ;}
-.markdown-rendered.sol h3, .markdown-rendered.sol h3.publish-article-heading, h3.sol {border-color:rgb(197, 185, 107) ;}
-.markdown-rendered.sol h4, .markdown-rendered.sol h4.publish-article-heading, h4.sol {border-color:rgb(148, 139, 80) ;}
-.markdown-rendered.sol h5, .markdown-rendered.sol h5.publish-article-heading, h5.sol {border-color:rgb(115, 108, 63) ;}
-.markdown-rendered.sol h6, .markdown-rendered.sol h6.publish-article-heading, h6.sol {border-color:rgb(82, 77, 45) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.venus h1, .markdown-rendered.venus h1.publish-article-heading, h1.venus {border-color:var(--color_venus) ;}
-.markdown-rendered.venus h2, .markdown-rendered.venus h2.publish-article-heading, h2.venus {border-color:rgb(100, 169, 108) ;}
-.markdown-rendered.venus h3, .markdown-rendered.venus h3.publish-article-heading, h3.venus {border-color:rgb(92, 156, 100) ;}
-.markdown-rendered.venus h4, .markdown-rendered.venus h4.publish-article-heading, h4.venus {border-color:rgb(69, 117, 75) ;}
-.markdown-rendered.venus h5, .markdown-rendered.venus h5.publish-article-heading, h5.venus {border-color:rgb(54, 91, 58) ;}
-.markdown-rendered.venus h6, .markdown-rendered.venus h6.publish-article-heading, h6.venus {border-color:rgb(38, 65, 42) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.veritas h1, .markdown-rendered.veritas h1.publish-article-heading, h1.veritas {border-color:var(--color_veritas) ;}
-.markdown-rendered.veritas h2, .markdown-rendered.veritas h2.publish-article-heading, h2.veritas {border-color:rgb(186, 48, 127) ;}
-.markdown-rendered.veritas h3, .markdown-rendered.veritas h3.publish-article-heading, h3.veritas {border-color:rgb(172, 44, 117) ;}
-.markdown-rendered.veritas h4, .markdown-rendered.veritas h4.publish-article-heading, h4.veritas {border-color:rgb(129, 33, 88) ;}
-.markdown-rendered.veritas h5, .markdown-rendered.veritas h5.publish-article-heading, h5.veritas {border-color:rgb(100, 26, 68) ;}
-.markdown-rendered.veritas h6, .markdown-rendered.veritas h6.publish-article-heading, h6.veritas {border-color:rgb(72, 18, 49) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.vulcanus h1, .markdown-rendered.vulcanus h1.publish-article-heading, h1.vulcanus {border-color:var(--color_vulcanus) ;}
-.markdown-rendered.vulcanus h2, .markdown-rendered.vulcanus h2.publish-article-heading, h2.vulcanus {border-color:rgb(205, 115, 29) ;}
-.markdown-rendered.vulcanus h3, .markdown-rendered.vulcanus h3.publish-article-heading, h3.vulcanus {border-color:rgb(189, 106, 26) ;}
-.markdown-rendered.vulcanus h4, .markdown-rendered.vulcanus h4.publish-article-heading, h4.vulcanus {border-color:rgb(142, 80, 20) ;}
-.markdown-rendered.vulcanus h5, .markdown-rendered.vulcanus h5.publish-article-heading, h5.vulcanus {border-color:rgb(110, 62, 15) ;}
-.markdown-rendered.vulcanus h6, .markdown-rendered.vulcanus h6.publish-article-heading, h6.vulcanus {border-color:rgb(110, 62, 15) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.athenacolor h1, .markdown-rendered.athenacolor h1.publish-article-heading, h1.athenacolor { border-image: var(--gradient_athenacolor);}
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.athenalib h1, .markdown-rendered.athenalib h1.publish-article-heading, h1.athenalib { border-image: var(--gradient_athenalib);}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.discord h1, .markdown-rendered.discord h1.publish-article-heading, h1.discord {border-color:var(--color_discord);}
-.markdown-rendered.discord h2, .markdown-rendered.discord h2.publish-article-heading, h2.discord {border-color:rgb(75, 85, 213) ;}
-.markdown-rendered.discord h3, .markdown-rendered.discord h3.publish-article-heading, h3.discord {border-color:rgb(69, 78, 197) ;}
-.markdown-rendered.discord h4, .markdown-rendered.discord h4.publish-article-heading, h4.discord {border-color:rgb(52, 59, 148) ;}
-.markdown-rendered.discord h5, .markdown-rendered.discord h5.publish-article-heading, h5.discord {border-color:rgb(40, 46, 115) ;}
-.markdown-rendered.discord h6, .markdown-rendered.discord h6.publish-article-heading, h6.discord {border-color:rgb(29, 33, 82) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.twitch h1, .markdown-rendered.twitch h1.publish-article-heading, h1.twitch {border-color:var(--color_twitch);}
-.markdown-rendered.twitch h2, .markdown-rendered.twitch h2.publish-article-heading, h2.twitch {border-color:rgb(146, 97, 221) ;}
-.markdown-rendered.twitch h3, .markdown-rendered.twitch h3.publish-article-heading, h3.twitch {border-color:rgb(135, 90, 204) ;}
-.markdown-rendered.twitch h4, .markdown-rendered.twitch h4.publish-article-heading, h4.twitch {border-color:rgb(101, 67, 153) ;}
-.markdown-rendered.twitch h5, .markdown-rendered.twitch h5.publish-article-heading, h5.twitch {border-color:rgb(79, 52, 119) ;}
-.markdown-rendered.twitch h6, .markdown-rendered.twitch h6.publish-article-heading, h6.twitch {border-color:rgb(56, 37, 85) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.twitter h1, .markdown-rendered.twitter h1.publish-article-heading, h1.twitter {border-color:var(--color_twitter);}
-.markdown-rendered.twitter h2, .markdown-rendered.twitter h2.publish-article-heading, h2.twitter {border-color:rgb(22, 121, 187) ;}
-.markdown-rendered.twitter h3, .markdown-rendered.twitter h3.publish-article-heading, h3.twitter {border-color:rgb(21, 112, 173) ;}
-.markdown-rendered.twitter h4, .markdown-rendered.twitter h4.publish-article-heading, h4.twitter {border-color:rgb(16, 84, 130) ;}
-.markdown-rendered.twitter h5, .markdown-rendered.twitter h5.publish-article-heading, h5.twitter {border-color:rgb(12, 65, 101) ;}
-.markdown-rendered.twitter h6, .markdown-rendered.twitter h6.publish-article-heading, h6.twitter {border-color:rgb(9, 47, 72) ;}
-
-/* --- Various headers for specific css classes --- */
-.markdown-rendered.youtube h1, .markdown-rendered.youtube h1.publish-article-heading, h1.youtube {border-color:var(--color_youtube);}
-.markdown-rendered.youtube h2, .markdown-rendered.youtube h2.publish-article-heading, h2.youtube {border-color:rgb(221, 0, 0) ;}
-.markdown-rendered.youtube h3, .markdown-rendered.youtube h3.publish-article-heading, h3.youtube {border-color:rgb(255, 0, 0) ;}
-.markdown-rendered.youtube h4, .markdown-rendered.youtube h4.publish-article-heading, h4.youtube {border-color:rgb(153, 0, 0) ;}
-.markdown-rendered.youtube h5, .markdown-rendered.youtube h5.publish-article-heading, h5.youtube {border-color:rgb(119, 0, 0) ;}
-.markdown-rendered.youtube h6, .markdown-rendered.youtube h6.publish-article-heading, h6.youtube {border-color:rgb(85, 0, 0) ;}
-.red {
-    color: red;
-}
-
-.Back.red {
-    background-color: red;
-}
-.rem {
-    color:rgba(255, 255, 255, 0.1);
-}
-
-.small{
-    font-size: .75rem;
-}
-
-.big{
-    font-size: 1.25rem;
-}
-
-.markdown-rendered div {
-    text-align: justify;
-    text-justify: inter-word;
-}
-.markdown-rendered.cleanEmbed .markdown-embed,
+/*----------------------------------------------------------------*//*- Page Class for named Artificial Intelligences -*//*----------------------------------------------------------------*/.markdown-rendered.adam h1, .markdown-rendered.adam h1.publish-article-heading, h1.adam { border-color: rgba(24, 177, 222, 255); }.markdown-rendered.adam h2, .markdown-rendered.adam h2.publish-article-heading, h2.adam { border-color: rgba(21, 153, 192, 255); }.markdown-rendered.adam h3, .markdown-rendered.adam h3.publish-article-heading, h3.adam { border-color: rgba(18, 133, 167, 255); }.markdown-rendered.adam h4, .markdown-rendered.adam h4.publish-article-heading, h4.adam { border-color: rgba(16, 117, 147, 255); }.markdown-rendered.adam h5, .markdown-rendered.adam h5.publish-article-heading, h5.adam { border-color: rgba(12, 89, 111, 255); }.markdown-rendered.adam h6, .markdown-rendered.adam h6.publish-article-heading, h6.adam { border-color: rgba(10, 73, 91, 255); }/*----------------------------------------------------------------*/.markdown-rendered.aero h1, .markdown-rendered.aero h1.publish-article-heading, h1.aero { border-color: rgba(251, 251, 251, 255); }.markdown-rendered.aero h2, .markdown-rendered.aero h2.publish-article-heading, h2.aero { border-color: rgba(217, 217, 217, 255); }.markdown-rendered.aero h3, .markdown-rendered.aero h3.publish-article-heading, h3.aero { border-color: rgba(189, 189, 189, 255); }.markdown-rendered.aero h4, .markdown-rendered.aero h4.publish-article-heading, h4.aero { border-color: rgba(166, 166, 166, 255); }.markdown-rendered.aero h5, .markdown-rendered.aero h5.publish-article-heading, h5.aero { border-color: rgba(126, 126, 126, 255); }.markdown-rendered.aero h6, .markdown-rendered.aero h6.publish-article-heading, h6.aero { border-color: rgba(103, 103, 103, 255); }/*----------------------------------------------------------------*/.markdown-rendered.athena h1, .markdown-rendered.athena h1.publish-article-heading, h1.athena { border-color: rgba(196, 41, 80, 255); }.markdown-rendered.athena h2, .markdown-rendered.athena h2.publish-article-heading, h2.athena { border-color: rgba(169, 35, 69, 255); }.markdown-rendered.athena h3, .markdown-rendered.athena h3.publish-article-heading, h3.athena { border-color: rgba(148, 31, 60, 255); }.markdown-rendered.athena h4, .markdown-rendered.athena h4.publish-article-heading, h4.athena { border-color: rgba(130, 27, 53, 255); }.markdown-rendered.athena h5, .markdown-rendered.athena h5.publish-article-heading, h5.athena { border-color: rgba(98, 21, 40, 255); }.markdown-rendered.athena h6, .markdown-rendered.athena h6.publish-article-heading, h6.athena { border-color: rgba(81, 17, 33, 255); }/*----------------------------------------------------------------*/.markdown-rendered.ceres h1, .markdown-rendered.ceres h1.publish-article-heading, h1.ceres { border-color: rgba(213, 224, 68, 255); }.markdown-rendered.ceres h2, .markdown-rendered.ceres h2.publish-article-heading, h2.ceres { border-color: rgba(184, 193, 59, 255); }.markdown-rendered.ceres h3, .markdown-rendered.ceres h3.publish-article-heading, h3.ceres { border-color: rgba(160, 169, 51, 255); }.markdown-rendered.ceres h4, .markdown-rendered.ceres h4.publish-article-heading, h4.ceres { border-color: rgba(141, 148, 45, 255); }.markdown-rendered.ceres h5, .markdown-rendered.ceres h5.publish-article-heading, h5.ceres { border-color: rgba(107, 112, 34, 255); }.markdown-rendered.ceres h6, .markdown-rendered.ceres h6.publish-article-heading, h6.ceres { border-color: rgba(88, 92, 28, 255); }/*----------------------------------------------------------------*/.markdown-rendered.eva h1, .markdown-rendered.eva h1.publish-article-heading, h1.eva { border-color: rgba(234, 39, 79, 255); }.markdown-rendered.eva h2, .markdown-rendered.eva h2.publish-article-heading, h2.eva { border-color: rgba(202, 34, 68, 255); }.markdown-rendered.eva h3, .markdown-rendered.eva h3.publish-article-heading, h3.eva { border-color: rgba(176, 29, 59, 255); }.markdown-rendered.eva h4, .markdown-rendered.eva h4.publish-article-heading, h4.eva { border-color: rgba(155, 26, 52, 255); }.markdown-rendered.eva h5, .markdown-rendered.eva h5.publish-article-heading, h5.eva { border-color: rgba(117, 20, 40, 255); }.markdown-rendered.eva h6, .markdown-rendered.eva h6.publish-article-heading, h6.eva { border-color: rgba(96, 16, 33, 255); }/*----------------------------------------------------------------*/.markdown-rendered.jupiter h1, .markdown-rendered.jupiter h1.publish-article-heading, h1.jupiter { border-color: rgba(235, 233, 67, 255); }.markdown-rendered.jupiter h2, .markdown-rendered.jupiter h2.publish-article-heading, h2.jupiter { border-color: rgba(203, 201, 58, 255); }.markdown-rendered.jupiter h3, .markdown-rendered.jupiter h3.publish-article-heading, h3.jupiter { border-color: rgba(177, 175, 50, 255); }.markdown-rendered.jupiter h4, .markdown-rendered.jupiter h4.publish-article-heading, h4.jupiter { border-color: rgba(156, 154, 44, 255); }.markdown-rendered.jupiter h5, .markdown-rendered.jupiter h5.publish-article-heading, h5.jupiter { border-color: rgba(118, 117, 34, 255); }.markdown-rendered.jupiter h6, .markdown-rendered.jupiter h6.publish-article-heading, h6.jupiter { border-color: rgba(97, 96, 28, 255); }/*----------------------------------------------------------------*/.markdown-rendered.minerva h1, .markdown-rendered.minerva h1.publish-article-heading, h1.minerva { border-color: rgba(105, 59, 144, 255); }.markdown-rendered.minerva h2, .markdown-rendered.minerva h2.publish-article-heading, h2.minerva { border-color: rgba(91, 51, 124, 255); }.markdown-rendered.minerva h3, .markdown-rendered.minerva h3.publish-article-heading, h3.minerva { border-color: rgba(79, 44, 108, 255); }.markdown-rendered.minerva h4, .markdown-rendered.minerva h4.publish-article-heading, h4.minerva { border-color: rgba(70, 39, 95, 255); }.markdown-rendered.minerva h5, .markdown-rendered.minerva h5.publish-article-heading, h5.minerva { border-color: rgba(53, 30, 72, 255); }.markdown-rendered.minerva h6, .markdown-rendered.minerva h6.publish-article-heading, h6.minerva { border-color: rgba(43, 24, 59, 255); }/*----------------------------------------------------------------*/.markdown-rendered.neptune h1, .markdown-rendered.neptune h1.publish-article-heading, h1.neptune { border-color: rgba(66, 115, 185, 255); }.markdown-rendered.neptune h2, .markdown-rendered.neptune h2.publish-article-heading, h2.neptune { border-color: rgba(57, 99, 160, 255); }.markdown-rendered.neptune h3, .markdown-rendered.neptune h3.publish-article-heading, h3.neptune { border-color: rgba(50, 87, 139, 255); }.markdown-rendered.neptune h4, .markdown-rendered.neptune h4.publish-article-heading, h4.neptune { border-color: rgba(44, 76, 123, 255); }.markdown-rendered.neptune h5, .markdown-rendered.neptune h5.publish-article-heading, h5.neptune { border-color: rgba(33, 58, 93, 255); }.markdown-rendered.neptune h6, .markdown-rendered.neptune h6.publish-article-heading, h6.neptune { border-color: rgba(27, 47, 76, 255); }/*----------------------------------------------------------------*/.markdown-rendered.pluto h1, .markdown-rendered.pluto h1.publish-article-heading, h1.pluto { border-color: rgba(84, 85, 87, 255); }.markdown-rendered.pluto h2, .markdown-rendered.pluto h2.publish-article-heading, h2.pluto { border-color: rgba(72, 73, 75, 255); }.markdown-rendered.pluto h3, .markdown-rendered.pluto h3.publish-article-heading, h3.pluto { border-color: rgba(63, 64, 66, 255); }.markdown-rendered.pluto h4, .markdown-rendered.pluto h4.publish-article-heading, h4.pluto { border-color: rgba(56, 56, 58, 255); }.markdown-rendered.pluto h5, .markdown-rendered.pluto h5.publish-article-heading, h5.pluto { border-color: rgba(42, 43, 44, 255); }.markdown-rendered.pluto h6, .markdown-rendered.pluto h6.publish-article-heading, h6.pluto { border-color: rgba(35, 35, 36, 255); }/*----------------------------------------------------------------*/.markdown-rendered.sol h1, .markdown-rendered.sol h1.publish-article-heading, h1.sol { border-color: rgba(246, 231, 134, 255); }.markdown-rendered.sol h2, .markdown-rendered.sol h2.publish-article-heading, h2.sol { border-color: rgba(212, 199, 116, 255); }.markdown-rendered.sol h3, .markdown-rendered.sol h3.publish-article-heading, h3.sol { border-color: rgba(185, 174, 101, 255); }.markdown-rendered.sol h4, .markdown-rendered.sol h4.publish-article-heading, h4.sol { border-color: rgba(163, 153, 89, 255); }.markdown-rendered.sol h5, .markdown-rendered.sol h5.publish-article-heading, h5.sol { border-color: rgba(123, 116, 67, 255); }.markdown-rendered.sol h6, .markdown-rendered.sol h6.publish-article-heading, h6.sol { border-color: rgba(101, 95, 55, 255); }/*----------------------------------------------------------------*/.markdown-rendered.venus h1, .markdown-rendered.venus h1.publish-article-heading, h1.venus { border-color: rgba(115, 195, 125, 255); }.markdown-rendered.venus h2, .markdown-rendered.venus h2.publish-article-heading, h2.venus { border-color: rgba(99, 168, 108, 255); }.markdown-rendered.venus h3, .markdown-rendered.venus h3.publish-article-heading, h3.venus { border-color: rgba(87, 147, 94, 255); }.markdown-rendered.venus h4, .markdown-rendered.venus h4.publish-article-heading, h4.venus { border-color: rgba(76, 129, 83, 255); }.markdown-rendered.venus h5, .markdown-rendered.venus h5.publish-article-heading, h5.venus { border-color: rgba(58, 98, 63, 255); }.markdown-rendered.venus h6, .markdown-rendered.venus h6.publish-article-heading, h6.venus { border-color: rgba(47, 80, 51, 255); }/*----------------------------------------------------------------*/.markdown-rendered.veritas h1, .markdown-rendered.veritas h1.publish-article-heading, h1.veritas { border-color: rgba(213, 55, 146, 255); }.markdown-rendered.veritas h2, .markdown-rendered.veritas h2.publish-article-heading, h2.veritas { border-color: rgba(184, 47, 126, 255); }.markdown-rendered.veritas h3, .markdown-rendered.veritas h3.publish-article-heading, h3.veritas { border-color: rgba(160, 41, 110, 255); }.markdown-rendered.veritas h4, .markdown-rendered.veritas h4.publish-article-heading, h4.veritas { border-color: rgba(141, 36, 97, 255); }.markdown-rendered.veritas h5, .markdown-rendered.veritas h5.publish-article-heading, h5.veritas { border-color: rgba(107, 28, 73, 255); }.markdown-rendered.veritas h6, .markdown-rendered.veritas h6.publish-article-heading, h6.veritas { border-color: rgba(88, 23, 60, 255); }/*----------------------------------------------------------------*/.markdown-rendered.vulcanus h1, .markdown-rendered.vulcanus h1.publish-article-heading, h1.vulcanus { border-color: rgba(236, 133, 33, 255); }.markdown-rendered.vulcanus h2, .markdown-rendered.vulcanus h2.publish-article-heading, h2.vulcanus { border-color: rgba(204, 115, 28, 255); }.markdown-rendered.vulcanus h3, .markdown-rendered.vulcanus h3.publish-article-heading, h3.vulcanus { border-color: rgba(178, 100, 25, 255); }.markdown-rendered.vulcanus h4, .markdown-rendered.vulcanus h4.publish-article-heading, h4.vulcanus { border-color: rgba(156, 88, 22, 255); }.markdown-rendered.vulcanus h5, .markdown-rendered.vulcanus h5.publish-article-heading, h5.vulcanus { border-color: rgba(118, 67, 17, 255); }.markdown-rendered.vulcanus h6, .markdown-rendered.vulcanus h6.publish-article-heading, h6.vulcanus { border-color: rgba(97, 55, 14, 255); }/*----------------------------------------------------------------*//*----------------------------------------------------------------*//*- Page Class for Python Packages -*//*----------------------------------------------------------------*/.markdown-rendered.athenacolor h1, .markdown-rendered.athenacolor h1.publish-article-heading, h1.athenacolor { border-color: linear-gradient(90deg (RGB(r=255,g=0,b=0), Percent(value=0)) (RGB(r=255,g=0,b=0), Percent(value=0)) (RGB(r=255,g=154,b=0), Percent(value=10)) (RGB(r=255,g=154,b=0), Percent(value=10)) (RGB(r=208,g=222,b=33), Percent(value=20)) (RGB(r=79,g=220,b=74), Percent(value=30)) (RGB(r=63,g=218,b=216), Percent(value=40)) (RGB(r=47,g=201,b=226), Percent(value=50)) (RGB(r=28,g=127,b=238), Percent(value=60)) (RGB(r=95,g=21,b=242), Percent(value=70)) (RGB(r=186,g=12,b=248), Percent(value=80)) (RGB(r=251,g=7,b=217), Percent(value=90)) (RGB(r=255,g=0,b=0), Percent(value=100)), 1); }.markdown-rendered.athenacolor h2, .markdown-rendered.athenacolor h2.publish-article-heading, h2.athenacolor { border-color: rgb(220, 220, 220); }.markdown-rendered.athenacolor h3, .markdown-rendered.athenacolor h3.publish-article-heading, h3.athenacolor { border-color: rgb(192, 192, 192); }.markdown-rendered.athenacolor h4, .markdown-rendered.athenacolor h4.publish-article-heading, h4.athenacolor { border-color: rgb(169, 169, 169); }.markdown-rendered.athenacolor h5, .markdown-rendered.athenacolor h5.publish-article-heading, h5.athenacolor { border-color: rgb(128, 128, 128); }.markdown-rendered.athenacolor h6, .markdown-rendered.athenacolor h6.publish-article-heading, h6.athenacolor { border-color: rgb(105, 105, 105); }/*----------------------------------------------------------------*/.markdown-rendered.athenalib h1, .markdown-rendered.athenalib h1.publish-article-heading, h1.athenalib { border-color: linear-gradient(90deg (RGB(r=207,g=30,b=70), Percent(value=0)) (RGB(r=57,g=81,b=163), Percent(value=100)) 1); }.markdown-rendered.athenalib h2, .markdown-rendered.athenalib h2.publish-article-heading, h2.athenalib { border-color: rgb(220, 220, 220); }.markdown-rendered.athenalib h3, .markdown-rendered.athenalib h3.publish-article-heading, h3.athenalib { border-color: rgb(192, 192, 192); }.markdown-rendered.athenalib h4, .markdown-rendered.athenalib h4.publish-article-heading, h4.athenalib { border-color: rgb(169, 169, 169); }.markdown-rendered.athenalib h5, .markdown-rendered.athenalib h5.publish-article-heading, h5.athenalib { border-color: rgb(128, 128, 128); }.markdown-rendered.athenalib h6, .markdown-rendered.athenalib h6.publish-article-heading, h6.athenalib { border-color: rgb(105, 105, 105); }/*----------------------------------------------------------------*//*----------------------------------------------------------------*//*- Page Class for Websites -*//*----------------------------------------------------------------*/.markdown-rendered.discord h1, .markdown-rendered.discord h1.publish-article-heading, h1.discord { border-color: rgba(255, 0, 0, 255); }.markdown-rendered.discord h2, .markdown-rendered.discord h2.publish-article-heading, h2.discord { border-color: rgba(220, 0, 0, 255); }.markdown-rendered.discord h3, .markdown-rendered.discord h3.publish-article-heading, h3.discord { border-color: rgba(192, 0, 0, 255); }.markdown-rendered.discord h4, .markdown-rendered.discord h4.publish-article-heading, h4.discord { border-color: rgba(169, 0, 0, 255); }.markdown-rendered.discord h5, .markdown-rendered.discord h5.publish-article-heading, h5.discord { border-color: rgba(128, 0, 0, 255); }.markdown-rendered.discord h6, .markdown-rendered.discord h6.publish-article-heading, h6.discord { border-color: rgba(105, 0, 0, 255); }/*----------------------------------------------------------------*/.markdown-rendered.twitch h1, .markdown-rendered.twitch h1.publish-article-heading, h1.twitch { border-color: rgba(169, 112, 255, 255); }.markdown-rendered.twitch h2, .markdown-rendered.twitch h2.publish-article-heading, h2.twitch { border-color: rgba(146, 97, 220, 255); }.markdown-rendered.twitch h3, .markdown-rendered.twitch h3.publish-article-heading, h3.twitch { border-color: rgba(127, 84, 192, 255); }.markdown-rendered.twitch h4, .markdown-rendered.twitch h4.publish-article-heading, h4.twitch { border-color: rgba(112, 74, 169, 255); }.markdown-rendered.twitch h5, .markdown-rendered.twitch h5.publish-article-heading, h5.twitch { border-color: rgba(85, 56, 128, 255); }.markdown-rendered.twitch h6, .markdown-rendered.twitch h6.publish-article-heading, h6.twitch { border-color: rgba(70, 46, 105, 255); }/*----------------------------------------------------------------*/.markdown-rendered.twitter h1, .markdown-rendered.twitter h1.publish-article-heading, h1.twitter { border-color: rgba(26, 140, 216, 255); }.markdown-rendered.twitter h2, .markdown-rendered.twitter h2.publish-article-heading, h2.twitter { border-color: rgba(22, 121, 186, 255); }.markdown-rendered.twitter h3, .markdown-rendered.twitter h3.publish-article-heading, h3.twitter { border-color: rgba(20, 105, 163, 255); }.markdown-rendered.twitter h4, .markdown-rendered.twitter h4.publish-article-heading, h4.twitter { border-color: rgba(17, 93, 143, 255); }.markdown-rendered.twitter h5, .markdown-rendered.twitter h5.publish-article-heading, h5.twitter { border-color: rgba(13, 70, 108, 255); }.markdown-rendered.twitter h6, .markdown-rendered.twitter h6.publish-article-heading, h6.twitter { border-color: rgba(11, 58, 89, 255); }/*----------------------------------------------------------------*/.markdown-rendered.youtube h1, .markdown-rendered.youtube h1.publish-article-heading, h1.youtube { border-color: rgba(86, 98, 246, 255); }.markdown-rendered.youtube h2, .markdown-rendered.youtube h2.publish-article-heading, h2.youtube { border-color: rgba(74, 85, 212, 255); }.markdown-rendered.youtube h3, .markdown-rendered.youtube h3.publish-article-heading, h3.youtube { border-color: rgba(65, 74, 185, 255); }.markdown-rendered.youtube h4, .markdown-rendered.youtube h4.publish-article-heading, h4.youtube { border-color: rgba(57, 65, 163, 255); }.markdown-rendered.youtube h5, .markdown-rendered.youtube h5.publish-article-heading, h5.youtube { border-color: rgba(43, 49, 123, 255); }.markdown-rendered.youtube h6, .markdown-rendered.youtube h6.publish-article-heading, h6.youtube { border-color: rgba(35, 40, 101, 255); }/*----------------------------------------------------------------*/
+/*SPECIAL ADDITIONS*/
+/*----------------------------------------------------------------*//*- Special Rule to make all meta data dissapear from the view -*//*----------------------------------------------------------------*/.markdown-rendered.metaDataHide div.frontmatter-container { display: none; }/*----------------------------------------------------------------*//*- Special Rule to make the File Embedded title hide -*//*----------------------------------------------------------------*/.markdown-rendered.cleanEmbed .markdown-embed,
 .markdown-rendered.cleanEmbed .markdown-embed .markdown-preview-view {
-    border: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-.markdown-rendered.cleanEmbed .markdown-embed-title, 
+    border: medium none transparent;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}.markdown-rendered.cleanEmbed .markdown-embed-link,
 .markdown-rendered.cleanEmbed .markdown-embed-link {
     display: none;
 }
-
-/* --- All headers derive from this --- */
-.markdown-rendered h1, 
-.markdown-rendered h2, 
-.markdown-rendered h3, 
-.markdown-rendered h4, 
-.markdown-rendered h5, 
-.markdown-rendered h6,
-.markdown-rendered h1.publish-article-heading, 
-.markdown-rendered h2.publish-article-heading, 
-.markdown-rendered h3.publish-article-heading,
-.markdown-rendered h4.publish-article-heading, 
-.markdown-rendered h5.publish-article-heading, 
-.markdown-rendered h6.publish-article-heading
-{
-    text-align: left;
-    background: rgb(25,25,25);
-    background: linear-gradient(90deg, var(--background-secondary) 75%, var(--background-primary) 100%);
-    border-radius: .2em;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-}
-
-.markdown-rendered h1, 
-.markdown-rendered h1.publish-article-heading {
-    --color: #fff;
-    color:var(--color);
-    padding: 12px;  
-    padding-left: 35px;
-    font-size: 2em;
-}
-
-.markdown-rendered h2, 
-.markdown-rendered h2.publish-article-heading{
-    --color: #DDD;
-    color:var(--color);
-    padding: 10px;  
-    padding-left: 35px;
-    font-size: 1.6em;
-    margin-top: 2em;
-}
-
-.markdown-rendered h3, 
-.markdown-rendered h3.publish-article-heading {
-    --color: #CCC;
-    color:var(--color);
-    padding: 8px;  
-    padding-left: 35px;
-    font-size: 1.37em;
-    margin-top: 1.75em;
-}
-
-.markdown-rendered h4, 
-.markdown-rendered h4.publish-article-heading {
-    --color: #999;
-    color:var(--color);
-    padding: 6px;  
-    padding-left: 35px;
-    font-size: 1.25em;
-    margin-top: 1.5em;
-}
-
-.markdown-rendered h5, 
-.markdown-rendered h5.publish-article-heading {
-    --color: #777;
-    color:var(--color);
-    padding: 4px;  
-    padding-left: 35px;
-    font-size: 1.12em;
-    margin-top: 1.25em;
-}
-
-.markdown-rendered h6, 
-.markdown-rendered h6.publish-article-heading {
-    --color: #555;
-    color:var(--color);
-    padding: 2px;  
-    padding-left: 35px;
-    font-size: 1.12em;
-    margin-top: 1em;
-}
-.markdown-rendered.metaDataHide  div.frontmatter-container{
-    display: none;
-}
-
-/* Bottom status bar */
-div.status-bar{
-    background-color: var(--color_pluto);
-    color:rgb(184, 184, 184);
-}
-span.sync-status-icon.mod-working{
-    color: rgb(47, 36, 97);
-}
-
+/*OBSIDIAN PROGRAM*/
+/*----------------------------------------------------------------*//*- Special Rules to affect the status bar -*//*----------------------------------------------------------------*/div.status-bar {
+    background-color: rgb(84, 85, 87);
+    color: rgb(184, 184, 184);
+}span.sync-status-icon.mod-working { color: rgb(47, 36, 97); }

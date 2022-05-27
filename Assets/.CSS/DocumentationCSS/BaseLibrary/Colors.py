@@ -58,9 +58,10 @@ color_athenacolor = SubPropertyLibrary.LinearGradient((
     (RGB(95,21,242), Percent(70)),
     (RGB(186,12,248), Percent(80)),
     (RGB(251,7,217), Percent(90)),
-    (RGB(255,0,0), Percent(100)),
+    (RGB(255,0,0), Percent(100))
+    ),
     1 # important for some reason
-))
+)
 color_athenalib = SubPropertyLibrary.LinearGradient((
     Degree(90),
     (RGB(207,30,70), Percent(0)),
