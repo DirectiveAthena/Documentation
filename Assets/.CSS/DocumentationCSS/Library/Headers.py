@@ -17,9 +17,10 @@ from AthenaColor import RGB
 
 from AthenaLib.Types.RelativeLength import RootElementFontSize as REM
 from AthenaLib.Types.AbsoluteLength import Pixel
-from AthenaLib.Types.Math import Degree
+from AthenaLib.Types.Math import Degree, Percent
 
 # Custom Packages
+from DocumentationCSS.Library.Colors import background_secondary, background_primary
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Support Code -
@@ -48,7 +49,7 @@ def header_default() -> CSSRule:
         declarations.add(
             PropertyLibrary.TextAlign("left"),
             PropertyLibrary.Background(RGB(25,25,25)),
-            SubPropertyLibrary.LinearGradient(Degree(90))
+            SubPropertyLibrary.LinearGradient((Degree(90),(background_secondary, Percent(75)), (background_primary, Percent(100)))),
             PropertyLibrary.BorderRadius(REM(.2)),
             PropertyLibrary.BorderBottomStyle("solid"),
             PropertyLibrary.BorderBottomWidth(Pixel(5))
