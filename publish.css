@@ -24,14 +24,14 @@
 .markdown-rendered h1,
 .markdown-rendered h1.publish-article-heading {
     color: rgb(255, 255, 255);
-    padding: 12px 0px 0px 0px;
+    padding: 12px 12px 12px 12px;
     padding-left: 35px;
     font-size: 2em;
 }
 .markdown-rendered h2,
 .markdown-rendered h2.publish-article-heading {
     color: rgb(220, 220, 220);
-    padding: 10px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
     padding-left: 35px;
     font-size: 1.8em;
     margin-top: 2em;
@@ -39,7 +39,7 @@
 .markdown-rendered h3,
 .markdown-rendered h3.publish-article-heading {
     color: rgb(192, 192, 192);
-    padding: 8px 0px 0px 0px;
+    padding: 8px 8px 8px 8px;
     padding-left: 35px;
     font-size: 1.6em;
     margin-top: 1.75em;
@@ -47,7 +47,7 @@
 .markdown-rendered h4,
 .markdown-rendered h4.publish-article-heading {
     color: rgb(169, 169, 169);
-    padding: 6px 0px 0px 0px;
+    padding: 6px 6px 6px 6px;
     padding-left: 35px;
     font-size: 1.4em;
     margin-top: 1.5em;
@@ -55,7 +55,7 @@
 .markdown-rendered h5,
 .markdown-rendered h5.publish-article-heading {
     color: rgb(128, 128, 128);
-    padding: 4px 0px 0px 0px;
+    padding: 4px 4px 4px 4px;
     padding-left: 35px;
     font-size: 1.2em;
     margin-top: 1.25em;
@@ -63,7 +63,7 @@
 .markdown-rendered h6,
 .markdown-rendered h6.publish-article-heading {
     color: rgb(105, 105, 105);
-    padding: 2px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
     padding-left: 35px;
     font-size: 1.1em;
     margin-top: 1em;

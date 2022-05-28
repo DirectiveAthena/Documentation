@@ -101,7 +101,7 @@ class HeaderSizing(RuleGenerator):
                 )
                 declarations.add(
                     PropertyLibrary.Color(color),
-                    PropertyLibrary.Padding(padding),
+                    PropertyLibrary.Padding(padding, padding, padding, padding),
                     padding_left,
                     PropertyLibrary.FontSize(font_size)
                 )
