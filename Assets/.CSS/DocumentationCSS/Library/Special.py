@@ -7,19 +7,16 @@ from __future__ import annotations
 # Custom Library
 from AthenaCSS import (
     CSSRule, CSSComment, CSSClass,
-    PropertyLibrary,
-    SelectorElementLibrary as ElementLib,
+    Property as PropertyLibrary,
+    SelectorElement as ElementLib
 )
-from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
-
-from AthenaLib.Types.AbsoluteLength import Pixel
+from AthenaCSS.models.generator.manager_rule import ManagerSelectors, ManagerDeclarations
+from AthenaCSS.models.athenalib_imports import (
+    Pixel,
+)
 
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
-from DocumentationCSS.BaseLibrary.Colors import (
-    AI_COLORS,
-    HEADER_COLORS, PYTHON_PACKAGE_COLORS, WEBSITE_NAME_COLORS
-)
 from DocumentationCSS.BaseLibrary.Selectors import (
     class_markdown_rendered, class_markdown_embed, class_markdown_preview_view, class_markdown_embed_title,
     class_markdown_embed_link

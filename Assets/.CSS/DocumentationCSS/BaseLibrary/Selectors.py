@@ -7,7 +7,7 @@ from __future__ import annotations
 # Custom Library
 from AthenaCSS import (
     CSSClass,
-    SelectorElementLibrary as ElementLib,
+    SelectorElement as ElementLib,
 )
 
 # Custom Packages

@@ -6,11 +6,10 @@ from __future__ import annotations
 
 # Custom Library
 from AthenaColor import RGB
-from AthenaColor.Color.HtmlColors import HtmlColorObjects as Color
+from AthenaColor.data.colors_html import HtmlColorObjects as Color
 
-from AthenaCSS import SubPropertyLibrary
-
-from AthenaLib.Types.Math import Degree, Percent
+from AthenaCSS import SubProperty as SubPropertyLibrary
+from AthenaCSS.models.athenalib_imports import (Degree, Percent)
 
 # Custom Packages
 

@@ -7,19 +7,20 @@ from __future__ import annotations
 # Custom Library
 from AthenaCSS import (
     CSSRule, CSSComment,
-    PropertyLibrary,
-    SubPropertyLibrary
+    Property as PropertyLibrary,
+    SubProperty as SubPropertyLibrary
 )
-from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
+from AthenaCSS.models.generator.manager_rule import ManagerSelectors, ManagerDeclarations
+from AthenaCSS.models.athenalib_imports import (
+    RootElementFontSize as REM,
+    ElementFontSize as EM,
+    Pixel,
+    Percent,
+    Degree
+)
 
 from AthenaColor import RGB
 
-from AthenaLib.Types.RelativeLength import (
-    RootElementFontSize as REM,
-    ElementFontSize as EM
-)
-from AthenaLib.Types.AbsoluteLength import Pixel
-from AthenaLib.Types.Math import Degree, Percent
 
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator

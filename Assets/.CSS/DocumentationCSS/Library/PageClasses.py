@@ -8,12 +8,12 @@ from typing import Callable
 # Custom Library
 from AthenaCSS import (
     CSSRule, CSSComment,
-    PropertyLibrary,
-    SelectorElementLibrary as ElementLib,
+    Property as PropertyLibrary,
+    SelectorElement as ElementLib
 )
-from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
+from AthenaCSS.models.generator.manager_rule import ManagerSelectors, ManagerDeclarations
 
-from AthenaColor.Color.BlendModes import blend_multiply
+from AthenaColor.functions.blend_modes import blend_multiply
 
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator

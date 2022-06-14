@@ -8,10 +8,10 @@ from __future__ import annotations
 from AthenaColor import RGB
 from AthenaCSS import (
     CSSRule, CSSComment, CSSClass,
-    PropertyLibrary,
-    SelectorElementLibrary as ElementLib,
+    Property as PropertyLibrary,
+    SelectorElement as ElementLib
 )
-from AthenaCSS.Generator.ManagerCSSRule import ManagerSelectors, ManagerDeclarations
+from AthenaCSS.models.generator.manager_rule import ManagerSelectors, ManagerDeclarations
 
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
