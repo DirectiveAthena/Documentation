@@ -8,6 +8,7 @@ from __future__ import annotations
 from AthenaCSS import (
     CSSClass,
     SelectorElement as ElementLib,
+    CSSElement
 )
 
 # Custom Packages
@@ -61,3 +62,9 @@ class_twitter= CSSClass("twitter")
 class_youtube= CSSClass("youtube")
 
 WEBSITE_NAME_CLASSES = (class_discord,class_twitch,class_twitter,class_youtube,)
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+# - Special Elements -
+# ----------------------------------------------------------------------------------------------------------------------
+todo_project = ElementLib.Span(CSSClass("todo_project"))

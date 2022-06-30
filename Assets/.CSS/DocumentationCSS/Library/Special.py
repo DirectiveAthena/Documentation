@@ -15,11 +15,13 @@ from AthenaCSS.models.athenalib_imports import (
     Pixel,
 )
 
+from AthenaColor import RGB
+
 # Custom Packages
 from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
 from DocumentationCSS.BaseLibrary.Selectors import (
     class_markdown_rendered, class_markdown_embed, class_markdown_preview_view, class_markdown_embed_title,
-    class_markdown_embed_link
+    class_markdown_embed_link, todo_project
 )
 from DocumentationCSS.BaseLibrary.Content import line_seperation
 
@@ -92,3 +94,11 @@ class FileEmbed(RuleGenerator):
                 PropertyLibrary.Display(None)
             )
         yield rule2
+
+        with (rule3:=CSSRule()) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
+            selectors.add(todo_project)
+            declarations.add(
+                PropertyLibrary.Color(RGB(25,25,25)),
+                PropertyLibrary.FontWeight("bold")
+            )
+        yield rule3
