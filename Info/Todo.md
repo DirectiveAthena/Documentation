@@ -54,6 +54,8 @@ MAKE ART! You fucking donkey!
     -  [ ] **AthenaDB** 
         -  A hobby project to make my own Database System
         -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
+        -  [x] Create Git Repo
+        -  [x] Create PyPi 
     -  [ ] **AthenaServer** ^8228fe
         -  A "RestFull" API server which is easy to setup
         -  Needs access to database etc
