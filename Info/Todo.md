@@ -11,7 +11,7 @@ Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simpl
 ## Story Development
 The road to actually writing and developing the story
 - [ ] ADAM : Story Development software
-    - [ ] **AthenaGuiComponentLib**
+    - [x] <span class="todo_project">AthenaGuiComponentLib</span>
         - A library of pre-made components of [DearPyGui](https://github.com/hoffstadt/DearPyGui)
 - [ ] Database
     - ... Yeah I don't know how to start with this one either
@@ -23,7 +23,7 @@ The road to actually writing and developing the story
 
 ## Chat optimizations
 - [ ] EVA: Community integration
-    - [ ] **AthenaTwitchBot**
+    - [ ] <span class="todo_project">AthenaTwitchBot</span>
         -  [x] Create Git Repo
         -  [x] Create PyPi 
         - [ ] Twitch Chat Bot System
@@ -31,16 +31,17 @@ The road to actually writing and developing the story
             -  [ ] way of adding features to the bot
         - [ ] Twitch API System
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
-    - [ ] **AthenaDiscordBot**
+    - [ ] <span class="todo_project">AthenaDiscordBot</span>
         -  [x] Create Git Repo
         -  [x] Create PyPi 
         - [ ] Discord API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
-    - [ ] **AthenaTwitterBot**
+    - [ ] <span class="todo_project">AthenaTwitterBot</span>
         -  [x] Create Git Repo
         -  [x] Create PyPi 
         - [ ] Twitter API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+- [ ] Create good emotes
 
 ## Art
 MAKE ART! You fucking donkey!
@@ -57,12 +58,12 @@ MAKE ART! You fucking donkey!
         -  Replacement for Colorama
     -  [x] **[[Content/Programming/AthenaCSS/Index|AthenaCSS]]**
         -  A CSS generator in Python
-    -  [ ] **AthenaDB** 
+    -  [ ] <span class="todo_project">AthenaDB</span> 
         -  A hobby project to make my own Database System
         -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
         -  [x] Create Git Repo
         -  [x] Create PyPi 
-    -  [ ] **AthenaServer** ^8228fe
+    -  [ ] <span class="todo_project">AthenaServer</span> ^8228fe
         -  A "RestFull" API server which is easy to setup
         -  Needs access to database etc
     -  [ ] <span class="todo_project">AthenaDocumentor</span>

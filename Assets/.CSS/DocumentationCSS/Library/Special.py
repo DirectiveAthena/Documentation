@@ -24,7 +24,7 @@ from DocumentationCSS.BaseLibrary.Selectors import (
     class_markdown_embed_link, todo_project
 )
 from DocumentationCSS.BaseLibrary.Content import line_seperation
-
+from DocumentationCSS.BaseLibrary.Colors import color_athena
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - MetaDataHide -
@@ -98,7 +98,7 @@ class FileEmbed(RuleGenerator):
         with (rule3:=CSSRule()) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
             selectors.add(todo_project)
             declarations.add(
-                PropertyLibrary.Color(RGB(25,25,25)),
+                PropertyLibrary.Color(color_athena),
                 PropertyLibrary.FontWeight("bold")
             )
         yield rule3
