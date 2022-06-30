@@ -66,5 +66,7 @@ MAKE ART! You fucking donkey!
         -  A "RestFull" API server which is easy to setup
         -  Needs access to database etc
     -  [ ] **AthenaDocumentor**
+        -  [x] Create Git Repo
+        -  [x] Create PyPi 
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
