@@ -238,6 +238,10 @@ span.todo_project {
     color: rgb(196, 41, 80);
     font-weight: bold;
 }
+li.is-checked>span.todo_project {
+    color: rgb(196, 41, 80);
+    text-decoration: line-through rgb(196, 41, 80) solid auto;
+}
 
 
 /*OBSIDIAN PROGRAM*/

@@ -102,3 +102,17 @@ class FileEmbed(RuleGenerator):
                 PropertyLibrary.FontWeight("bold")
             )
         yield rule3
+
+        with (rule4:=CSSRule()) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
+            selectors.add_family(
+                ElementLib.Li(CSSClass("is-checked")),
+                todo_project,
+            )
+            declarations.add(
+                PropertyLibrary.Color(color_athena),
+                PropertyLibrary.TextDecoration(
+                    line="line-through",
+                    color=color_athena
+                )
+            )
+        yield rule4
