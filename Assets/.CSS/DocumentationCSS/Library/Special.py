@@ -109,12 +109,14 @@ class FileEmbed(RuleGenerator):
                 todo_project,
             )
             declarations.add(
+                PropertyLibrary.Color(
+                    burned_athena:=AthenaColor.functions.blend_modes.blend_colorburn(
+                        color_athena,
+                        RGB(95,95,95)
+                )),
                 PropertyLibrary.TextDecoration(
                     line="line-through",
-                    color=AthenaColor.functions.blend_modes.blend_colorburn(
-                        color_athena,
-                        RGB(85,85,85)
-                    ),
+                    color=burned_athena,
                     thickness=Percent(15)
                 )
             )
