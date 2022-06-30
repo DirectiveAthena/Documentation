@@ -6,13 +6,18 @@ aliases: [Todo]
 ---
 
 # Todo
-## Python Projects
+## Story Development
+1. [ ] Adam : Story Development software
+    - [ ] AthenaGuiComponentLib
+        - A library of prem
 - [ ] AthenaDocumentor
     - A system which automatically converts Athena packages to usable documentation files
 - [ ] AthenaDiscordBot
 - [ ] AthenaTwitchBot
 
-## Workflow Optimizations
+## Chat optimizations
 - [ ] Black
     - Brought to my attention by Laundmo
     -  https://black.readthedocs.io/en/stable/integrations/editors.html
+
+## Art
