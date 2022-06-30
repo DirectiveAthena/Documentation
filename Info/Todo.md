@@ -33,7 +33,8 @@ The road to actually writing and developing the story
         - [ ] Discord API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
     - [ ] **AthenaTwitterBot**
-        - Yeah ... this one will be special
+        - [ ] Twitter API integration
+        - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 
 ## Art
 MAKE ART! You fucking donkey!
