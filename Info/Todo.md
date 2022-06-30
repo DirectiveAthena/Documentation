@@ -23,7 +23,7 @@ The road to actually writing and developing the story
 
 ---
 ## Chat optimizations
-- [ ] EVA: Community 
+- [ ] EVA: Community integration
     - [ ] **AthenaTwitchBot**
         - [ ] Twitch Chat Bot System
             -  [ ] OOP way of adding commands to the bot
@@ -50,6 +50,12 @@ MAKE ART! You fucking donkey!
     -  A "RestFull" API server which is easy to setup
     -  Needs access to database etc
 -  Road to a dependency-less future:
-    -  ? **AthenaDB**
+    -  [x] **[[Content/Programming/AthenaColor/Index|AthenaColor]]**
+        -  Replacement for Colorama
+    -  [x] **[[Content/Programming/AthenaCSS/Index|AthenaCSS]]**
+        -  A CSS generator in Python
+    -  [ ] **AthenaDB** ?
         -  A hobby project to make my own rdbms
         -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
+-  [ ] SOL: One single API to connect to all back-end stuff
+    -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
