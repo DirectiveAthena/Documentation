@@ -25,14 +25,15 @@ The road to actually writing and developing the story
 - [ ] EVA: Community integration
     - [ ] **AthenaTwitchBot**
         - [ ] Twitch Chat Bot System
-            -  [ ] OOP way of adding commands to the bot
-            -  [ ] OOP way of adding features to the bot
+            -  [ ] way of adding commands to the bot
+            -  [ ] way of adding features to the bot
         - [ ] Twitch API System
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
     - [ ] **AthenaDiscordBot**
         - [ ] Discord API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
     - [ ] **AthenaTwitterBot**
+        - Yeah ... this one will be special
 
 ## Art
 MAKE ART! You fucking donkey!
