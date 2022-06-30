@@ -9,25 +9,30 @@ aliases: [Todo]
 Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simple structured list from A to Z, he decided to just listen to his brain and make a list which made sense to him. A "non linear todo list", which means the overall structure of the list doesn't correspond with a set order to follow, but more of a guideline to what needs to be done in an overall manner.
 
 ## Story Development
-- [ ] Adam : Story Development software
+The road to actually writing and developing the story
+- [ ] ADAM : Story Development software
     - [ ] **AthenaGuiComponentLib**
         - A library of pre-made components of [DearPyGui](https://github.com/hoffstadt/DearPyGui)
 - [ ] Database
     - ... Yeah I don't know how to start with this one either
 - [ ] Unreal Engine
-    - Learn how to use this wonderful piece of software
+    - Yeah, I don't see this as a "dependency" as I'm not smart enough to make my own game engine
+    - [ ] Learn how to use this wonderful piece of software
+- [ ] Do some daily writing
+    - Doesn't have to be big, but start somewhere
 
 ---
 ## Chat optimizations
-- [ ] **AthenaTwitchBot**
-    - [ ] Twitch Chat Bot System
-        -  [ ] OOP way of adding commands to the bot
-        -  [ ] OOP way of adding features to the bot
-    - [ ] Twitch API System
-    - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
-- [ ] **AthenaDiscordBot**
-    - [ ] Discord API integration
-    - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+- [ ] EVA: Community 
+    - [ ] **AthenaTwitchBot**
+        - [ ] Twitch Chat Bot System
+            -  [ ] OOP way of adding commands to the bot
+            -  [ ] OOP way of adding features to the bot
+        - [ ] Twitch API System
+        - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+    - [ ] **AthenaDiscordBot**
+        - [ ] Discord API integration
+        - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 
 ---
 ## Art
