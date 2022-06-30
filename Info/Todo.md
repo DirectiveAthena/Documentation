@@ -24,15 +24,21 @@ The road to actually writing and developing the story
 ## Chat optimizations
 - [ ] EVA: Community integration
     - [ ] **AthenaTwitchBot**
+        -  [x] Create Git Repo
+        -  [x] Create PyPi 
         - [ ] Twitch Chat Bot System
             -  [ ] way of adding commands to the bot
             -  [ ] way of adding features to the bot
         - [ ] Twitch API System
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
     - [ ] **AthenaDiscordBot**
+        -  [x] Create Git Repo
+        -  [x] Create PyPi 
         - [ ] Discord API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
     - [ ] **AthenaTwitterBot**
+        -  [x] Create Git Repo
+        -  [x] Create PyPi 
         - [ ] Twitter API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 
