@@ -5,7 +5,7 @@ cssclass: metaDataHide athena
 aliases: [Todo]
 ---
 
-# Todo
+# *Non Linear* Todo
 ## Story Development
 1. [ ] Adam : Story Development software
     - [ ] **AthenaGuiComponentLib**
@@ -13,12 +13,19 @@ aliases: [Todo]
 2. [ ] Unreal Engine
     - Learn how to use this wonderful piece of software
 
+---
 ## Chat optimizations
-1. [ ] AthenaTwitchBot
+1. [ ] **AthenaTwitchBot**
+    1. [ ] Tiwtch Chat Bot System
+        1.  [ ] 
+    2. [ ] Twitch API System
+2. [ ] **AthenaDiscordBot**
     1. [ ] 
 
+---
 ## Art
 
+---
 ## Workflow optimizations
 - [ ] Black
     - Brought to my attention by Laundmo
