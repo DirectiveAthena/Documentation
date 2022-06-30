@@ -14,8 +14,8 @@ from AthenaCSS import CSSRule, CSSComment, CSSCommentSeparator
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
 class RuleGenerator:
-    start_seperator:bool=False
-    end_seperator:bool=False
+    start_separator:bool=False
+    end_separator:bool=False
 
     @classmethod
     def rule_comment(cls) -> Generator[CSSComment]:
@@ -29,8 +29,8 @@ class RuleGenerator:
 
     @classmethod
     def generate(cls):
-        # Start the rule with a seperator comment
-        if cls.start_seperator:
+        # Start the rule with a separator comment
+        if cls.start_separator:
             yield CSSCommentSeparator()
 
         for rule_comment in cls.rule_comment():
@@ -41,6 +41,6 @@ class RuleGenerator:
             if rule is not None:
                 yield rule
 
-        # End the rule with a seperator comment
-        if cls.end_seperator:
+        # End the rule with a separator comment
+        if cls.end_separator:
             yield CSSCommentSeparator()
