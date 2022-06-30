@@ -10,7 +10,9 @@ aliases: [Todo]
 1. [ ] Adam : Story Development software
     - [ ] **AthenaGuiComponentLib**
         - A library of pre-made components of [DearPyGui](https://github.com/hoffstadt/DearPyGui)
-2. [ ] Unreal Engine
+1. [ ] Database
+    - ... Yeah I don't know how to start with this one either
+- [ ] Unreal Engine
     - Learn how to use this wonderful piece of software
 
 ---
@@ -20,9 +22,10 @@ aliases: [Todo]
         1.  [ ] OOP way of adding commands to the bot
         2.  [ ] OOP way of adding features to the bot
     2. [ ] Twitch API System
-    3. [ ] Inte
+    3. [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 2. [ ] **AthenaDiscordBot**
     1. [ ] Discord API integration
+    3. [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 
 ---
 ## Art
@@ -36,7 +39,7 @@ MAKE ART! You fucking donkey!
 - [ ] Black
     - Brought to my attention by Laundmo
     -  https://black.readthedocs.io/en/stable/integrations/editors.html
--  [ ] **AthenaServer**
+-  [ ] **AthenaServer** ^8228fe
     -  A "RestFull" API server which is easy to setup
     -  Needs access to database etc
 -  Road to a dependency-less future:
