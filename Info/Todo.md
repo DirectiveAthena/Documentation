@@ -30,3 +30,6 @@ aliases: [Todo]
 - [ ] Black
     - Brought to my attention by Laundmo
     -  https://black.readthedocs.io/en/stable/integrations/editors.html
+-  [ ] **AthenaServer**
+    -  A "RestFull" API server which is easy to setup
+    -  Needs access to database etc
