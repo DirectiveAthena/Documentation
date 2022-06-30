@@ -21,7 +21,6 @@ The road to actually writing and developing the story
 - [ ] Do some daily writing
     - Doesn't have to be big, but start somewhere
 
----
 ## Chat optimizations
 - [ ] EVA: Community integration
     - [ ] **AthenaTwitchBot**
@@ -35,14 +34,12 @@ The road to actually writing and developing the story
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
     - [ ] **AthenaTwitterBot**
 
----
 ## Art
 MAKE ART! You fucking donkey!
 - [ ] Learn how to sculpt
 - [ ] Learn how to draw 2D art
 - [ ] Do a lot of 3D art
 
----
 ## Workflow optimizations
 - [ ] Black
     - Brought to my attention by Laundmo
