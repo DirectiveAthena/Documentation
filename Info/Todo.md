@@ -16,14 +16,20 @@ aliases: [Todo]
 ---
 ## Chat optimizations
 1. [ ] **AthenaTwitchBot**
-    1. [ ] Tiwtch Chat Bot System
-        1.  [ ] 
+    1. [ ] Twitch Chat Bot System
+        1.  [ ] OOP way of adding commands to the bot
+        2.  [ ] OOP way of adding features to the bot
     2. [ ] Twitch API System
+    3. [ ] Inte
 2. [ ] **AthenaDiscordBot**
-    1. [ ] 
+    1. [ ] Discord API integration
 
 ---
 ## Art
+MAKE ART! You fucking donkey!
+- [ ] Learn how to sculpt
+- [ ] Learn how to draw 2D art
+- [ ] Do a lot of 3D art
 
 ---
 ## Workflow optimizations
@@ -33,3 +39,6 @@ aliases: [Todo]
 -  [ ] **AthenaServer**
     -  A "RestFull" API server which is easy to setup
     -  Needs access to database etc
+-  Road to a dependency-less future:
+    -  ? **AthenaDB**
+        -  A hobby project to make my own rdbms
