@@ -33,6 +33,7 @@ The road to actually writing and developing the story
     - [ ] **AthenaDiscordBot**
         - [ ] Discord API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+    - [ ] **AthenaTwitterBot**
 
 ---
 ## Art
@@ -46,16 +47,16 @@ MAKE ART! You fucking donkey!
 - [ ] Black
     - Brought to my attention by Laundmo
     -  https://black.readthedocs.io/en/stable/integrations/editors.html
--  [ ] **AthenaServer** ^8228fe
-    -  A "RestFull" API server which is easy to setup
-    -  Needs access to database etc
 -  Road to a dependency-less future:
     -  [x] **[[Content/Programming/AthenaColor/Index|AthenaColor]]**
         -  Replacement for Colorama
     -  [x] **[[Content/Programming/AthenaCSS/Index|AthenaCSS]]**
         -  A CSS generator in Python
-    -  [ ] **AthenaDB** ?
-        -  A hobby project to make my own rdbms
+    -  [ ] **AthenaDB** 
+        -  A hobby project to make my own Database System
         -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
+    -  [ ] **AthenaServer** ^8228fe
+        -  A "RestFull" API server which is easy to setup
+        -  Needs access to database etc
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
