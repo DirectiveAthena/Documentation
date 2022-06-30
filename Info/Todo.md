@@ -6,6 +6,7 @@ aliases: [Todo]
 ---
 
 # *Non Linear* Todo
+Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simple structured list from A to Z, he dec
 ## Story Development
 1. [ ] Adam : Story Development software
     - [ ] **AthenaGuiComponentLib**
