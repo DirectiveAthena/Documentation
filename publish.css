@@ -239,8 +239,7 @@ span.todo_project {
     font-weight: bold;
 }
 li.is-checked>span.todo_project {
-    color: rgb(196, 41, 80);
-    text-decoration: line-through rgb(196, 41, 80) solid auto;
+    text-decoration: line-through rgba(78, 0, 0, 255) solid 15%;
 }
 
 

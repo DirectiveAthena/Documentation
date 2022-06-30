@@ -12,9 +12,9 @@ from AthenaCSS import (
 )
 from AthenaCSS.models.generator.manager_rule import ManagerSelectors, ManagerDeclarations
 from AthenaCSS.models.athenalib_imports import (
-    Pixel,
+    Pixel,Percent
 )
-
+import AthenaColor.functions.blend_modes
 from AthenaColor import RGB
 
 # Custom Packages
@@ -109,10 +109,13 @@ class FileEmbed(RuleGenerator):
                 todo_project,
             )
             declarations.add(
-                PropertyLibrary.Color(color_athena),
                 PropertyLibrary.TextDecoration(
                     line="line-through",
-                    color=color_athena
+                    color=AthenaColor.functions.blend_modes.blend_colorburn(
+                        color_athena,
+                        RGB(85,85,85)
+                    ),
+                    thickness=Percent(15)
                 )
             )
         yield rule4
