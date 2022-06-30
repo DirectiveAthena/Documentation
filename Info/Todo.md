@@ -6,27 +6,28 @@ aliases: [Todo]
 ---
 
 # *Non Linear* Todo
-Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simple structured list from A to Z, he dec
+Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simple structured list from A to Z, he decided to just listen to his brain and make a list which made sense to him. A "non linear todo list", which means the overall structure of the list doesn't correspond with a set order to follow, but more of a guideline to what needs to be done in an overall manner.
+
 ## Story Development
-1. [ ] Adam : Story Development software
+- [ ] Adam : Story Development software
     - [ ] **AthenaGuiComponentLib**
         - A library of pre-made components of [DearPyGui](https://github.com/hoffstadt/DearPyGui)
-1. [ ] Database
+- [ ] Database
     - ... Yeah I don't know how to start with this one either
 - [ ] Unreal Engine
     - Learn how to use this wonderful piece of software
 
 ---
 ## Chat optimizations
-1. [ ] **AthenaTwitchBot**
-    1. [ ] Twitch Chat Bot System
-        1.  [ ] OOP way of adding commands to the bot
-        2.  [ ] OOP way of adding features to the bot
-    2. [ ] Twitch API System
-    3. [ ] Integration with [[Todo#^8228fe|AthenaServer]]
-2. [ ] **AthenaDiscordBot**
-    1. [ ] Discord API integration
-    3. [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+- [ ] **AthenaTwitchBot**
+    - [ ] Twitch Chat Bot System
+        -  [ ] OOP way of adding commands to the bot
+        -  [ ] OOP way of adding features to the bot
+    - [ ] Twitch API System
+    - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+- [ ] **AthenaDiscordBot**
+    - [ ] Discord API integration
+    - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 
 ---
 ## Art
@@ -46,3 +47,4 @@ MAKE ART! You fucking donkey!
 -  Road to a dependency-less future:
     -  ? **AthenaDB**
         -  A hobby project to make my own rdbms
+        -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
