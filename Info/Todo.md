@@ -11,7 +11,7 @@ Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simpl
 ## Story Development
 The road to actually writing and developing the story
 - [ ] ADAM : Story Development software
-    - [x] <span class="todo_project">AthenaGuiComponentLib</span>
+    - [ ] <span class="todo_project">AthenaGuiComponentLib</span>
         - A library of pre-made components of [DearPyGui](https://github.com/hoffstadt/DearPyGui)
 - [ ] Database
     - ... Yeah I don't know how to start with this one either
@@ -59,10 +59,10 @@ MAKE ART! You fucking donkey!
     -  [x] **[[Content/Programming/AthenaCSS/Index|AthenaCSS]]**
         -  A CSS generator in Python
     -  [ ] <span class="todo_project">AthenaDB</span> 
-        -  A hobby project to make my own Database System
-        -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
         -  [x] Create Git Repo
         -  [x] Create PyPi 
+        -  A hobby project to make my own Database System
+        -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
     -  [ ] <span class="todo_project">AthenaServer</span> ^8228fe
         -  A "RestFull" API server which is easy to setup
         -  Needs access to database etc
