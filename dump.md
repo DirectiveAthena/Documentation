@@ -2,7 +2,7 @@
 
 An enumeration.
 
-#func <small>enum.</small>.**_generate_next_value_**(name, start, count, last_values)
+#func **_generate_next_value_**(name, start, count, last_values)
 
 Generate the next value when not given.
 
@@ -11,7 +11,7 @@ start: the initial start value or None
 count: the number of existing members
 last_value: the last value assigned or None
 
-#func <small>enum.</small>.**__new__**(cls, value)
+#func **__new__**(cls, value)
 
 Create and return a new object.See help(type) for accurate signat
 
@@ -47,13 +47,13 @@ str
 
 #func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>.**remove_empty_prefix**(text: 'str') -> 'str'
 
-**<span style={color:red}>-!- Missing documentation -!-</span>**
+**<span style=color:maroon>-!- Missing documentation -!-</span>**
 
 ---
 
 #func <small>AthenaDocumentor.functions.type_finder.</small>.**find_type**(obj) -> 'Types'
 
-**<span style={color:red}>-!- Missing documentation -!-</span>**
+**<span style=color:maroon>-!- Missing documentation -!-</span>**
 
 ---
 
@@ -69,19 +69,19 @@ The MarkdownStructure supports the `Parser` in formatting `ParsedObject` objects
 
 ParsedObject(obj)
 
-#func <small>AthenaDocumentor.models.parsed_data.</small>.**__init__**(self, obj)
+#func **__init__**(self, obj)
 
 Initialize self.See help(type(self)) for accurate signature.
 
-#func <small>AthenaDocumentor.models.parsed_data.</small>.**to_dict**(self) -> 'dict'
+#func **to_dict**(self) -> 'dict'
 
-**<span style={color:red}>-!- Missing documentation -!-</span>**
+**<span style=color:maroon>-!- Missing documentation -!-</span>**
 
-#func <small>AthenaDocumentor.models.parsed_data.</small>.**__repr__**(self)
+#func **__repr__**(self)
 
 Return repr(self).
 
-#func <small>AthenaDocumentor.models.parsed_data.</small>.**__eq__**(self, other)
+#func **__eq__**(self, other)
 
 Return self==va
 
@@ -95,7 +95,7 @@ Parameters:
 - root_module: Defines the base package it must parse through
 - markdown_structure: Defines the markdown structure used in the `self.output_to_markdown_file` method
 
-#func <small>AthenaDocumentor.models.parser.</small>.**parse**(self) -> 'Parser'
+#func **parse**(self) -> 'Parser'
 
 Main method of the Parser object.
 Running this will start the pared and populate the 'parsed_items' slot of the Parser object
@@ -103,11 +103,11 @@ Running this will start the pared and populate the 'parsed_items' slot of the Pa
 Returns:
 self : Done for chaining methods
 
-#func <small>AthenaDocumentor.models.parser.</small>.**_parse_recursive**(self, module_to_parse: 'Any')
+#func **_parse_recursive**(self, module_to_parse: 'Any')
 
-**<span style={color:red}>-!- Missing documentation -!-</span>**
+**<span style=color:maroon>-!- Missing documentation -!-</span>**
 
-#func <small>AthenaDocumentor.models.parser.</small>.**output_to_dict**(self, *, flat: 'bool' = False) -> 'dict[str:list[dict]]'
+#func **output_to_dict**(self, *, flat: 'bool' = False) -> 'dict[str:list[dict]]'
 
 Output the 'parsed_items' dictionary as is, or with custom parameters.
 
@@ -117,7 +117,7 @@ Parameters:
 Returns:
 dict
 
-#func <small>AthenaDocumentor.models.parser.</small>.**output_to_json_file**(self, filepath: 'str')
+#func **output_to_json_file**(self, filepath: 'str')
 
 Output the 'parsed_items' dictionary to a json file.
 This method calls the `self.output_to_dict` method with the 'flat' parameter set to `True`
@@ -125,18 +125,18 @@ This method calls the `self.output_to_dict` method with the 'flat' parameter set
 Parameters:
 - filepath: Defines the output file location
 
-#func <small>AthenaDocumentor.models.parser.</small>.**output_to_markdown_file**(self, filepath: 'str')
+#func **output_to_markdown_file**(self, filepath: 'str')
 
 Output the 'parsed_items' to a structured markdown file.
 
 Parameters:
 - filepath: Defines the output file location
 
-#func <small>AthenaDocumentor.models.parser.</small>.**__init__**(self, *, root_module: 'Any', markdown_structure: 'type[MarkdownStructure]' = <class 'AthenaDocumentor.models.markdown_structure.MarkdownStructure'>) -> None
+#func **__init__**(self, *, root_module: 'Any', markdown_structure: 'type[MarkdownStructure]' = <class 'AthenaDocumentor.models.markdown_structure.MarkdownStructure'>) -> None
 
 Initialize self.See help(type(self)) for accurate signature.
 
-#func <small>AthenaDocumentor.models.parser.</small>.**__repr__**(self)
+#func **__repr__**(self)
 
 Return repr(se
 
