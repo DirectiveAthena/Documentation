@@ -1,47 +1,78 @@
 #class <small>AthenaDocumentor.</small>**Output**()
 
-Helper class that provides a standard way to create an ABC using
-inheritance.
+Standardized way of outputting correctly parsed objects into string objects.
 
-$\qquad$**format_documentation**(cls, parsed_object: ParsedObject)
+$\qquad$**format_documentation**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Formats the `parsed_object.doc` into a correct string.
+Parameters:
+- parsed_object:ParsedObject
+Returns: `str`</span>
 
-$\qquad$**format_type**(cls, parsed_object: ParsedObject)
+$\qquad$**format_type**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Formats the `parsed_object.type` into a correct string.
+Parameters:
+- parsed_object:ParsedObject
+Returns: `str`</span>
 
-$\qquad$**format_module_name**(cls, parsed_object: ParsedObject)
+$\qquad$**format_module_name**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Formats the `parsed_object.module_name` into a correct string.
+Parameters:
+- parsed_object:ParsedObject
+Returns: `str`</span>
 
-$\qquad$**format_object_name**(cls, parsed_object: ParsedObject)
+$\qquad$**format_object_name**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Formats the `parsed_object.name` into a correct string.
+Parameters:
+- parsed_object:ParsedObject
+Returns: `str`</span>
 
-$\qquad$**format_signature**(cls, parsed_object: ParsedObject)
+$\qquad$**format_signature**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Formats the `parsed_object.signature` into a correct string.
+Parameters:
+- parsed_object:ParsedObject
+Returns: `str`</span>
 
-$\qquad$**format_header**(cls, parsed_object: ParsedObject)
+$\qquad$**format_header**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Formats multiple components of `parsed_object` together.
+This forms the piece of documentation that display the name, signature, type and other similar components.
+Parameters:
+- parsed_object:ParsedObject
+Returns: `str`</span>
 
-$\qquad$**format_footer**(cls, parsed_object: ParsedObject)
+$\qquad$**format_footer**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Formats multiple components of `parsed_object` together.
+This forms the piece of documentation that display the end of the piece of documentation for that `parsed_object`
+Parameters:
+- parsed_object:ParsedObject
+Returns: `s</span>
 
-$\qquad$**structure_function**(cls, parsed_object: ParsedObject)
+$\qquad$**structure_function**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Calls on other `Output` methods to export a sensible string for a function object
+Parameters:
+- parsed_object:ParsedObject
+Returns: `s</span>
 
-$\qquad$**structure_class**(cls, parsed_object: ParsedObject)
+$\qquad$**structure_class**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+<span class="parent_indent">Calls on other `Output` methods to export a sensible string for a class object
+Parameters:
+- parsed_object:ParsedObject
+Returns: `s</span>
 
-$\qquad$**structure_method**(cls, parsed_object: ParsedObject)
+$\qquad$**structure_method**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</s
+<span class="parent_indent">Calls on other `Output` methods to export a sensible string for a method object
+Parameters:
+- parsed_object:ParsedObject
+Returns: `s</s
 
 ---
 
