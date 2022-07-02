@@ -227,29 +227,11 @@ Parameters:
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed.parsed.</small>**Parsed**(obj)
+#class <small>AthenaDocumentor.models.parsed.parsed.</small>**Parsed**(obj, parent_module)
 
-Parsed(obj)
+Parsed(obj, parent_module)
 
-$\qquad$**__init__**(self, obj)
-
-<span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
-
-$\qquad$**to_dict**(self) -> dict
-
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
-
-$\qquad$**__repr__**(self)
-
-<span class="parent_indent">Return repr(self).</span>
-
----
-
-#class <small>AthenaDocumentor.models.parsed.parsed_class.</small>**ParsedClass**(obj)
-
-ParsedClass(obj)
-
-$\qquad$**__init__**(self, obj)
+$\qquad$**__init__**(self, obj, parent_module)
 
 <span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
 
@@ -263,29 +245,11 @@ $\qquad$**__repr__**(self)
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed.parsed_function.</small>**ParsedFunction**(obj)
+#class <small>AthenaDocumentor.models.parsed.parsed_class.</small>**ParsedClass**(obj, parent_module)
 
-ParsedFunction(obj)
+ParsedClass(obj, parent_module)
 
-$\qquad$**__init__**(self, obj)
-
-<span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
-
-$\qquad$**to_dict**(self) -> dict
-
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
-
-$\qquad$**__repr__**(self)
-
-<span class="parent_indent">Return repr(self).</span>
-
----
-
-#class <small>AthenaDocumentor.models.parsed.parsed_method.</small>**ParsedMethod**(obj)
-
-ParsedMethod(obj)
-
-$\qquad$**__init__**(self, obj)
+$\qquad$**__init__**(self, obj, parent_module)
 
 <span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
 
@@ -299,9 +263,45 @@ $\qquad$**__repr__**(self)
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed.parsed_module.</small>**ParsedModule**(obj)
+#class <small>AthenaDocumentor.models.parsed.parsed_function.</small>**ParsedFunction**(obj, parent_module)
 
-ParsedModule(obj)
+ParsedFunction(obj, parent_module)
+
+$\qquad$**__init__**(self, obj, parent_module)
+
+<span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
+
+$\qquad$**to_dict**(self) -> dict
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**__repr__**(self)
+
+<span class="parent_indent">Return repr(self).</span>
+
+---
+
+#class <small>AthenaDocumentor.models.parsed.parsed_method.</small>**ParsedMethod**(obj, parent_module)
+
+ParsedMethod(obj, parent_module)
+
+$\qquad$**__init__**(self, obj, parent_module)
+
+<span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
+
+$\qquad$**to_dict**(self) -> dict
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**__repr__**(self)
+
+<span class="parent_indent">Return repr(self).</span>
+
+---
+
+#class <small>AthenaDocumentor.models.parsed.parsed_module.</small>**ParsedModule**(obj, parent_module)
+
+ParsedModule(obj, parent_module)
 
 $\qquad$**__repr__**(self)
 
