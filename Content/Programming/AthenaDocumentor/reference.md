@@ -82,7 +82,7 @@ The OutputMarkdown supports the `Parser` in formatting `Parsed` objects to the d
 
 $\qquad$**format_documentation**(cls, parsed_object: Parsed) -> str
 
-<span class="parent_indent">Spaghetti</span>
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
 
 $\qquad$**format_type**(cls, parsed_object: Parsed) -> str
 
