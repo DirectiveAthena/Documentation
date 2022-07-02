@@ -100,7 +100,7 @@ $\qquad$**_output_to_markdown**(self)
 
 <span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
 
-$\qquad$**output_to_markdown_file**(self, filepath: str)
+$\qquad$**output_to_markdown_file**(self, *filepath: str)
 
 <span class="parent_indent">Output the 'parsed_items' to a structured MarkDown file.</span>
 
@@ -146,17 +146,27 @@ $\qquad$**__new__**(cls, value)
 
 Indents all lines in a string with a defined amount of indentation
 
+Parameters:
+- text : str -> input text
+- indent : int -> amount of whitespaces that has to be added before everything else
+
 ---
 
 #func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**quote_all_lines**(text: str) -> str
 
 Places a quote prefix in front of all lines in a string
 
+Parameters:
+- text : str -> input text
+
 ---
 
 #func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**remove_empty_prefix**(text: str) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+Removes any double spaces ("")
+
+Parameters:
+- text : str -> input text
 
 ---
 
