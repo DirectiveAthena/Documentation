@@ -4,16 +4,15 @@ An enumeration.
 
 $\qquad$**_generate_next_value_**(name, start, count, last_values)
 
-$\qquad$ $\qquad$ Generate the next value when not given.
-
+<p style=margin-left:4rem>Generate the next value when not given.
 name: the name of the member
 start: the initial start value or None
 count: the number of existing members
-last_value: the last value assigned or None
+last_value: the last value assigned or None</p>
 
 $\qquad$**__new__**(cls, value)
 
-$\qquad$ $\qquad$ Create and return a new object.See help(type) for accurate signat
+<p style=margin-left:4rem>Create and return a new object.See help(type) for accurate signature.
 
 ---
 
@@ -71,19 +70,19 @@ ParsedObject(obj)
 
 $\qquad$**__init__**(self, obj)
 
-$\qquad$ $\qquad$ Initialize self.See help(type(self)) for accurate signature.
+<p style=margin-left:4rem>Initialize self.See help(type(self)) for accurate signature.</p>
 
 $\qquad$**to_dict**(self) -> 'dict'
 
-$\qquad$ $\qquad$ *<span style=color:red>-!- Missing documentation -!-</span>*
+<p style=margin-left:4rem>*<span style=color:red>-!- Missing documentation -!-</span>*</p>
 
 $\qquad$**__repr__**(self)
 
-$\qquad$ $\qquad$ Return repr(self).
+<p style=margin-left:4rem>Return repr(self).</p>
 
 $\qquad$**__eq__**(self, other)
 
-$\qquad$ $\qquad$ Return self==va
+<p style=margin-left:4rem>Return self==value.
 
 ---
 
@@ -97,48 +96,43 @@ Parameters:
 
 $\qquad$**parse**(self) -> 'Parser'
 
-$\qquad$ $\qquad$ Main method of the Parser object.
+<p style=margin-left:4rem>Main method of the Parser object.
 Running this will start the pared and populate the 'parsed_items' slot of the Parser object
-
 Returns:
-self : Done for chaining methods
+self : Done for chaining methods</p>
 
 $\qquad$**_parse_recursive**(self, module_to_parse: 'Any')
 
-$\qquad$ $\qquad$ *<span style=color:red>-!- Missing documentation -!-</span>*
+<p style=margin-left:4rem>*<span style=color:red>-!- Missing documentation -!-</span>*</p>
 
 $\qquad$**output_to_dict**(self, *, flat: 'bool' = False) -> 'dict[str:list[dict]]'
 
-$\qquad$ $\qquad$ Output the 'parsed_items' dictionary as is, or with custom parameters.
-
+<p style=margin-left:4rem>Output the 'parsed_items' dictionary as is, or with custom parameters.
 Parameters:
 - flat: Outputs the dictionary in base types only (string, integers, booleans, etc...)
-
 Returns:
-dict
+dict</p>
 
 $\qquad$**output_to_json_file**(self, filepath: 'str')
 
-$\qquad$ $\qquad$ Output the 'parsed_items' dictionary to a json file.
+<p style=margin-left:4rem>Output the 'parsed_items' dictionary to a json file.
 This method calls the `self.output_to_dict` method with the 'flat' parameter set to `True`
-
 Parameters:
-- filepath: Defines the output file location
+- filepath: Defines the output file location</p>
 
 $\qquad$**output_to_markdown_file**(self, filepath: 'str')
 
-$\qquad$ $\qquad$ Output the 'parsed_items' to a structured markdown file.
-
+<p style=margin-left:4rem>Output the 'parsed_items' to a structured markdown file.
 Parameters:
-- filepath: Defines the output file location
+- filepath: Defines the output file location</p>
 
 $\qquad$**__init__**(self, *, root_module: 'Any', markdown_structure: 'type[MarkdownStructure]' = <class 'AthenaDocumentor.models.markdown_structure.MarkdownStructure'>) -> None
 
-$\qquad$ $\qquad$ Initialize self.See help(type(self)) for accurate signature.
+<p style=margin-left:4rem>Initialize self.See help(type(self)) for accurate signature.</p>
 
 $\qquad$**__repr__**(self)
 
-$\qquad$ $\qquad$ Return repr(se
+<p style=margin-left:4rem>Return repr(self).
 
 ---
 
