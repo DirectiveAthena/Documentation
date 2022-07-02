@@ -80,10 +80,6 @@ Returns: `s</s
 
 The OutputMarkdown supports the `Parser` in formatting `ParsedObject` objects to the defined format.
 
-$\qquad$**__init_subclass__**(cls, **kwargs)
-
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
-
 $\qquad$**format_documentation**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
