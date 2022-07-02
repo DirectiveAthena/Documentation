@@ -89,6 +89,12 @@ start: the initial start value or None
 count: the number of existing members
 last_value: the last value assigned or None</span>
 
+$\qquad$**object**()
+
+<span class="parent_indent">The base class of the class hierarchy.
+When called, it accepts no arguments and returns a new featureless
+instance that has no instance attributes and cannot be given any.</span>
+
 $\qquad$**__new__**(cls, value)
 
 <span class="parent_indent">Create and return a new object.See help(type) for accurate signature.</s
