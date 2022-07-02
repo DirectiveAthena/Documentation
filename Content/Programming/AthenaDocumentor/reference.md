@@ -50,6 +50,11 @@ $\qquad$**output_to_json_file**(self, filepath: str)
 <span class="parent_indent">Output the 'parsed_items' dictionary to a json file.
 This method calls the `self.output_to_dict` method with the 'flat' parameter set to `True`</span>
 
+$\qquad$**output_to_json_string**(self) -> str
+
+<span class="parent_indent">Output the 'parsed_items' dictionary to a json formatted string.
+This method calls the `self.output_to_dict` method with the 'flat' parameter set to `True`</span>
+
 $\qquad$**_output_to_markdown**(self)
 
 <span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
