@@ -1,6 +1,53 @@
-#class <small>AthenaDocumentor.</small>**MarkdownStructure**()
+#class <small>AthenaDocumentor.</small>**Output**()
 
-The MarkdownStructure supports the `Parser` in formatting `ParsedObject` objects to the defined format.
+Helper class that provides a standard way to create an ABC using
+inheritance.
+
+$\qquad$**format_documentation**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**format_type**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**format_module_name**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**format_object_name**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**format_signature**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**format_header**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**format_footer**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**structure_function**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**structure_class**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
+$\qquad$**structure_method**(cls, parsed_object: ParsedObject)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</s
+
+---
+
+#class <small>AthenaDocumentor.</small>**OutputMarkdown**()
+
+The OutputMarkdown supports the `Parser` in formatting `ParsedObject` objects to the defined format.
 
 $\qquad$**format_documentation**(cls, parsed_object: ParsedObject) -> str
 
@@ -69,7 +116,7 @@ $\qquad$**__eq__**(self, other)
 
 ---
 
-#class <small>AthenaDocumentor.</small>**Parser**(*, root_module: Any, markdown_structure: type[MarkdownStructure] = <class AthenaDocumentor.models.markdown_structure.MarkdownStructure>, parse_items_with_underscore: bool = True) -> None
+#class <small>AthenaDocumentor.</small>**Parser**(*, root_module: Any, markdown_structure: type[Output] = <class AthenaDocumentor.models.outputs.output_markdown.OutputMarkdown>, parse_items_with_underscore: bool = True) -> None
 
 Object to control the correct handling of parsing through a Python package
 
@@ -108,7 +155,7 @@ $\qquad$**output_to_markdown_string**(self) -> str
 
 <span class="parent_indent">Output the 'parsed_items' to string, formatted in MarkDown</span>
 
-$\qquad$**__init__**(self, *, root_module: Any, markdown_structure: type[MarkdownStructure] = <class AthenaDocumentor.models.markdown_structure.MarkdownStructure>, parse_items_with_underscore: bool = True) -> None
+$\qquad$**__init__**(self, *, root_module: Any, markdown_structure: type[Output] = <class AthenaDocumentor.models.outputs.output_markdown.OutputMarkdown>, parse_items_with_underscore: bool = True) -> None
 
 <span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
 
