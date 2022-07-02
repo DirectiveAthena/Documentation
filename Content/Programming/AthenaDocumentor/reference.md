@@ -80,6 +80,10 @@ Returns: `s</s
 
 The OutputMarkdown supports the `Parser` in formatting `ParsedObject` objects to the defined format.
 
+$\qquad$**__init_subclass__**(cls, **kwargs)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
 $\qquad$**format_documentation**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
@@ -102,10 +106,7 @@ $\qquad$**format_signature**(cls, parsed_object: ParsedObject) -> str
 
 $\qquad$**format_header**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">Composes the str output meant for the "header" of a parsed object.
-The header holds the title, name and signature.
-Parameters:
-- parsed_object: `ParsedObject`</span>
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
 
 $\qquad$**format_footer**(cls, parsed_object: ParsedObject) -> str
 
