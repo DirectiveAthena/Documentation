@@ -1,4 +1,4 @@
-#class <small>AthenaDocumentor.models.markdown_structure.</small>**MarkdownStructure**()
+#class <small>AthenaDocumentor.</small>**MarkdownStructure**()
 
 The MarkdownStructure supports the `Parser` in formatting `ParsedObject` objects to the defined format.
 
@@ -6,7 +6,7 @@ The MarkdownStructure supports the `Parser` in formatting `ParsedObject` objects
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed_data.</small>**ParsedObject**(obj)
+#class <small>AthenaDocumentor.</small>**ParsedObject**(obj)
 
 ParsedObject(obj)
 
@@ -28,7 +28,7 @@ $\qquad$**__eq__**(self, other)
 
 ---
 
-#class <small>AthenaDocumentor.models.parser.</small>**Parser**(*, root_module: 'Any', markdown_structure: 'type[MarkdownStructure]' = <class 'AthenaDocumentor.models.markdown_structure.MarkdownStructure'>) -> None
+#class <small>AthenaDocumentor.</small>**Parser**(*, root_module: 'Any', markdown_structure: 'type[MarkdownStructure]' = <class 'AthenaDocumentor.models.markdown_structure.MarkdownStructure'>) -> None
 
 Object to control the correct handling of parsing through a Python package
 
