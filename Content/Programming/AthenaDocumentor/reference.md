@@ -7,35 +7,35 @@ $\qquad$**format_documentation**(cls, parsed_object: ParsedObject) -> str
 <span class="parent_indent">Formats the `parsed_object.doc` into a correct string.
 Parameters:
 - parsed_object:ParsedObject
-Returns: `str`</span>
+Returns: str</span>
 
 $\qquad$**format_type**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">Formats the `parsed_object.type` into a correct string.
 Parameters:
 - parsed_object:ParsedObject
-Returns: `str`</span>
+Returns: str</span>
 
 $\qquad$**format_module_name**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">Formats the `parsed_object.module_name` into a correct string.
 Parameters:
 - parsed_object:ParsedObject
-Returns: `str`</span>
+Returns: str</span>
 
 $\qquad$**format_object_name**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">Formats the `parsed_object.name` into a correct string.
 Parameters:
 - parsed_object:ParsedObject
-Returns: `str`</span>
+Returns: str</span>
 
 $\qquad$**format_signature**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">Formats the `parsed_object.signature` into a correct string.
 Parameters:
 - parsed_object:ParsedObject
-Returns: `str`</span>
+Returns: str</span>
 
 $\qquad$**format_header**(cls, parsed_object: ParsedObject) -> str
 
@@ -43,7 +43,7 @@ $\qquad$**format_header**(cls, parsed_object: ParsedObject) -> str
 This forms the piece of documentation that display the name, signature, type and other similar components.
 Parameters:
 - parsed_object:ParsedObject
-Returns: `str`</span>
+Returns: str</span>
 
 $\qquad$**format_footer**(cls, parsed_object: ParsedObject) -> str
 
@@ -51,28 +51,28 @@ $\qquad$**format_footer**(cls, parsed_object: ParsedObject) -> str
 This forms the piece of documentation that display the end of the piece of documentation for that `parsed_object`
 Parameters:
 - parsed_object:ParsedObject
-Returns: `s</span>
+Returns: str</span>
 
 $\qquad$**structure_function**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">Calls on other `Output` methods to export a sensible string for a function object
 Parameters:
 - parsed_object:ParsedObject
-Returns: `s</span>
+Returns: str</span>
 
 $\qquad$**structure_class**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">Calls on other `Output` methods to export a sensible string for a class object
 Parameters:
 - parsed_object:ParsedObject
-Returns: `s</span>
+Returns: str</span>
 
 $\qquad$**structure_method**(cls, parsed_object: ParsedObject) -> str
 
 <span class="parent_indent">Calls on other `Output` methods to export a sensible string for a method object
 Parameters:
 - parsed_object:ParsedObject
-Returns: `s</s
+Returns: str</span>
 
 ---
 
@@ -118,7 +118,7 @@ $\qquad$**structure_class**(cls, parsed_object: ParsedObject) -> str
 
 $\qquad$**structure_method**(cls, parsed_object: ParsedObject) -> str
 
-<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</s
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
 
 ---
 
@@ -140,7 +140,7 @@ $\qquad$**__repr__**(self)
 
 $\qquad$**__eq__**(self, other)
 
-<span class="parent_indent">Return self==value.</s
+<span class="parent_indent">Return self==value.</span>
 
 ---
 
@@ -189,7 +189,7 @@ $\qquad$**__init__**(self, *, root_module: Any, markdown_structure: type[Output]
 
 $\qquad$**__repr__**(self)
 
-<span class="parent_indent">Return repr(self).</s
+<span class="parent_indent">Return repr(self).</span>
 
 ---
 
@@ -213,7 +213,7 @@ instance that has no instance attributes and cannot be given any.</span>
 
 $\qquad$**__new__**(cls, value)
 
-<span class="parent_indent">Create and return a new object.See help(type) for accurate signature.</s
+<span class="parent_indent">Create and return a new object.See help(type) for accurate signature.</span>
 
 ---
 
@@ -238,7 +238,7 @@ Parameters:
 
 #func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**remove_empty_prefix**(text: str) -> str
 
-Removes any double spaces ("")
+Removes any double spaces ("  ")
 
 Parameters:
 - text : str -> input text
