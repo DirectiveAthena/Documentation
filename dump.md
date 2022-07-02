@@ -14,7 +14,7 @@ $\qquad$**__init__**(self, obj)
 
 <span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
 
-$\qquad$**to_dict**(self) -> 'dict'
+$\qquad$**to_dict**(self) -> dict
 
 <span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
 
@@ -28,33 +28,33 @@ $\qquad$**__eq__**(self, other)
 
 ---
 
-#class <small>AthenaDocumentor.</small>**Parser**(*, root_module: 'Any', markdown_structure: 'type[MarkdownStructure]' = <class 'AthenaDocumentor.models.markdown_structure.MarkdownStructure'>) -> None
+#class <small>AthenaDocumentor.</small>**Parser**(*, root_module: Any, markdown_structure: type[MarkdownStructure] = <class AthenaDocumentor.models.markdown_structure.MarkdownStructure>) -> None
 
 Object to control the correct handling of parsing through a Python package
 
-$\qquad$**parse**(self) -> 'Parser'
+$\qquad$**parse**(self) -> Parser
 
 <span class="parent_indent">Main method of the Parser object.
 Running this will start the pared and populate the 'parsed_items' slot of the Parser object</span>
 
-$\qquad$**_parse_recursive**(self, module_to_parse: 'Any')
+$\qquad$**_parse_recursive**(self, module_to_parse: Any)
 
 <span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
 
-$\qquad$**output_to_dict**(self, *, flat: 'bool' = False) -> 'dict[str:list[dict]]'
+$\qquad$**output_to_dict**(self, *, flat: bool = False) -> dict[str:list[dict]]
 
 <span class="parent_indent">Output the 'parsed_items' dictionary as is, or with custom parameters.</span>
 
-$\qquad$**output_to_json_file**(self, filepath: 'str')
+$\qquad$**output_to_json_file**(self, filepath: str)
 
 <span class="parent_indent">Output the 'parsed_items' dictionary to a json file.
 This method calls the `self.output_to_dict` method with the 'flat' parameter set to `True`</span>
 
-$\qquad$**output_to_markdown_file**(self, filepath: 'str')
+$\qquad$**output_to_markdown_file**(self, filepath: str)
 
 <span class="parent_indent">Output the 'parsed_items' to a structured markdown file.</span>
 
-$\qquad$**__init__**(self, *, root_module: 'Any', markdown_structure: 'type[MarkdownStructure]' = <class 'AthenaDocumentor.models.markdown_structure.MarkdownStructure'>) -> None
+$\qquad$**__init__**(self, *, root_module: Any, markdown_structure: type[MarkdownStructure] = <class AthenaDocumentor.models.markdown_structure.MarkdownStructure>) -> None
 
 <span class="parent_indent">Initialize self.See help(type(self)) for accurate signature.</span>
 
@@ -82,25 +82,25 @@ $\qquad$**__new__**(cls, value)
 
 ---
 
-#func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**indent_all_lines**(text: 'str', indent: 'int') -> 'str'
+#func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**indent_all_lines**(text: str, indent: int) -> str
 
 Indents all lines in a string with a defined amount of indentation
 
 ---
 
-#func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**quote_all_lines**(text: 'str') -> 'str'
+#func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**quote_all_lines**(text: str) -> str
 
 Places a quote prefix in front of all lines in a string
 
 ---
 
-#func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**remove_empty_prefix**(text: 'str') -> 'str'
+#func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**remove_empty_prefix**(text: str) -> str
 
 *<span style=color:red>-!- Missing documentation -!-</span>*
 
 ---
 
-#func <small>AthenaDocumentor.functions.type_finder.</small>**find_type**(obj) -> 'Types'
+#func <small>AthenaDocumentor.functions.type_finder.</small>**find_type**(obj) -> Types
 
 *<span style=color:red>-!- Missing documentation -!-</span>*
 
