@@ -50,9 +50,17 @@ $\qquad$**output_to_json_file**(self, filepath: str)
 <span class="parent_indent">Output the 'parsed_items' dictionary to a json file.
 This method calls the `self.output_to_dict` method with the 'flat' parameter set to `True`</span>
 
+$\qquad$**_output_to_markdown**(self)
+
+<span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
+
 $\qquad$**output_to_markdown_file**(self, filepath: str)
 
-<span class="parent_indent">Output the 'parsed_items' to a structured markdown file.</span>
+<span class="parent_indent">Output the 'parsed_items' to a structured MarkDown file.</span>
+
+$\qquad$**output_to_markdown_string**(self) -> str
+
+<span class="parent_indent">Output the 'parsed_items' to string, formatted in MarkDown</span>
 
 $\qquad$**__init__**(self, *, root_module: Any, markdown_structure: type[MarkdownStructure] = <class AthenaDocumentor.models.markdown_structure.MarkdownStructure>) -> None
 
