@@ -242,7 +242,7 @@ li.is-checked>span.todo_project {
     color: rgba(97, 0, 0, 255);
     text-decoration: line-through rgba(97, 0, 0, 255) solid 15%;
 }
-div .parent_indent {
+div span.parent_indent {
     padding-left: 4rem;
 }
 

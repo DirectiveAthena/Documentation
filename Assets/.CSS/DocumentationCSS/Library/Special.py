@@ -121,15 +121,3 @@ class FileEmbed(RuleGenerator):
                 )
             )
         yield rule4
-
-        with (rule5:=CSSRule()) as (selectors, declarations):  # type: ManagerSelectors, ManagerDeclarations
-            selectors.add_descendants(
-                ElementLib.Div,
-                CSSClass("parent_indent"),
-            )
-            declarations.add(
-                PropertyLibrary.PaddingLeft(
-                    RootElementFontSize(4)
-                )
-            )
-        yield rule5
