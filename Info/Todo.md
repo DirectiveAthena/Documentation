@@ -72,7 +72,7 @@ MAKE ART! You fucking donkey!
         Yeah I know it sounds stupid, but who said I was a smart dude anyways.
         -  [x] Create Git Repo
         -  [x] Create PyPi 
-    -  <span class="todo_project">AthenaServer</span> ^8228fe
+    -  <span class="todo_project">AthenaServer</span>
         A "RestFull" API server which is easy to setup
         Needs access to database etc
     -  <span class="todo_project">AthenaDocumentor</span>
