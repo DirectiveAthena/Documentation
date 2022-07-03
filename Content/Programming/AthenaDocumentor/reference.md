@@ -152,6 +152,11 @@ Used by the parser `output_...` methods to correctly form the wanted text versio
 
 Object to control the correct handling of parsing through a Python package
 
+Parameters:
+- root_module: `types.ModuleType`
+- markdown_structure: `AthenaDocumentor.OutputMarkdown`
+- parse_items_with_underscore: `bool` -> Boolean option whether to implement single underscored objects in parsing
+
 **__post_init__**(self)
 
 *`-!- Missing documentation -!-`*
@@ -169,10 +174,16 @@ Running this will start the pared and populate the 'parsed_items' slot of the Pa
 
 Output the 'parsed_items' dictionary as is, or with custom parameters.
 
+Parameters:
+- flat: bool -> Will return the `self.parsed_items` as is, calling the `to_dict()` method on all Parsed objects
+
 **output_to_json_file**(self, filepath: str)
 
 Output the 'parsed_items' dictionary to a json file.
 This method calls the `self.output_to_dict` method with the 'flat' parameter set to `True`
+
+Parameters:
+- filepath -> The file to write to
 
 **output_to_json_string**(self) -> str
 
@@ -186,6 +197,9 @@ This method calls the `self.output_to_dict` method with the 'flat' parameter set
 **output_to_markdown_file**(self, *filepath: str)
 
 Output the 'parsed_items' to a structured MarkDown file.
+
+Parameters:
+- filepath -> The file to write to
 
 **output_to_markdown_string**(self) -> str
 
