@@ -13,6 +13,7 @@ The road to actually writing and developing the story
 - [ ] ADAM : Story Development software
     - [ ] <span class="todo_project">AthenaGuiComponentLib</span>
         - A library of pre-made components for [DearPyGui](https://github.com/hoffstadt/DearPyGui)
+    - [ ] Trello like system
 - [ ] Database
     - ... Yeah I don't know how to start with this one either
 - [ ] Unreal Engine
@@ -27,7 +28,7 @@ The road to actually writing and developing the story
         -  [x] Create Git Repo
         -  [x] Create PyPi 
         - [ ] Twitch Chat Bot System
-            -  [ ] way of adding commands to the bot
+            -  [x] way of adding commands to the bot
             -  [ ] way of adding features to the bot
         - [ ] Twitch API System
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
@@ -59,16 +60,16 @@ MAKE ART! You fucking donkey!
 -  Road to a dependency-less future:
      -  <span class="todo_project">AthenaLib</span>
         -  [x] Use AthenaDocumentor to convert documentation to obsidian
-        -  [ ] HTML element library and logic
+        -  [x] HTML element library and logic
     -  <span class="todo_project">AthenaColor</span>
        Replacment for Colorama
         -  [x] Write main bulk of it
         -  [x] Use AthenaDocumentor to convert documentation to obsidian
-        -  [ ] Use AthenaLib's HTML library in the element selectors
     -  <span class="todo_project">AthenaCSS</span>
        A CSS generator in Python
         -  [x] Write main bulk of it
         -  [ ] Use AthenaDocumentor to convert documentation to obsidian
+        -  [ ] Use AthenaLib's HTML library in the element selectors
     -  <span class="todo_project">AthenaDB</span> 
         A hobby project to make my own Database System
         Yeah I know it sounds stupid, but who said I was a smart dude anyways.
@@ -84,5 +85,6 @@ MAKE ART! You fucking donkey!
         -  [ ] Fix the lack of inherited documentation bug
         -  [x] Use AthenaDocumentor to convert documentation to obsidian
         -  [ ] Write README
+        -  [ ] Use AthenaLib's HTML models in markdown output
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
