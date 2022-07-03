@@ -98,7 +98,7 @@ Returns: str
 
 #class AthenaDocumentor.**OutputMarkdown**()
 
-The OutputMarkdown supports the `Parser` in formatting `Parsed` objects to the defined format.
+The OutputMarkdown supports the `Parser` in formatting `Parsed` objects to a Markdown format.
 
 **format_documentation**(cls, parsed_object: Parsed) -> str
 
@@ -197,7 +197,7 @@ Return repr(self).
 
 #class AthenaDocumentor.data.types.**Types**(value, names=None, *, module=None, qualname=None, type=None, start=1)
 
-An enumeration.
+A simple data storage class to hold all tags meant to precede the object title.
 
 **_generate_next_value_**(name, start, count, last_values)
 
