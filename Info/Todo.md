@@ -58,12 +58,12 @@ MAKE ART! You fucking donkey!
 
 -  Road to a dependency-less future:
      -  <span class="todo_project">AthenaLib</span>
-        -  [ ] Use AthenaDocumentor to convert documentation to obsidian
+        -  [x] Use AthenaDocumentor to convert documentation to obsidian
         -  [ ] HTML element library and logic
     -  <span class="todo_project">AthenaColor</span>
        Replacment for Colorama
         -  [x] Write main bulk of it
-        -  [ ] Use AthenaDocumentor to convert documentation to obsidian
+        -  [x] Use AthenaDocumentor to convert documentation to obsidian
         -  [ ] Use AthenaLib's HTML library in the element selectors
     -  <span class="todo_project">AthenaCSS</span>
        A CSS generator in Python
