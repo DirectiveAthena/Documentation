@@ -1,6 +1,10 @@
 #class AthenaDocumentor.**Output**()
 
 Standardized way of outputting correctly parsed objects into string objects.
+Used by the parser `output_...` methods to correctly form the wanted text version
+
+The base Output class is an abstract class, which means the classes that inherit from it,
+must implement all following methods.
 
 **format_documentation**(cls, parsed_object: Parsed) -> str
 
@@ -98,7 +102,9 @@ Returns: str
 
 #class AthenaDocumentor.**OutputMarkdown**()
 
-The OutputMarkdown supports the `Parser` in formatting `Parsed` objects to a Markdown format.
+Standardized way of outputting correctly parsed objects into string objects,
+which can be interpreted as Markdown text
+Used by the parser `output_...` methods to correctly form the wanted text version
 
 **format_documentation**(cls, parsed_object: Parsed) -> str
 
@@ -223,7 +229,8 @@ Create and return a new object.  See help(type) for accurate signature.
 
 #class AthenaDocumentor.models.parsed.parsed.**Parsed**(obj, parent_module)
 
-Parsed(obj, parent_module)
+The base Parsed class is an abstract class, which means the classes that inherit from it,
+must implement all following methods.
 
 **__init__**(self, obj, parent_module)
 
@@ -231,7 +238,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*`-!- Missing documentation -!-`*
+Cast the object attributes to a dictionary format
 
 **__repr__**(self)
 
@@ -241,7 +248,12 @@ Return repr(self).
 
 #class AthenaDocumentor.models.parsed.parsed_class.**ParsedClass**(obj, parent_module)
 
-ParsedClass(obj, parent_module)
+A dataclass for storage of class object components.
+Does not hold the documentation by itself, as this can often lead to memory overloads with large documentation strings
+
+Parameters:
+- obj: the class in question which must be stored
+- parent_module: the module where the class in located in. This is a `types.ModuleType`
 
 **__init__**(self, obj, parent_module)
 
@@ -249,7 +261,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*`-!- Missing documentation -!-`*
+Cast the object attributes to a dictionary format
 
 **__repr__**(self)
 
@@ -259,7 +271,12 @@ Return repr(self).
 
 #class AthenaDocumentor.models.parsed.parsed_function.**ParsedFunction**(obj, parent_module)
 
-ParsedFunction(obj, parent_module)
+A dataclass for storage of a function object components.
+Does not hold the documentation by itself, as this can often lead to memory overloads with large documentation strings
+
+Parameters:
+- obj: the function in question which must be stored
+- parent_module: the module where the class in located in. This is a `types.ModuleType`
 
 **__init__**(self, obj, parent_module)
 
@@ -267,7 +284,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*`-!- Missing documentation -!-`*
+Cast the object attributes to a dictionary format
 
 **__repr__**(self)
 
@@ -277,7 +294,12 @@ Return repr(self).
 
 #class AthenaDocumentor.models.parsed.parsed_method.**ParsedMethod**(obj, parent_module)
 
-ParsedMethod(obj, parent_module)
+A dataclass for storage of method object components.
+Does not hold the documentation by itself, as this can often lead to memory overloads with large documentation strings
+
+Parameters:
+- obj: the method in question which must be stored
+- parent_module: the module where the class which holds the method in located in. This is a `types.ModuleType`
 
 **__init__**(self, obj, parent_module)
 
@@ -285,7 +307,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*`-!- Missing documentation -!-`*
+Cast the object attributes to a dictionary format
 
 **__repr__**(self)
 
@@ -295,7 +317,12 @@ Return repr(self).
 
 #class AthenaDocumentor.models.parsed.parsed_module.**ParsedModule**(obj, parent_module)
 
-ParsedModule(obj, parent_module)
+A dataclass for storage of module object components.
+Does not hold the documentation by itself, as this can often lead to memory overloads with large documentation strings
+
+Parameters:
+- obj: the module in question which must be stored
+- parent_module: the module where the class in located in. This is a `types.ModuleType`
 
 **__repr__**(self)
 
