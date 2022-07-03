@@ -1,4 +1,4 @@
-#class <small>AthenaDocumentor.</small>**Output**()
+#class AthenaDocumentor.**Output**()
 
 Standardized way of outputting correctly parsed objects into string objects.
 
@@ -96,59 +96,59 @@ Returns: str
 
 ---
 
-#class <small>AthenaDocumentor.</small>**OutputMarkdown**()
+#class AthenaDocumentor.**OutputMarkdown**()
 
 The OutputMarkdown supports the `Parser` in formatting `Parsed` objects to the defined format.
 
 **format_documentation**(cls, parsed_object: Parsed) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **format_type**(cls, parsed_object: Parsed) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **format_module_name**(cls, parsed_object: Parsed) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **format_object_name**(cls, parsed_object: Parsed) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **format_signature**(cls, parsed_object: ParsedFunction | ParsedMethod | ParsedClass) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **format_header**(cls, parsed_object: ParsedFunction | ParsedMethod | ParsedClass) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **format_footer**(cls, parsed_object: Parsed) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **structure_function**(cls, parsed_object: ParsedFunction | ParsedMethod) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **structure_class**(cls, parsed_object: ParsedClass) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **structure_method**(cls, parsed_object: ParsedFunction | ParsedMethod) -> str
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 ---
 
-#class <small>AthenaDocumentor.</small>**Parser**(*, root_module: types.ModuleType, markdown_structure: type[Output] = <class AthenaDocumentor.models.outputs.output_markdown.OutputMarkdown>, parse_items_with_underscore: bool = True) -> None
+#class AthenaDocumentor.**Parser**(*, root_module: types.ModuleType, markdown_structure: type[Output] = <class AthenaDocumentor.models.outputs.output_markdown.OutputMarkdown>, parse_items_with_underscore: bool = True) -> None
 
 Object to control the correct handling of parsing through a Python package
 
 **__post_init__**(self)
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **parse**(self) -> Parser
 
@@ -157,7 +157,7 @@ Running this will start the pared and populate the 'parsed_items' slot of the Pa
 
 **_parse_recursive**(self, module_to_parse: Any)
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **output_to_dict**(self, *, flat: bool = False) -> dict[str:list[dict]]
 
@@ -175,7 +175,7 @@ This method calls the `self.output_to_dict` method with the 'flat' parameter set
 
 **_output_to_markdown**(self)
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **output_to_markdown_file**(self, *filepath: str)
 
@@ -195,7 +195,7 @@ Return repr(self).
 
 ---
 
-#class <small>AthenaDocumentor.data.types.</small>**Types**(value, names=None, *, module=None, qualname=None, type=None, start=1)
+#class AthenaDocumentor.data.types.**Types**(value, names=None, *, module=None, qualname=None, type=None, start=1)
 
 An enumeration.
 
@@ -221,16 +221,7 @@ Create and return a new object.  See help(type) for accurate signature.
 
 ---
 
-#func <small>AthenaDocumentor.functions.markdown_string_manipulations.</small>**remove_empty_prefix**(text: str) -> str
-
-Removes any double spaces ("  ")
-
-Parameters:
-- text : str -> input text
-
----
-
-#class <small>AthenaDocumentor.models.parsed.parsed.</small>**Parsed**(obj, parent_module)
+#class AthenaDocumentor.models.parsed.parsed.**Parsed**(obj, parent_module)
 
 Parsed(obj, parent_module)
 
@@ -240,7 +231,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **__repr__**(self)
 
@@ -248,7 +239,7 @@ Return repr(self).
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed.parsed_class.</small>**ParsedClass**(obj, parent_module)
+#class AthenaDocumentor.models.parsed.parsed_class.**ParsedClass**(obj, parent_module)
 
 ParsedClass(obj, parent_module)
 
@@ -258,7 +249,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **__repr__**(self)
 
@@ -266,7 +257,7 @@ Return repr(self).
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed.parsed_function.</small>**ParsedFunction**(obj, parent_module)
+#class AthenaDocumentor.models.parsed.parsed_function.**ParsedFunction**(obj, parent_module)
 
 ParsedFunction(obj, parent_module)
 
@@ -276,7 +267,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **__repr__**(self)
 
@@ -284,7 +275,7 @@ Return repr(self).
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed.parsed_method.</small>**ParsedMethod**(obj, parent_module)
+#class AthenaDocumentor.models.parsed.parsed_method.**ParsedMethod**(obj, parent_module)
 
 ParsedMethod(obj, parent_module)
 
@@ -294,7 +285,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 **to_dict**(self) -> dict
 
-*<span style=color:red>-!- Missing documentation -!-</span>*
+*`-!- Missing documentation -!-`*
 
 **__repr__**(self)
 
@@ -302,7 +293,7 @@ Return repr(self).
 
 ---
 
-#class <small>AthenaDocumentor.models.parsed.parsed_module.</small>**ParsedModule**(obj, parent_module)
+#class AthenaDocumentor.models.parsed.parsed_module.**ParsedModule**(obj, parent_module)
 
 ParsedModule(obj, parent_module)
 

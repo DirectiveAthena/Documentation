@@ -53,9 +53,12 @@ MAKE ART! You fucking donkey!
 - [ ] Black
     - Brought to my attention by Laundmo
     -  https://black.readthedocs.io/en/stable/integrations/editors.html
+
 -  Road to a dependency-less future:
-    -  [x] **[[Content/Programming/AthenaColor/Index|AthenaColor]]**
-        -  Replacement for Colorama
+     -  <span class="todo_project">AthenaLib</span> additions:
+        -  [ ] HTML element library and logic
+    -  <span class="todo_project">AthenaColor</span>
+        -  [x] Write main bulk of it
     -  [x] **[[Content/Programming/AthenaCSS/Index|AthenaCSS]]**
         -  A CSS generator in Python
     -  [ ] <span class="todo_project">AthenaDB</span> 
