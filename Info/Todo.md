@@ -81,5 +81,6 @@ MAKE ART! You fucking donkey!
         -  [x] Write main bulk of it
         -  [ ] Fix the lack of inherited documentation bug
         -  [x] Use AthenaDocumentor to convert documentation to obsidian
+        -  [ ] Write README
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
