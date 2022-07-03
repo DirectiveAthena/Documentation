@@ -31,6 +31,8 @@ The road to actually writing and developing the story
             -  [ ] way of adding features to the bot
         - [ ] Twitch API System
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+        - [ ] Additional commands:
+            - [ ] `!today` : rerturns what we are working
     - [ ] <span class="todo_project">AthenaDiscordBot</span>
         -  [x] Create Git Repo
         -  [x] Create PyPi 
