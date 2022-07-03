@@ -80,7 +80,7 @@ Returns: str</span>
 
 The OutputMarkdown supports the `Parser` in formatting `Parsed` objects to the defined format.
 
-$\qquad$**wrapper**(*args, **kwargs)
+$\qquad$**format_documentation**(cls, parsed_object: Parsed) -> str
 
 <span class="parent_indent">*<span style=color:red>-!- Missing documentation -!-</span>*</span>
 
@@ -296,12 +296,6 @@ $\qquad$**to_dict**(self) -> dict
 $\qquad$**__repr__**(self)
 
 <span class="parent_indent">Return repr(self).</span>
-
----
-
-#func <small>AthenaDocumentor.models.outputs.output_markdown.</small>**fix_documentation**(fnc)
-
-*<span style=color:red>-!- Missing documentation -!-</span>*
 
 ---
 
