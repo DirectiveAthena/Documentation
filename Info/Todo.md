@@ -12,7 +12,7 @@ Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simpl
 The road to actually writing and developing the story
 - [ ] ADAM : Story Development software
     - [ ] <span class="todo_project">AthenaGuiComponentLib</span>
-        - A library of pre-made components of [DearPyGui](https://github.com/hoffstadt/DearPyGui)
+        - A library of pre-made components for [DearPyGui](https://github.com/hoffstadt/DearPyGui)
 - [ ] Database
     - ... Yeah I don't know how to start with this one either
 - [ ] Unreal Engine
