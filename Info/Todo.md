@@ -55,22 +55,31 @@ MAKE ART! You fucking donkey!
     -  https://black.readthedocs.io/en/stable/integrations/editors.html
 
 -  Road to a dependency-less future:
-     -  <span class="todo_project">AthenaLib</span> additions:
+     -  <span class="todo_project">AthenaLib</span>
+        -  [ ] Use AthenaDocumentor to convert documentation to obsidian
         -  [ ] HTML element library and logic
     -  <span class="todo_project">AthenaColor</span>
+       Replacment for Colorama
         -  [x] Write main bulk of it
-    -  [x] **[[Content/Programming/AthenaCSS/Index|AthenaCSS]]**
-        -  A CSS generator in Python
-    -  [ ] <span class="todo_project">AthenaDB</span> 
+        -  [ ] Use AthenaDocumentor to convert documentation to obsidian
+        -  [ ] Use AthenaLib's HTML library in the element selectors
+    -  <span class="todo_project">AthenaCSS</span>
+       A CSS generator in Python
+        -  [x] Write main bulk of it
+        -  [ ] Use AthenaDocumentor to convert documentation to obsidian
+    -  <span class="todo_project">AthenaDB</span> 
+        A hobby project to make my own Database System
+        Yeah I know it sounds stupid, but who said I was a smart dude anyways.
         -  [x] Create Git Repo
         -  [x] Create PyPi 
-        -  A hobby project to make my own Database System
-        -  Yeah I know it sounds stupid, but who said I was a smart dude anyways.
-    -  [ ] <span class="todo_project">AthenaServer</span> ^8228fe
-        -  A "RestFull" API server which is easy to setup
-        -  Needs access to database etc
-    -  [ ] <span class="todo_project">AthenaDocumentor</span>
+    -  <span class="todo_project">AthenaServer</span> ^8228fe
+        A "RestFull" API server which is easy to setup
+        Needs access to database etc
+    -  <span class="todo_project">AthenaDocumentor</span>
         -  [x] Create Git Repo
         -  [x] Create PyPi 
+        -  [x] Write main bulk of it
+        -  [ ] Fix the lack of inherited documentation bug
+        -  [x] Use AthenaDocumentor to convert documentation to obsidian
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
