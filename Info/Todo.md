@@ -33,7 +33,7 @@ The road to actually writing and developing the story
         - [ ] Twitch API System
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
         - [ ] Additional commands:
-            - [ ] `!today` : returns what we are working on today
+            - [x] `!today` : returns what we are working on today
     - [ ] <span class="todo_project">AthenaDiscordBot</span>
         -  [x] Create Git Repo
         -  [x] Create PyPi 
@@ -61,6 +61,7 @@ MAKE ART! You fucking donkey!
      -  <span class="todo_project">AthenaLib</span>
         -  [x] Use AthenaDocumentor to convert documentation to obsidian
         -  [x] HTML element library and logic
+        -  [ ] Correct documentation for the HTML objects
     -  <span class="todo_project">AthenaColor</span>
        Replacment for Colorama
         -  [x] Write main bulk of it
