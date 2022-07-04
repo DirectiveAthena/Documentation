@@ -29,7 +29,7 @@ The road to actually writing and developing the story
         -  [x] Create PyPi 
         - [ ] Twitch Chat Bot System
             -  [x] way of adding commands to the bot
-            -  [ ] way of adding features to the bot
+            -  [x] way of adding features to the bot
         - [ ] Twitch API System
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
         - [ ] Additional commands:
