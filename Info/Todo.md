@@ -61,7 +61,8 @@ MAKE ART! You fucking donkey!
      -  <span class="todo_project">AthenaLib</span>
         -  [x] Use AthenaDocumentor to convert documentation to obsidian
         -  [x] HTML element library and logic
-        -  [ ] Correct documentation for the HTML objects
+        -  [x] Correct documentation for the HTML objects
+        -  [ ] Continue special attributes for HTML library elements from `FORM` onward (including `FORM`)
     -  <span class="todo_project">AthenaColor</span>
        Replacment for Colorama
         -  [x] Write main bulk of it
