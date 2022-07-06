@@ -34,6 +34,7 @@ The road to actually writing and developing the story
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
         - [ ] Additional commands:
             - [x] `!today` : returns what we are working on today
+        - [ ] Move the TODAY dict to a json file
     - [ ] <span class="todo_project">AthenaDiscordBot</span>
         -  [x] Create Git Repo
         -  [x] Create PyPi 
