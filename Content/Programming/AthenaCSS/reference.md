@@ -216,9 +216,9 @@ Return str(self).
 
 ---
 
-#class AthenaCSS.**CSSProperty**(value: InitVar[Any] = <property object at 0x0000022A390520C0>, *, important: bool = False, value_wrapped: bool = False) -> None
+#class AthenaCSS.**CSSProperty**(value: InitVar[Any] = <property object at 0x000002C8C8E96D40>, *, important: bool = False, value_wrapped: bool = False) -> None
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__post_init__**(self, value)
 
@@ -240,7 +240,7 @@ CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, 
 
 Return str(self).
 
-**__init__**(self, value: InitVar[Any] = <property object at 0x0000022A390520C0>, *, important: bool = False, value_wrapped: bool = False) -> None
+**__init__**(self, value: InitVar[Any] = <property object at 0x000002C8C8E96D40>, *, important: bool = False, value_wrapped: bool = False) -> None
 
 Initialize self.  See help(type(self)) for accurate signature.
 
@@ -308,9 +308,9 @@ Return hash(self).
 
 ---
 
-#class AthenaCSS.**CSSRule**(*, one_line_overwrite: bool = False, manager_overwrite: bool = False, _selector_manager: ManagerSelectors = None, _declaration_manager: ManagerDeclarations = None) -> None
+#class AthenaCSS.**CSSRule**(*, generator: Any = None, one_line_overwrite: bool = False, manager_overwrite: bool = False, _selector_manager: ManagerSelectors = None, _declaration_manager: ManagerDeclarations = None) -> None
 
-CSSRule(*, one_line_overwrite: 'bool' = False, manager_overwrite: 'bool' = False, _selector_manager: 'ManagerSelectors' = None, _declaration_manager: 'ManagerDeclarations' = None)
+CSSRule(*, generator: 'Any' = None, one_line_overwrite: 'bool' = False, manager_overwrite: 'bool' = False, _selector_manager: 'ManagerSelectors' = None, _declaration_manager: 'ManagerDeclarations' = None)
 
 **_define_managers**(self)
 
@@ -344,7 +344,7 @@ CSSRule(*, one_line_overwrite: 'bool' = False, manager_overwrite: 'bool' = False
 
 *`-!- Missing documentation -!-`*
 
-**__init__**(self, *, one_line_overwrite: bool = False, manager_overwrite: bool = False, _selector_manager: ManagerSelectors = None, _declaration_manager: ManagerDeclarations = None) -> None
+**__init__**(self, *, generator: Any = None, one_line_overwrite: bool = False, manager_overwrite: bool = False, _selector_manager: ManagerSelectors = None, _declaration_manager: ManagerDeclarations = None) -> None
 
 Initialize self.  See help(type(self)) for accurate signature.
 
@@ -362,11 +362,11 @@ Return hash(self).
 
 ---
 
-#class AthenaCSS.**ConsoleColorGuide**(selector: Callable = <bound method RgbControlledNested.GoldenRod of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, descriptor_name: Callable = <bound method RgbControlledNested.LightSkyBlue of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, descriptor_value: Callable = <bound method RgbControlledNested.Snow of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, text_general: Callable = <bound method RgbControlledNested.SlateGray of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, comment: Callable = <bound method RgbControlledNested.ForestGreen of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>) -> None
+#class AthenaCSS.**ConsoleColorGuide**(selector: Callable = <bound method RgbControlledNested.GoldenRod of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, descriptor_name: Callable = <bound method RgbControlledNested.LightSkyBlue of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, descriptor_value: Callable = <bound method RgbControlledNested.Snow of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, text_general: Callable = <bound method RgbControlledNested.SlateGray of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, comment: Callable = <bound method RgbControlledNested.ForestGreen of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>) -> None
 
-ConsoleColorGuide(selector: 'Callable' = <bound method RgbControlledNested.GoldenRod of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, descriptor_name: 'Callable' = <bound method RgbControlledNested.LightSkyBlue of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, descriptor_value: 'Callable' = <bound method RgbControlledNested.Snow of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, text_general: 'Callable' = <bound method RgbControlledNested.SlateGray of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, comment: 'Callable' = <bound method RgbControlledNested.ForestGreen of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>)
+ConsoleColorGuide(selector: 'Callable' = <bound method RgbControlledNested.GoldenRod of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, descriptor_name: 'Callable' = <bound method RgbControlledNested.LightSkyBlue of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, descriptor_value: 'Callable' = <bound method RgbControlledNested.Snow of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, text_general: 'Callable' = <bound method RgbControlledNested.SlateGray of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, comment: 'Callable' = <bound method RgbControlledNested.ForestGreen of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>)
 
-**__init__**(self, selector: Callable = <bound method RgbControlledNested.GoldenRod of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, descriptor_name: Callable = <bound method RgbControlledNested.LightSkyBlue of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, descriptor_value: Callable = <bound method RgbControlledNested.Snow of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, text_general: Callable = <bound method RgbControlledNested.SlateGray of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>, comment: Callable = <bound method RgbControlledNested.ForestGreen of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x0000022A390153F0>>) -> None
+**__init__**(self, selector: Callable = <bound method RgbControlledNested.GoldenRod of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, descriptor_name: Callable = <bound method RgbControlledNested.LightSkyBlue of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, descriptor_value: Callable = <bound method RgbControlledNested.Snow of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, text_general: Callable = <bound method RgbControlledNested.SlateGray of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>, comment: Callable = <bound method RgbControlledNested.ForestGreen of <AthenaColor.models.console.styling.rgb_controlled_nested.RgbControlledNested object at 0x000002C8C8E4DC90>>) -> None
 
 Initialize self.  See help(type(self)) for accurate signature.
 
@@ -758,7 +758,7 @@ Return str(self).
 
 #class AthenaCSS.data.properties.**AccentColor**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -768,7 +768,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AlignContent**(value=stretch, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=stretch, **kwargs)
 
@@ -778,7 +778,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AlignItems**(value=stretch, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=stretch, **kwargs)
 
@@ -788,7 +788,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AlignSelf**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -798,7 +798,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**All**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -823,7 +823,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationDelay**(value=Second(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Second(value=0), **kwargs)
 
@@ -833,7 +833,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationDirection**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -843,7 +843,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationDuration**(value=Second(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Second(value=0), **kwargs)
 
@@ -853,7 +853,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationFillMode**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -863,7 +863,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationIterationCount**(value=1, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=1, **kwargs)
 
@@ -873,7 +873,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationName**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -883,7 +883,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationPlayState**(value=running, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=running, **kwargs)
 
@@ -893,7 +893,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**AnimationTimingFunction**(value=ease, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=ease, **kwargs)
 
@@ -903,7 +903,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackdropFilter**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -913,7 +913,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackfaceVisibility**(value=visible, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=visible, **kwargs)
 
@@ -938,7 +938,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundAttachment**(value=scroll, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=scroll, **kwargs)
 
@@ -948,7 +948,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundBlendMode**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -958,7 +958,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundClip**(value=border-box, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=border-box, **kwargs)
 
@@ -968,7 +968,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundColor**(value=transparent, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=transparent, **kwargs)
 
@@ -978,7 +978,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundImage**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -988,7 +988,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundOrigin**(value=padding-box, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=padding-box, **kwargs)
 
@@ -998,7 +998,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundPosition**(value=(Percent(value=0), Percent(value=0)), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=(Percent(value=0), Percent(value=0)), **kwargs)
 
@@ -1008,7 +1008,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundRepeat**(value=repeat, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=repeat, **kwargs)
 
@@ -1018,7 +1018,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BackgroundSize**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1058,7 +1058,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderBottomColor**(value=transparent, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=transparent, **kwargs)
 
@@ -1068,7 +1068,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderBottomLeftRadius**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -1078,7 +1078,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderBottomRightRadius**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -1088,7 +1088,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderBottomStyle**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1098,7 +1098,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderBottomWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1108,7 +1108,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderCollapse**(value=separate, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=separate, **kwargs)
 
@@ -1118,7 +1118,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderColor**(value=transparent, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=transparent, **kwargs)
 
@@ -1143,7 +1143,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderImageOutset**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -1153,7 +1153,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderImageRepeat**(value=stretch, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=stretch, **kwargs)
 
@@ -1163,7 +1163,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderImageSlice**(value=Percent(value=100), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Percent(value=100), **kwargs)
 
@@ -1173,7 +1173,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderImageSource**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1183,7 +1183,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderImageWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1208,7 +1208,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderLeftColor**(value=transparent, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=transparent, **kwargs)
 
@@ -1218,7 +1218,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderLeftStyle**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1228,7 +1228,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderLeftWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1238,7 +1238,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderRadius**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -1263,7 +1263,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderRightColor**(value=transparent, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=transparent, **kwargs)
 
@@ -1273,7 +1273,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderRightStyle**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1283,7 +1283,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderRightWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1293,7 +1293,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderSpacing**(value=Pixel(value=2), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=2), **kwargs)
 
@@ -1303,7 +1303,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderStyle**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1328,7 +1328,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderTopColor**(value=transparent, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=transparent, **kwargs)
 
@@ -1338,7 +1338,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderTopLeftRadius**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -1348,7 +1348,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderTopRightRadius**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -1358,7 +1358,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderTopStyle**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1368,7 +1368,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderTopWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1378,7 +1378,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BorderWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1388,7 +1388,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Bottom**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1398,7 +1398,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BoxDecorationBreak**(value=slice, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=slice, **kwargs)
 
@@ -1408,7 +1408,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BoxShadow**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1418,7 +1418,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BoxSizing**(value=content-box, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=content-box, **kwargs)
 
@@ -1428,7 +1428,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BreakAfter**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1438,7 +1438,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BreakBefore**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1448,7 +1448,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**BreakInside**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1458,7 +1458,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**CaptionSide**(value=top, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=top, **kwargs)
 
@@ -1468,7 +1468,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**CaretColor**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1478,7 +1478,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Clear**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1488,7 +1488,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ClipPath**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1498,7 +1498,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Color**(value, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value, **kwargs)
 
@@ -1508,7 +1508,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnCount**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1518,7 +1518,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnFill**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1528,7 +1528,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnGap**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1553,7 +1553,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnRuleColor**(value, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value, **kwargs)
 
@@ -1563,7 +1563,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnRuleStyle**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1573,7 +1573,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnRuleWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1583,7 +1583,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnSpan**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1593,7 +1593,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ColumnWidth**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1618,7 +1618,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Content**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1628,7 +1628,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**CounterIncrement**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1638,7 +1638,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**CounterReset**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1648,7 +1648,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Cursor**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1658,7 +1658,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Direction**(value=ltr, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=ltr, **kwargs)
 
@@ -1668,7 +1668,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Display**(value, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value, **kwargs)
 
@@ -1678,7 +1678,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**EmptyCells**(value=show, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=show, **kwargs)
 
@@ -1688,7 +1688,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Filter**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1713,7 +1713,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FlexBasis**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1723,7 +1723,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FlexDirection**(value=row, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=row, **kwargs)
 
@@ -1733,7 +1733,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FlexFlow**(value=(row, nowrap), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=(row, nowrap), **kwargs)
 
@@ -1743,7 +1743,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FlexGrow**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -1753,7 +1753,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FlexShrink**(value=1, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=1, **kwargs)
 
@@ -1763,7 +1763,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FlexWrap**(value=nowrap, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=nowrap, **kwargs)
 
@@ -1773,7 +1773,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Float**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1798,7 +1798,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontFamily**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1808,7 +1808,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontFeatureSetting**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1818,7 +1818,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontKerning**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1828,7 +1828,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontSize**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -1838,7 +1838,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontSizeAdjust**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -1848,7 +1848,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontStretch**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1858,7 +1858,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontStyle**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1868,7 +1868,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontVariant**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1878,7 +1878,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontVariantCaps**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1888,7 +1888,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**FontWeight**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -1898,7 +1898,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Gap**(value=(normal, normal), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=(normal, normal), **kwargs)
 
@@ -1938,7 +1938,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridAutoColumns**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1948,7 +1948,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridAutoFlow**(value=row, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=row, **kwargs)
 
@@ -1958,7 +1958,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridAutoRows**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1983,7 +1983,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridColumnEnd**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -1993,7 +1993,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridColumnGap**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -2003,7 +2003,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridColumnStart**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2043,7 +2043,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridRowEnd**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2053,7 +2053,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridRowGap**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -2063,7 +2063,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridRowStart**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2088,7 +2088,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridTemplateAreas**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2098,7 +2098,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridTemplateColumns**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2108,7 +2108,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**GridTemplateRows**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2118,7 +2118,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**HangingPunctuation**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2128,7 +2128,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Height**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2138,7 +2138,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Hyphens**(value=manual, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=manual, **kwargs)
 
@@ -2148,7 +2148,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ImageRendering**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2158,7 +2158,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Isolation**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2168,7 +2168,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**JustifyContent**(value=flex-start, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=flex-start, **kwargs)
 
@@ -2178,7 +2178,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Left**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2188,7 +2188,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**LetterSpacing**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -2198,7 +2198,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**LineHeight**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -2223,7 +2223,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ListStyleImage**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2233,7 +2233,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ListStylePosition**(value=outside, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=outside, **kwargs)
 
@@ -2243,7 +2243,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ListStyleType**(value=disc, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=disc, **kwargs)
 
@@ -2268,7 +2268,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MarginBottom**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2278,7 +2278,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MarginLeft**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2288,7 +2288,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MarginRight**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2298,7 +2298,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MarginTop**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2308,7 +2308,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaskImage**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2318,7 +2318,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaskMode**(value=match-source, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=match-source, **kwargs)
 
@@ -2328,7 +2328,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaskOrigin**(value=border-box, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=border-box, **kwargs)
 
@@ -2338,7 +2338,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaskPosition**(value=(Percent(value=0), Percent(value=0)), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=(Percent(value=0), Percent(value=0)), **kwargs)
 
@@ -2348,7 +2348,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaskRepeat**(value=repeat, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=repeat, **kwargs)
 
@@ -2358,7 +2358,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaskSize**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2368,7 +2368,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaxHeight**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2378,7 +2378,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MaxWidth**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2388,7 +2388,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MinHeight**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2398,7 +2398,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MinWidth**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2408,7 +2408,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**MixBlendMode**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -2418,7 +2418,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ObjectFit**(value=fill, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=fill, **kwargs)
 
@@ -2428,7 +2428,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ObjectPosition**(value=(Percent(value=50), Percent(value=50)), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=(Percent(value=50), Percent(value=50)), **kwargs)
 
@@ -2438,7 +2438,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Opacity**(value=1, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=1, **kwargs)
 
@@ -2448,7 +2448,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Order**(value=0, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=0, **kwargs)
 
@@ -2458,7 +2458,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Orphans**(value=2, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=2, **kwargs)
 
@@ -2483,7 +2483,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**OutlineColor**(value, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value, **kwargs)
 
@@ -2493,7 +2493,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**OutlineOffset**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2503,7 +2503,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**OutlineStyle**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2513,7 +2513,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**OutlineWidth**(value=medium, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=medium, **kwargs)
 
@@ -2523,7 +2523,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Overflow**(value=visible, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=visible, **kwargs)
 
@@ -2533,7 +2533,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**OverflowWrap**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -2543,7 +2543,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**OverflowX**(value=visible, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=visible, **kwargs)
 
@@ -2553,7 +2553,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**OverflowY**(value=visible, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=visible, **kwargs)
 
@@ -2578,7 +2578,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PaddingBottom**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2588,7 +2588,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PaddingLeft**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2598,7 +2598,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PaddingRight**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2608,7 +2608,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PaddingTop**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2618,7 +2618,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PageBreakAfter**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2628,7 +2628,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PageBreakBefore**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2638,7 +2638,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PageBreakInside**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2648,7 +2648,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Perspective**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2658,7 +2658,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PerspectiveOrigin**(value=(Percent(value=50), Percent(value=50)), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=(Percent(value=50), Percent(value=50)), **kwargs)
 
@@ -2668,7 +2668,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**PointerEvents**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2678,7 +2678,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Position**(value=static, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=static, **kwargs)
 
@@ -2688,7 +2688,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Quotes**(value, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value, **kwargs)
 
@@ -2698,7 +2698,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Resize**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2708,7 +2708,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Right**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2718,7 +2718,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**RowGap**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -2728,7 +2728,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ScrollBehavior**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2738,7 +2738,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TabSize**(value=8, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=8, **kwargs)
 
@@ -2748,7 +2748,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TableLayout**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2758,7 +2758,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextAlign**(value=left, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=left, **kwargs)
 
@@ -2768,7 +2768,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextAlignLast**(value=left, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=left, **kwargs)
 
@@ -2793,7 +2793,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextDecorationColor**(value, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value, **kwargs)
 
@@ -2803,7 +2803,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextDecorationLine**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2813,7 +2813,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextDecorationStyle**(value=solid, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=solid, **kwargs)
 
@@ -2823,7 +2823,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextDecorationThickness**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2833,7 +2833,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextIndent**(value=Pixel(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0), **kwargs)
 
@@ -2843,7 +2843,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextJustify**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2853,7 +2853,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextOverflow**(value=clip, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=clip, **kwargs)
 
@@ -2863,7 +2863,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextShadow**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2873,7 +2873,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TextTransform**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2883,7 +2883,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Top**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2893,7 +2893,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Transform**(value=None, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None, **kwargs)
 
@@ -2903,7 +2903,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TransformOrigin**(value=(Percent(value=50), Percent(value=50), Pixel(value=0)), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=(Percent(value=50), Percent(value=50), Pixel(value=0)), **kwargs)
 
@@ -2913,7 +2913,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TransformStyle**(value=flat, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=flat, **kwargs)
 
@@ -2938,7 +2938,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TransitionDelay**(value=Second(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Second(value=0), **kwargs)
 
@@ -2948,7 +2948,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TransitionDuration**(value=Second(value=0), **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Second(value=0), **kwargs)
 
@@ -2958,7 +2958,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TransitionProperty**(value=all, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=all, **kwargs)
 
@@ -2968,7 +2968,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**TransitionTimingFunction**(value=ease, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=ease, **kwargs)
 
@@ -2978,7 +2978,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**UnicodeBidi**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -2988,7 +2988,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**UserSelect**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -2998,7 +2998,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**VerticalAlign**(value=baseline, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=baseline, **kwargs)
 
@@ -3008,7 +3008,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Visibility**(value=visible, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=visible, **kwargs)
 
@@ -3018,7 +3018,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**WhiteSpace**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -3028,7 +3028,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Widows**(value=2, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=2, **kwargs)
 
@@ -3038,7 +3038,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**Width**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -3048,7 +3048,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**WordBreak**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -3058,7 +3058,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**WordSpacing**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -3068,7 +3068,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**WordWrap**(value=normal, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=normal, **kwargs)
 
@@ -3078,7 +3078,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**WritingMode**(value=horizontal-tb, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=horizontal-tb, **kwargs)
 
@@ -3088,7 +3088,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.properties.**ZIndex**(value=auto, **kwargs)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=auto, **kwargs)
 
@@ -3098,7 +3098,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**LinearGradient**(*value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, *value)
 
@@ -3112,7 +3112,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Steps**(value=None)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None)
 
@@ -3122,7 +3122,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Blur**(value=Pixel(value=0))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Pixel(value=0))
 
@@ -3132,7 +3132,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Brightness**(value=Percent(value=100))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Percent(value=100))
 
@@ -3142,7 +3142,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Contrast**(value=Percent(value=100))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Percent(value=100))
 
@@ -3152,7 +3152,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**DropShadow**(value=None)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=None)
 
@@ -3162,7 +3162,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Grayscale**(value=Percent(value=0))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Percent(value=0))
 
@@ -3172,7 +3172,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**HueRotate**(value=Degree(value=0))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Degree(value=0))
 
@@ -3182,7 +3182,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Invert**(value=Percent(value=0))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Percent(value=0))
 
@@ -3192,7 +3192,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Matrix**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3202,7 +3202,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Matrix3D**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3212,7 +3212,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Rotate**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3222,7 +3222,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Rotate3D**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3232,7 +3232,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**RotateX**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3242,7 +3242,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**RotateY**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3252,7 +3252,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**RotateZ**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3262,7 +3262,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Saturate**(value=Percent(value=100))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Percent(value=100))
 
@@ -3272,7 +3272,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Scale**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3282,7 +3282,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Scale3D**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3292,7 +3292,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**ScaleX**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3302,7 +3302,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**ScaleY**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3312,7 +3312,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**ScaleZ**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3322,7 +3322,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Sepia**(value=Percent(value=0))
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value=Percent(value=0))
 
@@ -3332,7 +3332,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Skew**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3342,7 +3342,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**SkewX**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3352,7 +3352,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**SkewY**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3362,7 +3362,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Translate**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3372,7 +3372,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**Translate3D**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3382,7 +3382,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**TranslateX**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3392,7 +3392,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**TranslateY**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3402,7 +3402,7 @@ Initialize self.  See help(type(self)) for accurate signature.
 
 #class AthenaCSS.data.subproperties.**TranslateZ**(value)
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **__init__**(self, value)
 
@@ -3468,9 +3468,9 @@ Return self==value.
 
 ---
 
-#class AthenaCSS.models.declarations.property_sub.**CSSSubProp**(value: InitVar[Any] = <property object at 0x0000022A390520C0>, *, important: bool = False, value_wrapped: bool = False) -> None
+#class AthenaCSS.models.declarations.property_sub.**CSSSubProp**(value: InitVar[Any] = <property object at 0x000002C8C8E96D40>, *, important: bool = False, value_wrapped: bool = False) -> None
 
-CSSProperty(value: 'InitVar[Any]' = <property object at 0x0000022A390520C0>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
+CSSProperty(value: 'InitVar[Any]' = <property object at 0x000002C8C8E96D40>, *, important: 'bool' = False, value_wrapped: 'bool' = False)
 
 **printer**(self) -> str
 
