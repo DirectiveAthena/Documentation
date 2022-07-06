@@ -95,6 +95,9 @@ MAKE ART! You fucking donkey!
         -  [x] Use AthenaDocumentor to convert documentation to obsidian
         -  [ ] Write README
         -  [ ] Use AthenaLib's HTML models in markdown output
+    -  <span class="todo_project">AthenaMock</span>
+        -  [ ] Random Garble
+            -  Brought to me by that_onion
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
 
