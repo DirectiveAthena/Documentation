@@ -31,6 +31,8 @@ The road to actually writing and developing the story
             -  [x] way of adding commands to the bot
             -  [x] way of adding features to the bot
         - [ ] Twitch API System
+            - [ ] A way to automatically create and upload stream clips
+                - Brought to me by that_onion
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
         - [ ] Additional commands:
             - [x] `!today` : returns what we are working on today
@@ -95,3 +97,9 @@ MAKE ART! You fucking donkey!
         -  [ ] Use AthenaLib's HTML models in markdown output
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
+
+## Other stuff
+- [ ] Create youtube videos
+    - [ ] Create youtube shorts?
+    - [ ] Tutorials? 
+    - [ ] DAILY REMINDER TO UPLOAD!
