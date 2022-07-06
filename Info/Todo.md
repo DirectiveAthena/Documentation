@@ -72,6 +72,7 @@ MAKE ART! You fucking donkey!
         -  [x] Write main bulk of it
         -  [ ] Use AthenaDocumentor to convert documentation to obsidian
         -  [ ] Use AthenaLib's HTML library in the element selectors
+        -  [ ] A total rewrite
     -  <span class="todo_project">AthenaDB</span> 
         A hobby project to make my own Database System
         Yeah I know it sounds stupid, but who said I was a smart dude anyways.
