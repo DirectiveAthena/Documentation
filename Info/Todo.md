@@ -34,6 +34,9 @@ The road to actually writing and developing the story
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
         - [ ] Additional commands:
             - [x] `!today` : returns what we are working on today
+            - [ ] `!linkallow username`: allow some person to send links in chat.
+                - Needs access to the Twitch api? and not the just the irc connection
+                - Brought to me by GuardianAngleMer  
         - [ ] Move the TODAY dict to a json file
     - [ ] <span class="todo_project">AthenaDiscordBot</span>
         -  [x] Create Git Repo
