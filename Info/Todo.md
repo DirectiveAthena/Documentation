@@ -51,6 +51,11 @@ The road to actually writing and developing the story
         - [ ] Twitter API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 - [ ] Create good emotes
+- [ ] Add custom subscriber badges:
+    -  https://dashboard.twitch.tv/u/directiveathena/settings/revenue/subscription/badges 
+-  [ ] Add custom bits badges:
+    -  https://dashboard.twitch.tv/u/directiveathena/settings/revenue/cheerbadges
+-  [ ]  
 
 ## Art
 MAKE ART! You fucking donkey!
