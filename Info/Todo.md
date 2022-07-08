@@ -73,18 +73,20 @@ A "REST-ish" API server which is easy to setup
 Needs access to database etc
 
 - [ ] Pages with REST commands tied to them
-    - [ ] POST
+    - [ ] **POST**
         Creating data on the data resource tied to the page
-    - [ ] GET
+    - [ ] **GET**
         Call data from the resource tied to the page
-    - [ ] REPLACE
+    - [ ] **REPLACE**
         Replace data on the data resource tied to the page
-    - [ ] MODIFY
+    - [ ] **MODIFY**
         Modify data on the data resource tied to the page
-    - [ ] DELETE
+    - [ ] **DELETE**
         Remove data on the data resource tied to the page
 - [ ] Easy constructor for pages to assemble into one `dictionary`
-    Doesn't have to be a flat dictionary
+    - [ ] Make the mapping able to be converted into a json file ?
+- [ ] Client System for easy communication
+    - [ ] Handles ping commands etc
 
 ###### <span class="todo_project">AthenaTwitchBot</span>
 - [x] Create Git Repo
