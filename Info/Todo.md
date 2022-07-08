@@ -116,7 +116,7 @@ Needs access to database etc
 - [ ] Create emotes
     - [x] Create the base set
     - [ ] Create a raid emote
-    - [ ] Remove the subscriber ads emote and replace it with something e
+    - [ ] Remove the subscriber ads emote and replace it with something better
 - [ ] Add custom subscriber badges:
     -  https://dashboard.twitch.tv/u/directiveathena/settings/revenue/subscription/badges 
 -  [ ] Add custom bits badges:
