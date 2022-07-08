@@ -50,7 +50,9 @@ The road to actually writing and developing the story
         -  [x] Create PyPi 
         - [ ] Twitter API integration
         - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
-- [x] Create good emotes
+- [ ] Create emotes
+    - [x] Create the base set
+    - [ ] Create a raid emote
 - [ ] Add custom subscriber badges:
     -  https://dashboard.twitch.tv/u/directiveathena/settings/revenue/subscription/badges 
 -  [ ] Add custom bits badges:
