@@ -22,34 +22,80 @@ The road to actually writing and developing the story
 - [ ] Do some daily writing
     - Doesn't have to be big, but start somewhere
 
-## Chat optimizations
-- [ ] EVA: Community integration
-    - [ ] <span class="todo_project">AthenaTwitchBot</span>
-        -  [x] Create Git Repo
-        -  [x] Create PyPi 
-        - [ ] Twitch Chat Bot System
-            -  [x] way of adding commands to the bot
-            -  [x] way of adding features to the bot
-        - [ ] Twitch API System
-            - [ ] A way to automatically create and upload stream clips
-                - Brought to me by that_onion
-        - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
-        - [ ] Additional commands:
-            - [x] `!today` : returns what we are working on today
-            - [ ] `!linkallow username`: allow some person to send links in chat.
-                - Needs access to the Twitch api? and not the just the irc connection
-                - Brought to me by GuardianAngleMer  
-        - [ ] Move the TODAY dict to a json file
-    - [ ] <span class="todo_project">AthenaDiscordBot</span>
-        -  [x] Create Git Repo
-        -  [x] Create PyPi 
-        - [ ] Discord API integration
-        - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
-    - [ ] <span class="todo_project">AthenaTwitterBot</span>
-        -  [x] Create Git Repo
-        -  [x] Create PyPi 
-        - [ ] Twitter API integration
-        - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+## Athena Packages
+###### <span class="todo_project">AthenaTwitchBot</span>
+-  [x] Create Git Repo
+-  [x] Create PyPi 
+- [ ] Twitch Chat Bot System
+    -  [x] way of adding commands to the bot
+    -  [x] way of adding features to the bot
+- [ ] Twitch API System
+    - [ ] A way to automatically create and upload stream clips
+        - Brought to me by that_onion
+- [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+- [ ] Additional commands:
+    - [x] `!today` : returns what we are working on today
+    - [ ] `!linkallow username`: allow some person to send links in chat.
+        - Needs access to the Twitch api? and not the just the irc connection
+        - Brought to me by GuardianAngleMer  
+- [ ] Move the TODAY dict to a json file
+
+###### <span class="todo_project">AthenaDiscordBot</span>
+-  [x] Create Git Repo
+-  [x] Create PyPi 
+- [ ] Discord API integration
+- [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+
+###### <span class="todo_project">AthenaTwitterBot</span>
+- [x] Create Git Repo
+- [x] Create PyPi 
+- [ ] Twitter API integration
+- [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+
+###### <span class="todo_project">AthenaLib</span>
+-  [x] Use AthenaDocumentor to convert documentation to obsidian
+-  [x] HTML element library and logic
+-  [x] Correct documentation for the HTML objects
+-  [ ] Continue special attributes for HTML library elements from `FORM` onward (including `FORM`)
+
+###### <span class="todo_project">AthenaColor</span>
+Replacment for Colorama
+-  [x] Write main bulk of it
+-  [x] Use AthenaDocumentor to convert documentation to obsidian
+
+###### <span class="todo_project">AthenaCSS</span>
+A CSS generator in Python
+-  [x] Write main bulk of it
+-  [ ] Use AthenaDocumentor to convert documentation to obsidian
+-  [ ] Use AthenaLib's HTML library in the element selectors
+-  [ ] A total rewrite
+
+###### <span class="todo_project">AthenaDB</span> 
+A hobby project to make my own Database System
+Yeah I know it sounds stupid, but who said I was a smart dude anyways.
+-  [x] Create Git Repo
+-  [x] Create PyPi 
+
+###### <span class="todo_project">AthenaServer</span>
+    A "RestFull" API server which is easy to setup
+    Needs access to database etc
+
+---
+-  <span class="todo_project">AthenaDocumentor</span>
+    -  [x] Create Git Repo
+    -  [x] Create PyPi 
+    -  [x] Write main bulk of it
+    -  [ ] Fix the lack of inherited documentation bug
+    -  [x] Use AthenaDocumentor to convert documentation to obsidian
+    -  [ ] Write README
+    -  [ ] Use AthenaLib's HTML models in markdown output
+
+---
+-  <span class="todo_project">AthenaMock</span>
+        Brought to me by that_onion
+    -  [ ] Random Garble
+
+## Stream stuff
 - [ ] Create emotes
     - [x] Create the base set
     - [ ] Create a raid emote
@@ -70,45 +116,12 @@ MAKE ART! You fucking donkey!
     -  https://black.readthedocs.io/en/stable/integrations/editors.html
 
 -  Road to a dependency-less future:
-     -  <span class="todo_project">AthenaLib</span>
-        -  [x] Use AthenaDocumentor to convert documentation to obsidian
-        -  [x] HTML element library and logic
-        -  [x] Correct documentation for the HTML objects
-        -  [ ] Continue special attributes for HTML library elements from `FORM` onward (including `FORM`)
-    -  <span class="todo_project">AthenaColor</span>
-       Replacment for Colorama
-        -  [x] Write main bulk of it
-        -  [x] Use AthenaDocumentor to convert documentation to obsidian
-    -  <span class="todo_project">AthenaCSS</span>
-       A CSS generator in Python
-        -  [x] Write main bulk of it
-        -  [ ] Use AthenaDocumentor to convert documentation to obsidian
-        -  [ ] Use AthenaLib's HTML library in the element selectors
-        -  [ ] A total rewrite
-    -  <span class="todo_project">AthenaDB</span> 
-        A hobby project to make my own Database System
-        Yeah I know it sounds stupid, but who said I was a smart dude anyways.
-        -  [x] Create Git Repo
-        -  [x] Create PyPi 
-    -  <span class="todo_project">AthenaServer</span>
-        A "RestFull" API server which is easy to setup
-        Needs access to database etc
-    -  <span class="todo_project">AthenaDocumentor</span>
-        -  [x] Create Git Repo
-        -  [x] Create PyPi 
-        -  [x] Write main bulk of it
-        -  [ ] Fix the lack of inherited documentation bug
-        -  [x] Use AthenaDocumentor to convert documentation to obsidian
-        -  [ ] Write README
-        -  [ ] Use AthenaLib's HTML models in markdown output
-    -  <span class="todo_project">AthenaMock</span>
-        -  [ ] Random Garble
-            -  Brought to me by that_onion
+    
 -  [ ] SOL: One single API to connect to all back-end stuff
     -  Built on a [[Todo#^8228fe|AthenaServer]] API system?
 
 ## Other stuff
-- [ ] Create youtube videos
-    - [ ] Create youtube shorts?
+- [ ] Create YouTube videos
+    - [ ] Create YouTube shorts?
     - [ ] Tutorials? 
     - [ ] DAILY REMINDER TO UPLOAD!
