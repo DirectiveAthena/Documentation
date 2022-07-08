@@ -76,11 +76,15 @@ Needs access to database etc
     - [ ] POST
         Creating data on the data resource tied to the page
     - [ ] GET
-        Rec
-    - [ ] PUT
-    - [ ] PATCH
+        Call data from the resource tied to the page
+    - [ ] REPLACE
+        Replace data on the data resource tied to the page
+    - [ ] MODIFY
+        Modify data on the data resource tied to the page
     - [ ] DELETE
-- [ ] Easy constructor for pages
+        Remove data on the data resource tied to the page
+- [ ] Easy constructor for pages to assemble into one `dictionary`
+    Doesn't have to be a flat dictionary
 
 ###### <span class="todo_project">AthenaTwitchBot</span>
 - [x] Create Git Repo
