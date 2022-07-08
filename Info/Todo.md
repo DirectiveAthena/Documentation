@@ -11,15 +11,15 @@ Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simpl
 ## Athena Packages
 **Index :**
 - ✅ [[#span class todo_project AthenaColor span|AthenaColor]]
-- [[#span class todo_project AthenaCSS span|AthenaCSS]]
+- ❔ [[#span class todo_project AthenaCSS span|AthenaCSS]]
 - ☢️ [[#span class todo_project AthenaDB span|AthenaDB]]
-- [[#span class todo_project AthenaDiscordBot span|AthenaDiscordBot]]
-- [[#span class todo_project AthenaDocumentor span|AthenaDocumentor]]
-- [[#span class todo_project AthenaGuiComponentLib span|AthenaGuiComponentLib]]
-- [[#span class todo_project AthenaMock span|AthenaMock]]
-- [[#span class todo_project AthenaServer span|AthenaServer]]
-- [[#span class todo_project AthenaTwitchBot span|AthenaTwitchBot]]
-- [[#span class todo_project AthenaTwitterBot span|AthenaTwitterBot]]
+- ❌ [[#span class todo_project AthenaDiscordBot span|AthenaDiscordBot]]
+- ❔ [[#span class todo_project AthenaDocumentor span|AthenaDocumentor]]
+- ❌ [[#span class todo_project AthenaGuiComponentLib span|AthenaGuiComponentLib]]
+- ❔ [[#span class todo_project AthenaMock span|AthenaMock]]
+- ❔ [[#span class todo_project AthenaServer span|AthenaServer]]
+- ❔ [[#span class todo_project AthenaTwitchBot span|AthenaTwitchBot]]
+- ❌ [[#span class todo_project AthenaTwitterBot span|AthenaTwitterBot]]
 
 ###### <span class="todo_project">AthenaColor</span>
 Replacment for Colorama
@@ -30,7 +30,7 @@ Replacment for Colorama
 ###### <span class="todo_project">AthenaCSS</span>
 A CSS generator in Python
 -  [x] Write main bulk of it
--  [ ] Use AthenaDocumentor to convert documentation to obsidian
+-  [x] Use AthenaDocumentor to convert documentation to obsidian
 -  [ ] Use AthenaLib's HTML library in the element selectors
 
 ###### <span class="todo_project">AthenaDB</span> 
@@ -71,6 +71,16 @@ Brought to me by that_onion
 ###### <span class="todo_project">AthenaServer</span>
 A "REST-ish" API server which is easy to setup
 Needs access to database etc
+
+- [ ] Pages with REST commands tied to them
+    - [ ] POST
+        Creating data on the data resource tied to the page
+    - [ ] GET
+        Rec
+    - [ ] PUT
+    - [ ] PATCH
+    - [ ] DELETE
+- [ ] Easy constructor for pages
 
 ###### <span class="todo_project">AthenaTwitchBot</span>
 - [x] Create Git Repo
