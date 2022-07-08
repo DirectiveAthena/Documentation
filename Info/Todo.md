@@ -10,8 +10,16 @@ Because [[Andreas Sas|Andreas]] his brain is quite stupid, he can't make a simpl
 
 ## Athena Packages
 **Index :**
-- [[#span class todo_project AthenaColor span|AthenaColor]]
+- ✅ [[#span class todo_project AthenaColor span|AthenaColor]]
 - [[#span class todo_project AthenaCSS span|AthenaCSS]]
+- ☢️ [[#span class todo_project AthenaDB span|AthenaDB]]
+- [[#span class todo_project AthenaDiscordBot span|AthenaDiscordBot]]
+- [[#span class todo_project AthenaDocumentor span|AthenaDocumentor]]
+- [[#span class todo_project AthenaGuiComponentLib span|AthenaGuiComponentLib]]
+- [[#span class todo_project AthenaMock span|AthenaMock]]
+- [[#span class todo_project AthenaServer span|AthenaServer]]
+- [[#span class todo_project AthenaTwitchBot span|AthenaTwitchBot]]
+- [[#span class todo_project AthenaTwitterBot span|AthenaTwitterBot]]
 
 ###### <span class="todo_project">AthenaColor</span>
 Replacment for Colorama
@@ -25,6 +33,12 @@ A CSS generator in Python
 -  [ ] Use AthenaDocumentor to convert documentation to obsidian
 -  [ ] Use AthenaLib's HTML library in the element selectors
 
+###### <span class="todo_project">AthenaDB</span> 
+A hobby project to make my own Database System
+Yeah I know it sounds stupid, but who said I was a smart dude anyways.
+-  [x] Create Git Repo
+-  [x] Create PyPi 
+
 ###### <span class="todo_project">AthenaDiscordBot</span>
 - [x] Create Git Repo
 - [x] Create PyPi 
@@ -32,11 +46,31 @@ A CSS generator in Python
 - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 -  [ ] A total rewrite
 
+###### <span class="todo_project">AthenaDocumentor</span>
+-  [x] Create Git Repo
+-  [x] Create PyPi 
+-  [x] Write main bulk of it
+-  [ ] Fix the lack of inherited documentation bug
+-  [x] Use AthenaDocumentor to convert documentation to obsidian
+-  [ ] Write README
+-  [ ] Use AthenaLib's HTML models in markdown output
+
+######  <span class="todo_project">AthenaGuiComponentLib</span>
+A library of pre-made components for [DearPyGui](https://github.com/hoffstadt/DearPyGui)
+
 ###### <span class="todo_project">AthenaLib</span>
 -  [x] Use AthenaDocumentor to convert documentation to obsidian
 -  [x] HTML element library and logic
 -  [x] Correct documentation for the HTML objects
 -  [ ] Continue special attributes for HTML library elements from `FORM` onward (including `FORM`)
+
+######  <span class="todo_project">AthenaMock</span>
+Brought to me by that_onion
+-  [ ] Random Garble
+
+###### <span class="todo_project">AthenaServer</span>
+A "REST-ish" API server which is easy to setup
+Needs access to database etc
 
 ###### <span class="todo_project">AthenaTwitchBot</span>
 - [x] Create Git Repo
@@ -61,32 +95,6 @@ A CSS generator in Python
 - [ ] Twitter API integration
 - [ ] Integration with [[Todo#^8228fe|AthenaServer]]
 
-###### <span class="todo_project">AthenaDB</span> 
-A hobby project to make my own Database System
-Yeah I know it sounds stupid, but who said I was a smart dude anyways.
--  [x] Create Git Repo
--  [x] Create PyPi 
-
-###### <span class="todo_project">AthenaServer</span>
-A "REST-ish" API server which is easy to setup
-Needs access to database etc
-
-###### <span class="todo_project">AthenaDocumentor</span>
--  [x] Create Git Repo
--  [x] Create PyPi 
--  [x] Write main bulk of it
--  [ ] Fix the lack of inherited documentation bug
--  [x] Use AthenaDocumentor to convert documentation to obsidian
--  [ ] Write README
--  [ ] Use AthenaLib's HTML models in markdown output
-
-######  <span class="todo_project">AthenaMock</span>
-Brought to me by that_onion
--  [ ] Random Garble
-
-
-######  <span class="todo_project">AthenaGuiComponentLib</span>
-A library of pre-made components for [DearPyGui](https://github.com/hoffstadt/DearPyGui)
 
 ## Stream stuff
 - [ ] Create emotes
