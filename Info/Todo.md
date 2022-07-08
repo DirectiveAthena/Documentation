@@ -84,7 +84,7 @@ Needs access to database etc
     - [ ] **DELETE**
         Remove data on the data resource tied to the page
 - [x] Easy constructor for pages to assemble into one `dictionary`
-- [ ] Make the mapping able to be converted into a json file ?
+- [x] Make the mapping able to be converted into a json file ?
 - [ ] Client System for easy communication
     - [ ] Handles ping commands etc
 
