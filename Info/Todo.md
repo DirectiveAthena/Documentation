@@ -43,8 +43,8 @@ Yeah I know it sounds stupid, but who said I was a smart dude anyways.
 - [x] Create Git Repo
 - [x] Create PyPi 
 - [ ] Discord API integration
-- [ ] Integration with [[Todo#^8228fe|AthenaServer]]
--  [ ] A total rewrite
+- [ ] A total rewrite with the new [[Todo#^8228fe|AthenaServer]] system
+- [ ] A way to output logs
 
 ###### <span class="todo_project">AthenaDocumentor</span>
 -  [x] Create Git Repo
