@@ -66,7 +66,9 @@ A library of pre-made components for [DearPyGui](https://github.com/hoffstadt/De
 
 ######  <span class="todo_project">AthenaMock</span>
 Brought to me by that_onion
--  [ ] Random Garble
+- [ ] Random text generator
+- [ ] Random username generator
+- [ ] 
 
 ###### <span class="todo_project">AthenaServer</span>
 A "REST-ish" API server which is easy to setup
