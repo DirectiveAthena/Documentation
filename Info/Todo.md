@@ -87,6 +87,9 @@ Needs access to database etc
         Remove data on the data resource tied to the page
 - [x] Easy constructor for pages to assemble into one `dictionary`
 - [x] Make the mapping able to be converted into a json file ?
+- [ ] Authentication via API key
+    - [ ] also need some form of storage?
+- [ ] Output system 
 - [ ] Client System for easy communication
     - [ ] Handles ping commands etc
 
