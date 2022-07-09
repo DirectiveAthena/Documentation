@@ -105,6 +105,7 @@ Needs access to database etc
     - [ ] `!linkallow username`: allow some person to send links in chat.
         - Needs access to the Twitch API? and not the just the irc connection
         - Brought to me by GuardianAngleMer  
+    - [ ] `@eva_athenabot` handler for this
 - [ ] Move the TODAY dict to a json file
 
 ###### <span class="todo_project">AthenaTwitterBot</span>
