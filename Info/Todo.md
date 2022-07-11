@@ -99,6 +99,8 @@ Needs access to database etc
 - [ ] Twitch Chat Bot System
     -  [x] way of adding commands to the bot
     -  [x] way of adding features to the bot
+    -  [ ] way of adding redeemed text task
+        -  Able to be done by searching for the `custom-reward-id` in a message
 - [ ] Twitch API System
     - [ ] A way to automatically create and upload stream clips
         - Brought to me by that_onion
