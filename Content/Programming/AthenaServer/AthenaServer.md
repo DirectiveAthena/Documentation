@@ -13,9 +13,11 @@ general idea:
 
 ```json
 {
-    "",
-    "path",
-    "cmd",
-    "args",
+    "auth": {},
+    "path": "/",
+    "cmd": "GET",
+    "args": {},
 }
 ```
+
+`{"token":"012345679abc"};/root/help;GET;{"id"="6"}\r\n`
