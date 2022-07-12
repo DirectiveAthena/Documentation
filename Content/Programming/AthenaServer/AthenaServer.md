@@ -20,4 +20,4 @@ general idea:
 }
 ```
 
-`{"token":"012345679abc"};/root/help;GET;{"id"="6"}\r\n`
+`{"token":"..."};root/help;GET;{"id"="6"}\r\n`
