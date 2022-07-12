@@ -19,7 +19,7 @@ INPUT (by client)
 }
 ```
 
-OUTPUT (by Server)
+Output sent by the server to the clen
 ```json
 {
     "data": ... ,
