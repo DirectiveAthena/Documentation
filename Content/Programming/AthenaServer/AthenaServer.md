@@ -7,7 +7,8 @@ aliases: [AthenaServer]
 
 # AthenaServer API Design
 This page defines the API design of the Applications that run on a AthenaServer library.
-The API is meant to easily retrieve information from data resources assigned to be accessed by different access levels by API tokens and 
+The API is meant to easily retrieve information from data resources assigned to be accessed by different access levels by authentication tokens.
+The API should also have easy systems in place to download larger files from the server.
 
 ## Design
 
@@ -30,7 +31,7 @@ The API is meant to easily retrieve information from data resources assigned to 
 }
 ```
 
-## root keys
+## Root keys
 Root keys are the keys that are used at the first level of the JSON structure. These keys names are always 4 characters long, all belonging to the standard Alphabet (A-Z) and no numerical values. 
 %%The one exception to this rules is a `_` on the first character. When a key name is marked with a underscore it will be ignored by the client or server parser and merely holds extra data that doesn't affect the input or output sequence%% %%LOOK INTO THIS BEING A GOOD IDEA?%% 
 
