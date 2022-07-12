@@ -21,3 +21,4 @@ general idea:
 ```
 
 `{"token":"..."};root/help;GET;{"id"="6"}\r\n`
+`{"login":["user", "1234"]};root;GET;{"id"="help"}`
