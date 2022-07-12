@@ -9,9 +9,7 @@ aliases: [AthenaServer]
 
 ## Design
 
-general idea:
-
-INPUT
+INPUT (by client)
 ```json
 {
     "auth": {"token":"..."},
@@ -21,12 +19,12 @@ INPUT
 }
 ```
 
-OUTPUT
+OUTPUT (by Server)
 ```json
 {
-    "data": ... , // for raw data
-    "link": ... , // pats to more available datae
-    "file": ... , // boolean option to signify a file will follow
+    "data": ... ,
+    "link": ... , 
+    "flag": ... , 
 }
 ```
 
@@ -36,10 +34,13 @@ Root keys are the keys that are used at the first level of the JSON structure. T
 
 **Full list of allocated root keys**
 
-| key name | stage   | explanation                                                                                                                                                                                 |
-| -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `"auth"` | #input  | Holds user credentials to be used by the server to authenticate the user. If the requested command does not need any credentials to be executed, the value of this key can be set to `Null` |
-| `"path"` | #input  | A unique path which to a corresponding object/resource/...                                                                                                                                  |
-| `"mthd"` | #input  | The REST-ish command which is used on the chosen resource                                                                                                                                   |
-| `"args"` | #input  | Arguments to the `#mthd` command. If no arguments are required, the value of this key can be set to `Null`                                                                                  |
-| `"data"` | #output |                                                                                                                                                                                             |
+| key name | stage          | explanation                                                                                                                                                                                 |
+| -------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `"auth"` | #input         | Holds user credentials to be used by the server to authenticate the user. If the requested command does not need any credentials to be executed, the value of this key can be set to `Null` |
+| `"path"` | #input         | A unique path which to a corresponding object/resource/...                                                                                                                                  |
+| `"mthd"` | #input         | The REST-ish command which is used on the chosen resource                                                                                                                                   |
+| `"args"` | #input         | Arguments to the `#mthd` command. If no arguments are required, the value of this key can be set to `Null`                                                                                  |
+| `"data"` | #output        | Simple data output of the requested input command and arguments                                                                                                                             |
+| `"link"` | #output        | If not set to `Null` this key will point the client to more resources it should request                                                                                                     |
+| `"flag"` | #output        | A general way of adding extra information to the returned data set. Will contain flags like the availability to get a file etc...                                                           |
+| `"tmsp"` | #output #input | A key that is defined by both ends on structure generation. This does not add any logic to the package, but is simply meant for logging purposes as it holds the timestamp of creation.                                                                                                                                                                                             |
