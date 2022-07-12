@@ -9,7 +9,7 @@ aliases: [AthenaServer]
 
 ## Design
 
-INPUT (by client)
+**Input** sent by the client to the server:
 ```json
 {
     "auth": {"token":"..."},
@@ -19,7 +19,7 @@ INPUT (by client)
 }
 ```
 
-Output sent by the server to the clen
+**Output** sent by the server to the client:
 ```json
 {
     "data": ... ,
