@@ -11,25 +11,12 @@ aliases: [AthenaServer]
 
 general idea:
 
-```json
-{
-    "auth": {},
-    "path": "/",
-    "cmd": "GET",
-    "args": {},
-}
-```
-
-`{"token":"..."};root/help;GET;{"id"="6"}\r\n`
-
-`{"login":["user", "1234"]};root;GET;{"":"help"}`
-
 INPUT
 ```json
 {
     "auth": {"token":"..."},
     "path": "/",
-    "method": "GET",
+    "mthd": "GET",
     "args": {...},
 }
 ```
@@ -37,8 +24,8 @@ INPUT
 OUTPUT
 ```json
 {
-    "data":... // for raw data
-    "link":... // pats to more available datae
-    "file":... // boolean option to signify a file will follow
+    "data":... , // for raw data
+    "link":... , // pats to more available datae
+    "file":... , // boolean option to signify a file will follow
 }
 ```
