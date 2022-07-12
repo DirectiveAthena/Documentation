@@ -15,6 +15,7 @@ The conversation structure is completely made in the JSON format.
 The root keys of the JSON structure are reserved keywords that are strictly 4 characters long and only consist of the standard Alphabet (a-z) in lowercase format.
 
 If the client requested a file, it will receive an output file with the `"data"` key holding values corresponding to the to be downloaded file name, hash value, size, etc... the `"link"` key will hold the next path for the client to request. This is done because the API servers have to prep the file first (calling it from storage, zipping, etc...), if it has not already been cached. The original request should not point to this location first, although the stateless manner of the API design means it is definitely possible if the user knows the correct path to the cached file, hash, etc...
+This means that the result of the second request in this chain, will not result in a JSON file, but in the requested file. 
 
 ### Stage Concepts
 **Input** sent by the client to the server:
@@ -40,7 +41,6 @@ If the client requested a file, it will receive an output file with the `"data"`
 
 ## Root keys
 Root keys are the keys that are used at the first level of the JSON structure. These keys names are always 4 characters long, all belonging to the standard Alphabet (A-Z) and no numerical values. 
-%%The one exception to this rules is a `_` on the first character. When a key name is marked with a underscore it will be ignored by the client or server parser and merely holds extra data that doesn't affect the input or output sequence%% %%LOOK INTO THIS BEING A GOOD IDEA?%% 
 
 **Full list of allocated root keys**
 
