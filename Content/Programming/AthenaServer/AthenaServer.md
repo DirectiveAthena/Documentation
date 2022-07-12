@@ -24,11 +24,21 @@ general idea:
 
 `{"login":["user", "1234"]};root;GET;{"":"help"}`
 
+INPUT
 ```json
 {
     "auth": {"token":"..."},
     "path": "/",
     "method": "GET",
-    "args": {"id":"6"},
+    "args": {...},
+}
+```
+
+OUTPUT
+```json
+{
+    "data":... // for raw data
+    "link":... // pats to more available datae
+    "file":... // boolean option to signify a file will follow
 }
 ```
