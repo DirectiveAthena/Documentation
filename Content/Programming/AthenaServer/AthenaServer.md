@@ -21,4 +21,14 @@ general idea:
 ```
 
 `{"token":"..."};root/help;GET;{"id"="6"}\r\n`
-`{"login":["user", "1234"]};root;GET;{"id"="help"}`
+
+`{"login":["user", "1234"]};root;GET;{"":"help"}`
+
+```json
+{
+    "auth": {"token":"..."},
+    "path": "/",
+    "method": "GET",
+    "args": {"id":"6"},
+}
+```
