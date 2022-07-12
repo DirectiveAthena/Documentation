@@ -7,7 +7,7 @@ aliases: [AthenaServer]
 
 # AthenaServer API Design
 This page defines the API design of the Applications that run on a AthenaServer library.
-The API is meant to easily retrieve information from data resources with 
+The API is meant to easily retrieve information from data resources assigned to be accessed by different access levels by API tokens and 
 
 ## Design
 
