@@ -24,8 +24,8 @@ INPUT
 OUTPUT
 ```json
 {
-    "data":... , // for raw data
-    "link":... , // pats to more available datae
-    "file":... , // boolean option to signify a file will follow
+    "data": ... , // for raw data
+    "link": ... , // pats to more available datae
+    "file": ... , // boolean option to signify a file will follow
 }
 ```
