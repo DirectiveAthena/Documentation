@@ -5,7 +5,9 @@ cssclass: metaDataHide athena
 aliases: [AthenaServer]
 ---
 
-# AthenaServer
+# AthenaServer API Design
+This page defines the API design of the Applications that run on a AthenaServer library.
+The API is meant to easily retrieve information from data resources with 
 
 ## Design
 
@@ -45,3 +47,4 @@ Root keys are the keys that are used at the first level of the JSON structure. T
 | `"flag"` | #output        | A general way of adding extra information to the returned data set. Will contain flags like the availability to get a file etc...                                                                                                                                                                                                                                                           |
 | `"tmsp"` | #output #input | A key that is defined by both ends on structure generation. This does not add any logic to the package, but is simply meant for logging purposes as it holds the timestamp of creation.                                                                                                                                                                                                     |
 | `"apiv"` | #output #input | Key to define which API version is expected in the #input stage, and defines which API version the #output stage is currently programmed at. The version format should follow the "Semantic Versioning" system of Major, Minor and Patch assignments. Minor versions are compatible with each other, but Major version discrepancies will not be allowed to be at a mismatch of each other. |
+
