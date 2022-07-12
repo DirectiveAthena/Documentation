@@ -12,10 +12,11 @@ The API should also have easy systems in place to download larger files from the
 
 ## Design
 The conversation structure is completely made in the JSON format.
-The root keys of the JSON structure are reserved keywords that are strictly 4 characters long and only consist of the standard Alphabet (A-Z) .
+The root keys of the JSON structure are reserved keywords that are strictly 4 characters long and only consist of the standard Alphabet (a-z) in lowercase format.
 
 If the client requested a file, it will receive an output file with the `"data"` key holding values corresponding to the to be downloaded file name, hash value, size, etc... the `"link"` key will hold the next path for the client to request. This is done because the API servers have to prep the file first (calling it from storage, zipping, etc...), if it has not already been cached. The original request should not point to this location first, although the stateless manner of the API design means it is definitely possible if the user knows the correct path to the cached file, hash, etc...
 
+### Stage Concepts
 **Input** sent by the client to the server:
 
 ```json
@@ -55,4 +56,3 @@ Root keys are the keys that are used at the first level of the JSON structure. T
 | `"tmsp"` | #output #input | A key that is defined by both ends on structure generation. This does not add any logic to the package, but is simply meant for logging purposes as it holds the timestamp of creation.                                                                                                                                                                                                     |
 | `"apiv"` | #output #input | Key to define which API version is expected in the #input stage, and defines which API version the #output stage is currently programmed at. The version format should follow the "Semantic Versioning" system of Major, Minor and Patch assignments. Minor versions are compatible with each other, but Major version discrepancies will not be allowed to be at a mismatch of each other. |
 | `"code"` | #output        | Root key that holds a numerical value corresponding to the success of the execution of the input. Follows the same REST return codes.                                                                                                                                                                                                                                                                                                                                                                                   |
-
