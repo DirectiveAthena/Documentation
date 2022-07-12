@@ -10,23 +10,6 @@ This page defines the API design of the Applications that run on a AthenaServer 
 The API is meant to easily retrieve information from data resources assigned to be accessed by different access levels by authentication tokens.
 The API should also have easy systems in place to download larger files from the server.
 
-azea
-ze
-aze
-a
-e
-az
-eaze
-a
-zea
-
-ae
-a
-ze
-a
-ze
-aze
-
 ## Design
 
 **Input** sent by the client to the server:
