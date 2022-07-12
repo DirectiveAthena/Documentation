@@ -9,4 +9,13 @@ aliases: [AthenaServer]
 
 ## Design
 
-gener
+general idea:
+
+```json
+{
+    "",
+    "path",
+    "cmd",
+    "args",
+}
+```
