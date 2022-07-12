@@ -99,9 +99,9 @@ Needs access to database etc
 - [ ] Twitch Chat Bot System
     -  [x] way of adding commands to the bot
     -  [x] way of adding features to the bot
-    -  [ ] way of adding redeemed text task
+    -  [x] way of adding redeemed text task
         -  Able to be done by searching for the `custom-reward-id` in a message
-    -  [ ] Event-listener system to make the output work
+    -  [x] Event-listener system to make the output work
 - [ ] Twitch API System
     - [ ] A way to automatically create and upload stream clips
         - Brought to me by that_onion
@@ -112,8 +112,8 @@ Needs access to database etc
     - [ ] `!linkallow username`: allow some person to send links in chat.
         - Needs access to the Twitch API? and not the just the irc connection
         - Brought to me by GuardianAngleMer  
-    - [ ] `@eva_athenabot` handler for this
-- [ ] Move the TODAY dict to a json file
+    - [x] `@eva_athenabot` handler for this
+- [x] Move the TODAY dict to a json file
 
 ###### <span class="todo_project">AthenaTwitterBot</span>
 - [x] Create Git Repo
