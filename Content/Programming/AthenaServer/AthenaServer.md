@@ -14,8 +14,7 @@ The API should also have easy systems in place to download larger files from the
 The conversation structure is completely made in the JSON format.
 The root keys of the JSON structure are reserved keywords that are strictly 4 characters long and only consist of the standard Alphabet (A-Z) .
 
-If the client requested a file, it will receive an output file with the `"data"` key holding values corresponding to the to be downloaded file name, hash value, size, etc... the `"link"` key will hold the next path for the client to request. This is done because the API servers 
-
+If the client requested a file, it will receive an output file with the `"data"` key holding values corresponding to the to be downloaded file name, hash value, size, etc... the `"link"` key will hold the next path for the client to request. This is done because the API servers have to prep the file first (calling it from storage, zipping, etc...), if it has not already been cached. The original request should not point to this location first, although the stateless manner of the API design means it is definitely possible if the user knows the correct path to the cached file, hash, etc...
 
 **Input** sent by the client to the server:
 
