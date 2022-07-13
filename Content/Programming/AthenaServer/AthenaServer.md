@@ -23,7 +23,7 @@ This means that the result of the second request in this chain, will not result 
 {
     "auth": {"token":"..."},
     "path": "/",
-    "mthd": "GET",
+    "method": "GET",
     "args": {...},
 }
 ```
@@ -50,6 +50,6 @@ This means that the result of the second request in this chain, will not result 
 | `"data"`   | #output        | Simple data output of the requested input command and arguments                                                                                                                                                                                                                                                                                                                             |
 | `"link"`   | #output        | If not set to `Null` this key will point the client to more resources it should request                                                                                                                                                                                                                                                                                                     |
 | `"flag"`   | #output        | A general way of adding extra information to the returned data set. Will contain flags like the availability to get a file etc...                                                                                                                                                                                                                                                           |
-| `"_"`      | #output #input | A key that holds extra information which does not affect the message execution, or received data. Holds data                                                                                                                                                                                                     |
+| `"_"`      | #output #input | A key that holds extra information which does not affect the message execution, or received data. Holds data merely meant for logging/comments etc...                                                                                                                                                                                                     |
 | `"api"`    | #output #input | Key to define which API version is expected in the #input stage, and defines which API version the #output stage is currently programmed at. The version format should follow the "Semantic Versioning" system of Major, Minor and Patch assignments. Minor versions are compatible with each other, but Major version discrepancies will not be allowed to be at a mismatch of each other. |
 | `"code"`   | #output        | Root key that holds a numerical value corresponding to the success of the execution of the input. Follows the same REST return codes.                                                                                                                                                                                                                                                       |
