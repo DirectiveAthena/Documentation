@@ -113,6 +113,8 @@ Needs access to database etc
         - Needs access to the Twitch API? and not the just the irc connection
         - Brought to me by GuardianAngleMer  
     - [x] `@eva_athenabot` handler for this
+    - [ ]  `!uptime`
+        - Brought to me by vmelvin
 - [x] Move the TODAY dict to a json file
 
 ###### <span class="todo_project">AthenaTwitterBot</span>
