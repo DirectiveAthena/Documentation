@@ -39,3 +39,5 @@ Now to be fair, I know I won't be able to completely do this, as for example I h
 - ... (see the future for a better and bigger defined list. Or knowing me, a good reason why I eventually decided to make my own database from the ground up)
 
 So I hope that explains it a little bit. I'll probably add to this as the project evolves and make a footnote sections of all important changes to the text here, linking back to the last commit where the text looked like before the mentioned changes
+
+For a list of all the "Dependencies" I have, go to the [[Info/Dependencies|Dependencies]] page.
