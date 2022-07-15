@@ -19,4 +19,6 @@ A full list of my  3rd party dependencies and why I use them:
 |:----------------------:|:----------------------------------------------- |:------------------------- |
 |           ❌           | [pycharm](https://www.jetbrains.com/pycharm/)   | Python IDE                |
 |           ❌           | [Datagrip](https://www.jetbrains.com/datagrip/) | Database IDE              |
-|                        | [Obsidian](https://obsidian.md/)                | Markdown note taking tool | 
+|           ❔           | [Obsidian](https://obsidian.md/)                | Markdown note taking tool |
+|           ✅           | [Trello](https://trello.com/)                   | Project Management tool   |
+|           ❌           | [Streamlabs](https://streamlabs.com/)           | Streaming software                          |
