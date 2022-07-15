@@ -3,8 +3,7 @@ copyright: "Andreas Sas 2022"
 created: "2022-07-11 09:04"
 cssclass: metaDataHide athena
 aliases: [Dependencies]
----
-
+---  
 # Dependencies
 A full list of my  3rd party dependencies and why I use them:
 
