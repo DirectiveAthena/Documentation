@@ -105,7 +105,7 @@ Needs access to database etc
 - [ ] Twitch API System
     - [ ] A way to automatically create and upload stream clips
         - Brought to me by that_onion
-- [ ] Integration with [[Todo#^8228fe|AthenaServer]]
+- [x] Integration with [[Todo#^8228fe|AthenaServer]]
 - [ ] Additional commands:
     - [x] `!today` : returns what we are working on today
     - [ ] `!obsidian`
