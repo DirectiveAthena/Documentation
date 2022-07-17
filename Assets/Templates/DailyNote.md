@@ -6,3 +6,6 @@ aliases: [daily_note_{{date}}]
 ---
 
 # Daily Note: *{{title}}*
+
+- [ ] Get up at 06.00
+- [ ] Go to sleep at 00.00
