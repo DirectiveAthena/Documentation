@@ -17,7 +17,7 @@ kanban-plugin: basic
 
 ## Currently in Development
 
-- [ ] AthenaColor
+- [ ] [[AthenaColor]]
 - [ ] AthenaCSS
 - [ ] AthenaDocumentor
 - [ ] AthenaMock
