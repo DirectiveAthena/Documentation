@@ -6,8 +6,8 @@ kanban-plugin: basic
 
 ## Application Ideas
 
-- [ ] Adam
 - [ ] Eva
+- [ ] Adam
 - [ ] Sol
 - [ ] Veritas
 

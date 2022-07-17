@@ -22,6 +22,7 @@ kanban-plugin: basic
 - [ ] AthenaDocumentor
 - [ ] AthenaMock
 - [ ] AthenaServer
+- [ ] test @{2022-07-21}
 
 
 
