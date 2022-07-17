@@ -14,14 +14,17 @@ kanban-plugin: basic
 
 ## Medium Priotity
 
-- [ ] [[Todo Art]]
 
 
 ## High Priority
 
 
 
+***
 
+## Archive
+
+- [ ] [[Todo Art]]
 
 %% kanban:settings
 ```

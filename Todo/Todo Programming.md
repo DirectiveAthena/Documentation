@@ -19,7 +19,7 @@ kanban-plugin: basic
 
 - [ ] test @{2022-07-21}
 - [ ] [[AthenaColor]]
-- [ ] AthenaCSS
+- [ ] [[AthenaCSS]]
 - [ ] AthenaDocumentor
 - [ ] AthenaMock
 - [ ] AthenaServer
