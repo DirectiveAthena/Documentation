@@ -5,14 +5,13 @@ kanban-plugin: basic
 ---
 
 ## Application Ideas
-- [ ] Adam
+
 - [ ] Sol
 - [ ] Veritas
+- [ ] Adam
 
 
 ## Currently working on
-
-
 
 
 
