@@ -2,7 +2,7 @@
 copyright: "Andreas Sas 2022"
 created: "{{date}} {{time}}"
 cssclass: metaDataHide
-aliases: [ todo_card_{{title}}]
+aliases: [daily_note_{{date}}]
 ---
 
-# Todo card: *{{title}}*
+# Daily Note: *{{title}}*
