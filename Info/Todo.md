@@ -108,12 +108,12 @@ Needs access to database etc
 - [x] Integration with [[Todo#^8228fe|AthenaServer]]
 - [ ] Additional commands:
     - [x] `!today` : returns what we are working on today
-    - [ ] `!obsidian`
-    - [ ] `!linkallow username`: allow some person to send links in chat.
+    - [x] `!obsidian`
+    - [x] `!linkallow username`: allow some person to send links in chat.
         - Needs access to the Twitch API? and not the just the irc connection
         - Brought to me by GuardianAngleMer  
     - [x] `@eva_athenabot` handler for this
-    - [ ]  `!uptime`
+    - [x]  `!uptime`
         - Brought to me by vmelvin
 - [x] Move the TODAY dict to a json file
 
