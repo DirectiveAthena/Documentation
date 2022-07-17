@@ -6,9 +6,8 @@ kanban-plugin: basic
 
 ## Python Packages
 
-- [ ] [[Info/AthenaColor]]
 - [ ] AthenaTwitchBot
-
+- [ ] [[Info/AthenaColor]]
 
 
 
