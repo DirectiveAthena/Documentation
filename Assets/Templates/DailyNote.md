@@ -12,3 +12,5 @@ aliases: [daily_note_{{date}}]
 - [ ] Eat something healthy
 - [ ] Work for an amount of time that works for me
 - [ ] Go to sleep at 00.00
+
+## Notes
