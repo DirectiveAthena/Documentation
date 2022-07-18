@@ -7,6 +7,8 @@ kanban-plugin: basic
 ## Planned Features
 
 - [ ] Event Subscribing
+- [ ] Run tasks on specific dates
+- [ ] Run tasks on specific times of the hour
 
 
 ## Working On
