@@ -16,7 +16,7 @@ kanban-plugin: basic
 - [ ] Full list API commands implemented
 
 
-## Finished
+## v1.0.0
 
 - [ ] Full Async approach
 - [ ] Not class to house all commands
