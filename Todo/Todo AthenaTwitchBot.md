@@ -23,10 +23,10 @@ kanban-plugin: basic
 
 ## v1.0.0
 
-- [ ] Full Async approach
-- [ ] Not class to house all commands
-- [ ] BotCommands
-- [ ] BotTasks
+- [x] Full Async approach
+- [x] Not class to house all commands
+- [x] BotCommands
+- [x] BotTasks
 
 
 
