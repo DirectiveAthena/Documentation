@@ -18,12 +18,11 @@ kanban-plugin: basic
 ## Currently in Development
 
 - [ ] test
-- [ ] [[AthenaColor]]
-- [ ] [[AthenaCSS]]
+- [ ] AthenaColor
+- [ ] AthenaCSS
 - [ ] AthenaDocumentor
 - [ ] AthenaMock
 - [ ] AthenaServer
-- [ ] [[Todo Art]]
 
 
 
