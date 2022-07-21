@@ -6,6 +6,8 @@ kanban-plugin: basic
 
 ## Feature Ideas
 
+- [ ] More output systems
+- [ ] multi threaded output?
 
 
 ## Planned Features
