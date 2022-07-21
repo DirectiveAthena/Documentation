@@ -8,6 +8,7 @@ kanban-plugin: basic
 
 - [ ] More output systems
 - [ ] multi threaded output?
+- [ ] [[SelfInsteadOfFutureAnnotations|Self instead of __future__.annotations]]
 
 
 ## Planned Features

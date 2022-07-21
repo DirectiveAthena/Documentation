@@ -8,6 +8,7 @@ kanban-plugin: basic
 
 - [ ] Html makeup<br>Meant for file output
 - [ ] More file output choices
+- [ ] [[SelfInsteadOfFutureAnnotations|Self instead of __future__.annotations]]
 
 
 ## Planned Features
