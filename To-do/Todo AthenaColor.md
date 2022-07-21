@@ -11,6 +11,7 @@ kanban-plugin: basic
 ## Planned Features
 
 - [ ] ⚠️ DOCUMENTATION ⚠️
+- [ ] [[More UnitTesting]]
 
 
 ## Working On
