@@ -5,3 +5,6 @@ cssclass: metaDataHide
 aliases: [AthenaCSS Versions]
 ---
 # AthenaCSS Version Notes
+
+### v0.7.0
+/

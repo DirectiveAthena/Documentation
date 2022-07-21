@@ -5,3 +5,6 @@ cssclass: metaDataHide
 aliases: [AthenaDocumentor Versions]
 ---
 # AthenaDocumentor Version Notes
+
+### v0.2.0
+/
