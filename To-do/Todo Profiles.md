@@ -13,6 +13,7 @@ kanban-plugin: basic
 
 - [ ] Define Outro Screen
 - [ ] Define Offline Screen
+- [ ] Create a small intro video people see on an offline channel
 
 
 ***
