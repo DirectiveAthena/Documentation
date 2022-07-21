@@ -6,3 +6,6 @@ aliases: [More UnitTesting]
 ---
 
 # Todo card: *AthenaColor: More UnitTesting*
+
+- [ ] functions
+- [ ] class int
