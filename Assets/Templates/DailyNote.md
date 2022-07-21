@@ -20,3 +20,5 @@ cssclass: metaDataHide
 - [ ] Go to sleep at 00.00
 
 ## Notes
+
+## Daily Graph
