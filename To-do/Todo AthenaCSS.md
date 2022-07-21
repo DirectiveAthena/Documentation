@@ -11,7 +11,7 @@ kanban-plugin: basic
 ## Planned Features
 
 - [ ] ⚠️ DOCUMENTATION ⚠️
-- [ ] [[AthenaColor_MoreUnitTesting|More UnitTesting]]
+- [ ] Refactor Session
 
 
 ## Working On

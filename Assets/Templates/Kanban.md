@@ -1,8 +1,8 @@
 ---
-copyright: "Andreas Sas 2022"
+copyright: "Andreas Sas {{date:YYYY}}"
 created: "{{date}} {{time}}"
 cssclass: metaDataHide
-aliases: [ todo_card_{{title}}]
+aliases: [{{title}}]
 ---
 
 # Todo card: *{{title}}*
