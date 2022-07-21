@@ -18,7 +18,7 @@
     background-image: linear-gradient(90deg, rgb(22, 22, 22) 75%, rgb(32, 32, 32) 100%);
     border-radius: 0.2rem;
     border-bottom-style: solid;
-    border-bottom-with: 5px;
+    border-bottom-width: 5px;
 }
 /*- Headers differ in size depending on the depth -*/
 .markdown-rendered h1,
