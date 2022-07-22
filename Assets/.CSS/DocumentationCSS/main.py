@@ -4,6 +4,7 @@
 # General Packages
 from __future__ import annotations
 import inspect
+import itertools
 
 # Custom Library
 from AthenaColor import RGB
@@ -27,9 +28,9 @@ PATH_SNIPPET = "D:\Directive Athena\Programs\Veritas\Storage\Documentation\.obsi
 def main():
     # assemble components into the generator
     generator = CSSGenerator(
-        content=[
-
-        ]
+        content=list(itertools.chain(
+            
+        ))
     )
 
     # write output to file
