@@ -18,6 +18,7 @@ kanban-plugin: basic
 
 ## PC
 
+- [ ] Change all paths into "space less" paths. Aka: change `Directive Athena` folder into `DirectiveAthena`
 
 
 ***
