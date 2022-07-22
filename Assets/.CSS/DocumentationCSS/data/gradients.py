@@ -4,29 +4,11 @@
 # General Packages
 
 # Custom Library
-from AthenaColor import RGB
-from AthenaCSS.models.athenalib_imports import (Degree, Percent)
 
 # Custom Packages
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
-COLOR_ATHENACOLOR:str = ",".join((
-    Degree(90),
-    " ".join(str(n) for n in (RGB(255,0,0), Percent(0))),
-    " ".join(str(n) for n in (RGB(255,0,0), Percent(0))),
-    " ".join(str(n) for n in (RGB(255,154,0), Percent(10))),
-    " ".join(str(n) for n in (RGB(255,154,0), Percent(10))),
-    " ".join(str(n) for n in (RGB(208,222,33), Percent(20))),
-    " ".join(str(n) for n in (RGB(79,220,74), Percent(30))),
-    " ".join(str(n) for n in (RGB(63,218,216), Percent(40))),
-    " ".join(str(n) for n in (RGB(47,201,226), Percent(50))),
-    " ".join(str(n) for n in (RGB(28,127,238), Percent(60))),
-    " ".join(str(n) for n in (RGB(95,21,242), Percent(70))),
-    " ".join(str(n) for n in (RGB(186,12,248), Percent(80))),
-    " ".join(str(n) for n in (RGB(251,7,217), Percent(90))),
-    " ".join(str(n) for n in (RGB(255,0,0), Percent(100))),
-))
-
+COLOR_ATHENACOLOR:str = "linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);"
 COLOR_ATHENALIB:str = "linear-gradient(90deg, rgba(57,81,251,1) 0%, rgba(207,30,70,1) 100%)"
