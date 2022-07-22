@@ -5,6 +5,7 @@ cssclass: metaDataHide
 aliases: [AthenaColor Versions]
 ---
 # AthenaColor Version Notes
+These are the version notes for the [[AthenaColor]] package
 
-### v6.2.0
+## v6.2.0
 /

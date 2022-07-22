@@ -5,6 +5,7 @@ cssclass: metaDataHide
 aliases: [AthenaCSS Versions]
 ---
 # AthenaCSS Version Notes
+These are the version notes for the [[AthenaCSS]] package
 
 ## v.0.8.0
 This pre-release is a complete rewrite of the old package as  it isn't really expected to write working CSS with this package alone. This package is currently meant to help generating repetitive CSS.
