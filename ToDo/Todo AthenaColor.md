@@ -12,14 +12,17 @@ kanban-plugin: basic
 ## Planned Features
 
 - [ ] ⚠️ DOCUMENTATION ⚠️
-- [ ] [[AthenaColor_MoreUnitTesting|More UnitTesting]]
 
 
 ## Working On
 
 
 
+***
 
+## Archive
+
+- [x] [[AthenaColor_MoreUnitTesting|More UnitTesting]]
 
 %% kanban:settings
 ```
