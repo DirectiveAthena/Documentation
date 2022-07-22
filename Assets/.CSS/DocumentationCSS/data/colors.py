@@ -2,13 +2,11 @@
 # - Package Imports -
 # ----------------------------------------------------------------------------------------------------------------------
 # General Packages
-from __future__ import annotations
 
 # Custom Library
 from AthenaColor import RGB
-from AthenaColor.data.colors_html import HtmlColorObjects as Color
-
-from AthenaCSS import SubProperty as SubPropertyLibrary
+from AthenaColor import RGB
+import AthenaColor.data.colors_html as Color
 from AthenaCSS.models.athenalib_imports import (Degree, Percent)
 
 # Custom Packages
@@ -43,7 +41,7 @@ AI_COLORS = (color_adam,color_aero,color_athena,color_ceres,color_eva,color_jupi
 # ----------------------------------------------------------------------------------------------------------------------
 # - Python Package classes -
 # ----------------------------------------------------------------------------------------------------------------------
-color_athenacolor = SubPropertyLibrary.LinearGradient(
+color_athenacolor = (
     Degree(90),
     (RGB(255,0,0), Percent(0)),
     (RGB(255,0,0), Percent(0)),

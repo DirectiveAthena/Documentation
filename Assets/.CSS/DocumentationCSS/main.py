@@ -6,15 +6,13 @@ from __future__ import annotations
 import inspect
 
 # Custom Library
-from AthenaCSS import CSSGenerator,CSSEmptyLine, CSSComment
+from AthenaColor import RGB
+from AthenaCSS.models.generator import CSSGenerator
+from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
+import AthenaLib.HTML.models.html_library as HtmlLib
+from AthenaLib.HTML.models.html import HTMLElement
 
 # Custom Packages
-from DocumentationCSS.Objects.RuleGenerator import RuleGenerator
-
-from DocumentationCSS.Library.Headers import HeaderDefault, HeaderSizing
-from DocumentationCSS.Library.PageClasses import PageAI, PagePythonPackages, PageWebsites
-from DocumentationCSS.Library.Special import MetaDataHide, FileEmbed
-from DocumentationCSS.Library.Obsidian import ObsidianStatusBar
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -23,45 +21,8 @@ from DocumentationCSS.Library.Obsidian import ObsidianStatusBar
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
-RULE_ORDER = [
-    HeaderDefault,
-    HeaderSizing,
-    CSSEmptyLine(),
-    PageAI,
-    PagePythonPackages,
-    PageWebsites,
-
-    CSSEmptyLine(),
-    CSSComment("SPECIAL ADDITIONS"),
-    CSSEmptyLine(),
-    MetaDataHide,
-    FileEmbed,
-
-    CSSEmptyLine(),
-    CSSComment("OBSIDIAN PROGRAM"),
-    CSSEmptyLine(),
-    ObsidianStatusBar
-]
-
 def main():
-    with (generator := CSSGenerator()) as structure:
-        for content in RULE_ORDER:
-            if inspect.isclass(content) and issubclass(content,RuleGenerator):
-                 for generated in content.generate():
-                    structure.add(generated)
-            else:
-                structure.add(content)
-
-    generator.to_console()
-    # Ouput to publish.css file for ObsidianPublish
-    generator.to_file(
-        filepath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css"
-    )
-    # Output to publish.css file for Obsidian Application
-    generator.to_file(
-        filepath="D:\Directive Athena\Programs\Veritas\Storage\Documentation\.obsidian\snippets\publish.css"
-    )
-
+    pass
 
 if __name__ == '__main__':
     main()
