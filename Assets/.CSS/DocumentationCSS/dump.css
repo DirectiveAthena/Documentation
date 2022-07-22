@@ -1,0 +1,17 @@
+/* ---------------------------------------------------------------- */
+/* - All headers derive from this - */
+/* ---------------------------------------------------------------- */
+.markdown-embed h1,
+.markdown-embed h2,
+.markdown-embed h3,
+.markdown-embed h4,
+.markdown-embed h5,
+.markdown-embed h6,
+.markdown-embed h1.publish-article-heading,
+.markdown-embed h2.publish-article-heading,
+.markdown-embed h3.publish-article-heading,
+.markdown-embed h4.publish-article-heading,
+.markdown-embed h5.publish-article-heading,
+.markdown-embed h6.publish-article-heading {
+    
+}

@@ -4,6 +4,8 @@
 # General Packages
 
 # Custom Library
+import copy
+
 from AthenaColor import RGB
 from AthenaCSS.models.generator import CSSGenerator
 from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
@@ -17,7 +19,7 @@ from DocumentationCSS.data.classes import CLASS_MARKDOWN_EMBED, CLASS_PUBLISH_AR
 # ----------------------------------------------------------------------------------------------------------------------
 # - Support Code -
 # ----------------------------------------------------------------------------------------------------------------------
-HEADERS = (HtmlLib.H1(), HtmlLib.H2(), HtmlLib.H3(), HtmlLib.H4(), HtmlLib.H5(), HtmlLib.H6())
+HEADERS = (HtmlLib.H1, HtmlLib.H2, HtmlLib.H3, HtmlLib.H4, HtmlLib.H5, HtmlLib.H6)
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
@@ -28,14 +30,20 @@ def header_default():
     yield LINE
 
     # actual rules
-    for h in HEADERS:
-        h_new = h.
     yield CSSRule(
         selections=(
-            *(CSSSelection(HTMLElement(classes=CLASS_MARKDOWN_EMBED), h,selector_type=CSSSelectionType.inside)
-              for h in HEADERS),
-            *(CSSSelection(HTMLElement(classes=CLASS_MARKDOWN_EMBED), , selector_type=CSSSelectionType.inside)
-              for h in HEADERS),
+            *(CSSSelection(
+                HTMLElement(classes=CLASS_MARKDOWN_EMBED),
+                h(),
+                selector_type=CSSSelectionType.inside
+            ) for h in HEADERS
+            ),
+            *(CSSSelection(
+                HTMLElement(classes=CLASS_MARKDOWN_EMBED),
+                h(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                selector_type=CSSSelectionType.inside
+            ) for h in HEADERS
+            ),
         ),
         properties=()
     )
