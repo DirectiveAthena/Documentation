@@ -29,8 +29,4 @@ COLOR_ATHENACOLOR:str = ",".join((
     " ".join(str(n) for n in (RGB(255,0,0), Percent(100))),
 ))
 
-COLOR_ATHENALIB:str = ",".join((
-    Degree(90),
-    " ".join(str(n) for n in (RGB(207,30,70), Percent(0))),
-    " ".join(str(n) for n in (RGB(57,81,163), Percent(100))),
-))
+COLOR_ATHENALIB:str = "linear-gradient(90deg, rgba(57,81,251,1) 0%, rgba(207,30,70,1) 100%)"
