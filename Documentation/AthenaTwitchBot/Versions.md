@@ -6,6 +6,8 @@ aliases: [AthenaTwitchBot Versions]
 ---
 
 # AthenaTwitchBot Version Notes
+These are the version notes for the [[AthenaTwitchBot]] package
 
-### v0.7.0
+
+## v0.7.0
 /

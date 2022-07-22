@@ -7,6 +7,7 @@ aliases: [AthenaLib Versions]
 
 # AthenaLib Version Notes
 These are the version notes for the [[AthenaLib]] package
+
 ## v1.5.0
 - Addition of `CSSComment` in the CSS sub package.
 This is added to the package as [[AthenaCSS]] lost it's native component and now relies on this component.

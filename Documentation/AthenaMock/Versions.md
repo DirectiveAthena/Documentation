@@ -6,6 +6,7 @@ aliases: [AthenaMock Versions]
 ---
 
 # AthenaMock Version Notes
+These are the version notes for the [[AthenaMock]] package
 
-### v0.1.0
+## v0.1.0
 /

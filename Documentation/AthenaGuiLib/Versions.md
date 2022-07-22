@@ -6,6 +6,7 @@ aliases: [AthenaGuiLib Versions]
 ---
 
 # AthenaGuiLib Version Notes
+These are the version notes for the [[AthenaGuiLib]] package
 
-### v0.2.0
+## v0.2.0
 /

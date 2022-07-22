@@ -7,5 +7,5 @@ aliases: [AthenaDocumentor Versions]
 # AthenaDocumentor Version Notes
 These are the version notes for the [[AthenaDocumentor]] package
 
-### v0.2.0
+## v0.2.0
 /
