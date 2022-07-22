@@ -12,10 +12,12 @@ import AthenaColor.data.colors_html as Color
 # ----------------------------------------------------------------------------------------------------------------------
 # - general colors -
 # ----------------------------------------------------------------------------------------------------------------------
+WHITE = Color.White
+
 BACKGROUND_PRIMARY = RGB(32,32,32)
 BACKGROUND_SECONDARY = RGB(22,22,22)
 
-HEADER_COLORS = (Color.White, Color.Gainsboro, Color.Silver, Color.DarkGray, Color.Gray, Color.DimGray)
+HEADER_COLORS = (WHITE, Color.Gainsboro, Color.Silver, Color.DarkGray, Color.Gray, Color.DimGray)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - AI colors -
