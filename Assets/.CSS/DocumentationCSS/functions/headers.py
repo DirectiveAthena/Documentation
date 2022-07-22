@@ -24,7 +24,7 @@ _HEADERS:dict[type,dict] = {
         "color":Colors.WHITE,
         "padding":f"{Pixel(12)} {Pixel(12)} {Pixel(12)} {Pixel(35)}",
         "font-size":ElementFontSize(2),
-        "margin-top":Pixel(0),
+        "margin-top":0,
     },
     HtmlLib.H2 : {
         "color":RGB(220, 220, 220),
@@ -59,7 +59,7 @@ _HEADERS:dict[type,dict] = {
 }
 
 # ----------------------------------------------------------------------------------------------------------------------
-# - Code -
+# - Default Header -
 # ----------------------------------------------------------------------------------------------------------------------
 def header_default():
     # comment structure
@@ -91,19 +91,18 @@ def header_default():
             CSSProperty("border-bottom-style","solid"),
             CSSProperty("border-bottom-width",Pixel(5)),
         )
-    ) # actual rules
-
+    )
     for k, v in _HEADERS.items():
         yield CSSRule(
             selections=(
                 CSSSelection(
                     HTMLElement(classes=CLASS_MARKDOWN_EMBED),
-                    HtmlLib.k(),
+                    k(),
                     selector_type=CSSSelectionType.inside
                 ),
                 CSSSelection(
                     HTMLElement(classes=CLASS_MARKDOWN_EMBED),
-                    HtmlLib.k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                    k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
                     selector_type=CSSSelectionType.inside
                 )
             ),
@@ -114,3 +113,12 @@ def header_default():
                 CSSProperty("margin-top",v["margin-top"]),
             )
         )
+
+# ----------------------------------------------------------------------------------------------------------------------
+# - Repettitive Header -
+# ----------------------------------------------------------------------------------------------------------------------
+def header_repetitive():
+    # comment structure
+    yield LINE
+    yield CSSComment("- Custom header border colors -")
+    yield LINE

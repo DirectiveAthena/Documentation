@@ -20,3 +20,45 @@
     border-bottom-style: solid;
     border-bottom-width: 5px;
 }
+.markdown-embed h1,
+.markdown-embed h1.publish-article-heading {
+    color: rgb(255,255,255);
+    padding: 12px 12px 12px 35px;
+    font-size: 2em;
+    margin-top: 0;
+}
+.markdown-embed h2,
+.markdown-embed h2.publish-article-heading {
+    color: rgb(220,220,220);
+    padding: 10px 10px 10px 35px;
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+.markdown-embed h3,
+.markdown-embed h3.publish-article-heading {
+    color: rgb(192,192,192);
+    padding: 8px 8px 8px 35px;
+    font-size: 1.6em;
+    margin-top: 1.75em;
+}
+.markdown-embed h4,
+.markdown-embed h4.publish-article-heading {
+    color: rgb(169,169,169);
+    padding: 6px 6px 6px 35px;
+    font-size: 1.4em;
+    margin-top: 1.5em;
+}
+.markdown-embed h5,
+.markdown-embed h5.publish-article-heading {
+    color: rgb(128,128,128);
+    padding: 4px 4px 4px 35px;
+    font-size: 1.2em;
+    margin-top: 1.25em;
+}
+.markdown-embed h6,
+.markdown-embed h6.publish-article-heading {
+    color: rgb(105,105,105);
+    padding: 2px 2px 2px 35px;
+    font-size: 1.1em;
+    margin-top: 1em;
+}
