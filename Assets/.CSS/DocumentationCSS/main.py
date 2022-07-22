@@ -21,11 +21,22 @@ from AthenaLib.HTML.models.html import HTMLElement
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
-def main():
-    generator = CSSGenerator()
+PATH_PUBLISH = "D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css"
+PATH_SNIPPET = "D:\Directive Athena\Programs\Veritas\Storage\Documentation\.obsidian\snippets\publish.css"
 
-    with open("D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css", "w+") as file_publish and
-        open():
+def main():
+    # assemble components into the generator
+    generator = CSSGenerator(
+        content=[
+
+        ]
+    )
+
+    # write output to file
+    with open(PATH_PUBLISH, "w+") as file_publish, open(PATH_SNIPPET, "w+") as file_snippet:
+        text = generator.to_text()
+        file_publish.write(text)
+        file_snippet.write(text)
 
     pass
 
