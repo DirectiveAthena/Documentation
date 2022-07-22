@@ -22,6 +22,11 @@ from AthenaLib.HTML.models.html import HTMLElement
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
 def main():
+    generator = CSSGenerator()
+
+    with open("D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css", "w+") as file_publish and
+        open():
+
     pass
 
 if __name__ == '__main__':
