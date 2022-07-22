@@ -25,6 +25,7 @@ from functions.headers import header_default
 # ----------------------------------------------------------------------------------------------------------------------
 PATH_PUBLISH = "D:\Directive Athena\Programs\Veritas\Storage\Documentation\publish.css"
 PATH_SNIPPET = "D:\Directive Athena\Programs\Veritas\Storage\Documentation\.obsidian\snippets\publish.css"
+PATH_DUMP = "D:\Directive Athena\Programs\Veritas\Storage\Documentation\Assets\.css\DocumentationCSS\dump.css"
 
 def main():
     # assemble components into the generator
@@ -35,10 +36,15 @@ def main():
     )
 
     # write output to file
-    with open(PATH_PUBLISH, "w+") as file_publish, open(PATH_SNIPPET, "w+") as file_snippet:
+    with (
+        open(PATH_DUMP, "w+") as file_dump,
+        # open(PATH_PUBLISH, "w+") as file_publish,
+        # open(PATH_SNIPPET, "w+") as file_snippet
+    ):
         text = generator.to_text()
-        file_publish.write(text)
-        file_snippet.write(text)
+        file_dump.write(text)
+        # file_publish.write(text)
+        # file_snippet.write(text)
 
     pass
 

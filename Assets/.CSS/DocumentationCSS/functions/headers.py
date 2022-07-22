@@ -16,7 +16,7 @@ from DocumentationCSS.data.comments import LINE
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
-def header_default() -> CSSRule|CSSComment:
+def header_default():
     # comment structure
     yield LINE
     yield CSSComment("- All headers derive from this -")
