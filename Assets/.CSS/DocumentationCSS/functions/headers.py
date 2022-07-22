@@ -4,10 +4,7 @@
 # General Packages
 
 # Custom Library
-import copy
-
 from AthenaColor import RGB
-from AthenaCSS.models.generator import CSSGenerator
 from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
 import AthenaLib.HTML.models.html_library as HtmlLib
 from AthenaLib.HTML.models.html import HTMLElement
@@ -22,42 +19,42 @@ import DocumentationCSS.data.colors as Colors
 # ----------------------------------------------------------------------------------------------------------------------
 # - Support Code -
 # ----------------------------------------------------------------------------------------------------------------------
-HEADERS = {
+_HEADERS:dict[type,dict] = {
     HtmlLib.H1 : {
         "color":Colors.WHITE,
-        "padding":f"{Pixel(12)} {Pixel(12)} {Pixel(12)} {Pixel(12)}",
+        "padding":f"{Pixel(12)} {Pixel(12)} {Pixel(12)} {Pixel(35)}",
         "font-size":ElementFontSize(2),
         "margin-top":Pixel(0),
     },
     HtmlLib.H2 : {
-        "color":...,
-        "padding":...,
-        "font-size":...,
-        "margin-top":...,
+        "color":RGB(220, 220, 220),
+        "padding":f"{Pixel(10)} {Pixel(10)} {Pixel(10)} {Pixel(35)}",
+        "font-size":ElementFontSize(1.8),
+        "margin-top":ElementFontSize(2),
     },
     HtmlLib.H3 : {
-        "color":...,
-        "padding":...,
-        "font-size":...,
-        "margin-top":...,
+        "color":RGB(192, 192, 192),
+        "padding":f"{Pixel(8)} {Pixel(8)} {Pixel(8)} {Pixel(35)}",
+        "font-size":ElementFontSize(1.6),
+        "margin-top":ElementFontSize(1.75),
     },
     HtmlLib.H4 : {
-        "color":...,
-        "padding":...,
-        "font-size":...,
-        "margin-top":...,
+        "color":RGB(169, 169, 169),
+        "padding":f"{Pixel(6)} {Pixel(6)} {Pixel(6)} {Pixel(35)}",
+        "font-size":ElementFontSize(1.4),
+        "margin-top":ElementFontSize(1.5),
     },
     HtmlLib.H5 : {
-        "color":...,
-        "padding":...,
-        "font-size":...,
-        "margin-top":...,
+        "color":RGB(128, 128, 128),
+        "padding":f"{Pixel(4)} {Pixel(4)} {Pixel(4)} {Pixel(35)}",
+        "font-size":ElementFontSize(1.2),
+        "margin-top":ElementFontSize(1.25),
     },
     HtmlLib.H6 : {
-        "color":...,
-        "padding":...,
-        "font-size":...,
-        "margin-top":...,
+        "color":RGB(105, 105, 105),
+        "padding":f"{Pixel(2)} {Pixel(2)} {Pixel(2)} {Pixel(35)}",
+        "font-size":ElementFontSize(1.1),
+        "margin-top":ElementFontSize(1),
     }
 }
 
@@ -77,13 +74,13 @@ def header_default():
                 HTMLElement(classes=CLASS_MARKDOWN_EMBED),
                 h(),
                 selector_type=CSSSelectionType.inside
-            ) for h in HEADERS
+            ) for h in _HEADERS
             ),
             *(CSSSelection(
                 HTMLElement(classes=CLASS_MARKDOWN_EMBED),
                 h(classes=CLASS_PUBLISH_ARTICLE_HEADING),
                 selector_type=CSSSelectionType.inside
-            ) for h in HEADERS
+            ) for h in _HEADERS
             ),
         ),
         properties=(
@@ -95,24 +92,25 @@ def header_default():
             CSSProperty("border-bottom-width",Pixel(5)),
         )
     ) # actual rules
-    for h, v in HEADERS.items():
+
+    for k, v in _HEADERS.items():
         yield CSSRule(
             selections=(
                 CSSSelection(
                     HTMLElement(classes=CLASS_MARKDOWN_EMBED),
-                    HtmlLib.h(),
+                    HtmlLib.k(),
                     selector_type=CSSSelectionType.inside
                 ),
                 CSSSelection(
                     HTMLElement(classes=CLASS_MARKDOWN_EMBED),
-                    HtmlLib.h(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                    HtmlLib.k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
                     selector_type=CSSSelectionType.inside
                 )
             ),
             properties=(
                 CSSProperty("color",v["color"]),
                 CSSProperty("padding",v["padding"]),
-                CSSProperty("padding-left",Pixel(35)),
-                CSSProperty("font-size",v["font-size"])
+                CSSProperty("font-size",v["font-size"]),
+                CSSProperty("margin-top",v["margin-top"]),
             )
         )

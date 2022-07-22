@@ -31,8 +31,7 @@
 .markdown-rendered h2,
 .markdown-rendered h2.publish-article-heading {
     color: rgb(220, 220, 220);
-    padding: 10px 10px 10px 10px;
-    padding-left: 35px;
+    padding: 10px 10px 10px 35px;
     font-size: 1.8em;
     margin-top: 2em;
 }
