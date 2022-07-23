@@ -16,6 +16,7 @@ from AthenaLib.HTML.models.html import HTMLElement
 # Custom Packages
 from functions.headers import header_default, header_pages
 from functions.clean_embed import clean_embed
+from functions.hide_metadata import hide_metadata
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -34,7 +35,8 @@ def main():
         content=list(itertools.chain(
             header_default(),
             header_pages(),
-            clean_embed()
+            clean_embed(),
+            hide_metadata(),
         ))
     )
 

@@ -31,5 +31,4 @@ def clean_embed():
 .markdown-rendered.cleanEmbed .markdown-embed-link,
 .markdown-rendered.cleanEmbed .markdown-embed-link {
     display: none;
-}    
-"""
+}"""
