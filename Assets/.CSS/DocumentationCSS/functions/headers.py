@@ -136,37 +136,6 @@ def header_pages():
                 selections=(
                     CSSSelection(
                         HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                        HtmlLib.H1(),
-                        selector_type=CSSSelectionType.inside
-                    ),
-                    CSSSelection(
-                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                        HtmlLib.H1(classes=CLASS_PUBLISH_ARTICLE_HEADING),
-                        selector_type=CSSSelectionType.inside
-                    ),
-                    CSSSelection(HtmlLib.H1(classes=classname))
-                ),
-                properties=(
-                    CSSProperty("border-color", color)),
-                ),
-                force_one_line=True
-            )
-
-def header_pages_special():
-    # comment structure
-    yield LINE
-    yield CSSComment("- Custom header border colors (special cases)-")
-
-    for classname, color in itertools.chain(
-            (CLASS_ATHENACOLOR, GRADIENT_ATHENACOLOR),
-            (CLASS_ATHENALIB, GRADIENT_ATHENALIB)
-    ):
-        yield LINE
-        for k,v in _HEADERS.items():
-            yield CSSRule(
-                selections=(
-                    CSSSelection(
-                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
                         k(),
                         selector_type=CSSSelectionType.inside
                     ),
@@ -182,4 +151,35 @@ def header_pages_special():
                 ),
                 force_one_line=True
             )
+
+def header_pages_special():
+    # comment structure
+    yield LINE
+    yield CSSComment("- Custom header border colors (special cases)-")
+
+    for classname, color in (
+            (CLASS_ATHENACOLOR, GRADIENT_ATHENACOLOR),
+            (CLASS_ATHENALIB, GRADIENT_ATHENALIB)
+    ):
+        yield LINE
+        yield CSSRule(
+            selections=(
+                CSSSelection(
+                    HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
+                    HtmlLib.H1(),
+                    selector_type=CSSSelectionType.inside
+                ),
+                CSSSelection(
+                    HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
+                    HtmlLib.H1(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                    selector_type=CSSSelectionType.inside
+                ),
+                CSSSelection(HtmlLib.H1(classes=classname))
+            ),
+            properties=(
+                CSSProperty("border-image", color),
+                CSSProperty("border-image-slice", 1),
+            ),
+            force_one_line=True
+        )
 

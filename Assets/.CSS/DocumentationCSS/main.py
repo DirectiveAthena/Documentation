@@ -3,18 +3,13 @@
 # ----------------------------------------------------------------------------------------------------------------------
 # General Packages
 from __future__ import annotations
-import inspect
 import itertools
 
 # Custom Library
-from AthenaColor import RGB
 from AthenaCSS.models.generator import CSSGenerator
-from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
-import AthenaLib.HTML.models.html_library as HtmlLib
-from AthenaLib.HTML.models.html import HTMLElement
 
 # Custom Packages
-from functions.headers import header_default, header_pages
+from functions.headers import header_default, header_pages, header_pages_special
 from functions.clean_embed import clean_embed
 from functions.hide_metadata import hide_metadata
 
@@ -35,8 +30,10 @@ def main():
         content=list(itertools.chain(
             header_default(),
             header_pages(),
+            header_pages_special(),
             clean_embed(),
             hide_metadata(),
+
         ))
     )
 
