@@ -1,18 +1,18 @@
 /* ---------------------------------------------------------------- */
 /* - All headers derive from this - */
 /* ---------------------------------------------------------------- */
-.markdown-embed h1,
-.markdown-embed h2,
-.markdown-embed h3,
-.markdown-embed h4,
-.markdown-embed h5,
-.markdown-embed h6,
-.markdown-embed h1.publish-article-heading,
-.markdown-embed h2.publish-article-heading,
-.markdown-embed h3.publish-article-heading,
-.markdown-embed h4.publish-article-heading,
-.markdown-embed h5.publish-article-heading,
-.markdown-embed h6.publish-article-heading {
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6,
+.markdown-rendered h1.publish-article-heading,
+.markdown-rendered h2.publish-article-heading,
+.markdown-rendered h3.publish-article-heading,
+.markdown-rendered h4.publish-article-heading,
+.markdown-rendered h5.publish-article-heading,
+.markdown-rendered h6.publish-article-heading {
     text-align: left;
     background-color: rgb(25,25,25);
     background-image: linear-gradient(90deg, rgb(22, 22, 22) 75%, rgb(32, 32, 32) 100%);
@@ -20,45 +20,438 @@
     border-bottom-style: solid;
     border-bottom-width: 5px;
 }
-.markdown-embed h1,
-.markdown-embed h1.publish-article-heading {
+.markdown-rendered h1,
+.markdown-rendered h1.publish-article-heading {
     color: rgb(255,255,255);
     padding: 12px 12px 12px 35px;
     font-size: 2em;
     margin-top: 0;
 }
-.markdown-embed h2,
-.markdown-embed h2.publish-article-heading {
+.markdown-rendered h2,
+.markdown-rendered h2.publish-article-heading {
     color: rgb(220,220,220);
     padding: 10px 10px 10px 35px;
     font-size: 1.8em;
     margin-top: 2em;
 }
-.markdown-embed h3,
-.markdown-embed h3.publish-article-heading {
+.markdown-rendered h3,
+.markdown-rendered h3.publish-article-heading {
     color: rgb(192,192,192);
     padding: 8px 8px 8px 35px;
     font-size: 1.6em;
     margin-top: 1.75em;
 }
-.markdown-embed h4,
-.markdown-embed h4.publish-article-heading {
+.markdown-rendered h4,
+.markdown-rendered h4.publish-article-heading {
     color: rgb(169,169,169);
     padding: 6px 6px 6px 35px;
     font-size: 1.4em;
     margin-top: 1.5em;
 }
-.markdown-embed h5,
-.markdown-embed h5.publish-article-heading {
+.markdown-rendered h5,
+.markdown-rendered h5.publish-article-heading {
     color: rgb(128,128,128);
     padding: 4px 4px 4px 35px;
     font-size: 1.2em;
     margin-top: 1.25em;
 }
-.markdown-embed h6,
-.markdown-embed h6.publish-article-heading {
+.markdown-rendered h6,
+.markdown-rendered h6.publish-article-heading {
     color: rgb(105,105,105);
     padding: 2px 2px 2px 35px;
     font-size: 1.1em;
     margin-top: 1em;
+}
+/* ---------------------------------------------------------------- */
+/* - Custom header border colors - */
+/* ---------------------------------------------------------------- */
+.markdown-rendered.adam h1,
+.markdown-rendered.adam h1.publish-article-heading,
+h1.adam {
+    border-color: rgba(24,177,222,255);
+}
+.markdown-rendered.adam h2,
+.markdown-rendered.adam h2.publish-article-heading,
+h2.adam {
+    border-color: rgba(21,153,192,255);
+}
+.markdown-rendered.adam h3,
+.markdown-rendered.adam h3.publish-article-heading,
+h3.adam {
+    border-color: rgba(18,133,167,255);
+}
+.markdown-rendered.adam h4,
+.markdown-rendered.adam h4.publish-article-heading,
+h4.adam {
+    border-color: rgba(16,117,147,255);
+}
+.markdown-rendered.adam h5,
+.markdown-rendered.adam h5.publish-article-heading,
+h5.adam {
+    border-color: rgba(12,89,111,255);
+}
+.markdown-rendered.adam h6,
+.markdown-rendered.adam h6.publish-article-heading,
+h6.adam {
+    border-color: rgba(10,73,91,255);
+}
+.markdown-rendered.aero h1,
+.markdown-rendered.aero h1.publish-article-heading,
+h1.aero {
+    border-color: rgba(251,251,251,255);
+}
+.markdown-rendered.aero h2,
+.markdown-rendered.aero h2.publish-article-heading,
+h2.aero {
+    border-color: rgba(217,217,217,255);
+}
+.markdown-rendered.aero h3,
+.markdown-rendered.aero h3.publish-article-heading,
+h3.aero {
+    border-color: rgba(189,189,189,255);
+}
+.markdown-rendered.aero h4,
+.markdown-rendered.aero h4.publish-article-heading,
+h4.aero {
+    border-color: rgba(166,166,166,255);
+}
+.markdown-rendered.aero h5,
+.markdown-rendered.aero h5.publish-article-heading,
+h5.aero {
+    border-color: rgba(126,126,126,255);
+}
+.markdown-rendered.aero h6,
+.markdown-rendered.aero h6.publish-article-heading,
+h6.aero {
+    border-color: rgba(103,103,103,255);
+}
+.markdown-rendered.athena h1,
+.markdown-rendered.athena h1.publish-article-heading,
+h1.athena {
+    border-color: rgba(196,41,80,255);
+}
+.markdown-rendered.athena h2,
+.markdown-rendered.athena h2.publish-article-heading,
+h2.athena {
+    border-color: rgba(169,35,69,255);
+}
+.markdown-rendered.athena h3,
+.markdown-rendered.athena h3.publish-article-heading,
+h3.athena {
+    border-color: rgba(148,31,60,255);
+}
+.markdown-rendered.athena h4,
+.markdown-rendered.athena h4.publish-article-heading,
+h4.athena {
+    border-color: rgba(130,27,53,255);
+}
+.markdown-rendered.athena h5,
+.markdown-rendered.athena h5.publish-article-heading,
+h5.athena {
+    border-color: rgba(98,21,40,255);
+}
+.markdown-rendered.athena h6,
+.markdown-rendered.athena h6.publish-article-heading,
+h6.athena {
+    border-color: rgba(81,17,33,255);
+}
+.markdown-rendered.ceres h1,
+.markdown-rendered.ceres h1.publish-article-heading,
+h1.ceres {
+    border-color: rgba(213,224,68,255);
+}
+.markdown-rendered.ceres h2,
+.markdown-rendered.ceres h2.publish-article-heading,
+h2.ceres {
+    border-color: rgba(184,193,59,255);
+}
+.markdown-rendered.ceres h3,
+.markdown-rendered.ceres h3.publish-article-heading,
+h3.ceres {
+    border-color: rgba(160,169,51,255);
+}
+.markdown-rendered.ceres h4,
+.markdown-rendered.ceres h4.publish-article-heading,
+h4.ceres {
+    border-color: rgba(141,148,45,255);
+}
+.markdown-rendered.ceres h5,
+.markdown-rendered.ceres h5.publish-article-heading,
+h5.ceres {
+    border-color: rgba(107,112,34,255);
+}
+.markdown-rendered.ceres h6,
+.markdown-rendered.ceres h6.publish-article-heading,
+h6.ceres {
+    border-color: rgba(88,92,28,255);
+}
+.markdown-rendered.eva h1,
+.markdown-rendered.eva h1.publish-article-heading,
+h1.eva {
+    border-color: rgba(234,39,79,255);
+}
+.markdown-rendered.eva h2,
+.markdown-rendered.eva h2.publish-article-heading,
+h2.eva {
+    border-color: rgba(202,34,68,255);
+}
+.markdown-rendered.eva h3,
+.markdown-rendered.eva h3.publish-article-heading,
+h3.eva {
+    border-color: rgba(176,29,59,255);
+}
+.markdown-rendered.eva h4,
+.markdown-rendered.eva h4.publish-article-heading,
+h4.eva {
+    border-color: rgba(155,26,52,255);
+}
+.markdown-rendered.eva h5,
+.markdown-rendered.eva h5.publish-article-heading,
+h5.eva {
+    border-color: rgba(117,20,40,255);
+}
+.markdown-rendered.eva h6,
+.markdown-rendered.eva h6.publish-article-heading,
+h6.eva {
+    border-color: rgba(96,16,33,255);
+}
+.markdown-rendered.jupiter h1,
+.markdown-rendered.jupiter h1.publish-article-heading,
+h1.jupiter {
+    border-color: rgba(235,233,67,255);
+}
+.markdown-rendered.jupiter h2,
+.markdown-rendered.jupiter h2.publish-article-heading,
+h2.jupiter {
+    border-color: rgba(203,201,58,255);
+}
+.markdown-rendered.jupiter h3,
+.markdown-rendered.jupiter h3.publish-article-heading,
+h3.jupiter {
+    border-color: rgba(177,175,50,255);
+}
+.markdown-rendered.jupiter h4,
+.markdown-rendered.jupiter h4.publish-article-heading,
+h4.jupiter {
+    border-color: rgba(156,154,44,255);
+}
+.markdown-rendered.jupiter h5,
+.markdown-rendered.jupiter h5.publish-article-heading,
+h5.jupiter {
+    border-color: rgba(118,117,34,255);
+}
+.markdown-rendered.jupiter h6,
+.markdown-rendered.jupiter h6.publish-article-heading,
+h6.jupiter {
+    border-color: rgba(97,96,28,255);
+}
+.markdown-rendered.minerva h1,
+.markdown-rendered.minerva h1.publish-article-heading,
+h1.minerva {
+    border-color: rgba(105,59,144,255);
+}
+.markdown-rendered.minerva h2,
+.markdown-rendered.minerva h2.publish-article-heading,
+h2.minerva {
+    border-color: rgba(91,51,124,255);
+}
+.markdown-rendered.minerva h3,
+.markdown-rendered.minerva h3.publish-article-heading,
+h3.minerva {
+    border-color: rgba(79,44,108,255);
+}
+.markdown-rendered.minerva h4,
+.markdown-rendered.minerva h4.publish-article-heading,
+h4.minerva {
+    border-color: rgba(70,39,95,255);
+}
+.markdown-rendered.minerva h5,
+.markdown-rendered.minerva h5.publish-article-heading,
+h5.minerva {
+    border-color: rgba(53,30,72,255);
+}
+.markdown-rendered.minerva h6,
+.markdown-rendered.minerva h6.publish-article-heading,
+h6.minerva {
+    border-color: rgba(43,24,59,255);
+}
+.markdown-rendered.neptune h1,
+.markdown-rendered.neptune h1.publish-article-heading,
+h1.neptune {
+    border-color: rgba(66,115,185,255);
+}
+.markdown-rendered.neptune h2,
+.markdown-rendered.neptune h2.publish-article-heading,
+h2.neptune {
+    border-color: rgba(57,99,160,255);
+}
+.markdown-rendered.neptune h3,
+.markdown-rendered.neptune h3.publish-article-heading,
+h3.neptune {
+    border-color: rgba(50,87,139,255);
+}
+.markdown-rendered.neptune h4,
+.markdown-rendered.neptune h4.publish-article-heading,
+h4.neptune {
+    border-color: rgba(44,76,123,255);
+}
+.markdown-rendered.neptune h5,
+.markdown-rendered.neptune h5.publish-article-heading,
+h5.neptune {
+    border-color: rgba(33,58,93,255);
+}
+.markdown-rendered.neptune h6,
+.markdown-rendered.neptune h6.publish-article-heading,
+h6.neptune {
+    border-color: rgba(27,47,76,255);
+}
+.markdown-rendered.pluto h1,
+.markdown-rendered.pluto h1.publish-article-heading,
+h1.pluto {
+    border-color: rgba(84,85,87,255);
+}
+.markdown-rendered.pluto h2,
+.markdown-rendered.pluto h2.publish-article-heading,
+h2.pluto {
+    border-color: rgba(72,73,75,255);
+}
+.markdown-rendered.pluto h3,
+.markdown-rendered.pluto h3.publish-article-heading,
+h3.pluto {
+    border-color: rgba(63,64,66,255);
+}
+.markdown-rendered.pluto h4,
+.markdown-rendered.pluto h4.publish-article-heading,
+h4.pluto {
+    border-color: rgba(56,56,58,255);
+}
+.markdown-rendered.pluto h5,
+.markdown-rendered.pluto h5.publish-article-heading,
+h5.pluto {
+    border-color: rgba(42,43,44,255);
+}
+.markdown-rendered.pluto h6,
+.markdown-rendered.pluto h6.publish-article-heading,
+h6.pluto {
+    border-color: rgba(35,35,36,255);
+}
+.markdown-rendered.sol h1,
+.markdown-rendered.sol h1.publish-article-heading,
+h1.sol {
+    border-color: rgba(246,231,134,255);
+}
+.markdown-rendered.sol h2,
+.markdown-rendered.sol h2.publish-article-heading,
+h2.sol {
+    border-color: rgba(212,199,116,255);
+}
+.markdown-rendered.sol h3,
+.markdown-rendered.sol h3.publish-article-heading,
+h3.sol {
+    border-color: rgba(185,174,101,255);
+}
+.markdown-rendered.sol h4,
+.markdown-rendered.sol h4.publish-article-heading,
+h4.sol {
+    border-color: rgba(163,153,89,255);
+}
+.markdown-rendered.sol h5,
+.markdown-rendered.sol h5.publish-article-heading,
+h5.sol {
+    border-color: rgba(123,116,67,255);
+}
+.markdown-rendered.sol h6,
+.markdown-rendered.sol h6.publish-article-heading,
+h6.sol {
+    border-color: rgba(101,95,55,255);
+}
+.markdown-rendered.venus h1,
+.markdown-rendered.venus h1.publish-article-heading,
+h1.venus {
+    border-color: rgba(115,195,125,255);
+}
+.markdown-rendered.venus h2,
+.markdown-rendered.venus h2.publish-article-heading,
+h2.venus {
+    border-color: rgba(99,168,108,255);
+}
+.markdown-rendered.venus h3,
+.markdown-rendered.venus h3.publish-article-heading,
+h3.venus {
+    border-color: rgba(87,147,94,255);
+}
+.markdown-rendered.venus h4,
+.markdown-rendered.venus h4.publish-article-heading,
+h4.venus {
+    border-color: rgba(76,129,83,255);
+}
+.markdown-rendered.venus h5,
+.markdown-rendered.venus h5.publish-article-heading,
+h5.venus {
+    border-color: rgba(58,98,63,255);
+}
+.markdown-rendered.venus h6,
+.markdown-rendered.venus h6.publish-article-heading,
+h6.venus {
+    border-color: rgba(47,80,51,255);
+}
+.markdown-rendered.veritas h1,
+.markdown-rendered.veritas h1.publish-article-heading,
+h1.veritas {
+    border-color: rgba(213,55,146,255);
+}
+.markdown-rendered.veritas h2,
+.markdown-rendered.veritas h2.publish-article-heading,
+h2.veritas {
+    border-color: rgba(184,47,126,255);
+}
+.markdown-rendered.veritas h3,
+.markdown-rendered.veritas h3.publish-article-heading,
+h3.veritas {
+    border-color: rgba(160,41,110,255);
+}
+.markdown-rendered.veritas h4,
+.markdown-rendered.veritas h4.publish-article-heading,
+h4.veritas {
+    border-color: rgba(141,36,97,255);
+}
+.markdown-rendered.veritas h5,
+.markdown-rendered.veritas h5.publish-article-heading,
+h5.veritas {
+    border-color: rgba(107,28,73,255);
+}
+.markdown-rendered.veritas h6,
+.markdown-rendered.veritas h6.publish-article-heading,
+h6.veritas {
+    border-color: rgba(88,23,60,255);
+}
+.markdown-rendered.vulcanus h1,
+.markdown-rendered.vulcanus h1.publish-article-heading,
+h1.vulcanus {
+    border-color: rgba(236,133,33,255);
+}
+.markdown-rendered.vulcanus h2,
+.markdown-rendered.vulcanus h2.publish-article-heading,
+h2.vulcanus {
+    border-color: rgba(204,115,28,255);
+}
+.markdown-rendered.vulcanus h3,
+.markdown-rendered.vulcanus h3.publish-article-heading,
+h3.vulcanus {
+    border-color: rgba(178,100,25,255);
+}
+.markdown-rendered.vulcanus h4,
+.markdown-rendered.vulcanus h4.publish-article-heading,
+h4.vulcanus {
+    border-color: rgba(156,88,22,255);
+}
+.markdown-rendered.vulcanus h5,
+.markdown-rendered.vulcanus h5.publish-article-heading,
+h5.vulcanus {
+    border-color: rgba(118,67,17,255);
+}
+.markdown-rendered.vulcanus h6,
+.markdown-rendered.vulcanus h6.publish-article-heading,
+h6.vulcanus {
+    border-color: rgba(97,55,14,255);
 }

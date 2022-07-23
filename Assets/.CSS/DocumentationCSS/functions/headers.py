@@ -13,10 +13,7 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
-from DocumentationCSS.data.classes import (
-    CLASS_MARKDOWN_EMBED, CLASS_PUBLISH_ARTICLE_HEADING,CLASS_ADAM,CLASS_ATHENA,CLASS_EVA,CLASS_JUPITER,CLASS_VERITAS,
-    CLASS_VULCANUS,CLASS_NEPTUNE,CLASS_MINERVA,CLASS_SOL,CLASS_AERO,CLASS_VENUS,CLASS_PLUTO,CLASS_CERES,
-)
+from DocumentationCSS.data.classes import CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES
 from DocumentationCSS.data.gradients import GRADIENT_HEADER
 import DocumentationCSS.data.colors as Colors
 
@@ -75,13 +72,13 @@ def header_default():
     yield CSSRule(
         selections=(
             *(CSSSelection(
-                HTMLElement(classes=CLASS_MARKDOWN_EMBED),
+                HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
                 h(),
                 selector_type=CSSSelectionType.inside
             ) for h in _HEADERS
             ),
             *(CSSSelection(
-                HTMLElement(classes=CLASS_MARKDOWN_EMBED),
+                HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
                 h(classes=CLASS_PUBLISH_ARTICLE_HEADING),
                 selector_type=CSSSelectionType.inside
             ) for h in _HEADERS
@@ -100,12 +97,12 @@ def header_default():
         yield CSSRule(
             selections=(
                 CSSSelection(
-                    HTMLElement(classes=CLASS_MARKDOWN_EMBED),
+                    HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
                     k(),
                     selector_type=CSSSelectionType.inside
                 ),
                 CSSSelection(
-                    HTMLElement(classes=CLASS_MARKDOWN_EMBED),
+                    HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
                     k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
                     selector_type=CSSSelectionType.inside
                 )
@@ -121,8 +118,31 @@ def header_default():
 # ----------------------------------------------------------------------------------------------------------------------
 # - Repettitive Header -
 # ----------------------------------------------------------------------------------------------------------------------
-def header_repetitive():
+def header_pages():
     # comment structure
     yield LINE
     yield CSSComment("- Custom header border colors -")
     yield LINE
+
+    for ai_class, ai_color in zip(AI_CLASSES, Colors.AI_COLORS):
+        for k,v in _HEADERS.items():
+            yield CSSRule(
+                selections=(
+                    CSSSelection(
+                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, ai_class)),
+                        k(),
+                        selector_type=CSSSelectionType.inside
+                    ),
+                    CSSSelection(
+                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, ai_class)),
+                        k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                        selector_type=CSSSelectionType.inside
+                    ),
+                    CSSSelection(k(classes=ai_class))
+                ),
+                properties=(
+                    CSSProperty("border-color",blend_multiply(v["color"], ai_color)),
+                )
+            )
+
+

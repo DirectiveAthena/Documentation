@@ -14,7 +14,7 @@ import AthenaLib.HTML.models.html_library as HtmlLib
 from AthenaLib.HTML.models.html import HTMLElement
 
 # Custom Packages
-from functions.headers import header_default
+from functions.headers import header_default, header_pages
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -31,13 +31,14 @@ def main():
     # assemble components into the generator
     generator = CSSGenerator(
         content=list(itertools.chain(
-            header_default()
+            header_default(),
+            header_pages()
         ))
     )
 
     # write output to file
     with (
-        open(PATH_DUMP, "r") as file_dump,
+        open(PATH_DUMP, "w+") as file_dump,
         # open(PATH_PUBLISH, "w+") as file_publish,
         # open(PATH_SNIPPET, "w+") as file_snippet
     ):
