@@ -15,7 +15,7 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
 from DocumentationCSS.data.classes import (
-    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES
+    CLASS_VIEW_CONTENT,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES
 )
 from DocumentationCSS.data.gradients import (PYTHON_PACKAGE_GRADIENTS,GRADIENT_HEADER)
 import DocumentationCSS.data.colors as Colors
@@ -62,6 +62,22 @@ _HEADERS:dict[type,dict] = {
     }
 }
 
+selectors:tuple[CSSSelection] = (
+    *(CSSSelection(
+        HTMLElement(classes=CLASS_VIEW_CONTENT),
+        h(),
+        selector_type=CSSSelectionType.inside
+    ) for h in _HEADERS),
+)
+selector_page = lambda classname, heading_level: (
+    CSSSelection(
+        HTMLElement(classes=(CLASS_VIEW_CONTENT, classname)),
+        heading_level(),
+        selector_type=CSSSelectionType.inside
+    ),
+    CSSSelection(heading_level(classes=classname))
+)
+
 # ----------------------------------------------------------------------------------------------------------------------
 # - Default Header -
 # ----------------------------------------------------------------------------------------------------------------------
@@ -73,13 +89,7 @@ def header_default():
 
     # actual rules
     yield CSSRule(
-        selections=(
-            *(CSSSelection(
-                HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
-                h(),
-                selector_type=CSSSelectionType.inside
-            ) for h in _HEADERS),
-        ),
+        selections=selectors,
         properties=(
             CSSProperty("text-align","left"),
             CSSProperty("background-color",RGB(25,25,25)),
@@ -91,13 +101,7 @@ def header_default():
     )
     for k, v in _HEADERS.items():
         yield CSSRule(
-            selections=(
-                CSSSelection(
-                    HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
-                    k(),
-                    selector_type=CSSSelectionType.inside
-                )
-            ),
+            selections=selectors,
             properties=(
                 CSSProperty("color",v["color"]),
                 CSSProperty("padding",v["padding"]),
@@ -120,17 +124,8 @@ def header_pages():
         yield LINE
         for k,v in _HEADERS.items():
             yield CSSRule(
-                selections=(
-                    CSSSelection(
-                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                        k(),
-                        selector_type=CSSSelectionType.inside
-                    ),
-                    CSSSelection(k(classes=classname))
-                ),
-                properties=(
-                    CSSProperty("border-color", blend_multiply(v["color"], color)),
-                ),
+                selections=selector_page(classname, k),
+                properties=CSSProperty("border-color", blend_multiply(v["color"], color)),
                 force_one_line=True
             )
 
@@ -142,15 +137,8 @@ def header_pages_special():
     for classname, color in zip(PYTHON_PACKAGE_CLASSES, PYTHON_PACKAGE_GRADIENTS):
         yield LINE
         yield CSSRule(
-            selections=(
-                CSSSelection(
-                    HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                    HtmlLib.H1(),
-                    selector_type=CSSSelectionType.inside
-                ),
-                CSSSelection(HtmlLib.H1(classes=classname))
-            ),
-            properties=(CSSProperty("border-image", f"{color} 1"),),
+            selections=selector_page(classname, HtmlLib.H1),
+            properties=CSSProperty("border-image", f"{color} 1"),
             force_one_line=True
         )
 
