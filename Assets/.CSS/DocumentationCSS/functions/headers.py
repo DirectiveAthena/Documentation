@@ -151,5 +151,6 @@ def header_pages():
                 ),
                 force_one_line=True
             )
+        yield LINE
 
 
