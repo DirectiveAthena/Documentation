@@ -55,6 +55,8 @@ WEBSITE_NAME_COLORS = (COLOR_DISCORD,COLOR_TWITCH,COLOR_TWITTER,COLOR_YOUTUBE)
 # - MARKERS -
 # ----------------------------------------------------------------------------------------------------------------------
 MARKERS = {
-    "pink": "rgba(255,0,128,0.53)",
-    "pink": "rgba(255,0,128,0.53)",
+    "pink": "rgba(255, 0, 255,0.5)",
+    "blue": "rgba(51, 51, 255,0.5)",
+    "green": "rgba(51, 204, 51,0.5)",
+    "yellow": "rgba(255, 255, 102,0.5)",
 }
