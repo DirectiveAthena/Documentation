@@ -7,149 +7,149 @@
 
 ---
 
-# AthenaColor {class=athenacolor}
-# AthenaCSS {class=athenacss}
-# AthenaDocumentor {class=athenadocumentor}
-# AthenaGuiLib {class=athenaguilib}
-# AthenaLib {class=athenalib}
-# AthenaMock {class=athenamock}
-# AthenaServer {class=athenaserver}
-# AthenaTwitchBot {class=athenatwitchbot}
+# AthenaColor {.athenacolor}
+# AthenaCSS {.athenacss}
+# AthenaDocumentor {.athenadocumentor}
+# AthenaGuiLib {.athenaguilib}
+# AthenaLib {.athenalib}
+# AthenaMock {.athenamock}
+# AthenaServer {.athenaserver}
+# AthenaTwitchBot {.athenatwitchbot}
 
 ---
 
 ---
-# Adam {class=adam}
-## {class=adam}
-### {class=adam}
-#### {class=adam}
-##### {class=adam}
-###### {class=adam}
+# Adam {.adam}
+## {.adam}
+### {.adam}
+#### {.adam}
+##### {.adam}
+###### {.adam}
 
 ---
-# Aero {class=aero}
-## {class=aero}
-### {class=aero}
-#### {class=aero}
-##### {class=aero}
-###### {class=aero}
+# Aero {.aero}
+## {.aero}
+### {.aero}
+#### {.aero}
+##### {.aero}
+###### {.aero}
 
 ---
-# Athena {class=athena}
-## {class=athena}
-### {class=athena}
-#### {class=athena}
-##### {class=athena}
-###### {class=athena}
+# Athena {.athena}
+## {.athena}
+### {.athena}
+#### {.athena}
+##### {.athena}
+###### {.athena}
 
 ---
-# Ceres {class=ceres}
-## {class=ceres}
-### {class=ceres}
-#### {class=ceres}
-##### {class=ceres}
-###### {class=ceres}
+# Ceres {.ceres}
+## {.ceres}
+### {.ceres}
+#### {.ceres}
+##### {.ceres}
+###### {.ceres}
 
 ---
-# Eva {class=eva}
-## {class=eva}
-### {class=eva}
-#### {class=eva}
-##### {class=eva}
-###### {class=eva}
+# Eva {.eva}
+## {.eva}
+### {.eva}
+#### {.eva}
+##### {.eva}
+###### {.eva}
 
 ---
-# Jupiter {class=jupiter}
-## {class=jupiter}
-### {class=jupiter}
-#### {class=jupiter}
-##### {class=jupiter}
-###### {class=jupiter}
+# Jupiter {.jupiter}
+## {.jupiter}
+### {.jupiter}
+#### {.jupiter}
+##### {.jupiter}
+###### {.jupiter}
 
 ---
-# Minerva {class=minerva}
-## {class=minerva}
-### {class=minerva}
-#### {class=minerva}
-##### {class=minerva}
-###### {class=minerva}
+# Minerva {.minerva}
+## {.minerva}
+### {.minerva}
+#### {.minerva}
+##### {.minerva}
+###### {.minerva}
 
 ---
-# Neptune {class=neptune}
-## {class=neptune}
-### {class=neptune}
-#### {class=neptune}
-##### {class=neptune}
-###### {class=neptune}
+# Neptune {.neptune}
+## {.neptune}
+### {.neptune}
+#### {.neptune}
+##### {.neptune}
+###### {.neptune}
 
 ---
-# Pluto {class=pluto}
-## {class=pluto}
-### {class=pluto}
-#### {class=pluto}
-##### {class=pluto}
-###### {class=pluto}
+# Pluto {.pluto}
+## {.pluto}
+### {.pluto}
+#### {.pluto}
+##### {.pluto}
+###### {.pluto}
 
 ---
-# Sol {class=sol}
-## {class=sol}
-### {class=sol}
-#### {class=sol}
-##### {class=sol}
-###### {class=sol}
+# Sol {.sol}
+## {.sol}
+### {.sol}
+#### {.sol}
+##### {.sol}
+###### {.sol}
 
 ---
-# Venus {class=venus}
-## {class=venus}
-### {class=venus}
-#### {class=venus}
-##### {class=venus}
-###### {class=venus}
+# Venus {.venus}
+## {.venus}
+### {.venus}
+#### {.venus}
+##### {.venus}
+###### {.venus}
 
 ---
-# Veritas {class=veritas}
-## {class=veritas}
-### {class=veritas}
-#### {class=veritas}
-##### {class=veritas}
-###### {class=veritas}
+# Veritas {.veritas}
+## {.veritas}
+### {.veritas}
+#### {.veritas}
+##### {.veritas}
+###### {.veritas}
 
 ---
-# Vulcanus {class=vulcanus}
-## {class=vulcanus}
-### {class=vulcanus}
-#### {class=vulcanus}
-##### {class=vulcanus}
-###### {class=vulcanus}
+# Vulcanus {.vulcanus}
+## {.vulcanus}
+### {.vulcanus}
+#### {.vulcanus}
+##### {.vulcanus}
+###### {.vulcanus}
 
 ---
-# Discord {class=discord}
-## {class=discord}
-### {class=discord}
-#### {class=discord}
-##### {class=discord}
-###### {class=discord}
+# Discord {.discord}
+## {.discord}
+### {.discord}
+#### {.discord}
+##### {.discord}
+###### {.discord}
 
 ---
-# Twitch {class=twitch}
-## {class=twitch}
-### {class=twitch}
-#### {class=twitch}
-##### {class=twitch}
-###### {class=twitch}
+# Twitch {.twitch}
+## {.twitch}
+### {.twitch}
+#### {.twitch}
+##### {.twitch}
+###### {.twitch}
 
 ---
-# Twitter {class=twitter}
-## {class=twitter}
-### {class=twitter}
-#### {class=twitter}
-##### {class=twitter}
-###### {class=twitter}
+# Twitter {.twitter}
+## {.twitter}
+### {.twitter}
+#### {.twitter}
+##### {.twitter}
+###### {.twitter}
 
 ---
-# Youtube {class=youtube}
-## {class=youtube}
-### {class=youtube}
-#### {class=youtube}
-##### {class=youtube}
-###### {class=youtube}
+# Youtube {.youtube}
+## {.youtube}
+### {.youtube}
+#### {.youtube}
+##### {.youtube}
+###### {.youtube}
