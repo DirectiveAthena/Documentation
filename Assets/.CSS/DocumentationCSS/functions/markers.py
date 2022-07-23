@@ -23,5 +23,5 @@ def markers():
     # actual rules
     # language=CSS
     yield """.markdown-rendered.marker_pink mark,.markdown-preview-view.marker_pink mark {
-    background-color: rgba(170, 72, 123, 0.49);
+    background-color: rgba(255,0,128,0.53);
 }"""
