@@ -47,9 +47,9 @@ AI_COLORS = (
 # ----------------------------------------------------------------------------------------------------------------------
 # - Website Name colors -
 # ----------------------------------------------------------------------------------------------------------------------
-COLOR_DISCORD = RGB(255,0,0)
+COLOR_DISCORD = RGB(86,98,246)
 COLOR_TWITCH = RGB(169,112,255)
 COLOR_TWITTER = RGB(26,140,216)
-COLOR_YOUTUBE = RGB(86,98,246)
+COLOR_YOUTUBE = RGB(255,0,0)
 
-WEBSITE_NAME_COLORS = (COLOR_DISCORD,COLOR_TWITCH,COLOR_TWITTER,COLOR_YOUTUBE,)
+WEBSITE_NAME_COLORS = (COLOR_DISCORD,COLOR_TWITCH,COLOR_TWITTER,COLOR_YOUTUBE)

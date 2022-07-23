@@ -48,12 +48,15 @@ AI_CLASSES = (
 # ----------------------------------------------------------------------------------------------------------------------
 CLASS_ATHENACOLOR = "athenacolor"
 CLASS_ATHENACSS = "athenacss"
-
+CLASS_ATHENADOCUMENTOR = "athenadocumentor"
+CLASS_ATHENAGUILIB = "athenaguilib"
 CLASS_ATHENALIB = "athenalib"
 
 PYTHON_PACKAGE_CLASSES = (
     CLASS_ATHENACOLOR,
     CLASS_ATHENACSS,
+    CLASS_ATHENADOCUMENTOR,
+    CLASS_ATHENAGUILIB,
     CLASS_ATHENALIB,
 )
 
@@ -65,4 +68,4 @@ CLASS_TWITCH= "twitch"
 CLASS_TWITTER= "twitter"
 CLASS_YOUTUBE= "youtube"
 
-WEBSITE_NAME_CLASSES = (CLASS_DISCORD,CLASS_TWITCH,CLASS_TWITTER,CLASS_YOUTUBE,)
+WEBSITE_NAME_CLASSES = (CLASS_DISCORD,CLASS_TWITCH,CLASS_TWITTER,CLASS_YOUTUBE)
