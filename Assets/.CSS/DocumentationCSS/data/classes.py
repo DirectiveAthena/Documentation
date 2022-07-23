@@ -51,6 +51,9 @@ CLASS_ATHENACSS = "athenacss"
 CLASS_ATHENADOCUMENTOR = "athenadocumentor"
 CLASS_ATHENAGUILIB = "athenaguilib"
 CLASS_ATHENALIB = "athenalib"
+CLASS_ATHENAMOCK = "athenamock"
+CLASS_ATHENASERVER = "athenaserver"
+CLASS_ATHENATWITCHBOT = "athenatwitchbot"
 
 PYTHON_PACKAGE_CLASSES = (
     CLASS_ATHENACOLOR,
@@ -58,6 +61,9 @@ PYTHON_PACKAGE_CLASSES = (
     CLASS_ATHENADOCUMENTOR,
     CLASS_ATHENAGUILIB,
     CLASS_ATHENALIB,
+    CLASS_ATHENAMOCK,
+    CLASS_ATHENASERVER,
+    CLASS_ATHENATWITCHBOT
 )
 
 # ----------------------------------------------------------------------------------------------------------------------

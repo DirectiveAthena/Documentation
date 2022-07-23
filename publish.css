@@ -192,10 +192,19 @@
 .markdown-rendered.athenacss h1,.markdown-rendered.athenacss h1.publish-article-heading,h1.athenacss {border-image: linear-gradient(90deg, rgba(37,75,221,1) 50%, rgba(41,101,241,1) 100%);
     border-image-slice: 1; }
 /* ---------------------------------------------------------------- */
+.markdown-rendered.athenadocumentor h1,.markdown-rendered.athenadocumentor h1.publish-article-heading,h1.athenadocumentor {border-image: linear-gradient(90deg, rgba(0,247,236,1) 0%, rgba(66,3,74,1) 100%);
+    border-image-slice: 1; }
+/* ---------------------------------------------------------------- */
 .markdown-rendered.athenaguilib h1,.markdown-rendered.athenaguilib h1.publish-article-heading,h1.athenaguilib {border-image: linear-gradient(90deg, rgba(0,173,239,1) 0%, rgba(0,124,194,1) 33%, rgba(249,232,162,1) 66%, rgba(196,166,19,1) 100%);
     border-image-slice: 1; }
 /* ---------------------------------------------------------------- */
 .markdown-rendered.athenalib h1,.markdown-rendered.athenalib h1.publish-article-heading,h1.athenalib {border-image: linear-gradient(90deg, rgba(57,81,251,1) 0%, rgba(207,30,70,1) 100%);
+    border-image-slice: 1; }
+/* ---------------------------------------------------------------- */
+.markdown-rendered.athenamock h1,.markdown-rendered.athenamock h1.publish-article-heading,h1.athenamock {border-image: linear-gradient(90deg, rgba(247,149,0,1) 0%, rgba(74,3,71,1) 100%);
+    border-image-slice: 1; }
+/* ---------------------------------------------------------------- */
+.markdown-rendered.athenaserver h1,.markdown-rendered.athenaserver h1.publish-article-heading,h1.athenaserver {border-image: linear-gradient(90deg, rgba(246,231,134,1) 0%, rgba(186,168,49,1) 50%, rgba(115,101,11,1) 100%);
     border-image-slice: 1; }
 /* ---------------------------------------------------------------- */
 /* - Special Rule to make the File Embedded title hide - */
