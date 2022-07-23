@@ -8,8 +8,7 @@ from AthenaLib.HTML.models.css import CSSComment
 
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
-
-# Custom Packages
+from DocumentationCSS.data.colors import MARKERS
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
@@ -21,7 +20,5 @@ def markers():
     yield LINE
 
     # actual rules
-    # language=CSS
-    yield """#marker_pink {
-    background-color: rgba(255,0,128,0.53);
-}"""
+    for marker,color in MARKERS.items():
+        yield f"""#{marker}, .{marker} {{background-color: {color};}}"""
