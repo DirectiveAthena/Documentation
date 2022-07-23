@@ -4,20 +4,10 @@
 # General Packages
 
 # Custom Library
-from AthenaColor import RGB
-from AthenaColor.func.blend_modes import blend_multiply
-from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
-import AthenaLib.HTML.models.html_library as HtmlLib
-from AthenaLib.HTML.models.html import HTMLElement
-from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, ElementFontSize
+from AthenaLib.HTML.models.css import CSSComment
 
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
-from DocumentationCSS.data.classes import (
-    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES
-)
-from DocumentationCSS.data.gradients import GRADIENT_HEADER
-import DocumentationCSS.data.colors as Colors
 
 # Custom Packages
 
@@ -31,5 +21,10 @@ def hide_metadata():
     yield LINE
 
     # actual rules
-    # // language=CSS
-    yield ".markdown-rendered.metaDataHide div.frontmatter-container { display: none; }"
+    # language=CSS
+    yield ".markdown-rendered.metaDataHide div.frontmatter-container {display:flex;}"
+    # language=CSS
+    yield """
+    body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-vertical.mod-root > div.workspace-leaf.mod-active > div > div.view-content > div.markdown-reading-view > div.markdown-preview-view.markdown-rendered.node-insert-event.is-readable-line-width.allow-fold-headings.show-indentation-guide.allow-fold-lists.metaDataHide > div > div:nth-child(2) > div > div.frontmatter-container-header{
+        color: #00a7aa;
+    }"""

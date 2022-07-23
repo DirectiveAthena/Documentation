@@ -4,20 +4,10 @@
 # General Packages
 
 # Custom Library
-from AthenaColor import RGB
-from AthenaColor.func.blend_modes import blend_multiply
-from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
-import AthenaLib.HTML.models.html_library as HtmlLib
-from AthenaLib.HTML.models.html import HTMLElement
-from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, ElementFontSize
+from AthenaLib.HTML.models.css import CSSComment
 
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
-from DocumentationCSS.data.classes import (
-    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES
-)
-from DocumentationCSS.data.gradients import GRADIENT_HEADER
-import DocumentationCSS.data.colors as Colors
 
 # Custom Packages
 
@@ -31,6 +21,7 @@ def clean_embed():
     yield LINE
 
     # actual rules
+    # language=CSS
     yield """.markdown-rendered.cleanEmbed .markdown-embed,
 .markdown-rendered.cleanEmbed .markdown-embed .markdown-preview-view {
     border: medium none transparent;

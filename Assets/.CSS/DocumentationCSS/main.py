@@ -41,13 +41,13 @@ def main():
     # write output to file
     with (
         open(PATH_DUMP, "w+") as file_dump,
-        # open(PATH_PUBLISH, "w+") as file_publish,
-        # open(PATH_SNIPPET, "w+") as file_snippet
+        open(PATH_PUBLISH, "w+") as file_publish,
+        open(PATH_SNIPPET, "w+") as file_snippet
     ):
         text = generator.to_text()
         file_dump.write(text)
-        # file_publish.write(text)
-        # file_snippet.write(text)
+        file_publish.write(text)
+        file_snippet.write(text)
 
     pass
 
