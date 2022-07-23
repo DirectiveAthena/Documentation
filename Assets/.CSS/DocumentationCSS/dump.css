@@ -207,6 +207,9 @@
 .markdown-rendered.athenaserver h1,.markdown-rendered.athenaserver h1.publish-article-heading,h1.athenaserver {border-image: linear-gradient(90deg, rgba(246,231,134,1) 0%, rgba(186,168,49,1) 50%, rgba(115,101,11,1) 100%);
     border-image-slice: 1; }
 /* ---------------------------------------------------------------- */
+.markdown-rendered.athenatwitchbot h1,.markdown-rendered.athenatwitchbot h1.publish-article-heading,h1.athenatwitchbot {border-image: linear-gradient(90deg, rgba(169,112,255,1) 0%, rgba(255,255,255,1) 100%);
+    border-image-slice: 1; }
+/* ---------------------------------------------------------------- */
 /* - Special Rule to make the File Embedded title hide - */
 /* ---------------------------------------------------------------- */
 .markdown-rendered.cleanEmbed .markdown-embed,
