@@ -71,7 +71,8 @@ selectors:tuple[CSSSelection] = (
 )
 selector = lambda classname, heading_level: (
     CSSSelection(
-        HTMLElement(classes=(CLASS_VIEW_CONTENT, classname)),
+        HTMLElement(classes=CLASS_VIEW_CONTENT),
+        HTMLElement(classes=classname),
         heading_level(),
         selector_type=CSSSelectionType.inside
     ),
