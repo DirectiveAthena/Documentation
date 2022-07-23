@@ -15,7 +15,7 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
 from DocumentationCSS.data.classes import (
-    CLASS_VIEW_CONTENT,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES, CLASS_PUBLISH_RENDERER
+    CLASS_MARKDOWN_RENDERED,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES, CLASS_PUBLISH_RENDERER
 )
 from DocumentationCSS.data.gradients import (PYTHON_PACKAGE_GRADIENTS,GRADIENT_HEADER)
 import DocumentationCSS.data.colors as Colors
@@ -64,26 +64,15 @@ _HEADERS:dict[type,dict] = {
 
 selectors:tuple[CSSSelection,...] = (
     *(CSSSelection(
-        HTMLElement(classes=CLASS_VIEW_CONTENT),
-        h(),
-        selector_type=CSSSelectionType.inside
-    ) for h in _HEADERS),
-    *(CSSSelection(
-        HTMLElement(classes=CLASS_PUBLISH_RENDERER),
+        HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
         h(),
         selector_type=CSSSelectionType.inside
     ) for h in _HEADERS),
 )
 selector = lambda classname, heading_level: (
     CSSSelection(
-        HTMLElement(classes=CLASS_VIEW_CONTENT),
+        HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
         HTMLElement(classes=classname),
-        heading_level(),
-        selector_type=CSSSelectionType.inside
-    ),
-    CSSSelection(
-        HtmlLib.Div(classes=CLASS_PUBLISH_RENDERER),
-        HtmlLib.Div(classes=classname),
         heading_level(),
         selector_type=CSSSelectionType.inside
     ),
