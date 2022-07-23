@@ -18,7 +18,9 @@ from DocumentationCSS.data.classes import (
     CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES, CLASS_ATHENACOLOR,
     CLASS_ATHENALIB
 )
-from DocumentationCSS.data.gradients import GRADIENT_HEADER, GRADIENT_ATHENACOLOR, GRADIENT_ATHENALIB
+from DocumentationCSS.data.gradients import (
+    GRADIENT_HEADER, GRADIENT_ATHENACOLOR, GRADIENT_ATHENALIB, GRADIENT_ATHENACSS
+)
 import DocumentationCSS.data.colors as Colors
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -159,7 +161,8 @@ def header_pages_special():
 
     for classname, color in (
             (CLASS_ATHENACOLOR, GRADIENT_ATHENACOLOR),
-            (CLASS_ATHENALIB, GRADIENT_ATHENALIB)
+            (CLASS_ATHENALIB, GRADIENT_ATHENALIB),
+            (CLASS_ATHENACSS, GRADIENT_ATHENACSS)
     ):
         yield LINE
         yield CSSRule(

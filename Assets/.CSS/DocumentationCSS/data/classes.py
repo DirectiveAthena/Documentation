@@ -47,6 +47,8 @@ AI_CLASSES = (
 # - Python Package classes -
 # ----------------------------------------------------------------------------------------------------------------------
 CLASS_ATHENACOLOR = "athenacolor"
+CLASS_ATHENACSS = "athenacss"
+
 CLASS_ATHENALIB = "athenalib"
 
 PYTHON_PACKAGE_CLASSES = (CLASS_ATHENACOLOR, CLASS_ATHENALIB)

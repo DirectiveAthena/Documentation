@@ -22,6 +22,6 @@ def markers():
 
     # actual rules
     # language=CSS
-    yield """.marker_pink {
+    yield """#marker_pink {
     background-color: rgba(255,0,128,0.53);
 }"""
