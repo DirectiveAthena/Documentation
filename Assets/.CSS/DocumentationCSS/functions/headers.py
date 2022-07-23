@@ -4,6 +4,8 @@
 # General Packages
 
 # Custom Library
+import itertools
+
 from AthenaColor import RGB
 from AthenaColor.func.blend_modes import blend_multiply
 from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
@@ -13,7 +15,9 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
-from DocumentationCSS.data.classes import CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES
+from DocumentationCSS.data.classes import (
+    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES
+)
 from DocumentationCSS.data.gradients import GRADIENT_HEADER
 import DocumentationCSS.data.colors as Colors
 
@@ -124,25 +128,28 @@ def header_pages():
     yield CSSComment("- Custom header border colors -")
     yield LINE
 
-    for ai_class, ai_color in zip(AI_CLASSES, Colors.AI_COLORS):
+    for classname, color in itertools.chain(
+            zip(AI_CLASSES, Colors.AI_COLORS), zip(WEBSITE_NAME_CLASSES, Colors.WEBSITE_NAME_COLORS)
+    ):
         for k,v in _HEADERS.items():
             yield CSSRule(
                 selections=(
                     CSSSelection(
-                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, ai_class)),
+                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
                         k(),
                         selector_type=CSSSelectionType.inside
                     ),
                     CSSSelection(
-                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, ai_class)),
+                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
                         k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
                         selector_type=CSSSelectionType.inside
                     ),
-                    CSSSelection(k(classes=ai_class))
+                    CSSSelection(k(classes=classname))
                 ),
                 properties=(
-                    CSSProperty("border-color",blend_multiply(v["color"], ai_color)),
-                )
+                    CSSProperty("border-color", blend_multiply(v["color"], color)),
+                ),
+                force_one_line=True
             )
 
 
