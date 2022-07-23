@@ -133,16 +133,16 @@ def header_pages():
         for k,v in _HEADERS.items():
             yield CSSRule(
                 selections=(
-                    # CSSSelection(
-                    #     HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                    #     k(),
-                    #     selector_type=CSSSelectionType.inside
-                    # ),
                     CSSSelection(
                         HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                        k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                        k(),
                         selector_type=CSSSelectionType.inside
                     ),
+                    # CSSSelection(
+                    #     HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
+                    #     k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                    #     selector_type=CSSSelectionType.inside
+                    # ),
                     CSSSelection(k(classes=classname))
                 ),
                 properties=(
@@ -165,14 +165,14 @@ def header_pages_special():
                     HtmlLib.H1(),
                     selector_type=CSSSelectionType.inside
                 ),
-                CSSSelection(
-                    HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                    HtmlLib.H1(classes=CLASS_PUBLISH_ARTICLE_HEADING),
-                    selector_type=CSSSelectionType.inside
-                ),
+                # CSSSelection(
+                #     HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
+                #     HtmlLib.H1(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                #     selector_type=CSSSelectionType.inside
+                # ),
                 CSSSelection(HtmlLib.H1(classes=classname))
             ),
-            properties=(CSSProperty("border-image", color),),
+            properties=(CSSProperty("border-image", f"{color} 1"),),
             force_one_line=True
         )
 
