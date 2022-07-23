@@ -184,3 +184,15 @@
 .markdown-rendered.youtube h5,.markdown-rendered.youtube h5.publish-article-heading,h5.youtube {border-color: rgba(43,49,123,255); }
 .markdown-rendered.youtube h6,.markdown-rendered.youtube h6.publish-article-heading,h6.youtube {border-color: rgba(35,40,101,255); }
 /* ---------------------------------------------------------------- */
+/* - Special Rule to make the File Embedded title hide - */
+/* ---------------------------------------------------------------- */
+.markdown-rendered.cleanEmbed .markdown-embed,
+.markdown-rendered.cleanEmbed .markdown-embed .markdown-preview-view {
+    border: medium none transparent;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.markdown-rendered.cleanEmbed .markdown-embed-link,
+.markdown-rendered.cleanEmbed .markdown-embed-link {
+    display: none;
+}    

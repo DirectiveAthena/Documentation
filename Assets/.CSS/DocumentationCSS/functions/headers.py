@@ -2,10 +2,9 @@
 # - Package Imports -
 # ----------------------------------------------------------------------------------------------------------------------
 # General Packages
-
-# Custom Library
 import itertools
 
+# Custom Library
 from AthenaColor import RGB
 from AthenaColor.func.blend_modes import blend_multiply
 from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
@@ -126,11 +125,11 @@ def header_pages():
     # comment structure
     yield LINE
     yield CSSComment("- Custom header border colors -")
-    yield LINE
 
     for classname, color in itertools.chain(
             zip(AI_CLASSES, Colors.AI_COLORS), zip(WEBSITE_NAME_CLASSES, Colors.WEBSITE_NAME_COLORS)
     ):
+        yield LINE
         for k,v in _HEADERS.items():
             yield CSSRule(
                 selections=(
@@ -151,6 +150,5 @@ def header_pages():
                 ),
                 force_one_line=True
             )
-        yield LINE
 
 

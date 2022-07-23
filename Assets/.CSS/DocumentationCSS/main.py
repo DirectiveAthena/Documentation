@@ -15,6 +15,7 @@ from AthenaLib.HTML.models.html import HTMLElement
 
 # Custom Packages
 from functions.headers import header_default, header_pages
+from functions.clean_embed import clean_embed
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -32,7 +33,8 @@ def main():
     generator = CSSGenerator(
         content=list(itertools.chain(
             header_default(),
-            header_pages()
+            header_pages(),
+            clean_embed()
         ))
     )
 
