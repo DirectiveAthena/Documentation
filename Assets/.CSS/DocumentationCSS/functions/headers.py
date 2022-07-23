@@ -10,12 +10,12 @@ from AthenaColor.func.blend_modes import blend_multiply
 from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
 import AthenaLib.HTML.models.html_library as HtmlLib
 from AthenaLib.HTML.models.html import HTMLElement
-from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, ElementFontSize
+from AthenaCSS.models.athenalib_imports import Pixel, ElementFontSize
 
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
 from DocumentationCSS.data.classes import (
-    CLASS_MARKDOWN_RENDERED,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES, CLASS_PUBLISH_RENDERER
+    CLASS_MARKDOWN_RENDERED,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES
 )
 from DocumentationCSS.data.gradients import (PYTHON_PACKAGE_GRADIENTS,GRADIENT_HEADER)
 import DocumentationCSS.data.colors as Colors
@@ -137,6 +137,6 @@ def header_pages_special():
     for classname, color in zip(PYTHON_PACKAGE_CLASSES, PYTHON_PACKAGE_GRADIENTS):
         yield CSSRule(
             selections=selector(classname, HtmlLib.H1),
-            properties=CSSProperty("border-image", f"{color} 1"),
+            properties=CSSProperty("border-image", color),
         )
 
