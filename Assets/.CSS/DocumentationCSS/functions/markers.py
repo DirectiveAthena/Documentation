@@ -21,4 +21,4 @@ def markers():
 
     # actual rules
     for marker,color in MARKERS.items():
-        yield f"""mark.{marker}, #marker_{marker}, .marker_{marker} {{background-color: {color};}}"""
+        yield f"""mark.{marker} {{background-color: {color};}}"""
