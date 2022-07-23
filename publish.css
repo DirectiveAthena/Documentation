@@ -14,42 +14,42 @@
     border-bottom-style: solid;
     border-bottom-width: 5px;
 }
-.view-content. h1,
+.view-content h1,
 h1 {
     color: rgb(255,255,255);
     padding: 12px 12px 12px 35px;
     font-size: 2em;
     margin-top: 0;
 }
-.view-content. h2,
+.view-content h2,
 h2 {
     color: rgb(220,220,220);
     padding: 10px 10px 10px 35px;
     font-size: 1.8em;
     margin-top: 2em;
 }
-.view-content. h3,
+.view-content h3,
 h3 {
     color: rgb(192,192,192);
     padding: 8px 8px 8px 35px;
     font-size: 1.6em;
     margin-top: 1.75em;
 }
-.view-content. h4,
+.view-content h4,
 h4 {
     color: rgb(169,169,169);
     padding: 6px 6px 6px 35px;
     font-size: 1.4em;
     margin-top: 1.5em;
 }
-.view-content. h5,
+.view-content h5,
 h5 {
     color: rgb(128,128,128);
     padding: 4px 4px 4px 35px;
     font-size: 1.2em;
     margin-top: 1.25em;
 }
-.view-content. h6,
+.view-content h6,
 h6 {
     color: rgb(105,105,105);
     padding: 2px 2px 2px 35px;
