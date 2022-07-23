@@ -229,10 +229,10 @@
 /* ---------------------------------------------------------------- */
 /* - Specially coloured markers (per page) - */
 /* ---------------------------------------------------------------- */
-#marker_pink, .marker_pink {background-color: rgba(255, 102, 255,0.5);}
-#marker_blue_dark, .marker_blue_dark {background-color: rgba(0, 102, 255,0.5);}
-#marker_blue, .marker_blue {background-color: rgba(0, 204, 255,0.5);}
-#marker_green, .marker_green {background-color: rgba(51, 204, 51,0.5);}
-#marker_yellow, .marker_yellow {background-color: rgba(255, 255, 102,0.5);}
-#marker_orange, .marker_orange {background-color: rgba(255, 153, 0,0.5);}
-#marker_purple, .marker_purple {background-color: rgba(153, 0, 153,0.5);}
+mark.pink, #marker_pink, .marker_pink {background-color: rgba(255, 102, 255,0.5);}
+mark.blue_dark, #marker_blue_dark, .marker_blue_dark {background-color: rgba(0, 102, 255,0.5);}
+mark.blue, #marker_blue, .marker_blue {background-color: rgba(0, 204, 255,0.5);}
+mark.green, #marker_green, .marker_green {background-color: rgba(51, 204, 51,0.5);}
+mark.yellow, #marker_yellow, .marker_yellow {background-color: rgba(255, 255, 102,0.5);}
+mark.orange, #marker_orange, .marker_orange {background-color: rgba(255, 153, 0,0.5);}
+mark.purple, #marker_purple, .marker_purple {background-color: rgba(153, 0, 153,0.5);}
