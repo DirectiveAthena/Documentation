@@ -1,7 +1,7 @@
 ---
 copyright: "Andreas Sas 2022"
 created: "2022-07-21 14:08"
-cssclass: metaDataHide
+cssclass: metaDataHide athenacolor
 aliases: [AthenaColor Versions]
 ---
 # AthenaColor Version Notes
