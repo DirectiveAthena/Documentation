@@ -5,6 +5,7 @@
 
 # Custom Library
 from AthenaColor import RGB
+from AthenaColor.func.blend_modes import blend_multiply
 from AthenaLib.HTML.models.css import CSSProperty, CSSComment, CSSRule, CSSSelection, CSSSelectionType
 import AthenaLib.HTML.models.html_library as HtmlLib
 from AthenaLib.HTML.models.html import HTMLElement
@@ -12,7 +13,10 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
-from DocumentationCSS.data.classes import CLASS_MARKDOWN_EMBED, CLASS_PUBLISH_ARTICLE_HEADING
+from DocumentationCSS.data.classes import (
+    CLASS_MARKDOWN_EMBED, CLASS_PUBLISH_ARTICLE_HEADING,CLASS_ADAM,CLASS_ATHENA,CLASS_EVA,CLASS_JUPITER,CLASS_VERITAS,
+    CLASS_VULCANUS,CLASS_NEPTUNE,CLASS_MINERVA,CLASS_SOL,CLASS_AERO,CLASS_VENUS,CLASS_PLUTO,CLASS_CERES,
+)
 from DocumentationCSS.data.gradients import GRADIENT_HEADER
 import DocumentationCSS.data.colors as Colors
 
