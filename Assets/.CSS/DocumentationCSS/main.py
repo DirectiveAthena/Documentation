@@ -9,11 +9,12 @@ import itertools
 from AthenaCSS.models.generator import CSSGenerator
 
 # Custom Packages
-from functions.headers import header_default, header_pages, header_pages_special
-from functions.clean_embed import clean_embed
-from functions.hide_metadata import hide_metadata
-from functions.markers import markers
-from functions.header_border_colors import header_border_colors
+from DocumentationCSS.functions.headers import header_default, header_pages, header_pages_special
+from DocumentationCSS.functions.clean_embed import clean_embed
+from DocumentationCSS.functions.hide_metadata import hide_metadata
+from DocumentationCSS.functions.markers import markers
+from DocumentationCSS.functions.header_border_colors import header_border_colors
+from DocumentationCSS.functions.kanban import kanban
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -36,7 +37,8 @@ def main():
             clean_embed(),
             hide_metadata(),
             markers(),
-            header_border_colors()
+            header_border_colors(),
+            kanban()
         ))
     )
 

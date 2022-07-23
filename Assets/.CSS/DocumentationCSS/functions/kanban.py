@@ -20,4 +20,6 @@ def kanban():
     yield LINE
 
     # actual rules
-    yield ".kanban-plugin {background-color: var(--background-primary);"
+    # language=CSS
+    yield ".kanban-plugin {background-color: rgba(0,0,0,0) !important;}"
+    # yield ".kanban-plugin {background-color: None #202020 !important;}"

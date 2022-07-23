@@ -671,3 +671,7 @@ mark.purple {background-color: rgba(153, 0, 153,0.5);}
 .header_Gainsboro {border-color: rgb(220,220,220);}
 .header_WhiteSmoke {border-color: rgb(245,245,245);}
 .header_White {border-color: rgb(255,255,255);}
+/* ---------------------------------------------------------------- */
+/* - Special Rules for the kanban plugin - */
+/* ---------------------------------------------------------------- */
+.kanban-plugin {background-color: rgba(0,0,0,0);}
