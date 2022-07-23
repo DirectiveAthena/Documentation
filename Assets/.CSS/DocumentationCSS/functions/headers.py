@@ -15,9 +15,10 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
 from DocumentationCSS.data.classes import (
-    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES
+    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES, CLASS_ATHENACOLOR,
+    CLASS_ATHENALIB
 )
-from DocumentationCSS.data.gradients import GRADIENT_HEADER
+from DocumentationCSS.data.gradients import GRADIENT_HEADER, GRADIENT_ATHENACOLOR, GRADIENT_ATHENALIB
 import DocumentationCSS.data.colors as Colors
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -135,6 +136,37 @@ def header_pages():
                 selections=(
                     CSSSelection(
                         HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
+                        HtmlLib.H1(),
+                        selector_type=CSSSelectionType.inside
+                    ),
+                    CSSSelection(
+                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
+                        HtmlLib.H1(classes=CLASS_PUBLISH_ARTICLE_HEADING),
+                        selector_type=CSSSelectionType.inside
+                    ),
+                    CSSSelection(HtmlLib.H1(classes=classname))
+                ),
+                properties=(
+                    CSSProperty("border-color", color)),
+                ),
+                force_one_line=True
+            )
+
+def header_pages_special():
+    # comment structure
+    yield LINE
+    yield CSSComment("- Custom header border colors (special cases)-")
+
+    for classname, color in itertools.chain(
+            (CLASS_ATHENACOLOR, GRADIENT_ATHENACOLOR),
+            (CLASS_ATHENALIB, GRADIENT_ATHENALIB)
+    ):
+        yield LINE
+        for k,v in _HEADERS.items():
+            yield CSSRule(
+                selections=(
+                    CSSSelection(
+                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
                         k(),
                         selector_type=CSSSelectionType.inside
                     ),
@@ -150,5 +182,4 @@ def header_pages():
                 ),
                 force_one_line=True
             )
-
 
