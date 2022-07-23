@@ -18,8 +18,17 @@ from DocumentationCSS.data.classes import (
     CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES
 )
 from DocumentationCSS.data.gradients import (PYTHON_PACKAGE_GRADIENTS,GRADIENT_HEADER)
-import DocumentationCSS.data.colors as Colors
+from DocumentationCSS.data.colors import COLORS
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Code -
 # ----------------------------------------------------------------------------------------------------------------------
+def header_border_colors():
+    # comment structure
+    yield LINE
+    yield CSSComment("- Special Rule to make the File Embedded title hide -")
+    yield LINE
+
+    # actual rules
+    for name, color in COLORS.items():
+        yield f""".header_{name} {{border-color: rgb({color.r},{color.g},{color.b});}}"""

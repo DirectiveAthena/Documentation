@@ -133,11 +133,11 @@ def header_pages():
         for k,v in _HEADERS.items():
             yield CSSRule(
                 selections=(
-                    CSSSelection(
-                        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                        k(),
-                        selector_type=CSSSelectionType.inside
-                    ),
+                    # CSSSelection(
+                    #     HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
+                    #     k(),
+                    #     selector_type=CSSSelectionType.inside
+                    # ),
                     CSSSelection(
                         HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
                         k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
@@ -172,10 +172,7 @@ def header_pages_special():
                 ),
                 CSSSelection(HtmlLib.H1(classes=classname))
             ),
-            properties=(
-                CSSProperty("border-image", color),
-                CSSProperty("border-image-slice", 1),
-            ),
+            properties=(CSSProperty("border-image", color),),
             force_one_line=True
         )
 
