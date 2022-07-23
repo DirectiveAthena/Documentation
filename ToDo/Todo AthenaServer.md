@@ -18,11 +18,7 @@ kanban-plugin: basic
 
 
 
-***
 
-## Archive
-
-- [x] Refactor Session
 
 %% kanban:settings
 ```
