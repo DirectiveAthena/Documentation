@@ -15,7 +15,7 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
 from DocumentationCSS.data.classes import (
-    CLASS_VIEW_CONTENT,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES
+    CLASS_VIEW_CONTENT,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES, CLASS_PUBLISH_RENDERER
 )
 from DocumentationCSS.data.gradients import (PYTHON_PACKAGE_GRADIENTS,GRADIENT_HEADER)
 import DocumentationCSS.data.colors as Colors
@@ -76,6 +76,12 @@ selector = lambda classname, heading_level: (
         heading_level(),
         selector_type=CSSSelectionType.inside
     ),
+    CSSSelection(
+        HTMLElement(classes=CLASS_PUBLISH_RENDERER),
+        HTMLElement(classes=classname),
+        heading_level(),
+        selector_type=CSSSelectionType.inside
+    ),
     CSSSelection(heading_level(classes=classname))
 )
 
@@ -118,28 +124,26 @@ def header_pages():
     # comment structure
     yield LINE
     yield CSSComment("- Custom header border colors -")
+    yield LINE
 
     for classname, color in itertools.chain(
             zip(AI_CLASSES, Colors.AI_COLORS), zip(WEBSITE_NAME_CLASSES, Colors.WEBSITE_NAME_COLORS)
     ):
-        yield LINE
         for k,v in _HEADERS.items():
             yield CSSRule(
                 selections=selector(classname, k),
                 properties=CSSProperty("border-color", blend_multiply(v["color"], color)),
-                force_one_line=True
             )
 
 def header_pages_special():
     # comment structure
     yield LINE
     yield CSSComment("- Custom header border colors (special cases)-")
+    yield LINE
 
     for classname, color in zip(PYTHON_PACKAGE_CLASSES, PYTHON_PACKAGE_GRADIENTS):
-        yield LINE
         yield CSSRule(
             selections=selector(classname, HtmlLib.H1),
             properties=CSSProperty("border-image", f"{color} 1"),
-            force_one_line=True
         )
 
