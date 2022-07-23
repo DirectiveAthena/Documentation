@@ -17,6 +17,7 @@ CLASS_MARKDOWN_EMBED = "markdown-embed"
 CLASS_MARKDOWN_EMBED_TITLE = "markdown-embed-title"
 CLASS_MARKDOWN_EMBED_LINK = "markdown-embed-link"
 CLASS_MARKDOWN_PREVIEW_VIEW = "markdown-preview-view"
+CLASS_VIEW_CONTENT = "view-content"
 
 HEADERS = (HtmlLib.H1,HtmlLib.H2,HtmlLib.H3,HtmlLib.H4,HtmlLib.H5,HtmlLib.H6)
 

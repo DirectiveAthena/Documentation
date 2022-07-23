@@ -78,14 +78,7 @@ def header_default():
                 HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
                 h(),
                 selector_type=CSSSelectionType.inside
-            ) for h in _HEADERS
-            ),
-            *(CSSSelection(
-                HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
-                h(classes=CLASS_PUBLISH_ARTICLE_HEADING),
-                selector_type=CSSSelectionType.inside
-            ) for h in _HEADERS
-            ),
+            ) for h in _HEADERS),
         ),
         properties=(
             CSSProperty("text-align","left"),
@@ -102,11 +95,6 @@ def header_default():
                 CSSSelection(
                     HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
                     k(),
-                    selector_type=CSSSelectionType.inside
-                ),
-                CSSSelection(
-                    HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
-                    k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
                     selector_type=CSSSelectionType.inside
                 )
             ),
@@ -138,11 +126,6 @@ def header_pages():
                         k(),
                         selector_type=CSSSelectionType.inside
                     ),
-                    # CSSSelection(
-                    #     HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                    #     k(classes=CLASS_PUBLISH_ARTICLE_HEADING),
-                    #     selector_type=CSSSelectionType.inside
-                    # ),
                     CSSSelection(k(classes=classname))
                 ),
                 properties=(
@@ -165,11 +148,6 @@ def header_pages_special():
                     HtmlLib.H1(),
                     selector_type=CSSSelectionType.inside
                 ),
-                # CSSSelection(
-                #     HTMLElement(classes=(CLASS_MARKDOWN_RENDERED, classname)),
-                #     HtmlLib.H1(classes=CLASS_PUBLISH_ARTICLE_HEADING),
-                #     selector_type=CSSSelectionType.inside
-                # ),
                 CSSSelection(HtmlLib.H1(classes=classname))
             ),
             properties=(CSSProperty("border-image", f"{color} 1"),),

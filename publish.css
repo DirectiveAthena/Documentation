@@ -6,13 +6,7 @@
 .markdown-rendered h3,
 .markdown-rendered h4,
 .markdown-rendered h5,
-.markdown-rendered h6,
-.markdown-rendered h1.publish-article-heading,
-.markdown-rendered h2.publish-article-heading,
-.markdown-rendered h3.publish-article-heading,
-.markdown-rendered h4.publish-article-heading,
-.markdown-rendered h5.publish-article-heading,
-.markdown-rendered h6.publish-article-heading {
+.markdown-rendered h6 {
     text-align: left;
     background-color: rgb(25,25,25);
     background-image: linear-gradient(90deg, rgb(22, 22, 22) 75%, rgb(32, 32, 32) 100%);
@@ -20,43 +14,37 @@
     border-bottom-style: solid;
     border-bottom-width: 5px;
 }
-.markdown-rendered h1,
-.markdown-rendered h1.publish-article-heading {
+.markdown-rendered h1 {
     color: rgb(255,255,255);
     padding: 12px 12px 12px 35px;
     font-size: 2em;
     margin-top: 0;
 }
-.markdown-rendered h2,
-.markdown-rendered h2.publish-article-heading {
+.markdown-rendered h2 {
     color: rgb(220,220,220);
     padding: 10px 10px 10px 35px;
     font-size: 1.8em;
     margin-top: 2em;
 }
-.markdown-rendered h3,
-.markdown-rendered h3.publish-article-heading {
+.markdown-rendered h3 {
     color: rgb(192,192,192);
     padding: 8px 8px 8px 35px;
     font-size: 1.6em;
     margin-top: 1.75em;
 }
-.markdown-rendered h4,
-.markdown-rendered h4.publish-article-heading {
+.markdown-rendered h4 {
     color: rgb(169,169,169);
     padding: 6px 6px 6px 35px;
     font-size: 1.4em;
     margin-top: 1.5em;
 }
-.markdown-rendered h5,
-.markdown-rendered h5.publish-article-heading {
+.markdown-rendered h5 {
     color: rgb(128,128,128);
     padding: 4px 4px 4px 35px;
     font-size: 1.2em;
     margin-top: 1.25em;
 }
-.markdown-rendered h6,
-.markdown-rendered h6.publish-article-heading {
+.markdown-rendered h6 {
     color: rgb(105,105,105);
     padding: 2px 2px 2px 35px;
     font-size: 1.1em;
