@@ -77,8 +77,8 @@ selector = lambda classname, heading_level: (
         selector_type=CSSSelectionType.inside
     ),
     CSSSelection(
-        HTMLElement(classes=CLASS_PUBLISH_RENDERER),
-        HTMLElement(classes=classname),
+        HtmlLib.Div(classes=CLASS_PUBLISH_RENDERER),
+        HtmlLib.Div(classes=classname),
         heading_level(),
         selector_type=CSSSelectionType.inside
     ),

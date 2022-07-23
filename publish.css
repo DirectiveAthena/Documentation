@@ -15,7 +15,7 @@
     border-bottom-width: 5px;
 }
 .view-content  h1,
-.publish-renderer  h1,
+div.publish-renderer div h1,
 h1 {
     color: rgb(255,255,255);
     padding: 12px 12px 12px 35px;
@@ -23,7 +23,7 @@ h1 {
     margin-top: 0;
 }
 .view-content  h2,
-.publish-renderer  h2,
+div.publish-renderer div h2,
 h2 {
     color: rgb(220,220,220);
     padding: 10px 10px 10px 35px;
@@ -31,7 +31,7 @@ h2 {
     margin-top: 2em;
 }
 .view-content  h3,
-.publish-renderer  h3,
+div.publish-renderer div h3,
 h3 {
     color: rgb(192,192,192);
     padding: 8px 8px 8px 35px;
@@ -39,7 +39,7 @@ h3 {
     margin-top: 1.75em;
 }
 .view-content  h4,
-.publish-renderer  h4,
+div.publish-renderer div h4,
 h4 {
     color: rgb(169,169,169);
     padding: 6px 6px 6px 35px;
@@ -47,7 +47,7 @@ h4 {
     margin-top: 1.5em;
 }
 .view-content  h5,
-.publish-renderer  h5,
+div.publish-renderer div h5,
 h5 {
     color: rgb(128,128,128);
     padding: 4px 4px 4px 35px;
@@ -55,7 +55,7 @@ h5 {
     margin-top: 1.25em;
 }
 .view-content  h6,
-.publish-renderer  h6,
+div.publish-renderer div h6,
 h6 {
     color: rgb(105,105,105);
     padding: 2px 2px 2px 35px;
@@ -66,512 +66,512 @@ h6 {
 /* - Custom header border colors - */
 /* ---------------------------------------------------------------- */
 .view-content .adam h1,
-.publish-renderer .adam h1,
+div.publish-renderer div.adam h1,
 h1.adam {
     border-color: rgba(24,177,222,255);
 }
 .view-content .adam h2,
-.publish-renderer .adam h2,
+div.publish-renderer div.adam h2,
 h2.adam {
     border-color: rgba(21,153,192,255);
 }
 .view-content .adam h3,
-.publish-renderer .adam h3,
+div.publish-renderer div.adam h3,
 h3.adam {
     border-color: rgba(18,133,167,255);
 }
 .view-content .adam h4,
-.publish-renderer .adam h4,
+div.publish-renderer div.adam h4,
 h4.adam {
     border-color: rgba(16,117,147,255);
 }
 .view-content .adam h5,
-.publish-renderer .adam h5,
+div.publish-renderer div.adam h5,
 h5.adam {
     border-color: rgba(12,89,111,255);
 }
 .view-content .adam h6,
-.publish-renderer .adam h6,
+div.publish-renderer div.adam h6,
 h6.adam {
     border-color: rgba(10,73,91,255);
 }
 .view-content .aero h1,
-.publish-renderer .aero h1,
+div.publish-renderer div.aero h1,
 h1.aero {
     border-color: rgba(251,251,251,255);
 }
 .view-content .aero h2,
-.publish-renderer .aero h2,
+div.publish-renderer div.aero h2,
 h2.aero {
     border-color: rgba(217,217,217,255);
 }
 .view-content .aero h3,
-.publish-renderer .aero h3,
+div.publish-renderer div.aero h3,
 h3.aero {
     border-color: rgba(189,189,189,255);
 }
 .view-content .aero h4,
-.publish-renderer .aero h4,
+div.publish-renderer div.aero h4,
 h4.aero {
     border-color: rgba(166,166,166,255);
 }
 .view-content .aero h5,
-.publish-renderer .aero h5,
+div.publish-renderer div.aero h5,
 h5.aero {
     border-color: rgba(126,126,126,255);
 }
 .view-content .aero h6,
-.publish-renderer .aero h6,
+div.publish-renderer div.aero h6,
 h6.aero {
     border-color: rgba(103,103,103,255);
 }
 .view-content .athena h1,
-.publish-renderer .athena h1,
+div.publish-renderer div.athena h1,
 h1.athena {
     border-color: rgba(196,41,80,255);
 }
 .view-content .athena h2,
-.publish-renderer .athena h2,
+div.publish-renderer div.athena h2,
 h2.athena {
     border-color: rgba(169,35,69,255);
 }
 .view-content .athena h3,
-.publish-renderer .athena h3,
+div.publish-renderer div.athena h3,
 h3.athena {
     border-color: rgba(148,31,60,255);
 }
 .view-content .athena h4,
-.publish-renderer .athena h4,
+div.publish-renderer div.athena h4,
 h4.athena {
     border-color: rgba(130,27,53,255);
 }
 .view-content .athena h5,
-.publish-renderer .athena h5,
+div.publish-renderer div.athena h5,
 h5.athena {
     border-color: rgba(98,21,40,255);
 }
 .view-content .athena h6,
-.publish-renderer .athena h6,
+div.publish-renderer div.athena h6,
 h6.athena {
     border-color: rgba(81,17,33,255);
 }
 .view-content .ceres h1,
-.publish-renderer .ceres h1,
+div.publish-renderer div.ceres h1,
 h1.ceres {
     border-color: rgba(213,224,68,255);
 }
 .view-content .ceres h2,
-.publish-renderer .ceres h2,
+div.publish-renderer div.ceres h2,
 h2.ceres {
     border-color: rgba(184,193,59,255);
 }
 .view-content .ceres h3,
-.publish-renderer .ceres h3,
+div.publish-renderer div.ceres h3,
 h3.ceres {
     border-color: rgba(160,169,51,255);
 }
 .view-content .ceres h4,
-.publish-renderer .ceres h4,
+div.publish-renderer div.ceres h4,
 h4.ceres {
     border-color: rgba(141,148,45,255);
 }
 .view-content .ceres h5,
-.publish-renderer .ceres h5,
+div.publish-renderer div.ceres h5,
 h5.ceres {
     border-color: rgba(107,112,34,255);
 }
 .view-content .ceres h6,
-.publish-renderer .ceres h6,
+div.publish-renderer div.ceres h6,
 h6.ceres {
     border-color: rgba(88,92,28,255);
 }
 .view-content .eva h1,
-.publish-renderer .eva h1,
+div.publish-renderer div.eva h1,
 h1.eva {
     border-color: rgba(234,39,79,255);
 }
 .view-content .eva h2,
-.publish-renderer .eva h2,
+div.publish-renderer div.eva h2,
 h2.eva {
     border-color: rgba(202,34,68,255);
 }
 .view-content .eva h3,
-.publish-renderer .eva h3,
+div.publish-renderer div.eva h3,
 h3.eva {
     border-color: rgba(176,29,59,255);
 }
 .view-content .eva h4,
-.publish-renderer .eva h4,
+div.publish-renderer div.eva h4,
 h4.eva {
     border-color: rgba(155,26,52,255);
 }
 .view-content .eva h5,
-.publish-renderer .eva h5,
+div.publish-renderer div.eva h5,
 h5.eva {
     border-color: rgba(117,20,40,255);
 }
 .view-content .eva h6,
-.publish-renderer .eva h6,
+div.publish-renderer div.eva h6,
 h6.eva {
     border-color: rgba(96,16,33,255);
 }
 .view-content .jupiter h1,
-.publish-renderer .jupiter h1,
+div.publish-renderer div.jupiter h1,
 h1.jupiter {
     border-color: rgba(235,233,67,255);
 }
 .view-content .jupiter h2,
-.publish-renderer .jupiter h2,
+div.publish-renderer div.jupiter h2,
 h2.jupiter {
     border-color: rgba(203,201,58,255);
 }
 .view-content .jupiter h3,
-.publish-renderer .jupiter h3,
+div.publish-renderer div.jupiter h3,
 h3.jupiter {
     border-color: rgba(177,175,50,255);
 }
 .view-content .jupiter h4,
-.publish-renderer .jupiter h4,
+div.publish-renderer div.jupiter h4,
 h4.jupiter {
     border-color: rgba(156,154,44,255);
 }
 .view-content .jupiter h5,
-.publish-renderer .jupiter h5,
+div.publish-renderer div.jupiter h5,
 h5.jupiter {
     border-color: rgba(118,117,34,255);
 }
 .view-content .jupiter h6,
-.publish-renderer .jupiter h6,
+div.publish-renderer div.jupiter h6,
 h6.jupiter {
     border-color: rgba(97,96,28,255);
 }
 .view-content .minerva h1,
-.publish-renderer .minerva h1,
+div.publish-renderer div.minerva h1,
 h1.minerva {
     border-color: rgba(105,59,144,255);
 }
 .view-content .minerva h2,
-.publish-renderer .minerva h2,
+div.publish-renderer div.minerva h2,
 h2.minerva {
     border-color: rgba(91,51,124,255);
 }
 .view-content .minerva h3,
-.publish-renderer .minerva h3,
+div.publish-renderer div.minerva h3,
 h3.minerva {
     border-color: rgba(79,44,108,255);
 }
 .view-content .minerva h4,
-.publish-renderer .minerva h4,
+div.publish-renderer div.minerva h4,
 h4.minerva {
     border-color: rgba(70,39,95,255);
 }
 .view-content .minerva h5,
-.publish-renderer .minerva h5,
+div.publish-renderer div.minerva h5,
 h5.minerva {
     border-color: rgba(53,30,72,255);
 }
 .view-content .minerva h6,
-.publish-renderer .minerva h6,
+div.publish-renderer div.minerva h6,
 h6.minerva {
     border-color: rgba(43,24,59,255);
 }
 .view-content .neptune h1,
-.publish-renderer .neptune h1,
+div.publish-renderer div.neptune h1,
 h1.neptune {
     border-color: rgba(66,115,185,255);
 }
 .view-content .neptune h2,
-.publish-renderer .neptune h2,
+div.publish-renderer div.neptune h2,
 h2.neptune {
     border-color: rgba(57,99,160,255);
 }
 .view-content .neptune h3,
-.publish-renderer .neptune h3,
+div.publish-renderer div.neptune h3,
 h3.neptune {
     border-color: rgba(50,87,139,255);
 }
 .view-content .neptune h4,
-.publish-renderer .neptune h4,
+div.publish-renderer div.neptune h4,
 h4.neptune {
     border-color: rgba(44,76,123,255);
 }
 .view-content .neptune h5,
-.publish-renderer .neptune h5,
+div.publish-renderer div.neptune h5,
 h5.neptune {
     border-color: rgba(33,58,93,255);
 }
 .view-content .neptune h6,
-.publish-renderer .neptune h6,
+div.publish-renderer div.neptune h6,
 h6.neptune {
     border-color: rgba(27,47,76,255);
 }
 .view-content .pluto h1,
-.publish-renderer .pluto h1,
+div.publish-renderer div.pluto h1,
 h1.pluto {
     border-color: rgba(84,85,87,255);
 }
 .view-content .pluto h2,
-.publish-renderer .pluto h2,
+div.publish-renderer div.pluto h2,
 h2.pluto {
     border-color: rgba(72,73,75,255);
 }
 .view-content .pluto h3,
-.publish-renderer .pluto h3,
+div.publish-renderer div.pluto h3,
 h3.pluto {
     border-color: rgba(63,64,66,255);
 }
 .view-content .pluto h4,
-.publish-renderer .pluto h4,
+div.publish-renderer div.pluto h4,
 h4.pluto {
     border-color: rgba(56,56,58,255);
 }
 .view-content .pluto h5,
-.publish-renderer .pluto h5,
+div.publish-renderer div.pluto h5,
 h5.pluto {
     border-color: rgba(42,43,44,255);
 }
 .view-content .pluto h6,
-.publish-renderer .pluto h6,
+div.publish-renderer div.pluto h6,
 h6.pluto {
     border-color: rgba(35,35,36,255);
 }
 .view-content .sol h1,
-.publish-renderer .sol h1,
+div.publish-renderer div.sol h1,
 h1.sol {
     border-color: rgba(246,231,134,255);
 }
 .view-content .sol h2,
-.publish-renderer .sol h2,
+div.publish-renderer div.sol h2,
 h2.sol {
     border-color: rgba(212,199,116,255);
 }
 .view-content .sol h3,
-.publish-renderer .sol h3,
+div.publish-renderer div.sol h3,
 h3.sol {
     border-color: rgba(185,174,101,255);
 }
 .view-content .sol h4,
-.publish-renderer .sol h4,
+div.publish-renderer div.sol h4,
 h4.sol {
     border-color: rgba(163,153,89,255);
 }
 .view-content .sol h5,
-.publish-renderer .sol h5,
+div.publish-renderer div.sol h5,
 h5.sol {
     border-color: rgba(123,116,67,255);
 }
 .view-content .sol h6,
-.publish-renderer .sol h6,
+div.publish-renderer div.sol h6,
 h6.sol {
     border-color: rgba(101,95,55,255);
 }
 .view-content .venus h1,
-.publish-renderer .venus h1,
+div.publish-renderer div.venus h1,
 h1.venus {
     border-color: rgba(115,195,125,255);
 }
 .view-content .venus h2,
-.publish-renderer .venus h2,
+div.publish-renderer div.venus h2,
 h2.venus {
     border-color: rgba(99,168,108,255);
 }
 .view-content .venus h3,
-.publish-renderer .venus h3,
+div.publish-renderer div.venus h3,
 h3.venus {
     border-color: rgba(87,147,94,255);
 }
 .view-content .venus h4,
-.publish-renderer .venus h4,
+div.publish-renderer div.venus h4,
 h4.venus {
     border-color: rgba(76,129,83,255);
 }
 .view-content .venus h5,
-.publish-renderer .venus h5,
+div.publish-renderer div.venus h5,
 h5.venus {
     border-color: rgba(58,98,63,255);
 }
 .view-content .venus h6,
-.publish-renderer .venus h6,
+div.publish-renderer div.venus h6,
 h6.venus {
     border-color: rgba(47,80,51,255);
 }
 .view-content .veritas h1,
-.publish-renderer .veritas h1,
+div.publish-renderer div.veritas h1,
 h1.veritas {
     border-color: rgba(213,55,146,255);
 }
 .view-content .veritas h2,
-.publish-renderer .veritas h2,
+div.publish-renderer div.veritas h2,
 h2.veritas {
     border-color: rgba(184,47,126,255);
 }
 .view-content .veritas h3,
-.publish-renderer .veritas h3,
+div.publish-renderer div.veritas h3,
 h3.veritas {
     border-color: rgba(160,41,110,255);
 }
 .view-content .veritas h4,
-.publish-renderer .veritas h4,
+div.publish-renderer div.veritas h4,
 h4.veritas {
     border-color: rgba(141,36,97,255);
 }
 .view-content .veritas h5,
-.publish-renderer .veritas h5,
+div.publish-renderer div.veritas h5,
 h5.veritas {
     border-color: rgba(107,28,73,255);
 }
 .view-content .veritas h6,
-.publish-renderer .veritas h6,
+div.publish-renderer div.veritas h6,
 h6.veritas {
     border-color: rgba(88,23,60,255);
 }
 .view-content .vulcanus h1,
-.publish-renderer .vulcanus h1,
+div.publish-renderer div.vulcanus h1,
 h1.vulcanus {
     border-color: rgba(236,133,33,255);
 }
 .view-content .vulcanus h2,
-.publish-renderer .vulcanus h2,
+div.publish-renderer div.vulcanus h2,
 h2.vulcanus {
     border-color: rgba(204,115,28,255);
 }
 .view-content .vulcanus h3,
-.publish-renderer .vulcanus h3,
+div.publish-renderer div.vulcanus h3,
 h3.vulcanus {
     border-color: rgba(178,100,25,255);
 }
 .view-content .vulcanus h4,
-.publish-renderer .vulcanus h4,
+div.publish-renderer div.vulcanus h4,
 h4.vulcanus {
     border-color: rgba(156,88,22,255);
 }
 .view-content .vulcanus h5,
-.publish-renderer .vulcanus h5,
+div.publish-renderer div.vulcanus h5,
 h5.vulcanus {
     border-color: rgba(118,67,17,255);
 }
 .view-content .vulcanus h6,
-.publish-renderer .vulcanus h6,
+div.publish-renderer div.vulcanus h6,
 h6.vulcanus {
     border-color: rgba(97,55,14,255);
 }
 .view-content .discord h1,
-.publish-renderer .discord h1,
+div.publish-renderer div.discord h1,
 h1.discord {
     border-color: rgba(86,98,246,255);
 }
 .view-content .discord h2,
-.publish-renderer .discord h2,
+div.publish-renderer div.discord h2,
 h2.discord {
     border-color: rgba(74,85,212,255);
 }
 .view-content .discord h3,
-.publish-renderer .discord h3,
+div.publish-renderer div.discord h3,
 h3.discord {
     border-color: rgba(65,74,185,255);
 }
 .view-content .discord h4,
-.publish-renderer .discord h4,
+div.publish-renderer div.discord h4,
 h4.discord {
     border-color: rgba(57,65,163,255);
 }
 .view-content .discord h5,
-.publish-renderer .discord h5,
+div.publish-renderer div.discord h5,
 h5.discord {
     border-color: rgba(43,49,123,255);
 }
 .view-content .discord h6,
-.publish-renderer .discord h6,
+div.publish-renderer div.discord h6,
 h6.discord {
     border-color: rgba(35,40,101,255);
 }
 .view-content .twitch h1,
-.publish-renderer .twitch h1,
+div.publish-renderer div.twitch h1,
 h1.twitch {
     border-color: rgba(169,112,255,255);
 }
 .view-content .twitch h2,
-.publish-renderer .twitch h2,
+div.publish-renderer div.twitch h2,
 h2.twitch {
     border-color: rgba(146,97,220,255);
 }
 .view-content .twitch h3,
-.publish-renderer .twitch h3,
+div.publish-renderer div.twitch h3,
 h3.twitch {
     border-color: rgba(127,84,192,255);
 }
 .view-content .twitch h4,
-.publish-renderer .twitch h4,
+div.publish-renderer div.twitch h4,
 h4.twitch {
     border-color: rgba(112,74,169,255);
 }
 .view-content .twitch h5,
-.publish-renderer .twitch h5,
+div.publish-renderer div.twitch h5,
 h5.twitch {
     border-color: rgba(85,56,128,255);
 }
 .view-content .twitch h6,
-.publish-renderer .twitch h6,
+div.publish-renderer div.twitch h6,
 h6.twitch {
     border-color: rgba(70,46,105,255);
 }
 .view-content .twitter h1,
-.publish-renderer .twitter h1,
+div.publish-renderer div.twitter h1,
 h1.twitter {
     border-color: rgba(26,140,216,255);
 }
 .view-content .twitter h2,
-.publish-renderer .twitter h2,
+div.publish-renderer div.twitter h2,
 h2.twitter {
     border-color: rgba(22,121,186,255);
 }
 .view-content .twitter h3,
-.publish-renderer .twitter h3,
+div.publish-renderer div.twitter h3,
 h3.twitter {
     border-color: rgba(20,105,163,255);
 }
 .view-content .twitter h4,
-.publish-renderer .twitter h4,
+div.publish-renderer div.twitter h4,
 h4.twitter {
     border-color: rgba(17,93,143,255);
 }
 .view-content .twitter h5,
-.publish-renderer .twitter h5,
+div.publish-renderer div.twitter h5,
 h5.twitter {
     border-color: rgba(13,70,108,255);
 }
 .view-content .twitter h6,
-.publish-renderer .twitter h6,
+div.publish-renderer div.twitter h6,
 h6.twitter {
     border-color: rgba(11,58,89,255);
 }
 .view-content .youtube h1,
-.publish-renderer .youtube h1,
+div.publish-renderer div.youtube h1,
 h1.youtube {
     border-color: rgba(255,0,0,255);
 }
 .view-content .youtube h2,
-.publish-renderer .youtube h2,
+div.publish-renderer div.youtube h2,
 h2.youtube {
     border-color: rgba(220,0,0,255);
 }
 .view-content .youtube h3,
-.publish-renderer .youtube h3,
+div.publish-renderer div.youtube h3,
 h3.youtube {
     border-color: rgba(192,0,0,255);
 }
 .view-content .youtube h4,
-.publish-renderer .youtube h4,
+div.publish-renderer div.youtube h4,
 h4.youtube {
     border-color: rgba(169,0,0,255);
 }
 .view-content .youtube h5,
-.publish-renderer .youtube h5,
+div.publish-renderer div.youtube h5,
 h5.youtube {
     border-color: rgba(128,0,0,255);
 }
 .view-content .youtube h6,
-.publish-renderer .youtube h6,
+div.publish-renderer div.youtube h6,
 h6.youtube {
     border-color: rgba(105,0,0,255);
 }
@@ -579,42 +579,42 @@ h6.youtube {
 /* - Custom header border colors (special cases)- */
 /* ---------------------------------------------------------------- */
 .view-content .athenacolor h1,
-.publish-renderer .athenacolor h1,
+div.publish-renderer div.athenacolor h1,
 h1.athenacolor {
     border-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 1;
 }
 .view-content .athenacss h1,
-.publish-renderer .athenacss h1,
+div.publish-renderer div.athenacss h1,
 h1.athenacss {
     border-image: linear-gradient(90deg, rgba(37,75,221,1) 50%, rgba(41,101,241,1) 100%) 1;
 }
 .view-content .athenadocumentor h1,
-.publish-renderer .athenadocumentor h1,
+div.publish-renderer div.athenadocumentor h1,
 h1.athenadocumentor {
     border-image: linear-gradient(90deg, rgba(0,247,236,1) 0%, rgba(66,3,74,1) 100%) 1;
 }
 .view-content .athenaguilib h1,
-.publish-renderer .athenaguilib h1,
+div.publish-renderer div.athenaguilib h1,
 h1.athenaguilib {
     border-image: linear-gradient(90deg, rgba(0,173,239,1) 0%, rgba(0,124,194,1) 33%, rgba(249,232,162,1) 66%, rgba(196,166,19,1) 100%) 1;
 }
 .view-content .athenalib h1,
-.publish-renderer .athenalib h1,
+div.publish-renderer div.athenalib h1,
 h1.athenalib {
     border-image: linear-gradient(90deg, rgba(57,81,251,1) 0%, rgba(207,30,70,1) 100%) 1;
 }
 .view-content .athenamock h1,
-.publish-renderer .athenamock h1,
+div.publish-renderer div.athenamock h1,
 h1.athenamock {
     border-image: linear-gradient(90deg, rgba(247,149,0,1) 0%, rgba(74,3,71,1) 100%) 1;
 }
 .view-content .athenaserver h1,
-.publish-renderer .athenaserver h1,
+div.publish-renderer div.athenaserver h1,
 h1.athenaserver {
     border-image: linear-gradient(90deg, rgba(246,231,134,1) 0%, rgba(186,168,49,1) 50%, rgba(115,101,11,1) 100%) 1;
 }
 .view-content .athenatwitchbot h1,
-.publish-renderer .athenatwitchbot h1,
+div.publish-renderer div.athenatwitchbot h1,
 h1.athenatwitchbot {
     border-image: linear-gradient(90deg, rgba(169,112,255,1) 0%, rgba(255,255,255,1) 100%) 1;
 }
