@@ -51,7 +51,11 @@ CLASS_ATHENACSS = "athenacss"
 
 CLASS_ATHENALIB = "athenalib"
 
-PYTHON_PACKAGE_CLASSES = (CLASS_ATHENACOLOR, CLASS_ATHENALIB)
+PYTHON_PACKAGE_CLASSES = (
+    CLASS_ATHENACOLOR,
+    CLASS_ATHENACSS,
+    CLASS_ATHENALIB,
+)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - Website Name classes -

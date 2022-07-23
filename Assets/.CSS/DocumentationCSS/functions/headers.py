@@ -15,12 +15,9 @@ from AthenaCSS.models.athenalib_imports import Pixel, RootElementFontSize, Eleme
 # Custom Packages
 from DocumentationCSS.data.comments import LINE
 from DocumentationCSS.data.classes import (
-    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES, CLASS_ATHENACOLOR,
-    CLASS_ATHENALIB
+    CLASS_MARKDOWN_RENDERED, CLASS_PUBLISH_ARTICLE_HEADING,AI_CLASSES,WEBSITE_NAME_CLASSES, PYTHON_PACKAGE_CLASSES
 )
-from DocumentationCSS.data.gradients import (
-    GRADIENT_HEADER, GRADIENT_ATHENACOLOR, GRADIENT_ATHENALIB, GRADIENT_ATHENACSS
-)
+from DocumentationCSS.data.gradients import (PYTHON_PACKAGE_GRADIENTS,GRADIENT_HEADER)
 import DocumentationCSS.data.colors as Colors
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -159,11 +156,7 @@ def header_pages_special():
     yield LINE
     yield CSSComment("- Custom header border colors (special cases)-")
 
-    for classname, color in (
-            (CLASS_ATHENACOLOR, GRADIENT_ATHENACOLOR),
-            (CLASS_ATHENALIB, GRADIENT_ATHENALIB),
-            (CLASS_ATHENACSS, GRADIENT_ATHENACSS)
-    ):
+    for classname, color in zip(PYTHON_PACKAGE_CLASSES, PYTHON_PACKAGE_GRADIENTS):
         yield LINE
         yield CSSRule(
             selections=(
