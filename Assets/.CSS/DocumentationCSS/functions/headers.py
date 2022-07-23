@@ -71,8 +71,7 @@ selectors:tuple[CSSSelection,...] = (
 )
 selector = lambda classname, heading_level: (
     CSSSelection(
-        HTMLElement(classes=CLASS_MARKDOWN_RENDERED),
-        HTMLElement(classes=classname),
+        HTMLElement(classes=(CLASS_MARKDOWN_RENDERED,classname)),
         heading_level(),
         selector_type=CSSSelectionType.inside
     ),
@@ -95,9 +94,9 @@ def header_default():
             CSSProperty("text-align","left"),
             CSSProperty("background-color",RGB(25,25,25)),
             CSSProperty("background-image",GRADIENT_HEADER),
-            CSSProperty("border-radius",RootElementFontSize(0.2)),
+            CSSProperty("border-radius",ElementFontSize(0.25)),
             CSSProperty("border-bottom-style","solid"),
-            CSSProperty("border-bottom-width",Pixel(5)),
+            CSSProperty("border-bottom-width",ElementFontSize(0.25)),
         )
     )
     for k, v in _HEADERS.items():
