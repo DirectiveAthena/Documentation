@@ -62,9 +62,14 @@ _HEADERS:dict[type,dict] = {
     }
 }
 
-selectors:tuple[CSSSelection] = (
+selectors:tuple[CSSSelection,...] = (
     *(CSSSelection(
         HTMLElement(classes=CLASS_VIEW_CONTENT),
+        h(),
+        selector_type=CSSSelectionType.inside
+    ) for h in _HEADERS),
+    *(CSSSelection(
+        HTMLElement(classes=CLASS_PUBLISH_RENDERER),
         h(),
         selector_type=CSSSelectionType.inside
     ) for h in _HEADERS),
