@@ -208,3 +208,9 @@
 /* - Special Rule to make the File Embedded title hide - */
 /* ---------------------------------------------------------------- */
 .markdown-rendered.metaDataHide div.frontmatter-container {display:none;}
+/* ---------------------------------------------------------------- */
+/* - Specially coloured markers (per page) - */
+/* ---------------------------------------------------------------- */
+.markdown-rendered.marker_pink mark,.markdown-preview-view.marker_pink mark {
+        background-color: rgba(170, 72, 123, 0.49);
+    }

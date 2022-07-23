@@ -17,11 +17,11 @@ from DocumentationCSS.data.comments import LINE
 def markers():
     # comment structure
     yield LINE
-    yield CSSComment("- Special Rule to make the File Embedded title hide -")
+    yield CSSComment("- Specially coloured markers (per page) -")
     yield LINE
 
     # actual rules
     # language=CSS
-    yield """.markdown-rendered.marker_pink mark,.markdown-preview-view mark {
-        background-color: rgba(170, 72, 123, 0.49);
-    }"""
+    yield """.markdown-rendered.marker_pink mark,.markdown-preview-view.marker_pink mark {
+    background-color: rgba(170, 72, 123, 0.49);
+}"""

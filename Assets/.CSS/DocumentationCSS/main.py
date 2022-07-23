@@ -12,6 +12,7 @@ from AthenaCSS.models.generator import CSSGenerator
 from functions.headers import header_default, header_pages, header_pages_special
 from functions.clean_embed import clean_embed
 from functions.hide_metadata import hide_metadata
+from functions.markers import markers
 
 # ----------------------------------------------------------------------------------------------------------------------
 # - All -
@@ -33,7 +34,7 @@ def main():
             header_pages_special(),
             clean_embed(),
             hide_metadata(),
-
+            markers(),
         ))
     )
 
