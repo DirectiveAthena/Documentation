@@ -9,6 +9,7 @@ cssclass: metaDataHide
 
 - [ ] Get up at 06.00
 - [ ] Set the `Previous Day` and `Next Day` of this file
+- [ ] Do a little bit of [brilliant.org](https://brilliant.org/)
 - [ ] Make the bed
 - [ ] Eat something healthy
 - [ ] Do something with the girlfriend
