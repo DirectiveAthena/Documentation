@@ -7,6 +7,7 @@ kanban-plugin: basic
 ## Ideas
 
 - [ ] An easy way to reuse DearPyGui Components throughout multiple projects<br>[[AthenaDearPyGuiLib]]<br>(see [[Todo AthenaDearPyGuiLib]])
+- [ ] A FreeFileSync Replacer<br>- A simple way to sync up files from place a to b (or multiple at the same time)<br>- Multi Threaded or processed
 
 
 ## In Development
