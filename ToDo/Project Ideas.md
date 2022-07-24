@@ -15,6 +15,7 @@ kanban-plugin: basic
 - [ ] A REST-ish server system to control all my systems :<br>[[AthenaServer]]<br>(see [[Todo AthenaServer]])
 - [ ] A way to create useful mock data<br>[[AthenaMock]]<br>(see [[Todo AthenaMock]])
 - [ ] A FreeFileSync Replacer<br>(good idea for a first DPG made application)<br><br>[[AthenaSync]]<br>(see [[Todo AthenaSync]])
+- [ ] A library of boiler plate code to reuse across my various projects<br>[[AthenaLib]]<br>(see [[Todo AthenaLib]])
 
 
 ## In a usable state
