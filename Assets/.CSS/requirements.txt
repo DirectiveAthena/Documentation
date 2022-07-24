@@ -1,3 +1,3 @@
-AthenaCSS>=0.5.0
-AthenaLib>=0.2.0
-AthenaColor>=5.1.0
+AthenaCSS>=0.8.0
+AthenaLib>=1.6.2
+AthenaColor>=6.2.0
