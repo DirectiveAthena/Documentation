@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## Ideas
 
-- [ ] An easy way to reuse DearPyGui Components throughout multiple projects<br>[[AthenaGuiLib]]<br>(see [[Todo AthenaGuiLib]])
+- [ ] An easy way to reuse DearPyGui Components throughout multiple projects<br>[[AthenaDearPyGuiLib]]<br>(see [[Todo AthenaDearPyGuiLib]])
 
 
 ## In Development
