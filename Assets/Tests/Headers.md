@@ -10,7 +10,7 @@
 # AthenaColor {.athenacolor}
 # AthenaCSS {.athenacss}
 # AthenaDocumentor {.athenadocumentor}
-# AthenaGuiLib {.athenaguilib}
+# AthenaDearPyGuiLib {.athenadearpyguilib}
 # AthenaLib {.athenalib}
 # AthenaMock {.athenamock}
 # AthenaServer {.athenaserver}

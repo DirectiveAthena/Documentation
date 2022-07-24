@@ -26,32 +26,32 @@ import DocumentationCSS.data.colors as Colors
 _HEADERS:dict[type,dict] = {
     HtmlLib.H1 : {
         "color":Colors.WHITE,
-        "padding":ElementFontSize(.4),
+        "padding": f"{ElementFontSize(.4)} {ElementFontSize(.2)}",
         "font-size":ElementFontSize(2),
     },
     HtmlLib.H2 : {
         "color":RGB(220, 220, 220),
-        "padding":ElementFontSize(.4),
+        "padding":ElementFontSize(.2),
         "font-size":ElementFontSize(1.8),
     },
     HtmlLib.H3 : {
         "color":RGB(192, 192, 192),
-        "padding":ElementFontSize(.4),
+        "padding":ElementFontSize(.2),
         "font-size":ElementFontSize(1.6),
     },
     HtmlLib.H4 : {
         "color":RGB(169, 169, 169),
-        "padding":ElementFontSize(.4),
+        "padding":ElementFontSize(.2),
         "font-size":ElementFontSize(1.4),
     },
     HtmlLib.H5 : {
         "color":RGB(128, 128, 128),
-        "padding":ElementFontSize(.4),
+        "padding":ElementFontSize(.2),
         "font-size":ElementFontSize(1.2),
     },
     HtmlLib.H6 : {
         "color":RGB(105, 105, 105),
-        "padding":ElementFontSize(.4),
+        "padding":ElementFontSize(.2),
         "font-size":ElementFontSize(1.1),
     }
 }

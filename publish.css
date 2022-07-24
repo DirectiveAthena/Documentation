@@ -17,37 +17,37 @@
 .markdown-rendered h1,
 h1 {
     color: rgb(255,255,255);
-    padding: 0.4em;
+    padding: 0.4em 0.2em;
     font-size: 2em;
 }
 .markdown-rendered h2,
 h2 {
     color: rgb(220,220,220);
-    padding: 0.4em;
+    padding: 0.2em;
     font-size: 1.8em;
 }
 .markdown-rendered h3,
 h3 {
     color: rgb(192,192,192);
-    padding: 0.4em;
+    padding: 0.2em;
     font-size: 1.6em;
 }
 .markdown-rendered h4,
 h4 {
     color: rgb(169,169,169);
-    padding: 0.4em;
+    padding: 0.2em;
     font-size: 1.4em;
 }
 .markdown-rendered h5,
 h5 {
     color: rgb(128,128,128);
-    padding: 0.4em;
+    padding: 0.2em;
     font-size: 1.2em;
 }
 .markdown-rendered h6,
 h6 {
     color: rgb(105,105,105);
-    padding: 0.4em;
+    padding: 0.2em;
     font-size: 1.1em;
 }
 /* ---------------------------------------------------------------- */
