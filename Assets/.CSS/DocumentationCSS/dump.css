@@ -17,44 +17,38 @@
 .markdown-rendered h1,
 h1 {
     color: rgb(255,255,255);
-    padding: 12px 12px 12px 35px;
+    padding: 0.4em;
     font-size: 2em;
-    margin-top: 0;
 }
 .markdown-rendered h2,
 h2 {
     color: rgb(220,220,220);
-    padding: 10px 10px 10px 35px;
+    padding: 0.4em;
     font-size: 1.8em;
-    margin-top: 2em;
 }
 .markdown-rendered h3,
 h3 {
     color: rgb(192,192,192);
-    padding: 8px 8px 8px 35px;
+    padding: 0.4em;
     font-size: 1.6em;
-    margin-top: 1.75em;
 }
 .markdown-rendered h4,
 h4 {
     color: rgb(169,169,169);
-    padding: 6px 6px 6px 35px;
+    padding: 0.4em;
     font-size: 1.4em;
-    margin-top: 1.5em;
 }
 .markdown-rendered h5,
 h5 {
     color: rgb(128,128,128);
-    padding: 4px 4px 4px 35px;
+    padding: 0.4em;
     font-size: 1.2em;
-    margin-top: 1.25em;
 }
 .markdown-rendered h6,
 h6 {
     color: rgb(105,105,105);
-    padding: 2px 2px 2px 35px;
+    padding: 0.4em;
     font-size: 1.1em;
-    margin-top: 1em;
 }
 /* ---------------------------------------------------------------- */
 /* - Custom header border colors - */
@@ -497,6 +491,10 @@ h1.athenamock {
 .markdown-rendered.athenaserver h1,
 h1.athenaserver {
     border-image: linear-gradient(90deg, rgba(246,231,134,1) 0%, rgba(186,168,49,1) 50%, rgba(115,101,11,1) 100%) 1;
+}
+.markdown-rendered.athenasync h1,
+h1.athenasync {
+    border-image: linear-gradient(90deg, rgba(55,119,46,1) 0%, rgba(81,253,45,1) 100%) 1;
 }
 .markdown-rendered.athenatwitchbot h1,
 h1.athenatwitchbot {

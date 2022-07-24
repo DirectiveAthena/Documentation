@@ -26,39 +26,33 @@ import DocumentationCSS.data.colors as Colors
 _HEADERS:dict[type,dict] = {
     HtmlLib.H1 : {
         "color":Colors.WHITE,
-        "padding":f"{Pixel(12)} {Pixel(12)} {Pixel(12)} {Pixel(35)}",
+        "padding":ElementFontSize(.4),
         "font-size":ElementFontSize(2),
-        "margin-top":0,
     },
     HtmlLib.H2 : {
         "color":RGB(220, 220, 220),
-        "padding":f"{Pixel(10)} {Pixel(10)} {Pixel(10)} {Pixel(35)}",
+        "padding":ElementFontSize(.4),
         "font-size":ElementFontSize(1.8),
-        "margin-top":ElementFontSize(2),
     },
     HtmlLib.H3 : {
         "color":RGB(192, 192, 192),
-        "padding":f"{Pixel(8)} {Pixel(8)} {Pixel(8)} {Pixel(35)}",
+        "padding":ElementFontSize(.4),
         "font-size":ElementFontSize(1.6),
-        "margin-top":ElementFontSize(1.75),
     },
     HtmlLib.H4 : {
         "color":RGB(169, 169, 169),
-        "padding":f"{Pixel(6)} {Pixel(6)} {Pixel(6)} {Pixel(35)}",
+        "padding":ElementFontSize(.4),
         "font-size":ElementFontSize(1.4),
-        "margin-top":ElementFontSize(1.5),
     },
     HtmlLib.H5 : {
         "color":RGB(128, 128, 128),
-        "padding":f"{Pixel(4)} {Pixel(4)} {Pixel(4)} {Pixel(35)}",
+        "padding":ElementFontSize(.4),
         "font-size":ElementFontSize(1.2),
-        "margin-top":ElementFontSize(1.25),
     },
     HtmlLib.H6 : {
         "color":RGB(105, 105, 105),
-        "padding":f"{Pixel(2)} {Pixel(2)} {Pixel(2)} {Pixel(35)}",
+        "padding":ElementFontSize(.4),
         "font-size":ElementFontSize(1.1),
-        "margin-top":ElementFontSize(1),
     }
 }
 
@@ -106,7 +100,6 @@ def header_default():
                 CSSProperty("color",v["color"]),
                 CSSProperty("padding",v["padding"]),
                 CSSProperty("font-size",v["font-size"]),
-                CSSProperty("margin-top",v["margin-top"]),
             )
         )
 

@@ -15,6 +15,9 @@ These are the version notes for the [[AthenaLib]] package
 ### v1.6.1
 - A small fix to the HTML's sub lib CSS class to string casting
 
+### v1.6.2
+- Cleaned up all `__init__` files to hold minimal data so they don't cause any circular imports
+
 ---
 ## v1.5.0
 - Addition of `CSSComment` in the CSS sub package.

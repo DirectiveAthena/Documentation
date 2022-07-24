@@ -22,6 +22,7 @@ GRADIENT_ATHENADEARPYGUILIB:str = "linear-gradient(90deg, rgba(0,173,239,1) 0%, 
 GRADIENT_ATHENALIB:str = "linear-gradient(90deg, rgba(57,81,251,1) 0%, rgba(207,30,70,1) 100%) 1"
 GRADIENT_ATHENAMOCK:str = "linear-gradient(90deg, rgba(247,149,0,1) 0%, rgba(74,3,71,1) 100%) 1"
 GRADIENT_ATHENASERVER:str = "linear-gradient(90deg, rgba(246,231,134,1) 0%, rgba(186,168,49,1) 50%, rgba(115,101,11,1) 100%) 1"
+GRADIENT_ATHENASYNC:str = "linear-gradient(90deg, rgba(55,119,46,1) 0%, rgba(81,253,45,1) 100%) 1"
 GRADIENT_ATHENATWITCHBOT:str = "linear-gradient(90deg, rgba(169,112,255,1) 0%, rgba(255,255,255,1) 100%) 1"
 
 PYTHON_PACKAGE_GRADIENTS = (
@@ -32,5 +33,6 @@ PYTHON_PACKAGE_GRADIENTS = (
     GRADIENT_ATHENALIB,
     GRADIENT_ATHENAMOCK,
     GRADIENT_ATHENASERVER,
+    GRADIENT_ATHENASYNC,
     GRADIENT_ATHENATWITCHBOT
 )

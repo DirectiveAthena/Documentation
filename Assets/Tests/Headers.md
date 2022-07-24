@@ -14,6 +14,7 @@
 # AthenaLib {.athenalib}
 # AthenaMock {.athenamock}
 # AthenaServer {.athenaserver}
+# AthenaSync {.athenasync}
 # AthenaTwitchBot {.athenatwitchbot}
 
 ---
