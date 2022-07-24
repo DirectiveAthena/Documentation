@@ -13,3 +13,6 @@ A place to house all types of git stuff
   It simply refers to the "core" of a tree where all branches diverge from. I know that for Git this doesn't quite make sense, as branches can converge again, but it is the closest I can come to a comprehensive name
 
 ## Commit conventions
+| convention | explanation |
+|:----------:|:----------- |
+|            |             |
