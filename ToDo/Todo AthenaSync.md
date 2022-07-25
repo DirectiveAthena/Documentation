@@ -7,7 +7,7 @@ kanban-plugin: basic
 ## Feature Ideas
 
 - [ ] Sync files from location **A** to **b**
-- [ ] GUI interface
+- [ ] [[AthenaSyncGUI|GUI interface]]
 
 
 ## Planned Features
