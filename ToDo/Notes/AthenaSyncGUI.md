@@ -7,4 +7,5 @@ aliases: [GUI interface]
 
 # Todo card: *GUI interface*
 
-- [ ] Use [DearPyGui](https://github.com/hoffstadt/DearPyGui) for the in
+- [ ] Use [DearPyGui](https://github.com/hoffstadt/DearPyGui) for the interface
+    - [ ] Use premade components from [[AthenaDearPyGuiLib]]

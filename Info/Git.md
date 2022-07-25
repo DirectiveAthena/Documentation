@@ -21,8 +21,8 @@ A set of convention rules to follow to make lookups easier and bring order to so
 
 | convention     | explanation                                              |
 |:-------------- |:-------------------------------------------------------- |
-| `FEAT : ...`   | An addition to the code base                             |
-| `FIX : ...`    | A fix to the code base that doesn't change the behaviour |
-| `CHANGE : ...` | A change to the code base that does change the behaviour |
-| `REMOVE : ...` | A removal of a piece of the code base                    |
-| `DOCU : ...`   | A documentation change (addition / fix / ....)                                                         |
+| `Feat : ...`   | An addition to the code base                             |
+| `Fix : ...`    | A fix to the code base that doesn't change the behaviour |
+| `Change : ...` | A change to the code base that does change the behaviour |
+| `Remove : ...` | A removal of a piece of the code base                    |
+| `Docu : ...`   | A documentation change (addition / fix / ....)                                                         |
