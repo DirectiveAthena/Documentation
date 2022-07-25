@@ -13,6 +13,12 @@ cssclass: metaDataHide
 - [ ] Do some writing stuff for the story
 
 ## Days
-
+- [[---|Monday]]
+- [[---|Tuesday]]
+- [[---|Wednesday]]
+- [[---|Thursday]]
+- [[---|Friday]]
+- [[---|Saturday]]
+- [[---|Sunday]]
 
 ## Notes
