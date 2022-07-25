@@ -17,6 +17,7 @@ cssclass: metaDataHide
 - [ ] Work for an amount of time that works for me
 - [ ] Write anything
 - [ ] Do the dishes
+- [ ] Organize a cabinet
 - [ ] Do a some laundry
 - [ ] Go to sleep at 00.00
 
