@@ -14,7 +14,7 @@ cssclass: metaDataHide
 - [ ] Eat something healthy
 - [ ] Do something with the girlfriend
 - [ ] Go to the gym
-- [ ] Work for an amount of time that works for me
+- [ ] Work a bit on the project
 - [ ] Write anything
 - [ ] Do the dishes
 - [ ] Organize a cabinet
